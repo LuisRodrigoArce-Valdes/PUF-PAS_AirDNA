@@ -6,7 +6,6 @@
 Ignore/
 
 # Data directories
-*/data/
 */*/data/
 
 # FastQC raw data html files

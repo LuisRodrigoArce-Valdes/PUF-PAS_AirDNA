@@ -21,7 +21,7 @@ mkdir -p ./logs
 echo "Copying files"
 mkdir -p ../data/tmp
 mkdir -p ../results/00_FastQC
-cp ../../../00_RawData/M06271_0139_PUF_pilot_study-10155145/*/*/*.gz ../data/tmp
+cp ../../../00_RawData/*/*/*/*.gz ../data/tmp
 
 for i in $(ls ../data/tmp)
 	do

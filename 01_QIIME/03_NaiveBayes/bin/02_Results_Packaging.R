@@ -8,7 +8,7 @@ library(stringr)
 
 insects <- list()
 for(i in c("Deblur", "DADA2")){
-  for(n in c("t0_l10","t20_l50","t26_l100")){
+  for(n in c("t0_l10","t20_l10","t20_l50","t26_l10")){
     name <- paste0(i,"_",n)
     meta <- read.delim(paste0("../results/03_Matrices/",name,"/metadata.tsv"), comment.char = "#")
     matrix <- read.delim(paste0("../results/02_feature-table_",name,".tsv"), skip = 1)
@@ -25,4 +25,4 @@ for(i in c("Deblur", "DADA2")){
 rm(meta, matrix)
 
 # Saving list
-save(insects, file = "../../../04_Filtering/data/01_Lib2_Bayes.Rdata")
+save(insects, file = "../../../02_Filtering/data/01_PUF_PAS.Rdata")
