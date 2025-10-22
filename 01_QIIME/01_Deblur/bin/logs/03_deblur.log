@@ -1,0 +1,962 @@
+INFO(135715374081856)2025-10-21 15:13:40,819:*************************
+INFO(135715374081856)2025-10-21 15:13:40,819:deblurring started
+WARNING(135715374081856)2025-10-21 15:13:40,819:deblur version 1.1.1 workflow started on /tmp/qiime2/luis/data/4ea2e11f-ae3e-4ccd-aef7-c13ad27e3582/data
+WARNING(135715374081856)2025-10-21 15:13:40,819:parameters: {'seqs_fp': '/tmp/qiime2/luis/data/4ea2e11f-ae3e-4ccd-aef7-c13ad27e3582/data', 'output_dir': '/tmp/tmpqmiytmx0', 'pos_ref_fp': ('/tmp/qiime2/luis/data/24c3fd7b-d797-45d8-8c62-edb383bdc88c/data/dna-sequences.fasta',), 'pos_ref_db_fp': (), 'neg_ref_fp': (), 'neg_ref_db_fp': (), 'overwrite': True, 'mean_error': 0.005, 'error_dist': [1.0, 0.06, 0.02, 0.02, 0.01, 0.005, 0.005, 0.005, 0.001, 0.001, 0.001, 0.0005], 'indel_prob': 0.01, 'indel_max': 3, 'trim_length': -1, 'left_trim_length': 0, 'min_reads': 1, 'min_size': 1, 'threads_per_sample': 1, 'keep_tmp_files': True, 'log_level': 2, 'log_file': '/home/luis/Documents/Projects/PUF_PAS_Metabarcoding/01_QIIME/01_Deblur/bin/deblur.log', 'jobs_to_start': 4, 'is_worker_thread': False, 'logger': <Logger __main__ (INFO)>}
+INFO(135715374081856)2025-10-21 15:13:40,819:error_dist is : [1.0, 0.06, 0.02, 0.02, 0.01, 0.005, 0.005, 0.005, 0.001, 0.001, 0.001, 0.0005]
+INFO(135715374081856)2025-10-21 15:13:40,819:deblur main program started
+INFO(135715374081856)2025-10-21 15:13:40,819:processing directory /tmp/qiime2/luis/data/4ea2e11f-ae3e-4ccd-aef7-c13ad27e3582/data
+INFO(135715374081856)2025-10-21 15:13:40,820:building negative db sortmerna index files
+INFO(135715374081856)2025-10-21 15:13:40,820:build_index_sortmerna files ['/home/luis/miniconda3/envs/qiime2/lib/python3.10/site-packages/deblur/support_files/artifacts.fa'] to dir /tmp/tmpqmiytmx0/deblur_working_dir
+INFO(135715374081856)2025-10-21 15:13:40,849:building positive db sortmerna index files
+INFO(135715374081856)2025-10-21 15:13:40,849:build_index_sortmerna files ('/tmp/qiime2/luis/data/24c3fd7b-d797-45d8-8c62-edb383bdc88c/data/dna-sequences.fasta',) to dir /tmp/tmpqmiytmx0/deblur_working_dir
+INFO(135715374081856)2025-10-21 16:03:37,049:parallel processing per sample fasta files
+INFO(135715374081856)2025-10-21 16:03:37,059:parallel deblur started for 11 inputs
+INFO(127758082312000)2025-10-21 16:03:37,854:*************************
+INFO(137769495328576)2025-10-21 16:03:37,854:*************************
+INFO(123863025305408)2025-10-21 16:03:37,854:*************************
+INFO(133410444195648)2025-10-21 16:03:37,854:*************************
+INFO(127758082312000)2025-10-21 16:03:37,854:deblurring started
+INFO(137769495328576)2025-10-21 16:03:37,854:deblurring started
+INFO(123863025305408)2025-10-21 16:03:37,854:deblurring started
+INFO(133410444195648)2025-10-21 16:03:37,854:deblurring started
+WARNING(137769495328576)2025-10-21 16:03:37,855:deblur version 1.1.1 workflow started on /tmp/qiime2/luis/data/4ea2e11f-ae3e-4ccd-aef7-c13ad27e3582/data/PUF-IPEX-8_6_L001_R1_001.fastq.gz
+WARNING(133410444195648)2025-10-21 16:03:37,855:deblur version 1.1.1 workflow started on /tmp/qiime2/luis/data/4ea2e11f-ae3e-4ccd-aef7-c13ad27e3582/data/PUF-IPEX-1_4_L001_R1_001.fastq.gz
+WARNING(127758082312000)2025-10-21 16:03:37,855:deblur version 1.1.1 workflow started on /tmp/qiime2/luis/data/4ea2e11f-ae3e-4ccd-aef7-c13ad27e3582/data/CTRL-neg-extraction-PUF_0_L001_R1_001.fastq.gz
+WARNING(123863025305408)2025-10-21 16:03:37,855:deblur version 1.1.1 workflow started on /tmp/qiime2/luis/data/4ea2e11f-ae3e-4ccd-aef7-c13ad27e3582/data/PUF-BOU-7_3_L001_R1_001.fastq.gz
+WARNING(137769495328576)2025-10-21 16:03:37,855:parameters: {'seqs_fp': '/tmp/qiime2/luis/data/4ea2e11f-ae3e-4ccd-aef7-c13ad27e3582/data/PUF-IPEX-8_6_L001_R1_001.fastq.gz', 'output_dir': '/tmp/tmpqmiytmx0', 'pos_ref_fp': ('/tmp/qiime2/luis/data/24c3fd7b-d797-45d8-8c62-edb383bdc88c/data/dna-sequences.fasta',), 'pos_ref_db_fp': ('/tmp/tmpqmiytmx0/deblur_working_dir/dna-sequences',), 'neg_ref_fp': (), 'neg_ref_db_fp': ('/tmp/tmpqmiytmx0/deblur_working_dir/artifacts',), 'overwrite': True, 'mean_error': 0.005, 'error_dist': [1.0, 0.06, 0.02, 0.02, 0.01, 0.005, 0.005, 0.005, 0.001, 0.001, 0.001, 0.0005], 'indel_prob': 0.01, 'indel_max': 3, 'trim_length': -1, 'left_trim_length': 0, 'min_reads': 1, 'min_size': 1, 'threads_per_sample': 1, 'keep_tmp_files': True, 'log_level': 2, 'log_file': '/home/luis/Documents/Projects/PUF_PAS_Metabarcoding/01_QIIME/01_Deblur/bin/deblur.log', 'jobs_to_start': 1, 'is_worker_thread': True, 'logger': <Logger __main__ (INFO)>}
+WARNING(133410444195648)2025-10-21 16:03:37,855:parameters: {'seqs_fp': '/tmp/qiime2/luis/data/4ea2e11f-ae3e-4ccd-aef7-c13ad27e3582/data/PUF-IPEX-1_4_L001_R1_001.fastq.gz', 'output_dir': '/tmp/tmpqmiytmx0', 'pos_ref_fp': ('/tmp/qiime2/luis/data/24c3fd7b-d797-45d8-8c62-edb383bdc88c/data/dna-sequences.fasta',), 'pos_ref_db_fp': ('/tmp/tmpqmiytmx0/deblur_working_dir/dna-sequences',), 'neg_ref_fp': (), 'neg_ref_db_fp': ('/tmp/tmpqmiytmx0/deblur_working_dir/artifacts',), 'overwrite': True, 'mean_error': 0.005, 'error_dist': [1.0, 0.06, 0.02, 0.02, 0.01, 0.005, 0.005, 0.005, 0.001, 0.001, 0.001, 0.0005], 'indel_prob': 0.01, 'indel_max': 3, 'trim_length': -1, 'left_trim_length': 0, 'min_reads': 1, 'min_size': 1, 'threads_per_sample': 1, 'keep_tmp_files': True, 'log_level': 2, 'log_file': '/home/luis/Documents/Projects/PUF_PAS_Metabarcoding/01_QIIME/01_Deblur/bin/deblur.log', 'jobs_to_start': 1, 'is_worker_thread': True, 'logger': <Logger __main__ (INFO)>}
+WARNING(127758082312000)2025-10-21 16:03:37,855:parameters: {'seqs_fp': '/tmp/qiime2/luis/data/4ea2e11f-ae3e-4ccd-aef7-c13ad27e3582/data/CTRL-neg-extraction-PUF_0_L001_R1_001.fastq.gz', 'output_dir': '/tmp/tmpqmiytmx0', 'pos_ref_fp': ('/tmp/qiime2/luis/data/24c3fd7b-d797-45d8-8c62-edb383bdc88c/data/dna-sequences.fasta',), 'pos_ref_db_fp': ('/tmp/tmpqmiytmx0/deblur_working_dir/dna-sequences',), 'neg_ref_fp': (), 'neg_ref_db_fp': ('/tmp/tmpqmiytmx0/deblur_working_dir/artifacts',), 'overwrite': True, 'mean_error': 0.005, 'error_dist': [1.0, 0.06, 0.02, 0.02, 0.01, 0.005, 0.005, 0.005, 0.001, 0.001, 0.001, 0.0005], 'indel_prob': 0.01, 'indel_max': 3, 'trim_length': -1, 'left_trim_length': 0, 'min_reads': 1, 'min_size': 1, 'threads_per_sample': 1, 'keep_tmp_files': True, 'log_level': 2, 'log_file': '/home/luis/Documents/Projects/PUF_PAS_Metabarcoding/01_QIIME/01_Deblur/bin/deblur.log', 'jobs_to_start': 1, 'is_worker_thread': True, 'logger': <Logger __main__ (INFO)>}
+INFO(133410444195648)2025-10-21 16:03:37,855:error_dist is : [1.0, 0.06, 0.02, 0.02, 0.01, 0.005, 0.005, 0.005, 0.001, 0.001, 0.001, 0.0005]
+INFO(137769495328576)2025-10-21 16:03:37,855:error_dist is : [1.0, 0.06, 0.02, 0.02, 0.01, 0.005, 0.005, 0.005, 0.001, 0.001, 0.001, 0.0005]
+WARNING(123863025305408)2025-10-21 16:03:37,855:parameters: {'seqs_fp': '/tmp/qiime2/luis/data/4ea2e11f-ae3e-4ccd-aef7-c13ad27e3582/data/PUF-BOU-7_3_L001_R1_001.fastq.gz', 'output_dir': '/tmp/tmpqmiytmx0', 'pos_ref_fp': ('/tmp/qiime2/luis/data/24c3fd7b-d797-45d8-8c62-edb383bdc88c/data/dna-sequences.fasta',), 'pos_ref_db_fp': ('/tmp/tmpqmiytmx0/deblur_working_dir/dna-sequences',), 'neg_ref_fp': (), 'neg_ref_db_fp': ('/tmp/tmpqmiytmx0/deblur_working_dir/artifacts',), 'overwrite': True, 'mean_error': 0.005, 'error_dist': [1.0, 0.06, 0.02, 0.02, 0.01, 0.005, 0.005, 0.005, 0.001, 0.001, 0.001, 0.0005], 'indel_prob': 0.01, 'indel_max': 3, 'trim_length': -1, 'left_trim_length': 0, 'min_reads': 1, 'min_size': 1, 'threads_per_sample': 1, 'keep_tmp_files': True, 'log_level': 2, 'log_file': '/home/luis/Documents/Projects/PUF_PAS_Metabarcoding/01_QIIME/01_Deblur/bin/deblur.log', 'jobs_to_start': 1, 'is_worker_thread': True, 'logger': <Logger __main__ (INFO)>}
+INFO(127758082312000)2025-10-21 16:03:37,855:error_dist is : [1.0, 0.06, 0.02, 0.02, 0.01, 0.005, 0.005, 0.005, 0.001, 0.001, 0.001, 0.0005]
+INFO(133410444195648)2025-10-21 16:03:37,855:deblur worker thread started
+INFO(137769495328576)2025-10-21 16:03:37,855:deblur worker thread started
+INFO(123863025305408)2025-10-21 16:03:37,855:error_dist is : [1.0, 0.06, 0.02, 0.02, 0.01, 0.005, 0.005, 0.005, 0.001, 0.001, 0.001, 0.0005]
+INFO(133410444195648)2025-10-21 16:03:37,855:processing per sample fasta files
+INFO(127758082312000)2025-10-21 16:03:37,855:deblur worker thread started
+INFO(137769495328576)2025-10-21 16:03:37,855:processing per sample fasta files
+INFO(123863025305408)2025-10-21 16:03:37,855:deblur worker thread started
+INFO(133410444195648)2025-10-21 16:03:37,855:--------------------------------------------------------
+INFO(127758082312000)2025-10-21 16:03:37,855:processing per sample fasta files
+INFO(123863025305408)2025-10-21 16:03:37,855:processing per sample fasta files
+INFO(137769495328576)2025-10-21 16:03:37,855:--------------------------------------------------------
+INFO(133410444195648)2025-10-21 16:03:37,855:launch_workflow for file /tmp/qiime2/luis/data/4ea2e11f-ae3e-4ccd-aef7-c13ad27e3582/data/PUF-IPEX-1_4_L001_R1_001.fastq.gz
+INFO(137769495328576)2025-10-21 16:03:37,855:launch_workflow for file /tmp/qiime2/luis/data/4ea2e11f-ae3e-4ccd-aef7-c13ad27e3582/data/PUF-IPEX-8_6_L001_R1_001.fastq.gz
+INFO(127758082312000)2025-10-21 16:03:37,855:--------------------------------------------------------
+INFO(123863025305408)2025-10-21 16:03:37,855:--------------------------------------------------------
+INFO(127758082312000)2025-10-21 16:03:37,855:launch_workflow for file /tmp/qiime2/luis/data/4ea2e11f-ae3e-4ccd-aef7-c13ad27e3582/data/CTRL-neg-extraction-PUF_0_L001_R1_001.fastq.gz
+INFO(123863025305408)2025-10-21 16:03:37,855:launch_workflow for file /tmp/qiime2/luis/data/4ea2e11f-ae3e-4ccd-aef7-c13ad27e3582/data/PUF-BOU-7_3_L001_R1_001.fastq.gz
+INFO(127758082312000)2025-10-21 16:03:37,870:dereplicate seqs file /tmp/tmpqmiytmx0/deblur_working_dir/CTRL-neg-extraction-PUF_0_L001_R1_001.fastq.gz.trim
+INFO(127758082312000)2025-10-21 16:03:37,873:remove_artifacts_seqs file /tmp/tmpqmiytmx0/deblur_working_dir/CTRL-neg-extraction-PUF_0_L001_R1_001.fastq.gz.trim.derep
+INFO(133410444195648)2025-10-21 16:03:38,023:dereplicate seqs file /tmp/tmpqmiytmx0/deblur_working_dir/PUF-IPEX-1_4_L001_R1_001.fastq.gz.trim
+INFO(133410444195648)2025-10-21 16:03:38,028:remove_artifacts_seqs file /tmp/tmpqmiytmx0/deblur_working_dir/PUF-IPEX-1_4_L001_R1_001.fastq.gz.trim.derep
+INFO(127758082312000)2025-10-21 16:03:38,141:total sequences 49, passing sequences 49, failing sequences 0
+INFO(127758082312000)2025-10-21 16:03:38,141:multiple_sequence_alignment seqs file /tmp/tmpqmiytmx0/deblur_working_dir/CTRL-neg-extraction-PUF_0_L001_R1_001.fastq.gz.trim.derep.no_artifacts
+INFO(123863025305408)2025-10-21 16:03:38,277:dereplicate seqs file /tmp/tmpqmiytmx0/deblur_working_dir/PUF-BOU-7_3_L001_R1_001.fastq.gz.trim
+INFO(123863025305408)2025-10-21 16:03:38,285:remove_artifacts_seqs file /tmp/tmpqmiytmx0/deblur_working_dir/PUF-BOU-7_3_L001_R1_001.fastq.gz.trim.derep
+INFO(133410444195648)2025-10-21 16:03:38,318:total sequences 678, passing sequences 678, failing sequences 0
+INFO(133410444195648)2025-10-21 16:03:38,318:multiple_sequence_alignment seqs file /tmp/tmpqmiytmx0/deblur_working_dir/PUF-IPEX-1_4_L001_R1_001.fastq.gz.trim.derep.no_artifacts
+INFO(123863025305408)2025-10-21 16:03:38,598:total sequences 1669, passing sequences 1669, failing sequences 0
+INFO(123863025305408)2025-10-21 16:03:38,598:multiple_sequence_alignment seqs file /tmp/tmpqmiytmx0/deblur_working_dir/PUF-BOU-7_3_L001_R1_001.fastq.gz.trim.derep.no_artifacts
+INFO(127758082312000)2025-10-21 16:03:39,450:deblurring 49 sequences
+INFO(127758082312000)2025-10-21 16:03:39,450:1 unique sequences left following deblurring
+INFO(127758082312000)2025-10-21 16:03:39,450:remove_chimeras_denovo_from_seqs seqs file /tmp/tmpqmiytmx0/deblur_working_dir/CTRL-neg-extraction-PUF_0_L001_R1_001.fastq.gz.trim.derep.no_artifacts.msa.deblurto working dir /tmp/tmpqmiytmx0/deblur_working_dir
+INFO(127758082312000)2025-10-21 16:03:39,458:finished processing file
+INFO(127758082312000)2025-10-21 16:03:39,458:finished processing per sample fasta files
+INFO(127758082312000)2025-10-21 16:03:39,458:worker thread for /tmp/qiime2/luis/data/4ea2e11f-ae3e-4ccd-aef7-c13ad27e3582/data/CTRL-neg-extraction-PUF_0_L001_R1_001.fastq.gz finished
+INFO(133410444195648)2025-10-21 16:03:39,675:deblurring 678 sequences
+INFO(133410444195648)2025-10-21 16:03:39,755:110 unique sequences left following deblurring
+INFO(133410444195648)2025-10-21 16:03:39,756:remove_chimeras_denovo_from_seqs seqs file /tmp/tmpqmiytmx0/deblur_working_dir/PUF-IPEX-1_4_L001_R1_001.fastq.gz.trim.derep.no_artifacts.msa.deblurto working dir /tmp/tmpqmiytmx0/deblur_working_dir
+INFO(133410444195648)2025-10-21 16:03:39,826:finished processing file
+INFO(133410444195648)2025-10-21 16:03:39,826:finished processing per sample fasta files
+INFO(133410444195648)2025-10-21 16:03:39,826:worker thread for /tmp/qiime2/luis/data/4ea2e11f-ae3e-4ccd-aef7-c13ad27e3582/data/PUF-IPEX-1_4_L001_R1_001.fastq.gz finished
+INFO(138146945595200)2025-10-21 16:03:40,151:*************************
+INFO(138146945595200)2025-10-21 16:03:40,151:deblurring started
+WARNING(138146945595200)2025-10-21 16:03:40,152:deblur version 1.1.1 workflow started on /tmp/qiime2/luis/data/4ea2e11f-ae3e-4ccd-aef7-c13ad27e3582/data/PUF-BOT-10_1_L001_R1_001.fastq.gz
+WARNING(138146945595200)2025-10-21 16:03:40,152:parameters: {'seqs_fp': '/tmp/qiime2/luis/data/4ea2e11f-ae3e-4ccd-aef7-c13ad27e3582/data/PUF-BOT-10_1_L001_R1_001.fastq.gz', 'output_dir': '/tmp/tmpqmiytmx0', 'pos_ref_fp': ('/tmp/qiime2/luis/data/24c3fd7b-d797-45d8-8c62-edb383bdc88c/data/dna-sequences.fasta',), 'pos_ref_db_fp': ('/tmp/tmpqmiytmx0/deblur_working_dir/dna-sequences',), 'neg_ref_fp': (), 'neg_ref_db_fp': ('/tmp/tmpqmiytmx0/deblur_working_dir/artifacts',), 'overwrite': True, 'mean_error': 0.005, 'error_dist': [1.0, 0.06, 0.02, 0.02, 0.01, 0.005, 0.005, 0.005, 0.001, 0.001, 0.001, 0.0005], 'indel_prob': 0.01, 'indel_max': 3, 'trim_length': -1, 'left_trim_length': 0, 'min_reads': 1, 'min_size': 1, 'threads_per_sample': 1, 'keep_tmp_files': True, 'log_level': 2, 'log_file': '/home/luis/Documents/Projects/PUF_PAS_Metabarcoding/01_QIIME/01_Deblur/bin/deblur.log', 'jobs_to_start': 1, 'is_worker_thread': True, 'logger': <Logger __main__ (INFO)>}
+INFO(138146945595200)2025-10-21 16:03:40,152:error_dist is : [1.0, 0.06, 0.02, 0.02, 0.01, 0.005, 0.005, 0.005, 0.001, 0.001, 0.001, 0.0005]
+INFO(138146945595200)2025-10-21 16:03:40,152:deblur worker thread started
+INFO(138146945595200)2025-10-21 16:03:40,152:processing per sample fasta files
+INFO(138146945595200)2025-10-21 16:03:40,152:--------------------------------------------------------
+INFO(138146945595200)2025-10-21 16:03:40,152:launch_workflow for file /tmp/qiime2/luis/data/4ea2e11f-ae3e-4ccd-aef7-c13ad27e3582/data/PUF-BOT-10_1_L001_R1_001.fastq.gz
+INFO(129178775652160)2025-10-21 16:03:40,516:*************************
+INFO(129178775652160)2025-10-21 16:03:40,516:deblurring started
+WARNING(129178775652160)2025-10-21 16:03:40,516:deblur version 1.1.1 workflow started on /tmp/qiime2/luis/data/4ea2e11f-ae3e-4ccd-aef7-c13ad27e3582/data/ctrl-PCR-neg-PUF_10_L001_R1_001.fastq.gz
+WARNING(129178775652160)2025-10-21 16:03:40,516:parameters: {'seqs_fp': '/tmp/qiime2/luis/data/4ea2e11f-ae3e-4ccd-aef7-c13ad27e3582/data/ctrl-PCR-neg-PUF_10_L001_R1_001.fastq.gz', 'output_dir': '/tmp/tmpqmiytmx0', 'pos_ref_fp': ('/tmp/qiime2/luis/data/24c3fd7b-d797-45d8-8c62-edb383bdc88c/data/dna-sequences.fasta',), 'pos_ref_db_fp': ('/tmp/tmpqmiytmx0/deblur_working_dir/dna-sequences',), 'neg_ref_fp': (), 'neg_ref_db_fp': ('/tmp/tmpqmiytmx0/deblur_working_dir/artifacts',), 'overwrite': True, 'mean_error': 0.005, 'error_dist': [1.0, 0.06, 0.02, 0.02, 0.01, 0.005, 0.005, 0.005, 0.001, 0.001, 0.001, 0.0005], 'indel_prob': 0.01, 'indel_max': 3, 'trim_length': -1, 'left_trim_length': 0, 'min_reads': 1, 'min_size': 1, 'threads_per_sample': 1, 'keep_tmp_files': True, 'log_level': 2, 'log_file': '/home/luis/Documents/Projects/PUF_PAS_Metabarcoding/01_QIIME/01_Deblur/bin/deblur.log', 'jobs_to_start': 1, 'is_worker_thread': True, 'logger': <Logger __main__ (INFO)>}
+INFO(129178775652160)2025-10-21 16:03:40,516:error_dist is : [1.0, 0.06, 0.02, 0.02, 0.01, 0.005, 0.005, 0.005, 0.001, 0.001, 0.001, 0.0005]
+INFO(129178775652160)2025-10-21 16:03:40,516:deblur worker thread started
+INFO(129178775652160)2025-10-21 16:03:40,516:processing per sample fasta files
+INFO(129178775652160)2025-10-21 16:03:40,516:--------------------------------------------------------
+INFO(129178775652160)2025-10-21 16:03:40,516:launch_workflow for file /tmp/qiime2/luis/data/4ea2e11f-ae3e-4ccd-aef7-c13ad27e3582/data/ctrl-PCR-neg-PUF_10_L001_R1_001.fastq.gz
+INFO(129178775652160)2025-10-21 16:03:40,527:dereplicate seqs file /tmp/tmpqmiytmx0/deblur_working_dir/ctrl-PCR-neg-PUF_10_L001_R1_001.fastq.gz.trim
+INFO(129178775652160)2025-10-21 16:03:40,529:remove_artifacts_seqs file /tmp/tmpqmiytmx0/deblur_working_dir/ctrl-PCR-neg-PUF_10_L001_R1_001.fastq.gz.trim.derep
+INFO(129178775652160)2025-10-21 16:03:40,797:total sequences 7, passing sequences 7, failing sequences 0
+INFO(129178775652160)2025-10-21 16:03:40,797:multiple_sequence_alignment seqs file /tmp/tmpqmiytmx0/deblur_working_dir/ctrl-PCR-neg-PUF_10_L001_R1_001.fastq.gz.trim.derep.no_artifacts
+INFO(129178775652160)2025-10-21 16:03:40,945:deblurring 7 sequences
+INFO(129178775652160)2025-10-21 16:03:40,946:7 unique sequences left following deblurring
+INFO(129178775652160)2025-10-21 16:03:40,946:remove_chimeras_denovo_from_seqs seqs file /tmp/tmpqmiytmx0/deblur_working_dir/ctrl-PCR-neg-PUF_10_L001_R1_001.fastq.gz.trim.derep.no_artifacts.msa.deblurto working dir /tmp/tmpqmiytmx0/deblur_working_dir
+INFO(129178775652160)2025-10-21 16:03:40,954:finished processing file
+INFO(129178775652160)2025-10-21 16:03:40,954:finished processing per sample fasta files
+INFO(129178775652160)2025-10-21 16:03:40,954:worker thread for /tmp/qiime2/luis/data/4ea2e11f-ae3e-4ccd-aef7-c13ad27e3582/data/ctrl-PCR-neg-PUF_10_L001_R1_001.fastq.gz finished
+INFO(125613091489600)2025-10-21 16:03:41,627:*************************
+INFO(125613091489600)2025-10-21 16:03:41,627:deblurring started
+WARNING(125613091489600)2025-10-21 16:03:41,627:deblur version 1.1.1 workflow started on /tmp/qiime2/luis/data/4ea2e11f-ae3e-4ccd-aef7-c13ad27e3582/data/PUF-JD14_8_L001_R1_001.fastq.gz
+WARNING(125613091489600)2025-10-21 16:03:41,627:parameters: {'seqs_fp': '/tmp/qiime2/luis/data/4ea2e11f-ae3e-4ccd-aef7-c13ad27e3582/data/PUF-JD14_8_L001_R1_001.fastq.gz', 'output_dir': '/tmp/tmpqmiytmx0', 'pos_ref_fp': ('/tmp/qiime2/luis/data/24c3fd7b-d797-45d8-8c62-edb383bdc88c/data/dna-sequences.fasta',), 'pos_ref_db_fp': ('/tmp/tmpqmiytmx0/deblur_working_dir/dna-sequences',), 'neg_ref_fp': (), 'neg_ref_db_fp': ('/tmp/tmpqmiytmx0/deblur_working_dir/artifacts',), 'overwrite': True, 'mean_error': 0.005, 'error_dist': [1.0, 0.06, 0.02, 0.02, 0.01, 0.005, 0.005, 0.005, 0.001, 0.001, 0.001, 0.0005], 'indel_prob': 0.01, 'indel_max': 3, 'trim_length': -1, 'left_trim_length': 0, 'min_reads': 1, 'min_size': 1, 'threads_per_sample': 1, 'keep_tmp_files': True, 'log_level': 2, 'log_file': '/home/luis/Documents/Projects/PUF_PAS_Metabarcoding/01_QIIME/01_Deblur/bin/deblur.log', 'jobs_to_start': 1, 'is_worker_thread': True, 'logger': <Logger __main__ (INFO)>}
+INFO(125613091489600)2025-10-21 16:03:41,627:error_dist is : [1.0, 0.06, 0.02, 0.02, 0.01, 0.005, 0.005, 0.005, 0.001, 0.001, 0.001, 0.0005]
+INFO(125613091489600)2025-10-21 16:03:41,627:deblur worker thread started
+INFO(125613091489600)2025-10-21 16:03:41,627:processing per sample fasta files
+INFO(125613091489600)2025-10-21 16:03:41,627:--------------------------------------------------------
+INFO(125613091489600)2025-10-21 16:03:41,627:launch_workflow for file /tmp/qiime2/luis/data/4ea2e11f-ae3e-4ccd-aef7-c13ad27e3582/data/PUF-JD14_8_L001_R1_001.fastq.gz
+INFO(138146945595200)2025-10-21 16:03:42,725:dereplicate seqs file /tmp/tmpqmiytmx0/deblur_working_dir/PUF-BOT-10_1_L001_R1_001.fastq.gz.trim
+INFO(138146945595200)2025-10-21 16:03:42,758:remove_artifacts_seqs file /tmp/tmpqmiytmx0/deblur_working_dir/PUF-BOT-10_1_L001_R1_001.fastq.gz.trim.derep
+INFO(123863025305408)2025-10-21 16:03:42,851:deblurring 1669 sequences
+INFO(123863025305408)2025-10-21 16:03:43,112:158 unique sequences left following deblurring
+INFO(123863025305408)2025-10-21 16:03:43,113:remove_chimeras_denovo_from_seqs seqs file /tmp/tmpqmiytmx0/deblur_working_dir/PUF-BOU-7_3_L001_R1_001.fastq.gz.trim.derep.no_artifacts.msa.deblurto working dir /tmp/tmpqmiytmx0/deblur_working_dir
+INFO(138146945595200)2025-10-21 16:03:43,198:total sequences 6390, passing sequences 6390, failing sequences 0
+INFO(138146945595200)2025-10-21 16:03:43,198:multiple_sequence_alignment seqs file /tmp/tmpqmiytmx0/deblur_working_dir/PUF-BOT-10_1_L001_R1_001.fastq.gz.trim.derep.no_artifacts
+INFO(123863025305408)2025-10-21 16:03:43,204:finished processing file
+INFO(123863025305408)2025-10-21 16:03:43,204:finished processing per sample fasta files
+INFO(123863025305408)2025-10-21 16:03:43,204:worker thread for /tmp/qiime2/luis/data/4ea2e11f-ae3e-4ccd-aef7-c13ad27e3582/data/PUF-BOU-7_3_L001_R1_001.fastq.gz finished
+INFO(138873247094592)2025-10-21 16:03:43,905:*************************
+INFO(138873247094592)2025-10-21 16:03:43,905:deblurring started
+WARNING(138873247094592)2025-10-21 16:03:43,905:deblur version 1.1.1 workflow started on /tmp/qiime2/luis/data/4ea2e11f-ae3e-4ccd-aef7-c13ad27e3582/data/PUF-MBO-4_9_L001_R1_001.fastq.gz
+WARNING(138873247094592)2025-10-21 16:03:43,905:parameters: {'seqs_fp': '/tmp/qiime2/luis/data/4ea2e11f-ae3e-4ccd-aef7-c13ad27e3582/data/PUF-MBO-4_9_L001_R1_001.fastq.gz', 'output_dir': '/tmp/tmpqmiytmx0', 'pos_ref_fp': ('/tmp/qiime2/luis/data/24c3fd7b-d797-45d8-8c62-edb383bdc88c/data/dna-sequences.fasta',), 'pos_ref_db_fp': ('/tmp/tmpqmiytmx0/deblur_working_dir/dna-sequences',), 'neg_ref_fp': (), 'neg_ref_db_fp': ('/tmp/tmpqmiytmx0/deblur_working_dir/artifacts',), 'overwrite': True, 'mean_error': 0.005, 'error_dist': [1.0, 0.06, 0.02, 0.02, 0.01, 0.005, 0.005, 0.005, 0.001, 0.001, 0.001, 0.0005], 'indel_prob': 0.01, 'indel_max': 3, 'trim_length': -1, 'left_trim_length': 0, 'min_reads': 1, 'min_size': 1, 'threads_per_sample': 1, 'keep_tmp_files': True, 'log_level': 2, 'log_file': '/home/luis/Documents/Projects/PUF_PAS_Metabarcoding/01_QIIME/01_Deblur/bin/deblur.log', 'jobs_to_start': 1, 'is_worker_thread': True, 'logger': <Logger __main__ (INFO)>}
+INFO(138873247094592)2025-10-21 16:03:43,905:error_dist is : [1.0, 0.06, 0.02, 0.02, 0.01, 0.005, 0.005, 0.005, 0.001, 0.001, 0.001, 0.0005]
+INFO(138873247094592)2025-10-21 16:03:43,905:deblur worker thread started
+INFO(138873247094592)2025-10-21 16:03:43,905:processing per sample fasta files
+INFO(138873247094592)2025-10-21 16:03:43,905:--------------------------------------------------------
+INFO(138873247094592)2025-10-21 16:03:43,905:launch_workflow for file /tmp/qiime2/luis/data/4ea2e11f-ae3e-4ccd-aef7-c13ad27e3582/data/PUF-MBO-4_9_L001_R1_001.fastq.gz
+INFO(125613091489600)2025-10-21 16:03:44,833:dereplicate seqs file /tmp/tmpqmiytmx0/deblur_working_dir/PUF-JD14_8_L001_R1_001.fastq.gz.trim
+INFO(125613091489600)2025-10-21 16:03:44,876:remove_artifacts_seqs file /tmp/tmpqmiytmx0/deblur_working_dir/PUF-JD14_8_L001_R1_001.fastq.gz.trim.derep
+INFO(125613091489600)2025-10-21 16:03:45,405:total sequences 9422, passing sequences 9422, failing sequences 0
+INFO(125613091489600)2025-10-21 16:03:45,405:multiple_sequence_alignment seqs file /tmp/tmpqmiytmx0/deblur_working_dir/PUF-JD14_8_L001_R1_001.fastq.gz.trim.derep.no_artifacts
+INFO(137769495328576)2025-10-21 16:03:46,144:dereplicate seqs file /tmp/tmpqmiytmx0/deblur_working_dir/PUF-IPEX-8_6_L001_R1_001.fastq.gz.trim
+INFO(137769495328576)2025-10-21 16:03:46,253:remove_artifacts_seqs file /tmp/tmpqmiytmx0/deblur_working_dir/PUF-IPEX-8_6_L001_R1_001.fastq.gz.trim.derep
+INFO(137769495328576)2025-10-21 16:03:47,142:total sequences 22154, passing sequences 22154, failing sequences 0
+INFO(137769495328576)2025-10-21 16:03:47,142:multiple_sequence_alignment seqs file /tmp/tmpqmiytmx0/deblur_working_dir/PUF-IPEX-8_6_L001_R1_001.fastq.gz.trim.derep.no_artifacts
+INFO(138873247094592)2025-10-21 16:03:49,308:dereplicate seqs file /tmp/tmpqmiytmx0/deblur_working_dir/PUF-MBO-4_9_L001_R1_001.fastq.gz.trim
+INFO(138873247094592)2025-10-21 16:03:49,377:remove_artifacts_seqs file /tmp/tmpqmiytmx0/deblur_working_dir/PUF-MBO-4_9_L001_R1_001.fastq.gz.trim.derep
+INFO(138873247094592)2025-10-21 16:03:50,035:total sequences 13928, passing sequences 13928, failing sequences 0
+INFO(138873247094592)2025-10-21 16:03:50,035:multiple_sequence_alignment seqs file /tmp/tmpqmiytmx0/deblur_working_dir/PUF-MBO-4_9_L001_R1_001.fastq.gz.trim.derep.no_artifacts
+INFO(138146945595200)2025-10-21 16:04:25,023:deblurring 6390 sequences
+INFO(138146945595200)2025-10-21 16:04:25,313:37 unique sequences left following deblurring
+INFO(138146945595200)2025-10-21 16:04:25,315:remove_chimeras_denovo_from_seqs seqs file /tmp/tmpqmiytmx0/deblur_working_dir/PUF-BOT-10_1_L001_R1_001.fastq.gz.trim.derep.no_artifacts.msa.deblurto working dir /tmp/tmpqmiytmx0/deblur_working_dir
+INFO(138146945595200)2025-10-21 16:04:25,338:finished processing file
+INFO(138146945595200)2025-10-21 16:04:25,338:finished processing per sample fasta files
+INFO(138146945595200)2025-10-21 16:04:25,338:worker thread for /tmp/qiime2/luis/data/4ea2e11f-ae3e-4ccd-aef7-c13ad27e3582/data/PUF-BOT-10_1_L001_R1_001.fastq.gz finished
+INFO(124428392466240)2025-10-21 16:04:26,036:*************************
+INFO(124428392466240)2025-10-21 16:04:26,036:deblurring started
+WARNING(124428392466240)2025-10-21 16:04:26,037:deblur version 1.1.1 workflow started on /tmp/qiime2/luis/data/4ea2e11f-ae3e-4ccd-aef7-c13ad27e3582/data/PUF-IPEX-3_5_L001_R1_001.fastq.gz
+WARNING(124428392466240)2025-10-21 16:04:26,037:parameters: {'seqs_fp': '/tmp/qiime2/luis/data/4ea2e11f-ae3e-4ccd-aef7-c13ad27e3582/data/PUF-IPEX-3_5_L001_R1_001.fastq.gz', 'output_dir': '/tmp/tmpqmiytmx0', 'pos_ref_fp': ('/tmp/qiime2/luis/data/24c3fd7b-d797-45d8-8c62-edb383bdc88c/data/dna-sequences.fasta',), 'pos_ref_db_fp': ('/tmp/tmpqmiytmx0/deblur_working_dir/dna-sequences',), 'neg_ref_fp': (), 'neg_ref_db_fp': ('/tmp/tmpqmiytmx0/deblur_working_dir/artifacts',), 'overwrite': True, 'mean_error': 0.005, 'error_dist': [1.0, 0.06, 0.02, 0.02, 0.01, 0.005, 0.005, 0.005, 0.001, 0.001, 0.001, 0.0005], 'indel_prob': 0.01, 'indel_max': 3, 'trim_length': -1, 'left_trim_length': 0, 'min_reads': 1, 'min_size': 1, 'threads_per_sample': 1, 'keep_tmp_files': True, 'log_level': 2, 'log_file': '/home/luis/Documents/Projects/PUF_PAS_Metabarcoding/01_QIIME/01_Deblur/bin/deblur.log', 'jobs_to_start': 1, 'is_worker_thread': True, 'logger': <Logger __main__ (INFO)>}
+INFO(124428392466240)2025-10-21 16:04:26,037:error_dist is : [1.0, 0.06, 0.02, 0.02, 0.01, 0.005, 0.005, 0.005, 0.001, 0.001, 0.001, 0.0005]
+INFO(124428392466240)2025-10-21 16:04:26,037:deblur worker thread started
+INFO(124428392466240)2025-10-21 16:04:26,037:processing per sample fasta files
+INFO(124428392466240)2025-10-21 16:04:26,037:--------------------------------------------------------
+INFO(124428392466240)2025-10-21 16:04:26,037:launch_workflow for file /tmp/qiime2/luis/data/4ea2e11f-ae3e-4ccd-aef7-c13ad27e3582/data/PUF-IPEX-3_5_L001_R1_001.fastq.gz
+INFO(124428392466240)2025-10-21 16:04:30,405:dereplicate seqs file /tmp/tmpqmiytmx0/deblur_working_dir/PUF-IPEX-3_5_L001_R1_001.fastq.gz.trim
+INFO(124428392466240)2025-10-21 16:04:30,459:remove_artifacts_seqs file /tmp/tmpqmiytmx0/deblur_working_dir/PUF-IPEX-3_5_L001_R1_001.fastq.gz.trim.derep
+INFO(124428392466240)2025-10-21 16:04:30,973:total sequences 8304, passing sequences 8304, failing sequences 0
+INFO(124428392466240)2025-10-21 16:04:30,973:multiple_sequence_alignment seqs file /tmp/tmpqmiytmx0/deblur_working_dir/PUF-IPEX-3_5_L001_R1_001.fastq.gz.trim.derep.no_artifacts
+INFO(125613091489600)2025-10-21 16:05:08,973:deblurring 9422 sequences
+INFO(125613091489600)2025-10-21 16:05:10,313:122 unique sequences left following deblurring
+INFO(125613091489600)2025-10-21 16:05:10,316:remove_chimeras_denovo_from_seqs seqs file /tmp/tmpqmiytmx0/deblur_working_dir/PUF-JD14_8_L001_R1_001.fastq.gz.trim.derep.no_artifacts.msa.deblurto working dir /tmp/tmpqmiytmx0/deblur_working_dir
+INFO(125613091489600)2025-10-21 16:05:10,390:finished processing file
+INFO(125613091489600)2025-10-21 16:05:10,390:finished processing per sample fasta files
+INFO(125613091489600)2025-10-21 16:05:10,391:worker thread for /tmp/qiime2/luis/data/4ea2e11f-ae3e-4ccd-aef7-c13ad27e3582/data/PUF-JD14_8_L001_R1_001.fastq.gz finished
+INFO(133881030371136)2025-10-21 16:05:11,044:*************************
+INFO(133881030371136)2025-10-21 16:05:11,044:deblurring started
+WARNING(133881030371136)2025-10-21 16:05:11,045:deblur version 1.1.1 workflow started on /tmp/qiime2/luis/data/4ea2e11f-ae3e-4ccd-aef7-c13ad27e3582/data/PUF-BOT-3_2_L001_R1_001.fastq.gz
+WARNING(133881030371136)2025-10-21 16:05:11,045:parameters: {'seqs_fp': '/tmp/qiime2/luis/data/4ea2e11f-ae3e-4ccd-aef7-c13ad27e3582/data/PUF-BOT-3_2_L001_R1_001.fastq.gz', 'output_dir': '/tmp/tmpqmiytmx0', 'pos_ref_fp': ('/tmp/qiime2/luis/data/24c3fd7b-d797-45d8-8c62-edb383bdc88c/data/dna-sequences.fasta',), 'pos_ref_db_fp': ('/tmp/tmpqmiytmx0/deblur_working_dir/dna-sequences',), 'neg_ref_fp': (), 'neg_ref_db_fp': ('/tmp/tmpqmiytmx0/deblur_working_dir/artifacts',), 'overwrite': True, 'mean_error': 0.005, 'error_dist': [1.0, 0.06, 0.02, 0.02, 0.01, 0.005, 0.005, 0.005, 0.001, 0.001, 0.001, 0.0005], 'indel_prob': 0.01, 'indel_max': 3, 'trim_length': -1, 'left_trim_length': 0, 'min_reads': 1, 'min_size': 1, 'threads_per_sample': 1, 'keep_tmp_files': True, 'log_level': 2, 'log_file': '/home/luis/Documents/Projects/PUF_PAS_Metabarcoding/01_QIIME/01_Deblur/bin/deblur.log', 'jobs_to_start': 1, 'is_worker_thread': True, 'logger': <Logger __main__ (INFO)>}
+INFO(133881030371136)2025-10-21 16:05:11,045:error_dist is : [1.0, 0.06, 0.02, 0.02, 0.01, 0.005, 0.005, 0.005, 0.001, 0.001, 0.001, 0.0005]
+INFO(133881030371136)2025-10-21 16:05:11,045:deblur worker thread started
+INFO(133881030371136)2025-10-21 16:05:11,045:processing per sample fasta files
+INFO(133881030371136)2025-10-21 16:05:11,045:--------------------------------------------------------
+INFO(133881030371136)2025-10-21 16:05:11,045:launch_workflow for file /tmp/qiime2/luis/data/4ea2e11f-ae3e-4ccd-aef7-c13ad27e3582/data/PUF-BOT-3_2_L001_R1_001.fastq.gz
+INFO(133881030371136)2025-10-21 16:05:11,091:dereplicate seqs file /tmp/tmpqmiytmx0/deblur_working_dir/PUF-BOT-3_2_L001_R1_001.fastq.gz.trim
+INFO(133881030371136)2025-10-21 16:05:11,094:remove_artifacts_seqs file /tmp/tmpqmiytmx0/deblur_working_dir/PUF-BOT-3_2_L001_R1_001.fastq.gz.trim.derep
+INFO(133881030371136)2025-10-21 16:05:11,370:total sequences 150, passing sequences 150, failing sequences 0
+INFO(133881030371136)2025-10-21 16:05:11,370:multiple_sequence_alignment seqs file /tmp/tmpqmiytmx0/deblur_working_dir/PUF-BOT-3_2_L001_R1_001.fastq.gz.trim.derep.no_artifacts
+INFO(133881030371136)2025-10-21 16:05:21,933:deblurring 150 sequences
+INFO(133881030371136)2025-10-21 16:05:21,937:7 unique sequences left following deblurring
+INFO(133881030371136)2025-10-21 16:05:21,937:remove_chimeras_denovo_from_seqs seqs file /tmp/tmpqmiytmx0/deblur_working_dir/PUF-BOT-3_2_L001_R1_001.fastq.gz.trim.derep.no_artifacts.msa.deblurto working dir /tmp/tmpqmiytmx0/deblur_working_dir
+INFO(133881030371136)2025-10-21 16:05:21,949:finished processing file
+INFO(133881030371136)2025-10-21 16:05:21,949:finished processing per sample fasta files
+INFO(133881030371136)2025-10-21 16:05:21,949:worker thread for /tmp/qiime2/luis/data/4ea2e11f-ae3e-4ccd-aef7-c13ad27e3582/data/PUF-BOT-3_2_L001_R1_001.fastq.gz finished
+INFO(129279083591488)2025-10-21 16:05:22,672:*************************
+INFO(129279083591488)2025-10-21 16:05:22,672:deblurring started
+WARNING(129279083591488)2025-10-21 16:05:22,672:deblur version 1.1.1 workflow started on /tmp/qiime2/luis/data/4ea2e11f-ae3e-4ccd-aef7-c13ad27e3582/data/PUF-JD-10_7_L001_R1_001.fastq.gz
+WARNING(129279083591488)2025-10-21 16:05:22,672:parameters: {'seqs_fp': '/tmp/qiime2/luis/data/4ea2e11f-ae3e-4ccd-aef7-c13ad27e3582/data/PUF-JD-10_7_L001_R1_001.fastq.gz', 'output_dir': '/tmp/tmpqmiytmx0', 'pos_ref_fp': ('/tmp/qiime2/luis/data/24c3fd7b-d797-45d8-8c62-edb383bdc88c/data/dna-sequences.fasta',), 'pos_ref_db_fp': ('/tmp/tmpqmiytmx0/deblur_working_dir/dna-sequences',), 'neg_ref_fp': (), 'neg_ref_db_fp': ('/tmp/tmpqmiytmx0/deblur_working_dir/artifacts',), 'overwrite': True, 'mean_error': 0.005, 'error_dist': [1.0, 0.06, 0.02, 0.02, 0.01, 0.005, 0.005, 0.005, 0.001, 0.001, 0.001, 0.0005], 'indel_prob': 0.01, 'indel_max': 3, 'trim_length': -1, 'left_trim_length': 0, 'min_reads': 1, 'min_size': 1, 'threads_per_sample': 1, 'keep_tmp_files': True, 'log_level': 2, 'log_file': '/home/luis/Documents/Projects/PUF_PAS_Metabarcoding/01_QIIME/01_Deblur/bin/deblur.log', 'jobs_to_start': 1, 'is_worker_thread': True, 'logger': <Logger __main__ (INFO)>}
+INFO(129279083591488)2025-10-21 16:05:22,672:error_dist is : [1.0, 0.06, 0.02, 0.02, 0.01, 0.005, 0.005, 0.005, 0.001, 0.001, 0.001, 0.0005]
+INFO(129279083591488)2025-10-21 16:05:22,672:deblur worker thread started
+INFO(129279083591488)2025-10-21 16:05:22,672:processing per sample fasta files
+INFO(129279083591488)2025-10-21 16:05:22,673:--------------------------------------------------------
+INFO(129279083591488)2025-10-21 16:05:22,673:launch_workflow for file /tmp/qiime2/luis/data/4ea2e11f-ae3e-4ccd-aef7-c13ad27e3582/data/PUF-JD-10_7_L001_R1_001.fastq.gz
+INFO(129279083591488)2025-10-21 16:05:33,544:dereplicate seqs file /tmp/tmpqmiytmx0/deblur_working_dir/PUF-JD-10_7_L001_R1_001.fastq.gz.trim
+INFO(129279083591488)2025-10-21 16:05:33,680:remove_artifacts_seqs file /tmp/tmpqmiytmx0/deblur_working_dir/PUF-JD-10_7_L001_R1_001.fastq.gz.trim.derep
+INFO(129279083591488)2025-10-21 16:05:34,663:total sequences 25188, passing sequences 25188, failing sequences 0
+INFO(129279083591488)2025-10-21 16:05:34,663:multiple_sequence_alignment seqs file /tmp/tmpqmiytmx0/deblur_working_dir/PUF-JD-10_7_L001_R1_001.fastq.gz.trim.derep.no_artifacts
+INFO(124428392466240)2025-10-21 16:05:34,994:deblurring 8304 sequences
+INFO(124428392466240)2025-10-21 16:05:37,010:230 unique sequences left following deblurring
+INFO(124428392466240)2025-10-21 16:05:37,014:remove_chimeras_denovo_from_seqs seqs file /tmp/tmpqmiytmx0/deblur_working_dir/PUF-IPEX-3_5_L001_R1_001.fastq.gz.trim.derep.no_artifacts.msa.deblurto working dir /tmp/tmpqmiytmx0/deblur_working_dir
+INFO(124428392466240)2025-10-21 16:05:37,150:finished processing file
+INFO(124428392466240)2025-10-21 16:05:37,151:finished processing per sample fasta files
+INFO(124428392466240)2025-10-21 16:05:37,151:worker thread for /tmp/qiime2/luis/data/4ea2e11f-ae3e-4ccd-aef7-c13ad27e3582/data/PUF-IPEX-3_5_L001_R1_001.fastq.gz finished
+INFO(138873247094592)2025-10-21 16:06:34,890:deblurring 13928 sequences
+INFO(138873247094592)2025-10-21 16:06:36,543:116 unique sequences left following deblurring
+INFO(138873247094592)2025-10-21 16:06:36,547:remove_chimeras_denovo_from_seqs seqs file /tmp/tmpqmiytmx0/deblur_working_dir/PUF-MBO-4_9_L001_R1_001.fastq.gz.trim.derep.no_artifacts.msa.deblurto working dir /tmp/tmpqmiytmx0/deblur_working_dir
+INFO(138873247094592)2025-10-21 16:06:36,614:finished processing file
+INFO(138873247094592)2025-10-21 16:06:36,616:finished processing per sample fasta files
+INFO(138873247094592)2025-10-21 16:06:36,616:worker thread for /tmp/qiime2/luis/data/4ea2e11f-ae3e-4ccd-aef7-c13ad27e3582/data/PUF-MBO-4_9_L001_R1_001.fastq.gz finished
+INFO(137769495328576)2025-10-21 16:10:55,572:deblurring 22154 sequences
+INFO(137769495328576)2025-10-21 16:11:05,758:446 unique sequences left following deblurring
+INFO(137769495328576)2025-10-21 16:11:05,766:remove_chimeras_denovo_from_seqs seqs file /tmp/tmpqmiytmx0/deblur_working_dir/PUF-IPEX-8_6_L001_R1_001.fastq.gz.trim.derep.no_artifacts.msa.deblurto working dir /tmp/tmpqmiytmx0/deblur_working_dir
+INFO(137769495328576)2025-10-21 16:11:06,032:finished processing file
+INFO(137769495328576)2025-10-21 16:11:06,034:finished processing per sample fasta files
+INFO(137769495328576)2025-10-21 16:11:06,034:worker thread for /tmp/qiime2/luis/data/4ea2e11f-ae3e-4ccd-aef7-c13ad27e3582/data/PUF-IPEX-8_6_L001_R1_001.fastq.gz finished
+INFO(129279083591488)2025-10-21 16:14:32,398:deblurring 25188 sequences
+INFO(129279083591488)2025-10-21 16:14:48,443:667 unique sequences left following deblurring
+INFO(129279083591488)2025-10-21 16:14:48,451:remove_chimeras_denovo_from_seqs seqs file /tmp/tmpqmiytmx0/deblur_working_dir/PUF-JD-10_7_L001_R1_001.fastq.gz.trim.derep.no_artifacts.msa.deblurto working dir /tmp/tmpqmiytmx0/deblur_working_dir
+INFO(129279083591488)2025-10-21 16:14:48,839:finished processing file
+INFO(129279083591488)2025-10-21 16:14:48,841:finished processing per sample fasta files
+INFO(129279083591488)2025-10-21 16:14:48,841:worker thread for /tmp/qiime2/luis/data/4ea2e11f-ae3e-4ccd-aef7-c13ad27e3582/data/PUF-JD-10_7_L001_R1_001.fastq.gz finished
+INFO(135715374081856)2025-10-21 16:14:48,939:create_otu_table for 11 samples, into output table /tmp/tmpqmiytmx0/all.biom
+INFO(135715374081856)2025-10-21 16:14:48,973:for output biom table loaded 11 samples, 1365 unique sequences
+INFO(135715374081856)2025-10-21 16:14:48,974:keeping 1365 (out of 1365 sequences) with >=1 reads
+INFO(135715374081856)2025-10-21 16:14:48,994:saved to biom file /tmp/tmpqmiytmx0/all.biom
+INFO(135715374081856)2025-10-21 16:14:48,996:saved sequence fasta file to /tmp/tmpqmiytmx0/all.seqs.fa
+INFO(135715374081856)2025-10-21 16:14:48,996:getting 16s sequences from the biom table
+INFO(135715374081856)2025-10-21 16:14:48,996:remove_artifacts_seqs file /tmp/tmpqmiytmx0/all.seqs.fa
+INFO(135715374081856)2025-10-21 16:16:15,221:total sequences 1365, passing sequences 1291, failing sequences 74
+WARNING(135715374081856)2025-10-21 16:16:15,241:removed 4 samples with reads per sample<1
+INFO(135715374081856)2025-10-21 16:16:15,244:wrote artifact only filtered biom table to /tmp/tmpqmiytmx0/reference-non-hit.biom
+INFO(135715374081856)2025-10-21 16:16:15,244:saved biom table sequences to fasta file /tmp/tmpqmiytmx0/reference-non-hit.seqs.fa
+INFO(135715374081856)2025-10-21 16:16:15,250:wrote 16s filtered biom table to /tmp/tmpqmiytmx0/reference-hit.biom
+INFO(135715374081856)2025-10-21 16:16:15,252:saved biom table sequences to fasta file /tmp/tmpqmiytmx0/reference-hit.seqs.fa
+INFO(135715374081856)2025-10-21 16:16:15,252:Keeping temp files
+INFO(135715374081856)2025-10-21 16:16:15,252:deblur workflow finished
+INFO(135715374081856)2025-10-21 16:16:15,252:output saved to /tmp/tmpqmiytmx0/all.biom
+INFO(135715374081856)2025-10-21 16:16:15,252:------------------
+INFO(127548469315392)2025-10-21 16:16:39,419:*************************
+INFO(127548469315392)2025-10-21 16:16:39,419:deblurring started
+WARNING(127548469315392)2025-10-21 16:16:39,420:deblur version 1.1.1 workflow started on /tmp/qiime2/luis/data/7bff320e-1228-4877-ab5b-0f1f31f42855/data
+WARNING(127548469315392)2025-10-21 16:16:39,420:parameters: {'seqs_fp': '/tmp/qiime2/luis/data/7bff320e-1228-4877-ab5b-0f1f31f42855/data', 'output_dir': '/tmp/tmpbm689tq4', 'pos_ref_fp': ('/tmp/qiime2/luis/data/24c3fd7b-d797-45d8-8c62-edb383bdc88c/data/dna-sequences.fasta',), 'pos_ref_db_fp': (), 'neg_ref_fp': (), 'neg_ref_db_fp': (), 'overwrite': True, 'mean_error': 0.005, 'error_dist': [1.0, 0.06, 0.02, 0.02, 0.01, 0.005, 0.005, 0.005, 0.001, 0.001, 0.001, 0.0005], 'indel_prob': 0.01, 'indel_max': 3, 'trim_length': -1, 'left_trim_length': 0, 'min_reads': 1, 'min_size': 1, 'threads_per_sample': 1, 'keep_tmp_files': True, 'log_level': 2, 'log_file': '/home/luis/Documents/Projects/PUF_PAS_Metabarcoding/01_QIIME/01_Deblur/bin/deblur.log', 'jobs_to_start': 4, 'is_worker_thread': False, 'logger': <Logger __main__ (INFO)>}
+INFO(127548469315392)2025-10-21 16:16:39,420:error_dist is : [1.0, 0.06, 0.02, 0.02, 0.01, 0.005, 0.005, 0.005, 0.001, 0.001, 0.001, 0.0005]
+INFO(127548469315392)2025-10-21 16:16:39,420:deblur main program started
+INFO(127548469315392)2025-10-21 16:16:39,420:processing directory /tmp/qiime2/luis/data/7bff320e-1228-4877-ab5b-0f1f31f42855/data
+INFO(127548469315392)2025-10-21 16:16:39,421:building negative db sortmerna index files
+INFO(127548469315392)2025-10-21 16:16:39,421:build_index_sortmerna files ['/home/luis/miniconda3/envs/qiime2/lib/python3.10/site-packages/deblur/support_files/artifacts.fa'] to dir /tmp/tmpbm689tq4/deblur_working_dir
+INFO(127548469315392)2025-10-21 16:16:39,449:building positive db sortmerna index files
+INFO(127548469315392)2025-10-21 16:16:39,449:build_index_sortmerna files ('/tmp/qiime2/luis/data/24c3fd7b-d797-45d8-8c62-edb383bdc88c/data/dna-sequences.fasta',) to dir /tmp/tmpbm689tq4/deblur_working_dir
+INFO(129603158550336)2025-10-21 17:00:03,275:*************************
+INFO(129603158550336)2025-10-21 17:00:03,275:deblurring started
+WARNING(129603158550336)2025-10-21 17:00:03,276:deblur version 1.1.1 workflow started on /tmp/qiime2/luis/data/7bff320e-1228-4877-ab5b-0f1f31f42855/data
+WARNING(129603158550336)2025-10-21 17:00:03,276:parameters: {'seqs_fp': '/tmp/qiime2/luis/data/7bff320e-1228-4877-ab5b-0f1f31f42855/data', 'output_dir': '/tmp/tmp5m1xiq4b', 'pos_ref_fp': ('/tmp/qiime2/luis/data/24c3fd7b-d797-45d8-8c62-edb383bdc88c/data/dna-sequences.fasta',), 'pos_ref_db_fp': (), 'neg_ref_fp': (), 'neg_ref_db_fp': (), 'overwrite': True, 'mean_error': 0.005, 'error_dist': [1.0, 0.06, 0.02, 0.02, 0.01, 0.005, 0.005, 0.005, 0.001, 0.001, 0.001, 0.0005], 'indel_prob': 0.01, 'indel_max': 3, 'trim_length': -1, 'left_trim_length': 0, 'min_reads': 1, 'min_size': 1, 'threads_per_sample': 1, 'keep_tmp_files': True, 'log_level': 2, 'log_file': '/home/luis/Documents/Projects/PUF_PAS_Metabarcoding/01_QIIME/01_Deblur/bin/deblur.log', 'jobs_to_start': 6, 'is_worker_thread': False, 'logger': <Logger __main__ (INFO)>}
+INFO(129603158550336)2025-10-21 17:00:03,276:error_dist is : [1.0, 0.06, 0.02, 0.02, 0.01, 0.005, 0.005, 0.005, 0.001, 0.001, 0.001, 0.0005]
+INFO(129603158550336)2025-10-21 17:00:03,276:deblur main program started
+INFO(129603158550336)2025-10-21 17:00:03,276:processing directory /tmp/qiime2/luis/data/7bff320e-1228-4877-ab5b-0f1f31f42855/data
+INFO(129603158550336)2025-10-21 17:00:03,277:building negative db sortmerna index files
+INFO(129603158550336)2025-10-21 17:00:03,277:build_index_sortmerna files ['/home/luis/miniconda3/envs/qiime2/lib/python3.10/site-packages/deblur/support_files/artifacts.fa'] to dir /tmp/tmp5m1xiq4b/deblur_working_dir
+INFO(129603158550336)2025-10-21 17:00:03,306:building positive db sortmerna index files
+INFO(129603158550336)2025-10-21 17:00:03,306:build_index_sortmerna files ('/tmp/qiime2/luis/data/24c3fd7b-d797-45d8-8c62-edb383bdc88c/data/dna-sequences.fasta',) to dir /tmp/tmp5m1xiq4b/deblur_working_dir
+INFO(129603158550336)2025-10-21 17:50:40,064:parallel processing per sample fasta files
+INFO(129603158550336)2025-10-21 17:50:40,074:parallel deblur started for 11 inputs
+INFO(127353927317312)2025-10-21 17:50:40,950:*************************
+INFO(123492994094912)2025-10-21 17:50:40,950:*************************
+INFO(137928370280256)2025-10-21 17:50:40,950:*************************
+INFO(128409691047744)2025-10-21 17:50:40,950:*************************
+INFO(136373226415936)2025-10-21 17:50:40,950:*************************
+INFO(125001161799488)2025-10-21 17:50:40,950:*************************
+INFO(137928370280256)2025-10-21 17:50:40,950:deblurring started
+INFO(123492994094912)2025-10-21 17:50:40,950:deblurring started
+INFO(127353927317312)2025-10-21 17:50:40,950:deblurring started
+INFO(136373226415936)2025-10-21 17:50:40,950:deblurring started
+INFO(128409691047744)2025-10-21 17:50:40,950:deblurring started
+INFO(125001161799488)2025-10-21 17:50:40,950:deblurring started
+WARNING(137928370280256)2025-10-21 17:50:40,951:deblur version 1.1.1 workflow started on /tmp/qiime2/luis/data/7bff320e-1228-4877-ab5b-0f1f31f42855/data/ctrl-PCR-neg-PUF_10_L001_R1_001.fastq.gz
+WARNING(125001161799488)2025-10-21 17:50:40,951:deblur version 1.1.1 workflow started on /tmp/qiime2/luis/data/7bff320e-1228-4877-ab5b-0f1f31f42855/data/PUF-IPEX-1_4_L001_R1_001.fastq.gz
+WARNING(123492994094912)2025-10-21 17:50:40,951:deblur version 1.1.1 workflow started on /tmp/qiime2/luis/data/7bff320e-1228-4877-ab5b-0f1f31f42855/data/PUF-BOT-10_1_L001_R1_001.fastq.gz
+WARNING(136373226415936)2025-10-21 17:50:40,951:deblur version 1.1.1 workflow started on /tmp/qiime2/luis/data/7bff320e-1228-4877-ab5b-0f1f31f42855/data/PUF-IPEX-8_6_L001_R1_001.fastq.gz
+WARNING(128409691047744)2025-10-21 17:50:40,951:deblur version 1.1.1 workflow started on /tmp/qiime2/luis/data/7bff320e-1228-4877-ab5b-0f1f31f42855/data/CTRL-neg-extraction-PUF_0_L001_R1_001.fastq.gz
+WARNING(127353927317312)2025-10-21 17:50:40,951:deblur version 1.1.1 workflow started on /tmp/qiime2/luis/data/7bff320e-1228-4877-ab5b-0f1f31f42855/data/PUF-BOU-7_3_L001_R1_001.fastq.gz
+WARNING(137928370280256)2025-10-21 17:50:40,951:parameters: {'seqs_fp': '/tmp/qiime2/luis/data/7bff320e-1228-4877-ab5b-0f1f31f42855/data/ctrl-PCR-neg-PUF_10_L001_R1_001.fastq.gz', 'output_dir': '/tmp/tmp5m1xiq4b', 'pos_ref_fp': ('/tmp/qiime2/luis/data/24c3fd7b-d797-45d8-8c62-edb383bdc88c/data/dna-sequences.fasta',), 'pos_ref_db_fp': ('/tmp/tmp5m1xiq4b/deblur_working_dir/dna-sequences',), 'neg_ref_fp': (), 'neg_ref_db_fp': ('/tmp/tmp5m1xiq4b/deblur_working_dir/artifacts',), 'overwrite': True, 'mean_error': 0.005, 'error_dist': [1.0, 0.06, 0.02, 0.02, 0.01, 0.005, 0.005, 0.005, 0.001, 0.001, 0.001, 0.0005], 'indel_prob': 0.01, 'indel_max': 3, 'trim_length': -1, 'left_trim_length': 0, 'min_reads': 1, 'min_size': 1, 'threads_per_sample': 1, 'keep_tmp_files': True, 'log_level': 2, 'log_file': '/home/luis/Documents/Projects/PUF_PAS_Metabarcoding/01_QIIME/01_Deblur/bin/deblur.log', 'jobs_to_start': 1, 'is_worker_thread': True, 'logger': <Logger __main__ (INFO)>}
+WARNING(136373226415936)2025-10-21 17:50:40,951:parameters: {'seqs_fp': '/tmp/qiime2/luis/data/7bff320e-1228-4877-ab5b-0f1f31f42855/data/PUF-IPEX-8_6_L001_R1_001.fastq.gz', 'output_dir': '/tmp/tmp5m1xiq4b', 'pos_ref_fp': ('/tmp/qiime2/luis/data/24c3fd7b-d797-45d8-8c62-edb383bdc88c/data/dna-sequences.fasta',), 'pos_ref_db_fp': ('/tmp/tmp5m1xiq4b/deblur_working_dir/dna-sequences',), 'neg_ref_fp': (), 'neg_ref_db_fp': ('/tmp/tmp5m1xiq4b/deblur_working_dir/artifacts',), 'overwrite': True, 'mean_error': 0.005, 'error_dist': [1.0, 0.06, 0.02, 0.02, 0.01, 0.005, 0.005, 0.005, 0.001, 0.001, 0.001, 0.0005], 'indel_prob': 0.01, 'indel_max': 3, 'trim_length': -1, 'left_trim_length': 0, 'min_reads': 1, 'min_size': 1, 'threads_per_sample': 1, 'keep_tmp_files': True, 'log_level': 2, 'log_file': '/home/luis/Documents/Projects/PUF_PAS_Metabarcoding/01_QIIME/01_Deblur/bin/deblur.log', 'jobs_to_start': 1, 'is_worker_thread': True, 'logger': <Logger __main__ (INFO)>}
+WARNING(123492994094912)2025-10-21 17:50:40,951:parameters: {'seqs_fp': '/tmp/qiime2/luis/data/7bff320e-1228-4877-ab5b-0f1f31f42855/data/PUF-BOT-10_1_L001_R1_001.fastq.gz', 'output_dir': '/tmp/tmp5m1xiq4b', 'pos_ref_fp': ('/tmp/qiime2/luis/data/24c3fd7b-d797-45d8-8c62-edb383bdc88c/data/dna-sequences.fasta',), 'pos_ref_db_fp': ('/tmp/tmp5m1xiq4b/deblur_working_dir/dna-sequences',), 'neg_ref_fp': (), 'neg_ref_db_fp': ('/tmp/tmp5m1xiq4b/deblur_working_dir/artifacts',), 'overwrite': True, 'mean_error': 0.005, 'error_dist': [1.0, 0.06, 0.02, 0.02, 0.01, 0.005, 0.005, 0.005, 0.001, 0.001, 0.001, 0.0005], 'indel_prob': 0.01, 'indel_max': 3, 'trim_length': -1, 'left_trim_length': 0, 'min_reads': 1, 'min_size': 1, 'threads_per_sample': 1, 'keep_tmp_files': True, 'log_level': 2, 'log_file': '/home/luis/Documents/Projects/PUF_PAS_Metabarcoding/01_QIIME/01_Deblur/bin/deblur.log', 'jobs_to_start': 1, 'is_worker_thread': True, 'logger': <Logger __main__ (INFO)>}
+WARNING(125001161799488)2025-10-21 17:50:40,951:parameters: {'seqs_fp': '/tmp/qiime2/luis/data/7bff320e-1228-4877-ab5b-0f1f31f42855/data/PUF-IPEX-1_4_L001_R1_001.fastq.gz', 'output_dir': '/tmp/tmp5m1xiq4b', 'pos_ref_fp': ('/tmp/qiime2/luis/data/24c3fd7b-d797-45d8-8c62-edb383bdc88c/data/dna-sequences.fasta',), 'pos_ref_db_fp': ('/tmp/tmp5m1xiq4b/deblur_working_dir/dna-sequences',), 'neg_ref_fp': (), 'neg_ref_db_fp': ('/tmp/tmp5m1xiq4b/deblur_working_dir/artifacts',), 'overwrite': True, 'mean_error': 0.005, 'error_dist': [1.0, 0.06, 0.02, 0.02, 0.01, 0.005, 0.005, 0.005, 0.001, 0.001, 0.001, 0.0005], 'indel_prob': 0.01, 'indel_max': 3, 'trim_length': -1, 'left_trim_length': 0, 'min_reads': 1, 'min_size': 1, 'threads_per_sample': 1, 'keep_tmp_files': True, 'log_level': 2, 'log_file': '/home/luis/Documents/Projects/PUF_PAS_Metabarcoding/01_QIIME/01_Deblur/bin/deblur.log', 'jobs_to_start': 1, 'is_worker_thread': True, 'logger': <Logger __main__ (INFO)>}
+WARNING(128409691047744)2025-10-21 17:50:40,951:parameters: {'seqs_fp': '/tmp/qiime2/luis/data/7bff320e-1228-4877-ab5b-0f1f31f42855/data/CTRL-neg-extraction-PUF_0_L001_R1_001.fastq.gz', 'output_dir': '/tmp/tmp5m1xiq4b', 'pos_ref_fp': ('/tmp/qiime2/luis/data/24c3fd7b-d797-45d8-8c62-edb383bdc88c/data/dna-sequences.fasta',), 'pos_ref_db_fp': ('/tmp/tmp5m1xiq4b/deblur_working_dir/dna-sequences',), 'neg_ref_fp': (), 'neg_ref_db_fp': ('/tmp/tmp5m1xiq4b/deblur_working_dir/artifacts',), 'overwrite': True, 'mean_error': 0.005, 'error_dist': [1.0, 0.06, 0.02, 0.02, 0.01, 0.005, 0.005, 0.005, 0.001, 0.001, 0.001, 0.0005], 'indel_prob': 0.01, 'indel_max': 3, 'trim_length': -1, 'left_trim_length': 0, 'min_reads': 1, 'min_size': 1, 'threads_per_sample': 1, 'keep_tmp_files': True, 'log_level': 2, 'log_file': '/home/luis/Documents/Projects/PUF_PAS_Metabarcoding/01_QIIME/01_Deblur/bin/deblur.log', 'jobs_to_start': 1, 'is_worker_thread': True, 'logger': <Logger __main__ (INFO)>}
+INFO(137928370280256)2025-10-21 17:50:40,951:error_dist is : [1.0, 0.06, 0.02, 0.02, 0.01, 0.005, 0.005, 0.005, 0.001, 0.001, 0.001, 0.0005]
+INFO(136373226415936)2025-10-21 17:50:40,951:error_dist is : [1.0, 0.06, 0.02, 0.02, 0.01, 0.005, 0.005, 0.005, 0.001, 0.001, 0.001, 0.0005]
+WARNING(127353927317312)2025-10-21 17:50:40,951:parameters: {'seqs_fp': '/tmp/qiime2/luis/data/7bff320e-1228-4877-ab5b-0f1f31f42855/data/PUF-BOU-7_3_L001_R1_001.fastq.gz', 'output_dir': '/tmp/tmp5m1xiq4b', 'pos_ref_fp': ('/tmp/qiime2/luis/data/24c3fd7b-d797-45d8-8c62-edb383bdc88c/data/dna-sequences.fasta',), 'pos_ref_db_fp': ('/tmp/tmp5m1xiq4b/deblur_working_dir/dna-sequences',), 'neg_ref_fp': (), 'neg_ref_db_fp': ('/tmp/tmp5m1xiq4b/deblur_working_dir/artifacts',), 'overwrite': True, 'mean_error': 0.005, 'error_dist': [1.0, 0.06, 0.02, 0.02, 0.01, 0.005, 0.005, 0.005, 0.001, 0.001, 0.001, 0.0005], 'indel_prob': 0.01, 'indel_max': 3, 'trim_length': -1, 'left_trim_length': 0, 'min_reads': 1, 'min_size': 1, 'threads_per_sample': 1, 'keep_tmp_files': True, 'log_level': 2, 'log_file': '/home/luis/Documents/Projects/PUF_PAS_Metabarcoding/01_QIIME/01_Deblur/bin/deblur.log', 'jobs_to_start': 1, 'is_worker_thread': True, 'logger': <Logger __main__ (INFO)>}
+INFO(125001161799488)2025-10-21 17:50:40,951:error_dist is : [1.0, 0.06, 0.02, 0.02, 0.01, 0.005, 0.005, 0.005, 0.001, 0.001, 0.001, 0.0005]
+INFO(123492994094912)2025-10-21 17:50:40,951:error_dist is : [1.0, 0.06, 0.02, 0.02, 0.01, 0.005, 0.005, 0.005, 0.001, 0.001, 0.001, 0.0005]
+INFO(136373226415936)2025-10-21 17:50:40,951:deblur worker thread started
+INFO(137928370280256)2025-10-21 17:50:40,951:deblur worker thread started
+INFO(128409691047744)2025-10-21 17:50:40,951:error_dist is : [1.0, 0.06, 0.02, 0.02, 0.01, 0.005, 0.005, 0.005, 0.001, 0.001, 0.001, 0.0005]
+INFO(125001161799488)2025-10-21 17:50:40,951:deblur worker thread started
+INFO(136373226415936)2025-10-21 17:50:40,951:processing per sample fasta files
+INFO(123492994094912)2025-10-21 17:50:40,951:deblur worker thread started
+INFO(127353927317312)2025-10-21 17:50:40,951:error_dist is : [1.0, 0.06, 0.02, 0.02, 0.01, 0.005, 0.005, 0.005, 0.001, 0.001, 0.001, 0.0005]
+INFO(137928370280256)2025-10-21 17:50:40,951:processing per sample fasta files
+INFO(128409691047744)2025-10-21 17:50:40,951:deblur worker thread started
+INFO(125001161799488)2025-10-21 17:50:40,951:processing per sample fasta files
+INFO(123492994094912)2025-10-21 17:50:40,951:processing per sample fasta files
+INFO(127353927317312)2025-10-21 17:50:40,951:deblur worker thread started
+INFO(136373226415936)2025-10-21 17:50:40,951:--------------------------------------------------------
+INFO(128409691047744)2025-10-21 17:50:40,951:processing per sample fasta files
+INFO(137928370280256)2025-10-21 17:50:40,951:--------------------------------------------------------
+INFO(125001161799488)2025-10-21 17:50:40,951:--------------------------------------------------------
+INFO(136373226415936)2025-10-21 17:50:40,951:launch_workflow for file /tmp/qiime2/luis/data/7bff320e-1228-4877-ab5b-0f1f31f42855/data/PUF-IPEX-8_6_L001_R1_001.fastq.gz
+INFO(127353927317312)2025-10-21 17:50:40,951:processing per sample fasta files
+INFO(137928370280256)2025-10-21 17:50:40,951:launch_workflow for file /tmp/qiime2/luis/data/7bff320e-1228-4877-ab5b-0f1f31f42855/data/ctrl-PCR-neg-PUF_10_L001_R1_001.fastq.gz
+INFO(123492994094912)2025-10-21 17:50:40,951:--------------------------------------------------------
+INFO(128409691047744)2025-10-21 17:50:40,951:--------------------------------------------------------
+INFO(125001161799488)2025-10-21 17:50:40,951:launch_workflow for file /tmp/qiime2/luis/data/7bff320e-1228-4877-ab5b-0f1f31f42855/data/PUF-IPEX-1_4_L001_R1_001.fastq.gz
+INFO(123492994094912)2025-10-21 17:50:40,951:launch_workflow for file /tmp/qiime2/luis/data/7bff320e-1228-4877-ab5b-0f1f31f42855/data/PUF-BOT-10_1_L001_R1_001.fastq.gz
+INFO(127353927317312)2025-10-21 17:50:40,951:--------------------------------------------------------
+INFO(128409691047744)2025-10-21 17:50:40,951:launch_workflow for file /tmp/qiime2/luis/data/7bff320e-1228-4877-ab5b-0f1f31f42855/data/CTRL-neg-extraction-PUF_0_L001_R1_001.fastq.gz
+INFO(127353927317312)2025-10-21 17:50:40,951:launch_workflow for file /tmp/qiime2/luis/data/7bff320e-1228-4877-ab5b-0f1f31f42855/data/PUF-BOU-7_3_L001_R1_001.fastq.gz
+INFO(137928370280256)2025-10-21 17:50:40,953:dereplicate seqs file /tmp/tmp5m1xiq4b/deblur_working_dir/ctrl-PCR-neg-PUF_10_L001_R1_001.fastq.gz.trim
+INFO(137928370280256)2025-10-21 17:50:40,957:remove_artifacts_seqs file /tmp/tmp5m1xiq4b/deblur_working_dir/ctrl-PCR-neg-PUF_10_L001_R1_001.fastq.gz.trim.derep
+INFO(128409691047744)2025-10-21 17:50:40,959:dereplicate seqs file /tmp/tmp5m1xiq4b/deblur_working_dir/CTRL-neg-extraction-PUF_0_L001_R1_001.fastq.gz.trim
+INFO(128409691047744)2025-10-21 17:50:40,961:remove_artifacts_seqs file /tmp/tmp5m1xiq4b/deblur_working_dir/CTRL-neg-extraction-PUF_0_L001_R1_001.fastq.gz.trim.derep
+INFO(125001161799488)2025-10-21 17:50:41,041:dereplicate seqs file /tmp/tmp5m1xiq4b/deblur_working_dir/PUF-IPEX-1_4_L001_R1_001.fastq.gz.trim
+INFO(125001161799488)2025-10-21 17:50:41,044:remove_artifacts_seqs file /tmp/tmp5m1xiq4b/deblur_working_dir/PUF-IPEX-1_4_L001_R1_001.fastq.gz.trim.derep
+INFO(127353927317312)2025-10-21 17:50:41,194:dereplicate seqs file /tmp/tmp5m1xiq4b/deblur_working_dir/PUF-BOU-7_3_L001_R1_001.fastq.gz.trim
+INFO(127353927317312)2025-10-21 17:50:41,200:remove_artifacts_seqs file /tmp/tmp5m1xiq4b/deblur_working_dir/PUF-BOU-7_3_L001_R1_001.fastq.gz.trim.derep
+INFO(128409691047744)2025-10-21 17:50:41,253:total sequences 19, passing sequences 19, failing sequences 0
+INFO(128409691047744)2025-10-21 17:50:41,253:multiple_sequence_alignment seqs file /tmp/tmp5m1xiq4b/deblur_working_dir/CTRL-neg-extraction-PUF_0_L001_R1_001.fastq.gz.trim.derep.no_artifacts
+INFO(137928370280256)2025-10-21 17:50:41,254:total sequences 1, passing sequences 1, failing sequences 0
+INFO(137928370280256)2025-10-21 17:50:41,255:deblurring 1 sequences
+INFO(137928370280256)2025-10-21 17:50:41,255:1 unique sequences left following deblurring
+INFO(137928370280256)2025-10-21 17:50:41,255:remove_chimeras_denovo_from_seqs seqs file /tmp/tmp5m1xiq4b/deblur_working_dir/ctrl-PCR-neg-PUF_10_L001_R1_001.fastq.gz.trim.derep.no_artifacts.deblurto working dir /tmp/tmp5m1xiq4b/deblur_working_dir
+INFO(137928370280256)2025-10-21 17:50:41,263:finished processing file
+INFO(137928370280256)2025-10-21 17:50:41,263:finished processing per sample fasta files
+INFO(137928370280256)2025-10-21 17:50:41,263:worker thread for /tmp/qiime2/luis/data/7bff320e-1228-4877-ab5b-0f1f31f42855/data/ctrl-PCR-neg-PUF_10_L001_R1_001.fastq.gz finished
+INFO(125001161799488)2025-10-21 17:50:41,354:total sequences 297, passing sequences 297, failing sequences 0
+INFO(125001161799488)2025-10-21 17:50:41,354:multiple_sequence_alignment seqs file /tmp/tmp5m1xiq4b/deblur_working_dir/PUF-IPEX-1_4_L001_R1_001.fastq.gz.trim.derep.no_artifacts
+INFO(127353927317312)2025-10-21 17:50:41,555:total sequences 782, passing sequences 782, failing sequences 0
+INFO(127353927317312)2025-10-21 17:50:41,555:multiple_sequence_alignment seqs file /tmp/tmp5m1xiq4b/deblur_working_dir/PUF-BOU-7_3_L001_R1_001.fastq.gz.trim.derep.no_artifacts
+INFO(128409691047744)2025-10-21 17:50:41,595:deblurring 19 sequences
+INFO(128409691047744)2025-10-21 17:50:41,595:1 unique sequences left following deblurring
+INFO(128409691047744)2025-10-21 17:50:41,595:remove_chimeras_denovo_from_seqs seqs file /tmp/tmp5m1xiq4b/deblur_working_dir/CTRL-neg-extraction-PUF_0_L001_R1_001.fastq.gz.trim.derep.no_artifacts.msa.deblurto working dir /tmp/tmp5m1xiq4b/deblur_working_dir
+INFO(128409691047744)2025-10-21 17:50:41,603:finished processing file
+INFO(128409691047744)2025-10-21 17:50:41,603:finished processing per sample fasta files
+INFO(128409691047744)2025-10-21 17:50:41,603:worker thread for /tmp/qiime2/luis/data/7bff320e-1228-4877-ab5b-0f1f31f42855/data/CTRL-neg-extraction-PUF_0_L001_R1_001.fastq.gz finished
+INFO(135518281586496)2025-10-21 17:50:42,024:*************************
+INFO(135518281586496)2025-10-21 17:50:42,024:deblurring started
+WARNING(135518281586496)2025-10-21 17:50:42,024:deblur version 1.1.1 workflow started on /tmp/qiime2/luis/data/7bff320e-1228-4877-ab5b-0f1f31f42855/data/PUF-JD14_8_L001_R1_001.fastq.gz
+WARNING(135518281586496)2025-10-21 17:50:42,024:parameters: {'seqs_fp': '/tmp/qiime2/luis/data/7bff320e-1228-4877-ab5b-0f1f31f42855/data/PUF-JD14_8_L001_R1_001.fastq.gz', 'output_dir': '/tmp/tmp5m1xiq4b', 'pos_ref_fp': ('/tmp/qiime2/luis/data/24c3fd7b-d797-45d8-8c62-edb383bdc88c/data/dna-sequences.fasta',), 'pos_ref_db_fp': ('/tmp/tmp5m1xiq4b/deblur_working_dir/dna-sequences',), 'neg_ref_fp': (), 'neg_ref_db_fp': ('/tmp/tmp5m1xiq4b/deblur_working_dir/artifacts',), 'overwrite': True, 'mean_error': 0.005, 'error_dist': [1.0, 0.06, 0.02, 0.02, 0.01, 0.005, 0.005, 0.005, 0.001, 0.001, 0.001, 0.0005], 'indel_prob': 0.01, 'indel_max': 3, 'trim_length': -1, 'left_trim_length': 0, 'min_reads': 1, 'min_size': 1, 'threads_per_sample': 1, 'keep_tmp_files': True, 'log_level': 2, 'log_file': '/home/luis/Documents/Projects/PUF_PAS_Metabarcoding/01_QIIME/01_Deblur/bin/deblur.log', 'jobs_to_start': 1, 'is_worker_thread': True, 'logger': <Logger __main__ (INFO)>}
+INFO(135518281586496)2025-10-21 17:50:42,024:error_dist is : [1.0, 0.06, 0.02, 0.02, 0.01, 0.005, 0.005, 0.005, 0.001, 0.001, 0.001, 0.0005]
+INFO(135518281586496)2025-10-21 17:50:42,024:deblur worker thread started
+INFO(135518281586496)2025-10-21 17:50:42,024:processing per sample fasta files
+INFO(135518281586496)2025-10-21 17:50:42,024:--------------------------------------------------------
+INFO(135518281586496)2025-10-21 17:50:42,024:launch_workflow for file /tmp/qiime2/luis/data/7bff320e-1228-4877-ab5b-0f1f31f42855/data/PUF-JD14_8_L001_R1_001.fastq.gz
+INFO(133687583115072)2025-10-21 17:50:42,322:*************************
+INFO(133687583115072)2025-10-21 17:50:42,322:deblurring started
+WARNING(133687583115072)2025-10-21 17:50:42,323:deblur version 1.1.1 workflow started on /tmp/qiime2/luis/data/7bff320e-1228-4877-ab5b-0f1f31f42855/data/PUF-MBO-4_9_L001_R1_001.fastq.gz
+WARNING(133687583115072)2025-10-21 17:50:42,323:parameters: {'seqs_fp': '/tmp/qiime2/luis/data/7bff320e-1228-4877-ab5b-0f1f31f42855/data/PUF-MBO-4_9_L001_R1_001.fastq.gz', 'output_dir': '/tmp/tmp5m1xiq4b', 'pos_ref_fp': ('/tmp/qiime2/luis/data/24c3fd7b-d797-45d8-8c62-edb383bdc88c/data/dna-sequences.fasta',), 'pos_ref_db_fp': ('/tmp/tmp5m1xiq4b/deblur_working_dir/dna-sequences',), 'neg_ref_fp': (), 'neg_ref_db_fp': ('/tmp/tmp5m1xiq4b/deblur_working_dir/artifacts',), 'overwrite': True, 'mean_error': 0.005, 'error_dist': [1.0, 0.06, 0.02, 0.02, 0.01, 0.005, 0.005, 0.005, 0.001, 0.001, 0.001, 0.0005], 'indel_prob': 0.01, 'indel_max': 3, 'trim_length': -1, 'left_trim_length': 0, 'min_reads': 1, 'min_size': 1, 'threads_per_sample': 1, 'keep_tmp_files': True, 'log_level': 2, 'log_file': '/home/luis/Documents/Projects/PUF_PAS_Metabarcoding/01_QIIME/01_Deblur/bin/deblur.log', 'jobs_to_start': 1, 'is_worker_thread': True, 'logger': <Logger __main__ (INFO)>}
+INFO(133687583115072)2025-10-21 17:50:42,323:error_dist is : [1.0, 0.06, 0.02, 0.02, 0.01, 0.005, 0.005, 0.005, 0.001, 0.001, 0.001, 0.0005]
+INFO(133687583115072)2025-10-21 17:50:42,323:deblur worker thread started
+INFO(133687583115072)2025-10-21 17:50:42,323:processing per sample fasta files
+INFO(133687583115072)2025-10-21 17:50:42,323:--------------------------------------------------------
+INFO(133687583115072)2025-10-21 17:50:42,323:launch_workflow for file /tmp/qiime2/luis/data/7bff320e-1228-4877-ab5b-0f1f31f42855/data/PUF-MBO-4_9_L001_R1_001.fastq.gz
+INFO(123492994094912)2025-10-21 17:50:42,373:dereplicate seqs file /tmp/tmp5m1xiq4b/deblur_working_dir/PUF-BOT-10_1_L001_R1_001.fastq.gz.trim
+INFO(123492994094912)2025-10-21 17:50:42,391:remove_artifacts_seqs file /tmp/tmp5m1xiq4b/deblur_working_dir/PUF-BOT-10_1_L001_R1_001.fastq.gz.trim.derep
+INFO(123492994094912)2025-10-21 17:50:42,753:total sequences 2995, passing sequences 2995, failing sequences 0
+INFO(123492994094912)2025-10-21 17:50:42,753:multiple_sequence_alignment seqs file /tmp/tmp5m1xiq4b/deblur_working_dir/PUF-BOT-10_1_L001_R1_001.fastq.gz.trim.derep.no_artifacts
+INFO(127353927317312)2025-10-21 17:50:43,164:deblurring 782 sequences
+INFO(127353927317312)2025-10-21 17:50:43,278:128 unique sequences left following deblurring
+INFO(127353927317312)2025-10-21 17:50:43,279:remove_chimeras_denovo_from_seqs seqs file /tmp/tmp5m1xiq4b/deblur_working_dir/PUF-BOU-7_3_L001_R1_001.fastq.gz.trim.derep.no_artifacts.msa.deblurto working dir /tmp/tmp5m1xiq4b/deblur_working_dir
+INFO(127353927317312)2025-10-21 17:50:43,352:finished processing file
+INFO(127353927317312)2025-10-21 17:50:43,353:finished processing per sample fasta files
+INFO(127353927317312)2025-10-21 17:50:43,353:worker thread for /tmp/qiime2/luis/data/7bff320e-1228-4877-ab5b-0f1f31f42855/data/PUF-BOU-7_3_L001_R1_001.fastq.gz finished
+INFO(135518281586496)2025-10-21 17:50:43,804:dereplicate seqs file /tmp/tmp5m1xiq4b/deblur_working_dir/PUF-JD14_8_L001_R1_001.fastq.gz.trim
+INFO(135518281586496)2025-10-21 17:50:43,828:remove_artifacts_seqs file /tmp/tmp5m1xiq4b/deblur_working_dir/PUF-JD14_8_L001_R1_001.fastq.gz.trim.derep
+INFO(128341513197376)2025-10-21 17:50:44,075:*************************
+INFO(128341513197376)2025-10-21 17:50:44,076:deblurring started
+WARNING(128341513197376)2025-10-21 17:50:44,076:deblur version 1.1.1 workflow started on /tmp/qiime2/luis/data/7bff320e-1228-4877-ab5b-0f1f31f42855/data/PUF-IPEX-3_5_L001_R1_001.fastq.gz
+WARNING(128341513197376)2025-10-21 17:50:44,076:parameters: {'seqs_fp': '/tmp/qiime2/luis/data/7bff320e-1228-4877-ab5b-0f1f31f42855/data/PUF-IPEX-3_5_L001_R1_001.fastq.gz', 'output_dir': '/tmp/tmp5m1xiq4b', 'pos_ref_fp': ('/tmp/qiime2/luis/data/24c3fd7b-d797-45d8-8c62-edb383bdc88c/data/dna-sequences.fasta',), 'pos_ref_db_fp': ('/tmp/tmp5m1xiq4b/deblur_working_dir/dna-sequences',), 'neg_ref_fp': (), 'neg_ref_db_fp': ('/tmp/tmp5m1xiq4b/deblur_working_dir/artifacts',), 'overwrite': True, 'mean_error': 0.005, 'error_dist': [1.0, 0.06, 0.02, 0.02, 0.01, 0.005, 0.005, 0.005, 0.001, 0.001, 0.001, 0.0005], 'indel_prob': 0.01, 'indel_max': 3, 'trim_length': -1, 'left_trim_length': 0, 'min_reads': 1, 'min_size': 1, 'threads_per_sample': 1, 'keep_tmp_files': True, 'log_level': 2, 'log_file': '/home/luis/Documents/Projects/PUF_PAS_Metabarcoding/01_QIIME/01_Deblur/bin/deblur.log', 'jobs_to_start': 1, 'is_worker_thread': True, 'logger': <Logger __main__ (INFO)>}
+INFO(128341513197376)2025-10-21 17:50:44,076:error_dist is : [1.0, 0.06, 0.02, 0.02, 0.01, 0.005, 0.005, 0.005, 0.001, 0.001, 0.001, 0.0005]
+INFO(128341513197376)2025-10-21 17:50:44,076:deblur worker thread started
+INFO(128341513197376)2025-10-21 17:50:44,076:processing per sample fasta files
+INFO(128341513197376)2025-10-21 17:50:44,076:--------------------------------------------------------
+INFO(128341513197376)2025-10-21 17:50:44,076:launch_workflow for file /tmp/qiime2/luis/data/7bff320e-1228-4877-ab5b-0f1f31f42855/data/PUF-IPEX-3_5_L001_R1_001.fastq.gz
+INFO(135518281586496)2025-10-21 17:50:44,268:total sequences 4502, passing sequences 4502, failing sequences 0
+INFO(135518281586496)2025-10-21 17:50:44,268:multiple_sequence_alignment seqs file /tmp/tmp5m1xiq4b/deblur_working_dir/PUF-JD14_8_L001_R1_001.fastq.gz.trim.derep.no_artifacts
+INFO(125001161799488)2025-10-21 17:50:44,285:deblurring 297 sequences
+INFO(125001161799488)2025-10-21 17:50:44,318:84 unique sequences left following deblurring
+INFO(125001161799488)2025-10-21 17:50:44,318:remove_chimeras_denovo_from_seqs seqs file /tmp/tmp5m1xiq4b/deblur_working_dir/PUF-IPEX-1_4_L001_R1_001.fastq.gz.trim.derep.no_artifacts.msa.deblurto working dir /tmp/tmp5m1xiq4b/deblur_working_dir
+INFO(125001161799488)2025-10-21 17:50:44,369:finished processing file
+INFO(125001161799488)2025-10-21 17:50:44,370:finished processing per sample fasta files
+INFO(125001161799488)2025-10-21 17:50:44,370:worker thread for /tmp/qiime2/luis/data/7bff320e-1228-4877-ab5b-0f1f31f42855/data/PUF-IPEX-1_4_L001_R1_001.fastq.gz finished
+INFO(125487607482176)2025-10-21 17:50:45,113:*************************
+INFO(125487607482176)2025-10-21 17:50:45,113:deblurring started
+WARNING(125487607482176)2025-10-21 17:50:45,113:deblur version 1.1.1 workflow started on /tmp/qiime2/luis/data/7bff320e-1228-4877-ab5b-0f1f31f42855/data/PUF-BOT-3_2_L001_R1_001.fastq.gz
+WARNING(125487607482176)2025-10-21 17:50:45,113:parameters: {'seqs_fp': '/tmp/qiime2/luis/data/7bff320e-1228-4877-ab5b-0f1f31f42855/data/PUF-BOT-3_2_L001_R1_001.fastq.gz', 'output_dir': '/tmp/tmp5m1xiq4b', 'pos_ref_fp': ('/tmp/qiime2/luis/data/24c3fd7b-d797-45d8-8c62-edb383bdc88c/data/dna-sequences.fasta',), 'pos_ref_db_fp': ('/tmp/tmp5m1xiq4b/deblur_working_dir/dna-sequences',), 'neg_ref_fp': (), 'neg_ref_db_fp': ('/tmp/tmp5m1xiq4b/deblur_working_dir/artifacts',), 'overwrite': True, 'mean_error': 0.005, 'error_dist': [1.0, 0.06, 0.02, 0.02, 0.01, 0.005, 0.005, 0.005, 0.001, 0.001, 0.001, 0.0005], 'indel_prob': 0.01, 'indel_max': 3, 'trim_length': -1, 'left_trim_length': 0, 'min_reads': 1, 'min_size': 1, 'threads_per_sample': 1, 'keep_tmp_files': True, 'log_level': 2, 'log_file': '/home/luis/Documents/Projects/PUF_PAS_Metabarcoding/01_QIIME/01_Deblur/bin/deblur.log', 'jobs_to_start': 1, 'is_worker_thread': True, 'logger': <Logger __main__ (INFO)>}
+INFO(125487607482176)2025-10-21 17:50:45,113:error_dist is : [1.0, 0.06, 0.02, 0.02, 0.01, 0.005, 0.005, 0.005, 0.001, 0.001, 0.001, 0.0005]
+INFO(125487607482176)2025-10-21 17:50:45,113:deblur worker thread started
+INFO(125487607482176)2025-10-21 17:50:45,113:processing per sample fasta files
+INFO(125487607482176)2025-10-21 17:50:45,113:--------------------------------------------------------
+INFO(125487607482176)2025-10-21 17:50:45,113:launch_workflow for file /tmp/qiime2/luis/data/7bff320e-1228-4877-ab5b-0f1f31f42855/data/PUF-BOT-3_2_L001_R1_001.fastq.gz
+INFO(125487607482176)2025-10-21 17:50:45,141:dereplicate seqs file /tmp/tmp5m1xiq4b/deblur_working_dir/PUF-BOT-3_2_L001_R1_001.fastq.gz.trim
+INFO(125487607482176)2025-10-21 17:50:45,143:remove_artifacts_seqs file /tmp/tmp5m1xiq4b/deblur_working_dir/PUF-BOT-3_2_L001_R1_001.fastq.gz.trim.derep
+INFO(133687583115072)2025-10-21 17:50:45,194:dereplicate seqs file /tmp/tmp5m1xiq4b/deblur_working_dir/PUF-MBO-4_9_L001_R1_001.fastq.gz.trim
+INFO(133687583115072)2025-10-21 17:50:45,230:remove_artifacts_seqs file /tmp/tmp5m1xiq4b/deblur_working_dir/PUF-MBO-4_9_L001_R1_001.fastq.gz.trim.derep
+INFO(125487607482176)2025-10-21 17:50:45,430:total sequences 71, passing sequences 71, failing sequences 0
+INFO(125487607482176)2025-10-21 17:50:45,430:multiple_sequence_alignment seqs file /tmp/tmp5m1xiq4b/deblur_working_dir/PUF-BOT-3_2_L001_R1_001.fastq.gz.trim.derep.no_artifacts
+INFO(136373226415936)2025-10-21 17:50:45,523:dereplicate seqs file /tmp/tmp5m1xiq4b/deblur_working_dir/PUF-IPEX-8_6_L001_R1_001.fastq.gz.trim
+INFO(136373226415936)2025-10-21 17:50:45,579:remove_artifacts_seqs file /tmp/tmp5m1xiq4b/deblur_working_dir/PUF-IPEX-8_6_L001_R1_001.fastq.gz.trim.derep
+INFO(133687583115072)2025-10-21 17:50:45,699:total sequences 6291, passing sequences 6291, failing sequences 0
+INFO(133687583115072)2025-10-21 17:50:45,699:multiple_sequence_alignment seqs file /tmp/tmp5m1xiq4b/deblur_working_dir/PUF-MBO-4_9_L001_R1_001.fastq.gz.trim.derep.no_artifacts
+INFO(136373226415936)2025-10-21 17:50:46,167:total sequences 10309, passing sequences 10309, failing sequences 0
+INFO(136373226415936)2025-10-21 17:50:46,167:multiple_sequence_alignment seqs file /tmp/tmp5m1xiq4b/deblur_working_dir/PUF-IPEX-8_6_L001_R1_001.fastq.gz.trim.derep.no_artifacts
+INFO(128341513197376)2025-10-21 17:50:46,521:dereplicate seqs file /tmp/tmp5m1xiq4b/deblur_working_dir/PUF-IPEX-3_5_L001_R1_001.fastq.gz.trim
+INFO(128341513197376)2025-10-21 17:50:46,551:remove_artifacts_seqs file /tmp/tmp5m1xiq4b/deblur_working_dir/PUF-IPEX-3_5_L001_R1_001.fastq.gz.trim.derep
+INFO(128341513197376)2025-10-21 17:50:46,965:total sequences 3619, passing sequences 3619, failing sequences 0
+INFO(128341513197376)2025-10-21 17:50:46,965:multiple_sequence_alignment seqs file /tmp/tmp5m1xiq4b/deblur_working_dir/PUF-IPEX-3_5_L001_R1_001.fastq.gz.trim.derep.no_artifacts
+INFO(125487607482176)2025-10-21 17:50:48,008:deblurring 71 sequences
+INFO(125487607482176)2025-10-21 17:50:48,009:6 unique sequences left following deblurring
+INFO(125487607482176)2025-10-21 17:50:48,009:remove_chimeras_denovo_from_seqs seqs file /tmp/tmp5m1xiq4b/deblur_working_dir/PUF-BOT-3_2_L001_R1_001.fastq.gz.trim.derep.no_artifacts.msa.deblurto working dir /tmp/tmp5m1xiq4b/deblur_working_dir
+INFO(125487607482176)2025-10-21 17:50:48,020:finished processing file
+INFO(125487607482176)2025-10-21 17:50:48,020:finished processing per sample fasta files
+INFO(125487607482176)2025-10-21 17:50:48,020:worker thread for /tmp/qiime2/luis/data/7bff320e-1228-4877-ab5b-0f1f31f42855/data/PUF-BOT-3_2_L001_R1_001.fastq.gz finished
+INFO(129664000919360)2025-10-21 17:50:48,807:*************************
+INFO(129664000919360)2025-10-21 17:50:48,807:deblurring started
+WARNING(129664000919360)2025-10-21 17:50:48,808:deblur version 1.1.1 workflow started on /tmp/qiime2/luis/data/7bff320e-1228-4877-ab5b-0f1f31f42855/data/PUF-JD-10_7_L001_R1_001.fastq.gz
+WARNING(129664000919360)2025-10-21 17:50:48,808:parameters: {'seqs_fp': '/tmp/qiime2/luis/data/7bff320e-1228-4877-ab5b-0f1f31f42855/data/PUF-JD-10_7_L001_R1_001.fastq.gz', 'output_dir': '/tmp/tmp5m1xiq4b', 'pos_ref_fp': ('/tmp/qiime2/luis/data/24c3fd7b-d797-45d8-8c62-edb383bdc88c/data/dna-sequences.fasta',), 'pos_ref_db_fp': ('/tmp/tmp5m1xiq4b/deblur_working_dir/dna-sequences',), 'neg_ref_fp': (), 'neg_ref_db_fp': ('/tmp/tmp5m1xiq4b/deblur_working_dir/artifacts',), 'overwrite': True, 'mean_error': 0.005, 'error_dist': [1.0, 0.06, 0.02, 0.02, 0.01, 0.005, 0.005, 0.005, 0.001, 0.001, 0.001, 0.0005], 'indel_prob': 0.01, 'indel_max': 3, 'trim_length': -1, 'left_trim_length': 0, 'min_reads': 1, 'min_size': 1, 'threads_per_sample': 1, 'keep_tmp_files': True, 'log_level': 2, 'log_file': '/home/luis/Documents/Projects/PUF_PAS_Metabarcoding/01_QIIME/01_Deblur/bin/deblur.log', 'jobs_to_start': 1, 'is_worker_thread': True, 'logger': <Logger __main__ (INFO)>}
+INFO(129664000919360)2025-10-21 17:50:48,808:error_dist is : [1.0, 0.06, 0.02, 0.02, 0.01, 0.005, 0.005, 0.005, 0.001, 0.001, 0.001, 0.0005]
+INFO(129664000919360)2025-10-21 17:50:48,808:deblur worker thread started
+INFO(129664000919360)2025-10-21 17:50:48,808:processing per sample fasta files
+INFO(129664000919360)2025-10-21 17:50:48,808:--------------------------------------------------------
+INFO(129664000919360)2025-10-21 17:50:48,808:launch_workflow for file /tmp/qiime2/luis/data/7bff320e-1228-4877-ab5b-0f1f31f42855/data/PUF-JD-10_7_L001_R1_001.fastq.gz
+INFO(123492994094912)2025-10-21 17:50:53,921:deblurring 2995 sequences
+INFO(123492994094912)2025-10-21 17:50:54,051:36 unique sequences left following deblurring
+INFO(123492994094912)2025-10-21 17:50:54,052:remove_chimeras_denovo_from_seqs seqs file /tmp/tmp5m1xiq4b/deblur_working_dir/PUF-BOT-10_1_L001_R1_001.fastq.gz.trim.derep.no_artifacts.msa.deblurto working dir /tmp/tmp5m1xiq4b/deblur_working_dir
+INFO(123492994094912)2025-10-21 17:50:54,075:finished processing file
+INFO(123492994094912)2025-10-21 17:50:54,075:finished processing per sample fasta files
+INFO(123492994094912)2025-10-21 17:50:54,075:worker thread for /tmp/qiime2/luis/data/7bff320e-1228-4877-ab5b-0f1f31f42855/data/PUF-BOT-10_1_L001_R1_001.fastq.gz finished
+INFO(129664000919360)2025-10-21 17:50:54,803:dereplicate seqs file /tmp/tmp5m1xiq4b/deblur_working_dir/PUF-JD-10_7_L001_R1_001.fastq.gz.trim
+INFO(129664000919360)2025-10-21 17:50:54,875:remove_artifacts_seqs file /tmp/tmp5m1xiq4b/deblur_working_dir/PUF-JD-10_7_L001_R1_001.fastq.gz.trim.derep
+INFO(129664000919360)2025-10-21 17:50:55,494:total sequences 11651, passing sequences 11651, failing sequences 0
+INFO(129664000919360)2025-10-21 17:50:55,494:multiple_sequence_alignment seqs file /tmp/tmp5m1xiq4b/deblur_working_dir/PUF-JD-10_7_L001_R1_001.fastq.gz.trim.derep.no_artifacts
+INFO(128341513197376)2025-10-21 17:51:02,160:deblurring 3619 sequences
+INFO(128341513197376)2025-10-21 17:51:02,834:177 unique sequences left following deblurring
+INFO(128341513197376)2025-10-21 17:51:02,835:remove_chimeras_denovo_from_seqs seqs file /tmp/tmp5m1xiq4b/deblur_working_dir/PUF-IPEX-3_5_L001_R1_001.fastq.gz.trim.derep.no_artifacts.msa.deblurto working dir /tmp/tmp5m1xiq4b/deblur_working_dir
+INFO(128341513197376)2025-10-21 17:51:02,941:finished processing file
+INFO(128341513197376)2025-10-21 17:51:02,941:finished processing per sample fasta files
+INFO(128341513197376)2025-10-21 17:51:02,941:worker thread for /tmp/qiime2/luis/data/7bff320e-1228-4877-ab5b-0f1f31f42855/data/PUF-IPEX-3_5_L001_R1_001.fastq.gz finished
+INFO(135518281586496)2025-10-21 17:51:07,295:deblurring 4502 sequences
+INFO(135518281586496)2025-10-21 17:51:07,794:101 unique sequences left following deblurring
+INFO(135518281586496)2025-10-21 17:51:07,796:remove_chimeras_denovo_from_seqs seqs file /tmp/tmp5m1xiq4b/deblur_working_dir/PUF-JD14_8_L001_R1_001.fastq.gz.trim.derep.no_artifacts.msa.deblurto working dir /tmp/tmp5m1xiq4b/deblur_working_dir
+INFO(135518281586496)2025-10-21 17:51:07,857:finished processing file
+INFO(135518281586496)2025-10-21 17:51:07,857:finished processing per sample fasta files
+INFO(135518281586496)2025-10-21 17:51:07,857:worker thread for /tmp/qiime2/luis/data/7bff320e-1228-4877-ab5b-0f1f31f42855/data/PUF-JD14_8_L001_R1_001.fastq.gz finished
+INFO(133687583115072)2025-10-21 17:51:24,669:deblurring 6291 sequences
+INFO(133687583115072)2025-10-21 17:51:25,234:89 unique sequences left following deblurring
+INFO(133687583115072)2025-10-21 17:51:25,235:remove_chimeras_denovo_from_seqs seqs file /tmp/tmp5m1xiq4b/deblur_working_dir/PUF-MBO-4_9_L001_R1_001.fastq.gz.trim.derep.no_artifacts.msa.deblurto working dir /tmp/tmp5m1xiq4b/deblur_working_dir
+INFO(133687583115072)2025-10-21 17:51:25,288:finished processing file
+INFO(133687583115072)2025-10-21 17:51:25,289:finished processing per sample fasta files
+INFO(133687583115072)2025-10-21 17:51:25,289:worker thread for /tmp/qiime2/luis/data/7bff320e-1228-4877-ab5b-0f1f31f42855/data/PUF-MBO-4_9_L001_R1_001.fastq.gz finished
+INFO(136373226415936)2025-10-21 17:52:19,039:deblurring 10309 sequences
+INFO(136373226415936)2025-10-21 17:52:22,204:319 unique sequences left following deblurring
+INFO(136373226415936)2025-10-21 17:52:22,208:remove_chimeras_denovo_from_seqs seqs file /tmp/tmp5m1xiq4b/deblur_working_dir/PUF-IPEX-8_6_L001_R1_001.fastq.gz.trim.derep.no_artifacts.msa.deblurto working dir /tmp/tmp5m1xiq4b/deblur_working_dir
+INFO(136373226415936)2025-10-21 17:52:22,399:finished processing file
+INFO(136373226415936)2025-10-21 17:52:22,400:finished processing per sample fasta files
+INFO(136373226415936)2025-10-21 17:52:22,400:worker thread for /tmp/qiime2/luis/data/7bff320e-1228-4877-ab5b-0f1f31f42855/data/PUF-IPEX-8_6_L001_R1_001.fastq.gz finished
+INFO(129664000919360)2025-10-21 17:52:49,912:deblurring 11651 sequences
+INFO(129664000919360)2025-10-21 17:52:54,667:491 unique sequences left following deblurring
+INFO(129664000919360)2025-10-21 17:52:54,670:remove_chimeras_denovo_from_seqs seqs file /tmp/tmp5m1xiq4b/deblur_working_dir/PUF-JD-10_7_L001_R1_001.fastq.gz.trim.derep.no_artifacts.msa.deblurto working dir /tmp/tmp5m1xiq4b/deblur_working_dir
+INFO(129664000919360)2025-10-21 17:52:54,955:finished processing file
+INFO(129664000919360)2025-10-21 17:52:54,957:finished processing per sample fasta files
+INFO(129664000919360)2025-10-21 17:52:54,957:worker thread for /tmp/qiime2/luis/data/7bff320e-1228-4877-ab5b-0f1f31f42855/data/PUF-JD-10_7_L001_R1_001.fastq.gz finished
+INFO(129603158550336)2025-10-21 17:52:55,055:create_otu_table for 10 samples, into output table /tmp/tmp5m1xiq4b/all.biom
+INFO(129603158550336)2025-10-21 17:52:55,081:for output biom table loaded 10 samples, 1001 unique sequences
+INFO(129603158550336)2025-10-21 17:52:55,082:keeping 1001 (out of 1001 sequences) with >=1 reads
+INFO(129603158550336)2025-10-21 17:52:55,094:saved to biom file /tmp/tmp5m1xiq4b/all.biom
+INFO(129603158550336)2025-10-21 17:52:55,096:saved sequence fasta file to /tmp/tmp5m1xiq4b/all.seqs.fa
+INFO(129603158550336)2025-10-21 17:52:55,096:getting 16s sequences from the biom table
+INFO(129603158550336)2025-10-21 17:52:55,096:remove_artifacts_seqs file /tmp/tmp5m1xiq4b/all.seqs.fa
+INFO(129603158550336)2025-10-21 17:54:07,567:total sequences 1001, passing sequences 941, failing sequences 60
+WARNING(129603158550336)2025-10-21 17:54:07,618:removed 3 samples with reads per sample<1
+INFO(129603158550336)2025-10-21 17:54:07,621:wrote artifact only filtered biom table to /tmp/tmp5m1xiq4b/reference-non-hit.biom
+INFO(129603158550336)2025-10-21 17:54:07,621:saved biom table sequences to fasta file /tmp/tmp5m1xiq4b/reference-non-hit.seqs.fa
+INFO(129603158550336)2025-10-21 17:54:07,626:wrote 16s filtered biom table to /tmp/tmp5m1xiq4b/reference-hit.biom
+INFO(129603158550336)2025-10-21 17:54:07,628:saved biom table sequences to fasta file /tmp/tmp5m1xiq4b/reference-hit.seqs.fa
+INFO(129603158550336)2025-10-21 17:54:07,628:Keeping temp files
+INFO(129603158550336)2025-10-21 17:54:07,628:deblur workflow finished
+INFO(129603158550336)2025-10-21 17:54:07,628:output saved to /tmp/tmp5m1xiq4b/all.biom
+INFO(129603158550336)2025-10-21 17:54:07,628:------------------
+INFO(128303506761536)2025-10-21 17:54:32,242:*************************
+INFO(128303506761536)2025-10-21 17:54:32,242:deblurring started
+WARNING(128303506761536)2025-10-21 17:54:32,242:deblur version 1.1.1 workflow started on /tmp/qiime2/luis/data/139ac298-f5b7-4627-aa6b-b8c3bf3c7366/data
+WARNING(128303506761536)2025-10-21 17:54:32,242:parameters: {'seqs_fp': '/tmp/qiime2/luis/data/139ac298-f5b7-4627-aa6b-b8c3bf3c7366/data', 'output_dir': '/tmp/tmpinwbl2qv', 'pos_ref_fp': ('/tmp/qiime2/luis/data/24c3fd7b-d797-45d8-8c62-edb383bdc88c/data/dna-sequences.fasta',), 'pos_ref_db_fp': (), 'neg_ref_fp': (), 'neg_ref_db_fp': (), 'overwrite': True, 'mean_error': 0.005, 'error_dist': [1.0, 0.06, 0.02, 0.02, 0.01, 0.005, 0.005, 0.005, 0.001, 0.001, 0.001, 0.0005], 'indel_prob': 0.01, 'indel_max': 3, 'trim_length': -1, 'left_trim_length': 0, 'min_reads': 1, 'min_size': 1, 'threads_per_sample': 1, 'keep_tmp_files': True, 'log_level': 2, 'log_file': '/home/luis/Documents/Projects/PUF_PAS_Metabarcoding/01_QIIME/01_Deblur/bin/deblur.log', 'jobs_to_start': 6, 'is_worker_thread': False, 'logger': <Logger __main__ (INFO)>}
+INFO(128303506761536)2025-10-21 17:54:32,242:error_dist is : [1.0, 0.06, 0.02, 0.02, 0.01, 0.005, 0.005, 0.005, 0.001, 0.001, 0.001, 0.0005]
+INFO(128303506761536)2025-10-21 17:54:32,242:deblur main program started
+INFO(128303506761536)2025-10-21 17:54:32,242:processing directory /tmp/qiime2/luis/data/139ac298-f5b7-4627-aa6b-b8c3bf3c7366/data
+INFO(128303506761536)2025-10-21 17:54:32,243:building negative db sortmerna index files
+INFO(128303506761536)2025-10-21 17:54:32,243:build_index_sortmerna files ['/home/luis/miniconda3/envs/qiime2/lib/python3.10/site-packages/deblur/support_files/artifacts.fa'] to dir /tmp/tmpinwbl2qv/deblur_working_dir
+INFO(128303506761536)2025-10-21 17:54:32,271:building positive db sortmerna index files
+INFO(128303506761536)2025-10-21 17:54:32,272:build_index_sortmerna files ('/tmp/qiime2/luis/data/24c3fd7b-d797-45d8-8c62-edb383bdc88c/data/dna-sequences.fasta',) to dir /tmp/tmpinwbl2qv/deblur_working_dir
+INFO(128303506761536)2025-10-21 18:44:36,181:parallel processing per sample fasta files
+INFO(128303506761536)2025-10-21 18:44:36,190:parallel deblur started for 11 inputs
+INFO(127174462719808)2025-10-21 18:44:36,836:*************************
+INFO(127174462719808)2025-10-21 18:44:36,836:deblurring started
+WARNING(127174462719808)2025-10-21 18:44:36,836:deblur version 1.1.1 workflow started on /tmp/qiime2/luis/data/139ac298-f5b7-4627-aa6b-b8c3bf3c7366/data/ctrl-PCR-neg-PUF_10_L001_R1_001.fastq.gz
+WARNING(127174462719808)2025-10-21 18:44:36,837:parameters: {'seqs_fp': '/tmp/qiime2/luis/data/139ac298-f5b7-4627-aa6b-b8c3bf3c7366/data/ctrl-PCR-neg-PUF_10_L001_R1_001.fastq.gz', 'output_dir': '/tmp/tmpinwbl2qv', 'pos_ref_fp': ('/tmp/qiime2/luis/data/24c3fd7b-d797-45d8-8c62-edb383bdc88c/data/dna-sequences.fasta',), 'pos_ref_db_fp': ('/tmp/tmpinwbl2qv/deblur_working_dir/dna-sequences',), 'neg_ref_fp': (), 'neg_ref_db_fp': ('/tmp/tmpinwbl2qv/deblur_working_dir/artifacts',), 'overwrite': True, 'mean_error': 0.005, 'error_dist': [1.0, 0.06, 0.02, 0.02, 0.01, 0.005, 0.005, 0.005, 0.001, 0.001, 0.001, 0.0005], 'indel_prob': 0.01, 'indel_max': 3, 'trim_length': -1, 'left_trim_length': 0, 'min_reads': 1, 'min_size': 1, 'threads_per_sample': 1, 'keep_tmp_files': True, 'log_level': 2, 'log_file': '/home/luis/Documents/Projects/PUF_PAS_Metabarcoding/01_QIIME/01_Deblur/bin/deblur.log', 'jobs_to_start': 1, 'is_worker_thread': True, 'logger': <Logger __main__ (INFO)>}
+INFO(127174462719808)2025-10-21 18:44:36,837:error_dist is : [1.0, 0.06, 0.02, 0.02, 0.01, 0.005, 0.005, 0.005, 0.001, 0.001, 0.001, 0.0005]
+INFO(127174462719808)2025-10-21 18:44:36,837:deblur worker thread started
+INFO(127174462719808)2025-10-21 18:44:36,837:processing per sample fasta files
+INFO(127174462719808)2025-10-21 18:44:36,837:--------------------------------------------------------
+INFO(127174462719808)2025-10-21 18:44:36,837:launch_workflow for file /tmp/qiime2/luis/data/139ac298-f5b7-4627-aa6b-b8c3bf3c7366/data/ctrl-PCR-neg-PUF_10_L001_R1_001.fastq.gz
+INFO(131636440098624)2025-10-21 18:44:36,837:*************************
+INFO(131636440098624)2025-10-21 18:44:36,837:deblurring started
+WARNING(131636440098624)2025-10-21 18:44:36,838:deblur version 1.1.1 workflow started on /tmp/qiime2/luis/data/139ac298-f5b7-4627-aa6b-b8c3bf3c7366/data/PUF-IPEX-8_6_L001_R1_001.fastq.gz
+INFO(140321044277056)2025-10-21 18:44:36,838:*************************
+INFO(140321044277056)2025-10-21 18:44:36,838:deblurring started
+WARNING(131636440098624)2025-10-21 18:44:36,838:parameters: {'seqs_fp': '/tmp/qiime2/luis/data/139ac298-f5b7-4627-aa6b-b8c3bf3c7366/data/PUF-IPEX-8_6_L001_R1_001.fastq.gz', 'output_dir': '/tmp/tmpinwbl2qv', 'pos_ref_fp': ('/tmp/qiime2/luis/data/24c3fd7b-d797-45d8-8c62-edb383bdc88c/data/dna-sequences.fasta',), 'pos_ref_db_fp': ('/tmp/tmpinwbl2qv/deblur_working_dir/dna-sequences',), 'neg_ref_fp': (), 'neg_ref_db_fp': ('/tmp/tmpinwbl2qv/deblur_working_dir/artifacts',), 'overwrite': True, 'mean_error': 0.005, 'error_dist': [1.0, 0.06, 0.02, 0.02, 0.01, 0.005, 0.005, 0.005, 0.001, 0.001, 0.001, 0.0005], 'indel_prob': 0.01, 'indel_max': 3, 'trim_length': -1, 'left_trim_length': 0, 'min_reads': 1, 'min_size': 1, 'threads_per_sample': 1, 'keep_tmp_files': True, 'log_level': 2, 'log_file': '/home/luis/Documents/Projects/PUF_PAS_Metabarcoding/01_QIIME/01_Deblur/bin/deblur.log', 'jobs_to_start': 1, 'is_worker_thread': True, 'logger': <Logger __main__ (INFO)>}
+INFO(131636440098624)2025-10-21 18:44:36,838:error_dist is : [1.0, 0.06, 0.02, 0.02, 0.01, 0.005, 0.005, 0.005, 0.001, 0.001, 0.001, 0.0005]
+INFO(131636440098624)2025-10-21 18:44:36,838:deblur worker thread started
+INFO(131636440098624)2025-10-21 18:44:36,838:processing per sample fasta files
+INFO(131636440098624)2025-10-21 18:44:36,838:--------------------------------------------------------
+INFO(131636440098624)2025-10-21 18:44:36,838:launch_workflow for file /tmp/qiime2/luis/data/139ac298-f5b7-4627-aa6b-b8c3bf3c7366/data/PUF-IPEX-8_6_L001_R1_001.fastq.gz
+WARNING(140321044277056)2025-10-21 18:44:36,838:deblur version 1.1.1 workflow started on /tmp/qiime2/luis/data/139ac298-f5b7-4627-aa6b-b8c3bf3c7366/data/PUF-BOU-7_3_L001_R1_001.fastq.gz
+WARNING(140321044277056)2025-10-21 18:44:36,838:parameters: {'seqs_fp': '/tmp/qiime2/luis/data/139ac298-f5b7-4627-aa6b-b8c3bf3c7366/data/PUF-BOU-7_3_L001_R1_001.fastq.gz', 'output_dir': '/tmp/tmpinwbl2qv', 'pos_ref_fp': ('/tmp/qiime2/luis/data/24c3fd7b-d797-45d8-8c62-edb383bdc88c/data/dna-sequences.fasta',), 'pos_ref_db_fp': ('/tmp/tmpinwbl2qv/deblur_working_dir/dna-sequences',), 'neg_ref_fp': (), 'neg_ref_db_fp': ('/tmp/tmpinwbl2qv/deblur_working_dir/artifacts',), 'overwrite': True, 'mean_error': 0.005, 'error_dist': [1.0, 0.06, 0.02, 0.02, 0.01, 0.005, 0.005, 0.005, 0.001, 0.001, 0.001, 0.0005], 'indel_prob': 0.01, 'indel_max': 3, 'trim_length': -1, 'left_trim_length': 0, 'min_reads': 1, 'min_size': 1, 'threads_per_sample': 1, 'keep_tmp_files': True, 'log_level': 2, 'log_file': '/home/luis/Documents/Projects/PUF_PAS_Metabarcoding/01_QIIME/01_Deblur/bin/deblur.log', 'jobs_to_start': 1, 'is_worker_thread': True, 'logger': <Logger __main__ (INFO)>}
+INFO(140321044277056)2025-10-21 18:44:36,838:error_dist is : [1.0, 0.06, 0.02, 0.02, 0.01, 0.005, 0.005, 0.005, 0.001, 0.001, 0.001, 0.0005]
+INFO(140321044277056)2025-10-21 18:44:36,838:deblur worker thread started
+INFO(140321044277056)2025-10-21 18:44:36,838:processing per sample fasta files
+INFO(140321044277056)2025-10-21 18:44:36,838:--------------------------------------------------------
+INFO(140321044277056)2025-10-21 18:44:36,838:launch_workflow for file /tmp/qiime2/luis/data/139ac298-f5b7-4627-aa6b-b8c3bf3c7366/data/PUF-BOU-7_3_L001_R1_001.fastq.gz
+WARNING(127174462719808)2025-10-21 18:44:36,846:input file /tmp/qiime2/luis/data/139ac298-f5b7-4627-aa6b-b8c3bf3c7366/data/ctrl-PCR-neg-PUF_10_L001_R1_001.fastq.gz does not appear to be FASTA or FASTQ
+INFO(127174462719808)2025-10-21 18:44:36,847:dereplicate seqs file /tmp/tmpinwbl2qv/deblur_working_dir/ctrl-PCR-neg-PUF_10_L001_R1_001.fastq.gz.trim
+INFO(127174462719808)2025-10-21 18:44:36,850:remove_artifacts_seqs file /tmp/tmpinwbl2qv/deblur_working_dir/ctrl-PCR-neg-PUF_10_L001_R1_001.fastq.gz.trim.derep
+WARNING(127174462719808)2025-10-21 18:44:36,850:file /tmp/tmpinwbl2qv/deblur_working_dir/ctrl-PCR-neg-PUF_10_L001_R1_001.fastq.gz.trim.derep has size 0, continuing
+WARNING(127174462719808)2025-10-21 18:44:36,850:remove artifacts failed, aborting
+WARNING(127174462719808)2025-10-21 18:44:36,850:deblurring failed for file /tmp/qiime2/luis/data/139ac298-f5b7-4627-aa6b-b8c3bf3c7366/data/ctrl-PCR-neg-PUF_10_L001_R1_001.fastq.gz
+INFO(127174462719808)2025-10-21 18:44:36,850:finished processing per sample fasta files
+INFO(127174462719808)2025-10-21 18:44:36,850:worker thread for /tmp/qiime2/luis/data/139ac298-f5b7-4627-aa6b-b8c3bf3c7366/data/ctrl-PCR-neg-PUF_10_L001_R1_001.fastq.gz finished
+INFO(137125313713984)2025-10-21 18:44:36,852:*************************
+INFO(137125313713984)2025-10-21 18:44:36,852:deblurring started
+INFO(127315508954944)2025-10-21 18:44:36,852:*************************
+INFO(127315508954944)2025-10-21 18:44:36,852:deblurring started
+WARNING(137125313713984)2025-10-21 18:44:36,853:deblur version 1.1.1 workflow started on /tmp/qiime2/luis/data/139ac298-f5b7-4627-aa6b-b8c3bf3c7366/data/CTRL-neg-extraction-PUF_0_L001_R1_001.fastq.gz
+WARNING(127315508954944)2025-10-21 18:44:36,853:deblur version 1.1.1 workflow started on /tmp/qiime2/luis/data/139ac298-f5b7-4627-aa6b-b8c3bf3c7366/data/PUF-IPEX-1_4_L001_R1_001.fastq.gz
+WARNING(137125313713984)2025-10-21 18:44:36,853:parameters: {'seqs_fp': '/tmp/qiime2/luis/data/139ac298-f5b7-4627-aa6b-b8c3bf3c7366/data/CTRL-neg-extraction-PUF_0_L001_R1_001.fastq.gz', 'output_dir': '/tmp/tmpinwbl2qv', 'pos_ref_fp': ('/tmp/qiime2/luis/data/24c3fd7b-d797-45d8-8c62-edb383bdc88c/data/dna-sequences.fasta',), 'pos_ref_db_fp': ('/tmp/tmpinwbl2qv/deblur_working_dir/dna-sequences',), 'neg_ref_fp': (), 'neg_ref_db_fp': ('/tmp/tmpinwbl2qv/deblur_working_dir/artifacts',), 'overwrite': True, 'mean_error': 0.005, 'error_dist': [1.0, 0.06, 0.02, 0.02, 0.01, 0.005, 0.005, 0.005, 0.001, 0.001, 0.001, 0.0005], 'indel_prob': 0.01, 'indel_max': 3, 'trim_length': -1, 'left_trim_length': 0, 'min_reads': 1, 'min_size': 1, 'threads_per_sample': 1, 'keep_tmp_files': True, 'log_level': 2, 'log_file': '/home/luis/Documents/Projects/PUF_PAS_Metabarcoding/01_QIIME/01_Deblur/bin/deblur.log', 'jobs_to_start': 1, 'is_worker_thread': True, 'logger': <Logger __main__ (INFO)>}
+WARNING(127315508954944)2025-10-21 18:44:36,853:parameters: {'seqs_fp': '/tmp/qiime2/luis/data/139ac298-f5b7-4627-aa6b-b8c3bf3c7366/data/PUF-IPEX-1_4_L001_R1_001.fastq.gz', 'output_dir': '/tmp/tmpinwbl2qv', 'pos_ref_fp': ('/tmp/qiime2/luis/data/24c3fd7b-d797-45d8-8c62-edb383bdc88c/data/dna-sequences.fasta',), 'pos_ref_db_fp': ('/tmp/tmpinwbl2qv/deblur_working_dir/dna-sequences',), 'neg_ref_fp': (), 'neg_ref_db_fp': ('/tmp/tmpinwbl2qv/deblur_working_dir/artifacts',), 'overwrite': True, 'mean_error': 0.005, 'error_dist': [1.0, 0.06, 0.02, 0.02, 0.01, 0.005, 0.005, 0.005, 0.001, 0.001, 0.001, 0.0005], 'indel_prob': 0.01, 'indel_max': 3, 'trim_length': -1, 'left_trim_length': 0, 'min_reads': 1, 'min_size': 1, 'threads_per_sample': 1, 'keep_tmp_files': True, 'log_level': 2, 'log_file': '/home/luis/Documents/Projects/PUF_PAS_Metabarcoding/01_QIIME/01_Deblur/bin/deblur.log', 'jobs_to_start': 1, 'is_worker_thread': True, 'logger': <Logger __main__ (INFO)>}
+INFO(137125313713984)2025-10-21 18:44:36,853:error_dist is : [1.0, 0.06, 0.02, 0.02, 0.01, 0.005, 0.005, 0.005, 0.001, 0.001, 0.001, 0.0005]
+INFO(137125313713984)2025-10-21 18:44:36,853:deblur worker thread started
+INFO(127315508954944)2025-10-21 18:44:36,853:error_dist is : [1.0, 0.06, 0.02, 0.02, 0.01, 0.005, 0.005, 0.005, 0.001, 0.001, 0.001, 0.0005]
+INFO(137125313713984)2025-10-21 18:44:36,853:processing per sample fasta files
+INFO(127315508954944)2025-10-21 18:44:36,853:deblur worker thread started
+INFO(137125313713984)2025-10-21 18:44:36,853:--------------------------------------------------------
+INFO(127315508954944)2025-10-21 18:44:36,853:processing per sample fasta files
+INFO(137125313713984)2025-10-21 18:44:36,853:launch_workflow for file /tmp/qiime2/luis/data/139ac298-f5b7-4627-aa6b-b8c3bf3c7366/data/CTRL-neg-extraction-PUF_0_L001_R1_001.fastq.gz
+INFO(127315508954944)2025-10-21 18:44:36,853:--------------------------------------------------------
+INFO(127315508954944)2025-10-21 18:44:36,853:launch_workflow for file /tmp/qiime2/luis/data/139ac298-f5b7-4627-aa6b-b8c3bf3c7366/data/PUF-IPEX-1_4_L001_R1_001.fastq.gz
+INFO(126503721908032)2025-10-21 18:44:36,857:*************************
+INFO(126503721908032)2025-10-21 18:44:36,857:deblurring started
+WARNING(126503721908032)2025-10-21 18:44:36,857:deblur version 1.1.1 workflow started on /tmp/qiime2/luis/data/139ac298-f5b7-4627-aa6b-b8c3bf3c7366/data/PUF-BOT-10_1_L001_R1_001.fastq.gz
+WARNING(126503721908032)2025-10-21 18:44:36,857:parameters: {'seqs_fp': '/tmp/qiime2/luis/data/139ac298-f5b7-4627-aa6b-b8c3bf3c7366/data/PUF-BOT-10_1_L001_R1_001.fastq.gz', 'output_dir': '/tmp/tmpinwbl2qv', 'pos_ref_fp': ('/tmp/qiime2/luis/data/24c3fd7b-d797-45d8-8c62-edb383bdc88c/data/dna-sequences.fasta',), 'pos_ref_db_fp': ('/tmp/tmpinwbl2qv/deblur_working_dir/dna-sequences',), 'neg_ref_fp': (), 'neg_ref_db_fp': ('/tmp/tmpinwbl2qv/deblur_working_dir/artifacts',), 'overwrite': True, 'mean_error': 0.005, 'error_dist': [1.0, 0.06, 0.02, 0.02, 0.01, 0.005, 0.005, 0.005, 0.001, 0.001, 0.001, 0.0005], 'indel_prob': 0.01, 'indel_max': 3, 'trim_length': -1, 'left_trim_length': 0, 'min_reads': 1, 'min_size': 1, 'threads_per_sample': 1, 'keep_tmp_files': True, 'log_level': 2, 'log_file': '/home/luis/Documents/Projects/PUF_PAS_Metabarcoding/01_QIIME/01_Deblur/bin/deblur.log', 'jobs_to_start': 1, 'is_worker_thread': True, 'logger': <Logger __main__ (INFO)>}
+INFO(126503721908032)2025-10-21 18:44:36,857:error_dist is : [1.0, 0.06, 0.02, 0.02, 0.01, 0.005, 0.005, 0.005, 0.001, 0.001, 0.001, 0.0005]
+INFO(126503721908032)2025-10-21 18:44:36,857:deblur worker thread started
+INFO(126503721908032)2025-10-21 18:44:36,857:processing per sample fasta files
+INFO(126503721908032)2025-10-21 18:44:36,857:--------------------------------------------------------
+INFO(126503721908032)2025-10-21 18:44:36,857:launch_workflow for file /tmp/qiime2/luis/data/139ac298-f5b7-4627-aa6b-b8c3bf3c7366/data/PUF-BOT-10_1_L001_R1_001.fastq.gz
+INFO(137125313713984)2025-10-21 18:44:36,860:dereplicate seqs file /tmp/tmpinwbl2qv/deblur_working_dir/CTRL-neg-extraction-PUF_0_L001_R1_001.fastq.gz.trim
+INFO(137125313713984)2025-10-21 18:44:36,863:remove_artifacts_seqs file /tmp/tmpinwbl2qv/deblur_working_dir/CTRL-neg-extraction-PUF_0_L001_R1_001.fastq.gz.trim.derep
+INFO(127315508954944)2025-10-21 18:44:36,931:dereplicate seqs file /tmp/tmpinwbl2qv/deblur_working_dir/PUF-IPEX-1_4_L001_R1_001.fastq.gz.trim
+INFO(127315508954944)2025-10-21 18:44:36,935:remove_artifacts_seqs file /tmp/tmpinwbl2qv/deblur_working_dir/PUF-IPEX-1_4_L001_R1_001.fastq.gz.trim.derep
+INFO(140321044277056)2025-10-21 18:44:37,096:dereplicate seqs file /tmp/tmpinwbl2qv/deblur_working_dir/PUF-BOU-7_3_L001_R1_001.fastq.gz.trim
+INFO(140321044277056)2025-10-21 18:44:37,108:remove_artifacts_seqs file /tmp/tmpinwbl2qv/deblur_working_dir/PUF-BOU-7_3_L001_R1_001.fastq.gz.trim.derep
+INFO(137125313713984)2025-10-21 18:44:37,178:total sequences 15, passing sequences 15, failing sequences 0
+INFO(137125313713984)2025-10-21 18:44:37,178:multiple_sequence_alignment seqs file /tmp/tmpinwbl2qv/deblur_working_dir/CTRL-neg-extraction-PUF_0_L001_R1_001.fastq.gz.trim.derep.no_artifacts
+INFO(127315508954944)2025-10-21 18:44:37,264:total sequences 265, passing sequences 265, failing sequences 0
+INFO(127315508954944)2025-10-21 18:44:37,264:multiple_sequence_alignment seqs file /tmp/tmpinwbl2qv/deblur_working_dir/PUF-IPEX-1_4_L001_R1_001.fastq.gz.trim.derep.no_artifacts
+INFO(137125313713984)2025-10-21 18:44:37,409:deblurring 15 sequences
+INFO(137125313713984)2025-10-21 18:44:37,409:1 unique sequences left following deblurring
+INFO(137125313713984)2025-10-21 18:44:37,409:remove_chimeras_denovo_from_seqs seqs file /tmp/tmpinwbl2qv/deblur_working_dir/CTRL-neg-extraction-PUF_0_L001_R1_001.fastq.gz.trim.derep.no_artifacts.msa.deblurto working dir /tmp/tmpinwbl2qv/deblur_working_dir
+INFO(137125313713984)2025-10-21 18:44:37,417:finished processing file
+INFO(137125313713984)2025-10-21 18:44:37,417:finished processing per sample fasta files
+INFO(137125313713984)2025-10-21 18:44:37,417:worker thread for /tmp/qiime2/luis/data/139ac298-f5b7-4627-aa6b-b8c3bf3c7366/data/CTRL-neg-extraction-PUF_0_L001_R1_001.fastq.gz finished
+INFO(140321044277056)2025-10-21 18:44:37,429:total sequences 695, passing sequences 695, failing sequences 0
+INFO(140321044277056)2025-10-21 18:44:37,429:multiple_sequence_alignment seqs file /tmp/tmpinwbl2qv/deblur_working_dir/PUF-BOU-7_3_L001_R1_001.fastq.gz.trim.derep.no_artifacts
+INFO(123324200867648)2025-10-21 18:44:37,550:*************************
+INFO(123324200867648)2025-10-21 18:44:37,550:deblurring started
+WARNING(123324200867648)2025-10-21 18:44:37,551:deblur version 1.1.1 workflow started on /tmp/qiime2/luis/data/139ac298-f5b7-4627-aa6b-b8c3bf3c7366/data/PUF-JD14_8_L001_R1_001.fastq.gz
+WARNING(123324200867648)2025-10-21 18:44:37,551:parameters: {'seqs_fp': '/tmp/qiime2/luis/data/139ac298-f5b7-4627-aa6b-b8c3bf3c7366/data/PUF-JD14_8_L001_R1_001.fastq.gz', 'output_dir': '/tmp/tmpinwbl2qv', 'pos_ref_fp': ('/tmp/qiime2/luis/data/24c3fd7b-d797-45d8-8c62-edb383bdc88c/data/dna-sequences.fasta',), 'pos_ref_db_fp': ('/tmp/tmpinwbl2qv/deblur_working_dir/dna-sequences',), 'neg_ref_fp': (), 'neg_ref_db_fp': ('/tmp/tmpinwbl2qv/deblur_working_dir/artifacts',), 'overwrite': True, 'mean_error': 0.005, 'error_dist': [1.0, 0.06, 0.02, 0.02, 0.01, 0.005, 0.005, 0.005, 0.001, 0.001, 0.001, 0.0005], 'indel_prob': 0.01, 'indel_max': 3, 'trim_length': -1, 'left_trim_length': 0, 'min_reads': 1, 'min_size': 1, 'threads_per_sample': 1, 'keep_tmp_files': True, 'log_level': 2, 'log_file': '/home/luis/Documents/Projects/PUF_PAS_Metabarcoding/01_QIIME/01_Deblur/bin/deblur.log', 'jobs_to_start': 1, 'is_worker_thread': True, 'logger': <Logger __main__ (INFO)>}
+INFO(123324200867648)2025-10-21 18:44:37,551:error_dist is : [1.0, 0.06, 0.02, 0.02, 0.01, 0.005, 0.005, 0.005, 0.001, 0.001, 0.001, 0.0005]
+INFO(123324200867648)2025-10-21 18:44:37,551:deblur worker thread started
+INFO(123324200867648)2025-10-21 18:44:37,551:processing per sample fasta files
+INFO(123324200867648)2025-10-21 18:44:37,551:--------------------------------------------------------
+INFO(123324200867648)2025-10-21 18:44:37,551:launch_workflow for file /tmp/qiime2/luis/data/139ac298-f5b7-4627-aa6b-b8c3bf3c7366/data/PUF-JD14_8_L001_R1_001.fastq.gz
+INFO(126503721908032)2025-10-21 18:44:38,135:dereplicate seqs file /tmp/tmpinwbl2qv/deblur_working_dir/PUF-BOT-10_1_L001_R1_001.fastq.gz.trim
+INFO(139136246622016)2025-10-21 18:44:38,140:*************************
+INFO(139136246622016)2025-10-21 18:44:38,140:deblurring started
+WARNING(139136246622016)2025-10-21 18:44:38,140:deblur version 1.1.1 workflow started on /tmp/qiime2/luis/data/139ac298-f5b7-4627-aa6b-b8c3bf3c7366/data/PUF-MBO-4_9_L001_R1_001.fastq.gz
+WARNING(139136246622016)2025-10-21 18:44:38,140:parameters: {'seqs_fp': '/tmp/qiime2/luis/data/139ac298-f5b7-4627-aa6b-b8c3bf3c7366/data/PUF-MBO-4_9_L001_R1_001.fastq.gz', 'output_dir': '/tmp/tmpinwbl2qv', 'pos_ref_fp': ('/tmp/qiime2/luis/data/24c3fd7b-d797-45d8-8c62-edb383bdc88c/data/dna-sequences.fasta',), 'pos_ref_db_fp': ('/tmp/tmpinwbl2qv/deblur_working_dir/dna-sequences',), 'neg_ref_fp': (), 'neg_ref_db_fp': ('/tmp/tmpinwbl2qv/deblur_working_dir/artifacts',), 'overwrite': True, 'mean_error': 0.005, 'error_dist': [1.0, 0.06, 0.02, 0.02, 0.01, 0.005, 0.005, 0.005, 0.001, 0.001, 0.001, 0.0005], 'indel_prob': 0.01, 'indel_max': 3, 'trim_length': -1, 'left_trim_length': 0, 'min_reads': 1, 'min_size': 1, 'threads_per_sample': 1, 'keep_tmp_files': True, 'log_level': 2, 'log_file': '/home/luis/Documents/Projects/PUF_PAS_Metabarcoding/01_QIIME/01_Deblur/bin/deblur.log', 'jobs_to_start': 1, 'is_worker_thread': True, 'logger': <Logger __main__ (INFO)>}
+INFO(139136246622016)2025-10-21 18:44:38,140:error_dist is : [1.0, 0.06, 0.02, 0.02, 0.01, 0.005, 0.005, 0.005, 0.001, 0.001, 0.001, 0.0005]
+INFO(139136246622016)2025-10-21 18:44:38,140:deblur worker thread started
+INFO(139136246622016)2025-10-21 18:44:38,140:processing per sample fasta files
+INFO(139136246622016)2025-10-21 18:44:38,140:--------------------------------------------------------
+INFO(139136246622016)2025-10-21 18:44:38,140:launch_workflow for file /tmp/qiime2/luis/data/139ac298-f5b7-4627-aa6b-b8c3bf3c7366/data/PUF-MBO-4_9_L001_R1_001.fastq.gz
+INFO(126503721908032)2025-10-21 18:44:38,151:remove_artifacts_seqs file /tmp/tmpinwbl2qv/deblur_working_dir/PUF-BOT-10_1_L001_R1_001.fastq.gz.trim.derep
+INFO(126503721908032)2025-10-21 18:44:38,505:total sequences 2672, passing sequences 2672, failing sequences 0
+INFO(126503721908032)2025-10-21 18:44:38,505:multiple_sequence_alignment seqs file /tmp/tmpinwbl2qv/deblur_working_dir/PUF-BOT-10_1_L001_R1_001.fastq.gz.trim.derep.no_artifacts
+INFO(140321044277056)2025-10-21 18:44:38,863:deblurring 695 sequences
+INFO(140321044277056)2025-10-21 18:44:38,952:124 unique sequences left following deblurring
+INFO(140321044277056)2025-10-21 18:44:38,952:remove_chimeras_denovo_from_seqs seqs file /tmp/tmpinwbl2qv/deblur_working_dir/PUF-BOU-7_3_L001_R1_001.fastq.gz.trim.derep.no_artifacts.msa.deblurto working dir /tmp/tmpinwbl2qv/deblur_working_dir
+INFO(140321044277056)2025-10-21 18:44:39,023:finished processing file
+INFO(140321044277056)2025-10-21 18:44:39,024:finished processing per sample fasta files
+INFO(140321044277056)2025-10-21 18:44:39,024:worker thread for /tmp/qiime2/luis/data/139ac298-f5b7-4627-aa6b-b8c3bf3c7366/data/PUF-BOU-7_3_L001_R1_001.fastq.gz finished
+INFO(123324200867648)2025-10-21 18:44:39,098:dereplicate seqs file /tmp/tmpinwbl2qv/deblur_working_dir/PUF-JD14_8_L001_R1_001.fastq.gz.trim
+INFO(123324200867648)2025-10-21 18:44:39,118:remove_artifacts_seqs file /tmp/tmpinwbl2qv/deblur_working_dir/PUF-JD14_8_L001_R1_001.fastq.gz.trim.derep
+INFO(123324200867648)2025-10-21 18:44:39,574:total sequences 4025, passing sequences 4025, failing sequences 0
+INFO(123324200867648)2025-10-21 18:44:39,575:multiple_sequence_alignment seqs file /tmp/tmpinwbl2qv/deblur_working_dir/PUF-JD14_8_L001_R1_001.fastq.gz.trim.derep.no_artifacts
+INFO(127315508954944)2025-10-21 18:44:39,737:deblurring 265 sequences
+INFO(127315508954944)2025-10-21 18:44:39,760:81 unique sequences left following deblurring
+INFO(127315508954944)2025-10-21 18:44:39,761:remove_chimeras_denovo_from_seqs seqs file /tmp/tmpinwbl2qv/deblur_working_dir/PUF-IPEX-1_4_L001_R1_001.fastq.gz.trim.derep.no_artifacts.msa.deblurto working dir /tmp/tmpinwbl2qv/deblur_working_dir
+INFO(128233129379648)2025-10-21 18:44:39,769:*************************
+INFO(128233129379648)2025-10-21 18:44:39,769:deblurring started
+WARNING(128233129379648)2025-10-21 18:44:39,770:deblur version 1.1.1 workflow started on /tmp/qiime2/luis/data/139ac298-f5b7-4627-aa6b-b8c3bf3c7366/data/PUF-IPEX-3_5_L001_R1_001.fastq.gz
+WARNING(128233129379648)2025-10-21 18:44:39,770:parameters: {'seqs_fp': '/tmp/qiime2/luis/data/139ac298-f5b7-4627-aa6b-b8c3bf3c7366/data/PUF-IPEX-3_5_L001_R1_001.fastq.gz', 'output_dir': '/tmp/tmpinwbl2qv', 'pos_ref_fp': ('/tmp/qiime2/luis/data/24c3fd7b-d797-45d8-8c62-edb383bdc88c/data/dna-sequences.fasta',), 'pos_ref_db_fp': ('/tmp/tmpinwbl2qv/deblur_working_dir/dna-sequences',), 'neg_ref_fp': (), 'neg_ref_db_fp': ('/tmp/tmpinwbl2qv/deblur_working_dir/artifacts',), 'overwrite': True, 'mean_error': 0.005, 'error_dist': [1.0, 0.06, 0.02, 0.02, 0.01, 0.005, 0.005, 0.005, 0.001, 0.001, 0.001, 0.0005], 'indel_prob': 0.01, 'indel_max': 3, 'trim_length': -1, 'left_trim_length': 0, 'min_reads': 1, 'min_size': 1, 'threads_per_sample': 1, 'keep_tmp_files': True, 'log_level': 2, 'log_file': '/home/luis/Documents/Projects/PUF_PAS_Metabarcoding/01_QIIME/01_Deblur/bin/deblur.log', 'jobs_to_start': 1, 'is_worker_thread': True, 'logger': <Logger __main__ (INFO)>}
+INFO(128233129379648)2025-10-21 18:44:39,770:error_dist is : [1.0, 0.06, 0.02, 0.02, 0.01, 0.005, 0.005, 0.005, 0.001, 0.001, 0.001, 0.0005]
+INFO(128233129379648)2025-10-21 18:44:39,770:deblur worker thread started
+INFO(128233129379648)2025-10-21 18:44:39,770:processing per sample fasta files
+INFO(128233129379648)2025-10-21 18:44:39,770:--------------------------------------------------------
+INFO(128233129379648)2025-10-21 18:44:39,770:launch_workflow for file /tmp/qiime2/luis/data/139ac298-f5b7-4627-aa6b-b8c3bf3c7366/data/PUF-IPEX-3_5_L001_R1_001.fastq.gz
+INFO(127315508954944)2025-10-21 18:44:39,808:finished processing file
+INFO(127315508954944)2025-10-21 18:44:39,808:finished processing per sample fasta files
+INFO(127315508954944)2025-10-21 18:44:39,808:worker thread for /tmp/qiime2/luis/data/139ac298-f5b7-4627-aa6b-b8c3bf3c7366/data/PUF-IPEX-1_4_L001_R1_001.fastq.gz finished
+INFO(135128350795584)2025-10-21 18:44:40,563:*************************
+INFO(135128350795584)2025-10-21 18:44:40,563:deblurring started
+WARNING(135128350795584)2025-10-21 18:44:40,563:deblur version 1.1.1 workflow started on /tmp/qiime2/luis/data/139ac298-f5b7-4627-aa6b-b8c3bf3c7366/data/PUF-BOT-3_2_L001_R1_001.fastq.gz
+WARNING(135128350795584)2025-10-21 18:44:40,563:parameters: {'seqs_fp': '/tmp/qiime2/luis/data/139ac298-f5b7-4627-aa6b-b8c3bf3c7366/data/PUF-BOT-3_2_L001_R1_001.fastq.gz', 'output_dir': '/tmp/tmpinwbl2qv', 'pos_ref_fp': ('/tmp/qiime2/luis/data/24c3fd7b-d797-45d8-8c62-edb383bdc88c/data/dna-sequences.fasta',), 'pos_ref_db_fp': ('/tmp/tmpinwbl2qv/deblur_working_dir/dna-sequences',), 'neg_ref_fp': (), 'neg_ref_db_fp': ('/tmp/tmpinwbl2qv/deblur_working_dir/artifacts',), 'overwrite': True, 'mean_error': 0.005, 'error_dist': [1.0, 0.06, 0.02, 0.02, 0.01, 0.005, 0.005, 0.005, 0.001, 0.001, 0.001, 0.0005], 'indel_prob': 0.01, 'indel_max': 3, 'trim_length': -1, 'left_trim_length': 0, 'min_reads': 1, 'min_size': 1, 'threads_per_sample': 1, 'keep_tmp_files': True, 'log_level': 2, 'log_file': '/home/luis/Documents/Projects/PUF_PAS_Metabarcoding/01_QIIME/01_Deblur/bin/deblur.log', 'jobs_to_start': 1, 'is_worker_thread': True, 'logger': <Logger __main__ (INFO)>}
+INFO(135128350795584)2025-10-21 18:44:40,563:error_dist is : [1.0, 0.06, 0.02, 0.02, 0.01, 0.005, 0.005, 0.005, 0.001, 0.001, 0.001, 0.0005]
+INFO(135128350795584)2025-10-21 18:44:40,563:deblur worker thread started
+INFO(135128350795584)2025-10-21 18:44:40,563:processing per sample fasta files
+INFO(135128350795584)2025-10-21 18:44:40,563:--------------------------------------------------------
+INFO(135128350795584)2025-10-21 18:44:40,563:launch_workflow for file /tmp/qiime2/luis/data/139ac298-f5b7-4627-aa6b-b8c3bf3c7366/data/PUF-BOT-3_2_L001_R1_001.fastq.gz
+INFO(135128350795584)2025-10-21 18:44:40,585:dereplicate seqs file /tmp/tmpinwbl2qv/deblur_working_dir/PUF-BOT-3_2_L001_R1_001.fastq.gz.trim
+INFO(135128350795584)2025-10-21 18:44:40,588:remove_artifacts_seqs file /tmp/tmpinwbl2qv/deblur_working_dir/PUF-BOT-3_2_L001_R1_001.fastq.gz.trim.derep
+INFO(139136246622016)2025-10-21 18:44:40,689:dereplicate seqs file /tmp/tmpinwbl2qv/deblur_working_dir/PUF-MBO-4_9_L001_R1_001.fastq.gz.trim
+INFO(139136246622016)2025-10-21 18:44:40,721:remove_artifacts_seqs file /tmp/tmpinwbl2qv/deblur_working_dir/PUF-MBO-4_9_L001_R1_001.fastq.gz.trim.derep
+INFO(131636440098624)2025-10-21 18:44:40,804:dereplicate seqs file /tmp/tmpinwbl2qv/deblur_working_dir/PUF-IPEX-8_6_L001_R1_001.fastq.gz.trim
+INFO(131636440098624)2025-10-21 18:44:40,856:remove_artifacts_seqs file /tmp/tmpinwbl2qv/deblur_working_dir/PUF-IPEX-8_6_L001_R1_001.fastq.gz.trim.derep
+INFO(135128350795584)2025-10-21 18:44:40,868:total sequences 61, passing sequences 61, failing sequences 0
+INFO(135128350795584)2025-10-21 18:44:40,868:multiple_sequence_alignment seqs file /tmp/tmpinwbl2qv/deblur_working_dir/PUF-BOT-3_2_L001_R1_001.fastq.gz.trim.derep.no_artifacts
+INFO(139136246622016)2025-10-21 18:44:41,168:total sequences 5646, passing sequences 5646, failing sequences 0
+INFO(139136246622016)2025-10-21 18:44:41,168:multiple_sequence_alignment seqs file /tmp/tmpinwbl2qv/deblur_working_dir/PUF-MBO-4_9_L001_R1_001.fastq.gz.trim.derep.no_artifacts
+INFO(131636440098624)2025-10-21 18:44:41,399:total sequences 9131, passing sequences 9131, failing sequences 0
+INFO(131636440098624)2025-10-21 18:44:41,399:multiple_sequence_alignment seqs file /tmp/tmpinwbl2qv/deblur_working_dir/PUF-IPEX-8_6_L001_R1_001.fastq.gz.trim.derep.no_artifacts
+INFO(128233129379648)2025-10-21 18:44:41,825:dereplicate seqs file /tmp/tmpinwbl2qv/deblur_working_dir/PUF-IPEX-3_5_L001_R1_001.fastq.gz.trim
+INFO(128233129379648)2025-10-21 18:44:41,850:remove_artifacts_seqs file /tmp/tmpinwbl2qv/deblur_working_dir/PUF-IPEX-3_5_L001_R1_001.fastq.gz.trim.derep
+INFO(128233129379648)2025-10-21 18:44:42,240:total sequences 3173, passing sequences 3173, failing sequences 0
+INFO(128233129379648)2025-10-21 18:44:42,240:multiple_sequence_alignment seqs file /tmp/tmpinwbl2qv/deblur_working_dir/PUF-IPEX-3_5_L001_R1_001.fastq.gz.trim.derep.no_artifacts
+INFO(135128350795584)2025-10-21 18:44:42,825:deblurring 61 sequences
+INFO(135128350795584)2025-10-21 18:44:42,826:6 unique sequences left following deblurring
+INFO(135128350795584)2025-10-21 18:44:42,826:remove_chimeras_denovo_from_seqs seqs file /tmp/tmpinwbl2qv/deblur_working_dir/PUF-BOT-3_2_L001_R1_001.fastq.gz.trim.derep.no_artifacts.msa.deblurto working dir /tmp/tmpinwbl2qv/deblur_working_dir
+INFO(135128350795584)2025-10-21 18:44:42,837:finished processing file
+INFO(135128350795584)2025-10-21 18:44:42,837:finished processing per sample fasta files
+INFO(135128350795584)2025-10-21 18:44:42,837:worker thread for /tmp/qiime2/luis/data/139ac298-f5b7-4627-aa6b-b8c3bf3c7366/data/PUF-BOT-3_2_L001_R1_001.fastq.gz finished
+INFO(129093676828480)2025-10-21 18:44:43,589:*************************
+INFO(129093676828480)2025-10-21 18:44:43,589:deblurring started
+WARNING(129093676828480)2025-10-21 18:44:43,589:deblur version 1.1.1 workflow started on /tmp/qiime2/luis/data/139ac298-f5b7-4627-aa6b-b8c3bf3c7366/data/PUF-JD-10_7_L001_R1_001.fastq.gz
+WARNING(129093676828480)2025-10-21 18:44:43,590:parameters: {'seqs_fp': '/tmp/qiime2/luis/data/139ac298-f5b7-4627-aa6b-b8c3bf3c7366/data/PUF-JD-10_7_L001_R1_001.fastq.gz', 'output_dir': '/tmp/tmpinwbl2qv', 'pos_ref_fp': ('/tmp/qiime2/luis/data/24c3fd7b-d797-45d8-8c62-edb383bdc88c/data/dna-sequences.fasta',), 'pos_ref_db_fp': ('/tmp/tmpinwbl2qv/deblur_working_dir/dna-sequences',), 'neg_ref_fp': (), 'neg_ref_db_fp': ('/tmp/tmpinwbl2qv/deblur_working_dir/artifacts',), 'overwrite': True, 'mean_error': 0.005, 'error_dist': [1.0, 0.06, 0.02, 0.02, 0.01, 0.005, 0.005, 0.005, 0.001, 0.001, 0.001, 0.0005], 'indel_prob': 0.01, 'indel_max': 3, 'trim_length': -1, 'left_trim_length': 0, 'min_reads': 1, 'min_size': 1, 'threads_per_sample': 1, 'keep_tmp_files': True, 'log_level': 2, 'log_file': '/home/luis/Documents/Projects/PUF_PAS_Metabarcoding/01_QIIME/01_Deblur/bin/deblur.log', 'jobs_to_start': 1, 'is_worker_thread': True, 'logger': <Logger __main__ (INFO)>}
+INFO(129093676828480)2025-10-21 18:44:43,590:error_dist is : [1.0, 0.06, 0.02, 0.02, 0.01, 0.005, 0.005, 0.005, 0.001, 0.001, 0.001, 0.0005]
+INFO(129093676828480)2025-10-21 18:44:43,590:deblur worker thread started
+INFO(129093676828480)2025-10-21 18:44:43,590:processing per sample fasta files
+INFO(129093676828480)2025-10-21 18:44:43,590:--------------------------------------------------------
+INFO(129093676828480)2025-10-21 18:44:43,590:launch_workflow for file /tmp/qiime2/luis/data/139ac298-f5b7-4627-aa6b-b8c3bf3c7366/data/PUF-JD-10_7_L001_R1_001.fastq.gz
+INFO(126503721908032)2025-10-21 18:44:47,690:deblurring 2672 sequences
+INFO(126503721908032)2025-10-21 18:44:47,801:36 unique sequences left following deblurring
+INFO(126503721908032)2025-10-21 18:44:47,802:remove_chimeras_denovo_from_seqs seqs file /tmp/tmpinwbl2qv/deblur_working_dir/PUF-BOT-10_1_L001_R1_001.fastq.gz.trim.derep.no_artifacts.msa.deblurto working dir /tmp/tmpinwbl2qv/deblur_working_dir
+INFO(126503721908032)2025-10-21 18:44:47,824:finished processing file
+INFO(126503721908032)2025-10-21 18:44:47,824:finished processing per sample fasta files
+INFO(126503721908032)2025-10-21 18:44:47,824:worker thread for /tmp/qiime2/luis/data/139ac298-f5b7-4627-aa6b-b8c3bf3c7366/data/PUF-BOT-10_1_L001_R1_001.fastq.gz finished
+INFO(129093676828480)2025-10-21 18:44:48,728:dereplicate seqs file /tmp/tmpinwbl2qv/deblur_working_dir/PUF-JD-10_7_L001_R1_001.fastq.gz.trim
+INFO(129093676828480)2025-10-21 18:44:48,792:remove_artifacts_seqs file /tmp/tmpinwbl2qv/deblur_working_dir/PUF-JD-10_7_L001_R1_001.fastq.gz.trim.derep
+INFO(129093676828480)2025-10-21 18:44:49,380:total sequences 10436, passing sequences 10436, failing sequences 0
+INFO(129093676828480)2025-10-21 18:44:49,380:multiple_sequence_alignment seqs file /tmp/tmpinwbl2qv/deblur_working_dir/PUF-JD-10_7_L001_R1_001.fastq.gz.trim.derep.no_artifacts
+INFO(128233129379648)2025-10-21 18:44:55,261:deblurring 3173 sequences
+INFO(128233129379648)2025-10-21 18:44:55,831:178 unique sequences left following deblurring
+INFO(128233129379648)2025-10-21 18:44:55,832:remove_chimeras_denovo_from_seqs seqs file /tmp/tmpinwbl2qv/deblur_working_dir/PUF-IPEX-3_5_L001_R1_001.fastq.gz.trim.derep.no_artifacts.msa.deblurto working dir /tmp/tmpinwbl2qv/deblur_working_dir
+INFO(128233129379648)2025-10-21 18:44:55,939:finished processing file
+INFO(128233129379648)2025-10-21 18:44:55,939:finished processing per sample fasta files
+INFO(128233129379648)2025-10-21 18:44:55,940:worker thread for /tmp/qiime2/luis/data/139ac298-f5b7-4627-aa6b-b8c3bf3c7366/data/PUF-IPEX-3_5_L001_R1_001.fastq.gz finished
+INFO(123324200867648)2025-10-21 18:44:58,072:deblurring 4025 sequences
+INFO(123324200867648)2025-10-21 18:44:58,527:100 unique sequences left following deblurring
+INFO(123324200867648)2025-10-21 18:44:58,528:remove_chimeras_denovo_from_seqs seqs file /tmp/tmpinwbl2qv/deblur_working_dir/PUF-JD14_8_L001_R1_001.fastq.gz.trim.derep.no_artifacts.msa.deblurto working dir /tmp/tmpinwbl2qv/deblur_working_dir
+INFO(123324200867648)2025-10-21 18:44:58,588:finished processing file
+INFO(123324200867648)2025-10-21 18:44:58,588:finished processing per sample fasta files
+INFO(123324200867648)2025-10-21 18:44:58,588:worker thread for /tmp/qiime2/luis/data/139ac298-f5b7-4627-aa6b-b8c3bf3c7366/data/PUF-JD14_8_L001_R1_001.fastq.gz finished
+INFO(139136246622016)2025-10-21 18:45:13,995:deblurring 5646 sequences
+INFO(139136246622016)2025-10-21 18:45:14,535:89 unique sequences left following deblurring
+INFO(139136246622016)2025-10-21 18:45:14,536:remove_chimeras_denovo_from_seqs seqs file /tmp/tmpinwbl2qv/deblur_working_dir/PUF-MBO-4_9_L001_R1_001.fastq.gz.trim.derep.no_artifacts.msa.deblurto working dir /tmp/tmpinwbl2qv/deblur_working_dir
+INFO(139136246622016)2025-10-21 18:45:14,588:finished processing file
+INFO(139136246622016)2025-10-21 18:45:14,589:finished processing per sample fasta files
+INFO(139136246622016)2025-10-21 18:45:14,589:worker thread for /tmp/qiime2/luis/data/139ac298-f5b7-4627-aa6b-b8c3bf3c7366/data/PUF-MBO-4_9_L001_R1_001.fastq.gz finished
+INFO(131636440098624)2025-10-21 18:45:54,757:deblurring 9131 sequences
+INFO(131636440098624)2025-10-21 18:45:57,474:296 unique sequences left following deblurring
+INFO(131636440098624)2025-10-21 18:45:57,477:remove_chimeras_denovo_from_seqs seqs file /tmp/tmpinwbl2qv/deblur_working_dir/PUF-IPEX-8_6_L001_R1_001.fastq.gz.trim.derep.no_artifacts.msa.deblurto working dir /tmp/tmpinwbl2qv/deblur_working_dir
+INFO(131636440098624)2025-10-21 18:45:57,655:finished processing file
+INFO(131636440098624)2025-10-21 18:45:57,656:finished processing per sample fasta files
+INFO(131636440098624)2025-10-21 18:45:57,656:worker thread for /tmp/qiime2/luis/data/139ac298-f5b7-4627-aa6b-b8c3bf3c7366/data/PUF-IPEX-8_6_L001_R1_001.fastq.gz finished
+INFO(129093676828480)2025-10-21 18:46:22,444:deblurring 10436 sequences
+INFO(129093676828480)2025-10-21 18:46:26,546:463 unique sequences left following deblurring
+INFO(129093676828480)2025-10-21 18:46:26,549:remove_chimeras_denovo_from_seqs seqs file /tmp/tmpinwbl2qv/deblur_working_dir/PUF-JD-10_7_L001_R1_001.fastq.gz.trim.derep.no_artifacts.msa.deblurto working dir /tmp/tmpinwbl2qv/deblur_working_dir
+INFO(129093676828480)2025-10-21 18:46:26,820:finished processing file
+INFO(129093676828480)2025-10-21 18:46:26,820:finished processing per sample fasta files
+INFO(129093676828480)2025-10-21 18:46:26,821:worker thread for /tmp/qiime2/luis/data/139ac298-f5b7-4627-aa6b-b8c3bf3c7366/data/PUF-JD-10_7_L001_R1_001.fastq.gz finished
+INFO(128303506761536)2025-10-21 18:46:26,920:create_otu_table for 10 samples, into output table /tmp/tmpinwbl2qv/all.biom
+INFO(128303506761536)2025-10-21 18:46:26,946:for output biom table loaded 10 samples, 965 unique sequences
+INFO(128303506761536)2025-10-21 18:46:26,947:keeping 965 (out of 965 sequences) with >=1 reads
+INFO(128303506761536)2025-10-21 18:46:26,957:saved to biom file /tmp/tmpinwbl2qv/all.biom
+INFO(128303506761536)2025-10-21 18:46:26,958:saved sequence fasta file to /tmp/tmpinwbl2qv/all.seqs.fa
+INFO(128303506761536)2025-10-21 18:46:26,958:getting 16s sequences from the biom table
+INFO(128303506761536)2025-10-21 18:46:26,958:remove_artifacts_seqs file /tmp/tmpinwbl2qv/all.seqs.fa
+INFO(128303506761536)2025-10-21 18:47:38,923:total sequences 965, passing sequences 910, failing sequences 55
+WARNING(128303506761536)2025-10-21 18:47:38,974:removed 3 samples with reads per sample<1
+INFO(128303506761536)2025-10-21 18:47:38,976:wrote artifact only filtered biom table to /tmp/tmpinwbl2qv/reference-non-hit.biom
+INFO(128303506761536)2025-10-21 18:47:38,977:saved biom table sequences to fasta file /tmp/tmpinwbl2qv/reference-non-hit.seqs.fa
+INFO(128303506761536)2025-10-21 18:47:38,981:wrote 16s filtered biom table to /tmp/tmpinwbl2qv/reference-hit.biom
+INFO(128303506761536)2025-10-21 18:47:38,983:saved biom table sequences to fasta file /tmp/tmpinwbl2qv/reference-hit.seqs.fa
+INFO(128303506761536)2025-10-21 18:47:38,983:Keeping temp files
+INFO(128303506761536)2025-10-21 18:47:38,983:deblur workflow finished
+INFO(128303506761536)2025-10-21 18:47:38,983:output saved to /tmp/tmpinwbl2qv/all.biom
+INFO(128303506761536)2025-10-21 18:47:38,983:------------------
+INFO(130129383929664)2025-10-21 18:48:03,786:*************************
+INFO(130129383929664)2025-10-21 18:48:03,786:deblurring started
+WARNING(130129383929664)2025-10-21 18:48:03,787:deblur version 1.1.1 workflow started on /tmp/qiime2/luis/data/f474195d-1967-4331-8070-43340ef28a8e/data
+WARNING(130129383929664)2025-10-21 18:48:03,787:parameters: {'seqs_fp': '/tmp/qiime2/luis/data/f474195d-1967-4331-8070-43340ef28a8e/data', 'output_dir': '/tmp/tmp7v9wdw34', 'pos_ref_fp': ('/tmp/qiime2/luis/data/24c3fd7b-d797-45d8-8c62-edb383bdc88c/data/dna-sequences.fasta',), 'pos_ref_db_fp': (), 'neg_ref_fp': (), 'neg_ref_db_fp': (), 'overwrite': True, 'mean_error': 0.005, 'error_dist': [1.0, 0.06, 0.02, 0.02, 0.01, 0.005, 0.005, 0.005, 0.001, 0.001, 0.001, 0.0005], 'indel_prob': 0.01, 'indel_max': 3, 'trim_length': -1, 'left_trim_length': 0, 'min_reads': 1, 'min_size': 1, 'threads_per_sample': 1, 'keep_tmp_files': True, 'log_level': 2, 'log_file': '/home/luis/Documents/Projects/PUF_PAS_Metabarcoding/01_QIIME/01_Deblur/bin/deblur.log', 'jobs_to_start': 6, 'is_worker_thread': False, 'logger': <Logger __main__ (INFO)>}
+INFO(130129383929664)2025-10-21 18:48:03,787:error_dist is : [1.0, 0.06, 0.02, 0.02, 0.01, 0.005, 0.005, 0.005, 0.001, 0.001, 0.001, 0.0005]
+INFO(130129383929664)2025-10-21 18:48:03,787:deblur main program started
+INFO(130129383929664)2025-10-21 18:48:03,787:processing directory /tmp/qiime2/luis/data/f474195d-1967-4331-8070-43340ef28a8e/data
+INFO(130129383929664)2025-10-21 18:48:03,788:building negative db sortmerna index files
+INFO(130129383929664)2025-10-21 18:48:03,788:build_index_sortmerna files ['/home/luis/miniconda3/envs/qiime2/lib/python3.10/site-packages/deblur/support_files/artifacts.fa'] to dir /tmp/tmp7v9wdw34/deblur_working_dir
+INFO(130129383929664)2025-10-21 18:48:03,816:building positive db sortmerna index files
+INFO(130129383929664)2025-10-21 18:48:03,816:build_index_sortmerna files ('/tmp/qiime2/luis/data/24c3fd7b-d797-45d8-8c62-edb383bdc88c/data/dna-sequences.fasta',) to dir /tmp/tmp7v9wdw34/deblur_working_dir
+INFO(130129383929664)2025-10-21 19:38:59,280:parallel processing per sample fasta files
+INFO(130129383929664)2025-10-21 19:38:59,288:parallel deblur started for 11 inputs
+INFO(131197787440960)2025-10-21 19:38:59,930:*************************
+INFO(131197787440960)2025-10-21 19:38:59,931:deblurring started
+WARNING(131197787440960)2025-10-21 19:38:59,931:deblur version 1.1.1 workflow started on /tmp/qiime2/luis/data/f474195d-1967-4331-8070-43340ef28a8e/data/PUF-BOT-10_1_L001_R1_001.fastq.gz
+WARNING(131197787440960)2025-10-21 19:38:59,931:parameters: {'seqs_fp': '/tmp/qiime2/luis/data/f474195d-1967-4331-8070-43340ef28a8e/data/PUF-BOT-10_1_L001_R1_001.fastq.gz', 'output_dir': '/tmp/tmp7v9wdw34', 'pos_ref_fp': ('/tmp/qiime2/luis/data/24c3fd7b-d797-45d8-8c62-edb383bdc88c/data/dna-sequences.fasta',), 'pos_ref_db_fp': ('/tmp/tmp7v9wdw34/deblur_working_dir/dna-sequences',), 'neg_ref_fp': (), 'neg_ref_db_fp': ('/tmp/tmp7v9wdw34/deblur_working_dir/artifacts',), 'overwrite': True, 'mean_error': 0.005, 'error_dist': [1.0, 0.06, 0.02, 0.02, 0.01, 0.005, 0.005, 0.005, 0.001, 0.001, 0.001, 0.0005], 'indel_prob': 0.01, 'indel_max': 3, 'trim_length': -1, 'left_trim_length': 0, 'min_reads': 1, 'min_size': 1, 'threads_per_sample': 1, 'keep_tmp_files': True, 'log_level': 2, 'log_file': '/home/luis/Documents/Projects/PUF_PAS_Metabarcoding/01_QIIME/01_Deblur/bin/deblur.log', 'jobs_to_start': 1, 'is_worker_thread': True, 'logger': <Logger __main__ (INFO)>}
+INFO(131197787440960)2025-10-21 19:38:59,931:error_dist is : [1.0, 0.06, 0.02, 0.02, 0.01, 0.005, 0.005, 0.005, 0.001, 0.001, 0.001, 0.0005]
+INFO(131197787440960)2025-10-21 19:38:59,931:deblur worker thread started
+INFO(131197787440960)2025-10-21 19:38:59,931:processing per sample fasta files
+INFO(131197787440960)2025-10-21 19:38:59,931:--------------------------------------------------------
+INFO(131197787440960)2025-10-21 19:38:59,931:launch_workflow for file /tmp/qiime2/luis/data/f474195d-1967-4331-8070-43340ef28a8e/data/PUF-BOT-10_1_L001_R1_001.fastq.gz
+INFO(139964635420480)2025-10-21 19:38:59,936:*************************
+INFO(139964635420480)2025-10-21 19:38:59,936:deblurring started
+WARNING(139964635420480)2025-10-21 19:38:59,937:deblur version 1.1.1 workflow started on /tmp/qiime2/luis/data/f474195d-1967-4331-8070-43340ef28a8e/data/CTRL-neg-extraction-PUF_0_L001_R1_001.fastq.gz
+WARNING(139964635420480)2025-10-21 19:38:59,937:parameters: {'seqs_fp': '/tmp/qiime2/luis/data/f474195d-1967-4331-8070-43340ef28a8e/data/CTRL-neg-extraction-PUF_0_L001_R1_001.fastq.gz', 'output_dir': '/tmp/tmp7v9wdw34', 'pos_ref_fp': ('/tmp/qiime2/luis/data/24c3fd7b-d797-45d8-8c62-edb383bdc88c/data/dna-sequences.fasta',), 'pos_ref_db_fp': ('/tmp/tmp7v9wdw34/deblur_working_dir/dna-sequences',), 'neg_ref_fp': (), 'neg_ref_db_fp': ('/tmp/tmp7v9wdw34/deblur_working_dir/artifacts',), 'overwrite': True, 'mean_error': 0.005, 'error_dist': [1.0, 0.06, 0.02, 0.02, 0.01, 0.005, 0.005, 0.005, 0.001, 0.001, 0.001, 0.0005], 'indel_prob': 0.01, 'indel_max': 3, 'trim_length': -1, 'left_trim_length': 0, 'min_reads': 1, 'min_size': 1, 'threads_per_sample': 1, 'keep_tmp_files': True, 'log_level': 2, 'log_file': '/home/luis/Documents/Projects/PUF_PAS_Metabarcoding/01_QIIME/01_Deblur/bin/deblur.log', 'jobs_to_start': 1, 'is_worker_thread': True, 'logger': <Logger __main__ (INFO)>}
+INFO(139964635420480)2025-10-21 19:38:59,937:error_dist is : [1.0, 0.06, 0.02, 0.02, 0.01, 0.005, 0.005, 0.005, 0.001, 0.001, 0.001, 0.0005]
+INFO(139964635420480)2025-10-21 19:38:59,937:deblur worker thread started
+INFO(139964635420480)2025-10-21 19:38:59,937:processing per sample fasta files
+INFO(139964635420480)2025-10-21 19:38:59,937:--------------------------------------------------------
+INFO(139964635420480)2025-10-21 19:38:59,937:launch_workflow for file /tmp/qiime2/luis/data/f474195d-1967-4331-8070-43340ef28a8e/data/CTRL-neg-extraction-PUF_0_L001_R1_001.fastq.gz
+INFO(139596882728768)2025-10-21 19:38:59,937:*************************
+INFO(139596882728768)2025-10-21 19:38:59,937:deblurring started
+WARNING(139596882728768)2025-10-21 19:38:59,937:deblur version 1.1.1 workflow started on /tmp/qiime2/luis/data/f474195d-1967-4331-8070-43340ef28a8e/data/PUF-IPEX-8_6_L001_R1_001.fastq.gz
+WARNING(139596882728768)2025-10-21 19:38:59,937:parameters: {'seqs_fp': '/tmp/qiime2/luis/data/f474195d-1967-4331-8070-43340ef28a8e/data/PUF-IPEX-8_6_L001_R1_001.fastq.gz', 'output_dir': '/tmp/tmp7v9wdw34', 'pos_ref_fp': ('/tmp/qiime2/luis/data/24c3fd7b-d797-45d8-8c62-edb383bdc88c/data/dna-sequences.fasta',), 'pos_ref_db_fp': ('/tmp/tmp7v9wdw34/deblur_working_dir/dna-sequences',), 'neg_ref_fp': (), 'neg_ref_db_fp': ('/tmp/tmp7v9wdw34/deblur_working_dir/artifacts',), 'overwrite': True, 'mean_error': 0.005, 'error_dist': [1.0, 0.06, 0.02, 0.02, 0.01, 0.005, 0.005, 0.005, 0.001, 0.001, 0.001, 0.0005], 'indel_prob': 0.01, 'indel_max': 3, 'trim_length': -1, 'left_trim_length': 0, 'min_reads': 1, 'min_size': 1, 'threads_per_sample': 1, 'keep_tmp_files': True, 'log_level': 2, 'log_file': '/home/luis/Documents/Projects/PUF_PAS_Metabarcoding/01_QIIME/01_Deblur/bin/deblur.log', 'jobs_to_start': 1, 'is_worker_thread': True, 'logger': <Logger __main__ (INFO)>}
+INFO(139596882728768)2025-10-21 19:38:59,937:error_dist is : [1.0, 0.06, 0.02, 0.02, 0.01, 0.005, 0.005, 0.005, 0.001, 0.001, 0.001, 0.0005]
+INFO(139596882728768)2025-10-21 19:38:59,937:deblur worker thread started
+INFO(139596882728768)2025-10-21 19:38:59,937:processing per sample fasta files
+INFO(139596882728768)2025-10-21 19:38:59,937:--------------------------------------------------------
+INFO(139596882728768)2025-10-21 19:38:59,938:launch_workflow for file /tmp/qiime2/luis/data/f474195d-1967-4331-8070-43340ef28a8e/data/PUF-IPEX-8_6_L001_R1_001.fastq.gz
+INFO(129405003036480)2025-10-21 19:38:59,939:*************************
+INFO(129405003036480)2025-10-21 19:38:59,939:deblurring started
+WARNING(129405003036480)2025-10-21 19:38:59,939:deblur version 1.1.1 workflow started on /tmp/qiime2/luis/data/f474195d-1967-4331-8070-43340ef28a8e/data/PUF-IPEX-1_4_L001_R1_001.fastq.gz
+WARNING(129405003036480)2025-10-21 19:38:59,939:parameters: {'seqs_fp': '/tmp/qiime2/luis/data/f474195d-1967-4331-8070-43340ef28a8e/data/PUF-IPEX-1_4_L001_R1_001.fastq.gz', 'output_dir': '/tmp/tmp7v9wdw34', 'pos_ref_fp': ('/tmp/qiime2/luis/data/24c3fd7b-d797-45d8-8c62-edb383bdc88c/data/dna-sequences.fasta',), 'pos_ref_db_fp': ('/tmp/tmp7v9wdw34/deblur_working_dir/dna-sequences',), 'neg_ref_fp': (), 'neg_ref_db_fp': ('/tmp/tmp7v9wdw34/deblur_working_dir/artifacts',), 'overwrite': True, 'mean_error': 0.005, 'error_dist': [1.0, 0.06, 0.02, 0.02, 0.01, 0.005, 0.005, 0.005, 0.001, 0.001, 0.001, 0.0005], 'indel_prob': 0.01, 'indel_max': 3, 'trim_length': -1, 'left_trim_length': 0, 'min_reads': 1, 'min_size': 1, 'threads_per_sample': 1, 'keep_tmp_files': True, 'log_level': 2, 'log_file': '/home/luis/Documents/Projects/PUF_PAS_Metabarcoding/01_QIIME/01_Deblur/bin/deblur.log', 'jobs_to_start': 1, 'is_worker_thread': True, 'logger': <Logger __main__ (INFO)>}
+INFO(129405003036480)2025-10-21 19:38:59,940:error_dist is : [1.0, 0.06, 0.02, 0.02, 0.01, 0.005, 0.005, 0.005, 0.001, 0.001, 0.001, 0.0005]
+INFO(129405003036480)2025-10-21 19:38:59,940:deblur worker thread started
+INFO(129405003036480)2025-10-21 19:38:59,940:processing per sample fasta files
+INFO(129405003036480)2025-10-21 19:38:59,940:--------------------------------------------------------
+INFO(129405003036480)2025-10-21 19:38:59,940:launch_workflow for file /tmp/qiime2/luis/data/f474195d-1967-4331-8070-43340ef28a8e/data/PUF-IPEX-1_4_L001_R1_001.fastq.gz
+INFO(139964635420480)2025-10-21 19:38:59,942:dereplicate seqs file /tmp/tmp7v9wdw34/deblur_working_dir/CTRL-neg-extraction-PUF_0_L001_R1_001.fastq.gz.trim
+INFO(139964635420480)2025-10-21 19:38:59,945:remove_artifacts_seqs file /tmp/tmp7v9wdw34/deblur_working_dir/CTRL-neg-extraction-PUF_0_L001_R1_001.fastq.gz.trim.derep
+INFO(130839256627008)2025-10-21 19:38:59,947:*************************
+INFO(130839256627008)2025-10-21 19:38:59,947:deblurring started
+WARNING(130839256627008)2025-10-21 19:38:59,947:deblur version 1.1.1 workflow started on /tmp/qiime2/luis/data/f474195d-1967-4331-8070-43340ef28a8e/data/PUF-BOU-7_3_L001_R1_001.fastq.gz
+WARNING(130839256627008)2025-10-21 19:38:59,947:parameters: {'seqs_fp': '/tmp/qiime2/luis/data/f474195d-1967-4331-8070-43340ef28a8e/data/PUF-BOU-7_3_L001_R1_001.fastq.gz', 'output_dir': '/tmp/tmp7v9wdw34', 'pos_ref_fp': ('/tmp/qiime2/luis/data/24c3fd7b-d797-45d8-8c62-edb383bdc88c/data/dna-sequences.fasta',), 'pos_ref_db_fp': ('/tmp/tmp7v9wdw34/deblur_working_dir/dna-sequences',), 'neg_ref_fp': (), 'neg_ref_db_fp': ('/tmp/tmp7v9wdw34/deblur_working_dir/artifacts',), 'overwrite': True, 'mean_error': 0.005, 'error_dist': [1.0, 0.06, 0.02, 0.02, 0.01, 0.005, 0.005, 0.005, 0.001, 0.001, 0.001, 0.0005], 'indel_prob': 0.01, 'indel_max': 3, 'trim_length': -1, 'left_trim_length': 0, 'min_reads': 1, 'min_size': 1, 'threads_per_sample': 1, 'keep_tmp_files': True, 'log_level': 2, 'log_file': '/home/luis/Documents/Projects/PUF_PAS_Metabarcoding/01_QIIME/01_Deblur/bin/deblur.log', 'jobs_to_start': 1, 'is_worker_thread': True, 'logger': <Logger __main__ (INFO)>}
+INFO(130839256627008)2025-10-21 19:38:59,947:error_dist is : [1.0, 0.06, 0.02, 0.02, 0.01, 0.005, 0.005, 0.005, 0.001, 0.001, 0.001, 0.0005]
+INFO(130839256627008)2025-10-21 19:38:59,947:deblur worker thread started
+INFO(130839256627008)2025-10-21 19:38:59,947:processing per sample fasta files
+INFO(130839256627008)2025-10-21 19:38:59,947:--------------------------------------------------------
+INFO(130839256627008)2025-10-21 19:38:59,947:launch_workflow for file /tmp/qiime2/luis/data/f474195d-1967-4331-8070-43340ef28a8e/data/PUF-BOU-7_3_L001_R1_001.fastq.gz
+INFO(130775319684928)2025-10-21 19:38:59,950:*************************
+INFO(130775319684928)2025-10-21 19:38:59,950:deblurring started
+WARNING(130775319684928)2025-10-21 19:38:59,950:deblur version 1.1.1 workflow started on /tmp/qiime2/luis/data/f474195d-1967-4331-8070-43340ef28a8e/data/ctrl-PCR-neg-PUF_10_L001_R1_001.fastq.gz
+WARNING(130775319684928)2025-10-21 19:38:59,951:parameters: {'seqs_fp': '/tmp/qiime2/luis/data/f474195d-1967-4331-8070-43340ef28a8e/data/ctrl-PCR-neg-PUF_10_L001_R1_001.fastq.gz', 'output_dir': '/tmp/tmp7v9wdw34', 'pos_ref_fp': ('/tmp/qiime2/luis/data/24c3fd7b-d797-45d8-8c62-edb383bdc88c/data/dna-sequences.fasta',), 'pos_ref_db_fp': ('/tmp/tmp7v9wdw34/deblur_working_dir/dna-sequences',), 'neg_ref_fp': (), 'neg_ref_db_fp': ('/tmp/tmp7v9wdw34/deblur_working_dir/artifacts',), 'overwrite': True, 'mean_error': 0.005, 'error_dist': [1.0, 0.06, 0.02, 0.02, 0.01, 0.005, 0.005, 0.005, 0.001, 0.001, 0.001, 0.0005], 'indel_prob': 0.01, 'indel_max': 3, 'trim_length': -1, 'left_trim_length': 0, 'min_reads': 1, 'min_size': 1, 'threads_per_sample': 1, 'keep_tmp_files': True, 'log_level': 2, 'log_file': '/home/luis/Documents/Projects/PUF_PAS_Metabarcoding/01_QIIME/01_Deblur/bin/deblur.log', 'jobs_to_start': 1, 'is_worker_thread': True, 'logger': <Logger __main__ (INFO)>}
+INFO(130775319684928)2025-10-21 19:38:59,951:error_dist is : [1.0, 0.06, 0.02, 0.02, 0.01, 0.005, 0.005, 0.005, 0.001, 0.001, 0.001, 0.0005]
+INFO(130775319684928)2025-10-21 19:38:59,951:deblur worker thread started
+INFO(130775319684928)2025-10-21 19:38:59,951:processing per sample fasta files
+INFO(130775319684928)2025-10-21 19:38:59,951:--------------------------------------------------------
+INFO(130775319684928)2025-10-21 19:38:59,951:launch_workflow for file /tmp/qiime2/luis/data/f474195d-1967-4331-8070-43340ef28a8e/data/ctrl-PCR-neg-PUF_10_L001_R1_001.fastq.gz
+WARNING(130775319684928)2025-10-21 19:38:59,951:input file /tmp/qiime2/luis/data/f474195d-1967-4331-8070-43340ef28a8e/data/ctrl-PCR-neg-PUF_10_L001_R1_001.fastq.gz does not appear to be FASTA or FASTQ
+INFO(130775319684928)2025-10-21 19:38:59,952:dereplicate seqs file /tmp/tmp7v9wdw34/deblur_working_dir/ctrl-PCR-neg-PUF_10_L001_R1_001.fastq.gz.trim
+INFO(130775319684928)2025-10-21 19:38:59,954:remove_artifacts_seqs file /tmp/tmp7v9wdw34/deblur_working_dir/ctrl-PCR-neg-PUF_10_L001_R1_001.fastq.gz.trim.derep
+WARNING(130775319684928)2025-10-21 19:38:59,955:file /tmp/tmp7v9wdw34/deblur_working_dir/ctrl-PCR-neg-PUF_10_L001_R1_001.fastq.gz.trim.derep has size 0, continuing
+WARNING(130775319684928)2025-10-21 19:38:59,955:remove artifacts failed, aborting
+WARNING(130775319684928)2025-10-21 19:38:59,955:deblurring failed for file /tmp/qiime2/luis/data/f474195d-1967-4331-8070-43340ef28a8e/data/ctrl-PCR-neg-PUF_10_L001_R1_001.fastq.gz
+INFO(130775319684928)2025-10-21 19:38:59,955:finished processing per sample fasta files
+INFO(130775319684928)2025-10-21 19:38:59,955:worker thread for /tmp/qiime2/luis/data/f474195d-1967-4331-8070-43340ef28a8e/data/ctrl-PCR-neg-PUF_10_L001_R1_001.fastq.gz finished
+INFO(129405003036480)2025-10-21 19:38:59,989:dereplicate seqs file /tmp/tmp7v9wdw34/deblur_working_dir/PUF-IPEX-1_4_L001_R1_001.fastq.gz.trim
+INFO(129405003036480)2025-10-21 19:38:59,992:remove_artifacts_seqs file /tmp/tmp7v9wdw34/deblur_working_dir/PUF-IPEX-1_4_L001_R1_001.fastq.gz.trim.derep
+INFO(130839256627008)2025-10-21 19:39:00,083:dereplicate seqs file /tmp/tmp7v9wdw34/deblur_working_dir/PUF-BOU-7_3_L001_R1_001.fastq.gz.trim
+INFO(130839256627008)2025-10-21 19:39:00,089:remove_artifacts_seqs file /tmp/tmp7v9wdw34/deblur_working_dir/PUF-BOU-7_3_L001_R1_001.fastq.gz.trim.derep
+INFO(139964635420480)2025-10-21 19:39:00,261:total sequences 10, passing sequences 10, failing sequences 0
+INFO(139964635420480)2025-10-21 19:39:00,261:multiple_sequence_alignment seqs file /tmp/tmp7v9wdw34/deblur_working_dir/CTRL-neg-extraction-PUF_0_L001_R1_001.fastq.gz.trim.derep.no_artifacts
+INFO(129405003036480)2025-10-21 19:39:00,319:total sequences 191, passing sequences 191, failing sequences 0
+INFO(129405003036480)2025-10-21 19:39:00,320:multiple_sequence_alignment seqs file /tmp/tmp7v9wdw34/deblur_working_dir/PUF-IPEX-1_4_L001_R1_001.fastq.gz.trim.derep.no_artifacts
+INFO(130839256627008)2025-10-21 19:39:00,422:total sequences 459, passing sequences 459, failing sequences 0
+INFO(130839256627008)2025-10-21 19:39:00,422:multiple_sequence_alignment seqs file /tmp/tmp7v9wdw34/deblur_working_dir/PUF-BOU-7_3_L001_R1_001.fastq.gz.trim.derep.no_artifacts
+INFO(139964635420480)2025-10-21 19:39:00,435:deblurring 10 sequences
+INFO(139964635420480)2025-10-21 19:39:00,435:1 unique sequences left following deblurring
+INFO(139964635420480)2025-10-21 19:39:00,435:remove_chimeras_denovo_from_seqs seqs file /tmp/tmp7v9wdw34/deblur_working_dir/CTRL-neg-extraction-PUF_0_L001_R1_001.fastq.gz.trim.derep.no_artifacts.msa.deblurto working dir /tmp/tmp7v9wdw34/deblur_working_dir
+INFO(139964635420480)2025-10-21 19:39:00,443:finished processing file
+INFO(139964635420480)2025-10-21 19:39:00,443:finished processing per sample fasta files
+INFO(139964635420480)2025-10-21 19:39:00,443:worker thread for /tmp/qiime2/luis/data/f474195d-1967-4331-8070-43340ef28a8e/data/CTRL-neg-extraction-PUF_0_L001_R1_001.fastq.gz finished
+INFO(139550643005248)2025-10-21 19:39:00,674:*************************
+INFO(139550643005248)2025-10-21 19:39:00,674:deblurring started
+WARNING(139550643005248)2025-10-21 19:39:00,674:deblur version 1.1.1 workflow started on /tmp/qiime2/luis/data/f474195d-1967-4331-8070-43340ef28a8e/data/PUF-JD14_8_L001_R1_001.fastq.gz
+WARNING(139550643005248)2025-10-21 19:39:00,674:parameters: {'seqs_fp': '/tmp/qiime2/luis/data/f474195d-1967-4331-8070-43340ef28a8e/data/PUF-JD14_8_L001_R1_001.fastq.gz', 'output_dir': '/tmp/tmp7v9wdw34', 'pos_ref_fp': ('/tmp/qiime2/luis/data/24c3fd7b-d797-45d8-8c62-edb383bdc88c/data/dna-sequences.fasta',), 'pos_ref_db_fp': ('/tmp/tmp7v9wdw34/deblur_working_dir/dna-sequences',), 'neg_ref_fp': (), 'neg_ref_db_fp': ('/tmp/tmp7v9wdw34/deblur_working_dir/artifacts',), 'overwrite': True, 'mean_error': 0.005, 'error_dist': [1.0, 0.06, 0.02, 0.02, 0.01, 0.005, 0.005, 0.005, 0.001, 0.001, 0.001, 0.0005], 'indel_prob': 0.01, 'indel_max': 3, 'trim_length': -1, 'left_trim_length': 0, 'min_reads': 1, 'min_size': 1, 'threads_per_sample': 1, 'keep_tmp_files': True, 'log_level': 2, 'log_file': '/home/luis/Documents/Projects/PUF_PAS_Metabarcoding/01_QIIME/01_Deblur/bin/deblur.log', 'jobs_to_start': 1, 'is_worker_thread': True, 'logger': <Logger __main__ (INFO)>}
+INFO(139550643005248)2025-10-21 19:39:00,674:error_dist is : [1.0, 0.06, 0.02, 0.02, 0.01, 0.005, 0.005, 0.005, 0.001, 0.001, 0.001, 0.0005]
+INFO(139550643005248)2025-10-21 19:39:00,674:deblur worker thread started
+INFO(139550643005248)2025-10-21 19:39:00,674:processing per sample fasta files
+INFO(139550643005248)2025-10-21 19:39:00,674:--------------------------------------------------------
+INFO(139550643005248)2025-10-21 19:39:00,674:launch_workflow for file /tmp/qiime2/luis/data/f474195d-1967-4331-8070-43340ef28a8e/data/PUF-JD14_8_L001_R1_001.fastq.gz
+INFO(131197787440960)2025-10-21 19:39:00,800:dereplicate seqs file /tmp/tmp7v9wdw34/deblur_working_dir/PUF-BOT-10_1_L001_R1_001.fastq.gz.trim
+INFO(131197787440960)2025-10-21 19:39:00,811:remove_artifacts_seqs file /tmp/tmp7v9wdw34/deblur_working_dir/PUF-BOT-10_1_L001_R1_001.fastq.gz.trim.derep
+INFO(131197787440960)2025-10-21 19:39:01,149:total sequences 1914, passing sequences 1914, failing sequences 0
+INFO(131197787440960)2025-10-21 19:39:01,149:multiple_sequence_alignment seqs file /tmp/tmp7v9wdw34/deblur_working_dir/PUF-BOT-10_1_L001_R1_001.fastq.gz.trim.derep.no_artifacts
+INFO(128216418617152)2025-10-21 19:39:01,149:*************************
+INFO(128216418617152)2025-10-21 19:39:01,149:deblurring started
+WARNING(128216418617152)2025-10-21 19:39:01,149:deblur version 1.1.1 workflow started on /tmp/qiime2/luis/data/f474195d-1967-4331-8070-43340ef28a8e/data/PUF-MBO-4_9_L001_R1_001.fastq.gz
+WARNING(128216418617152)2025-10-21 19:39:01,149:parameters: {'seqs_fp': '/tmp/qiime2/luis/data/f474195d-1967-4331-8070-43340ef28a8e/data/PUF-MBO-4_9_L001_R1_001.fastq.gz', 'output_dir': '/tmp/tmp7v9wdw34', 'pos_ref_fp': ('/tmp/qiime2/luis/data/24c3fd7b-d797-45d8-8c62-edb383bdc88c/data/dna-sequences.fasta',), 'pos_ref_db_fp': ('/tmp/tmp7v9wdw34/deblur_working_dir/dna-sequences',), 'neg_ref_fp': (), 'neg_ref_db_fp': ('/tmp/tmp7v9wdw34/deblur_working_dir/artifacts',), 'overwrite': True, 'mean_error': 0.005, 'error_dist': [1.0, 0.06, 0.02, 0.02, 0.01, 0.005, 0.005, 0.005, 0.001, 0.001, 0.001, 0.0005], 'indel_prob': 0.01, 'indel_max': 3, 'trim_length': -1, 'left_trim_length': 0, 'min_reads': 1, 'min_size': 1, 'threads_per_sample': 1, 'keep_tmp_files': True, 'log_level': 2, 'log_file': '/home/luis/Documents/Projects/PUF_PAS_Metabarcoding/01_QIIME/01_Deblur/bin/deblur.log', 'jobs_to_start': 1, 'is_worker_thread': True, 'logger': <Logger __main__ (INFO)>}
+INFO(128216418617152)2025-10-21 19:39:01,149:error_dist is : [1.0, 0.06, 0.02, 0.02, 0.01, 0.005, 0.005, 0.005, 0.001, 0.001, 0.001, 0.0005]
+INFO(128216418617152)2025-10-21 19:39:01,149:deblur worker thread started
+INFO(128216418617152)2025-10-21 19:39:01,149:processing per sample fasta files
+INFO(128216418617152)2025-10-21 19:39:01,149:--------------------------------------------------------
+INFO(128216418617152)2025-10-21 19:39:01,149:launch_workflow for file /tmp/qiime2/luis/data/f474195d-1967-4331-8070-43340ef28a8e/data/PUF-MBO-4_9_L001_R1_001.fastq.gz
+INFO(139550643005248)2025-10-21 19:39:01,722:dereplicate seqs file /tmp/tmp7v9wdw34/deblur_working_dir/PUF-JD14_8_L001_R1_001.fastq.gz.trim
+INFO(139550643005248)2025-10-21 19:39:01,736:remove_artifacts_seqs file /tmp/tmp7v9wdw34/deblur_working_dir/PUF-JD14_8_L001_R1_001.fastq.gz.trim.derep
+INFO(139550643005248)2025-10-21 19:39:02,090:total sequences 2735, passing sequences 2735, failing sequences 0
+INFO(139550643005248)2025-10-21 19:39:02,090:multiple_sequence_alignment seqs file /tmp/tmp7v9wdw34/deblur_working_dir/PUF-JD14_8_L001_R1_001.fastq.gz.trim.derep.no_artifacts
+INFO(139596882728768)2025-10-21 19:39:02,569:dereplicate seqs file /tmp/tmp7v9wdw34/deblur_working_dir/PUF-IPEX-8_6_L001_R1_001.fastq.gz.trim
+INFO(139596882728768)2025-10-21 19:39:02,602:remove_artifacts_seqs file /tmp/tmp7v9wdw34/deblur_working_dir/PUF-IPEX-8_6_L001_R1_001.fastq.gz.trim.derep
+INFO(128216418617152)2025-10-21 19:39:02,686:dereplicate seqs file /tmp/tmp7v9wdw34/deblur_working_dir/PUF-MBO-4_9_L001_R1_001.fastq.gz.trim
+INFO(128216418617152)2025-10-21 19:39:02,707:remove_artifacts_seqs file /tmp/tmp7v9wdw34/deblur_working_dir/PUF-MBO-4_9_L001_R1_001.fastq.gz.trim.derep
+INFO(139596882728768)2025-10-21 19:39:03,070:total sequences 6238, passing sequences 6238, failing sequences 0
+INFO(139596882728768)2025-10-21 19:39:03,070:multiple_sequence_alignment seqs file /tmp/tmp7v9wdw34/deblur_working_dir/PUF-IPEX-8_6_L001_R1_001.fastq.gz.trim.derep.no_artifacts
+INFO(128216418617152)2025-10-21 19:39:03,114:total sequences 3771, passing sequences 3771, failing sequences 0
+INFO(128216418617152)2025-10-21 19:39:03,114:multiple_sequence_alignment seqs file /tmp/tmp7v9wdw34/deblur_working_dir/PUF-MBO-4_9_L001_R1_001.fastq.gz.trim.derep.no_artifacts
+INFO(131197787440960)2025-10-21 19:39:06,690:deblurring 1914 sequences
+INFO(131197787440960)2025-10-21 19:39:06,769:35 unique sequences left following deblurring
+INFO(131197787440960)2025-10-21 19:39:06,770:remove_chimeras_denovo_from_seqs seqs file /tmp/tmp7v9wdw34/deblur_working_dir/PUF-BOT-10_1_L001_R1_001.fastq.gz.trim.derep.no_artifacts.msa.deblurto working dir /tmp/tmp7v9wdw34/deblur_working_dir
+INFO(131197787440960)2025-10-21 19:39:06,792:finished processing file
+INFO(131197787440960)2025-10-21 19:39:06,792:finished processing per sample fasta files
+INFO(131197787440960)2025-10-21 19:39:06,792:worker thread for /tmp/qiime2/luis/data/f474195d-1967-4331-8070-43340ef28a8e/data/PUF-BOT-10_1_L001_R1_001.fastq.gz finished
+INFO(130839256627008)2025-10-21 19:39:07,264:deblurring 459 sequences
+INFO(130839256627008)2025-10-21 19:39:07,318:111 unique sequences left following deblurring
+INFO(130839256627008)2025-10-21 19:39:07,318:remove_chimeras_denovo_from_seqs seqs file /tmp/tmp7v9wdw34/deblur_working_dir/PUF-BOU-7_3_L001_R1_001.fastq.gz.trim.derep.no_artifacts.msa.deblurto working dir /tmp/tmp7v9wdw34/deblur_working_dir
+INFO(130839256627008)2025-10-21 19:39:07,383:finished processing file
+INFO(130839256627008)2025-10-21 19:39:07,383:finished processing per sample fasta files
+INFO(130839256627008)2025-10-21 19:39:07,383:worker thread for /tmp/qiime2/luis/data/f474195d-1967-4331-8070-43340ef28a8e/data/PUF-BOU-7_3_L001_R1_001.fastq.gz finished
+INFO(131217620289344)2025-10-21 19:39:07,554:*************************
+INFO(131217620289344)2025-10-21 19:39:07,554:deblurring started
+WARNING(131217620289344)2025-10-21 19:39:07,554:deblur version 1.1.1 workflow started on /tmp/qiime2/luis/data/f474195d-1967-4331-8070-43340ef28a8e/data/PUF-IPEX-3_5_L001_R1_001.fastq.gz
+WARNING(131217620289344)2025-10-21 19:39:07,554:parameters: {'seqs_fp': '/tmp/qiime2/luis/data/f474195d-1967-4331-8070-43340ef28a8e/data/PUF-IPEX-3_5_L001_R1_001.fastq.gz', 'output_dir': '/tmp/tmp7v9wdw34', 'pos_ref_fp': ('/tmp/qiime2/luis/data/24c3fd7b-d797-45d8-8c62-edb383bdc88c/data/dna-sequences.fasta',), 'pos_ref_db_fp': ('/tmp/tmp7v9wdw34/deblur_working_dir/dna-sequences',), 'neg_ref_fp': (), 'neg_ref_db_fp': ('/tmp/tmp7v9wdw34/deblur_working_dir/artifacts',), 'overwrite': True, 'mean_error': 0.005, 'error_dist': [1.0, 0.06, 0.02, 0.02, 0.01, 0.005, 0.005, 0.005, 0.001, 0.001, 0.001, 0.0005], 'indel_prob': 0.01, 'indel_max': 3, 'trim_length': -1, 'left_trim_length': 0, 'min_reads': 1, 'min_size': 1, 'threads_per_sample': 1, 'keep_tmp_files': True, 'log_level': 2, 'log_file': '/home/luis/Documents/Projects/PUF_PAS_Metabarcoding/01_QIIME/01_Deblur/bin/deblur.log', 'jobs_to_start': 1, 'is_worker_thread': True, 'logger': <Logger __main__ (INFO)>}
+INFO(131217620289344)2025-10-21 19:39:07,554:error_dist is : [1.0, 0.06, 0.02, 0.02, 0.01, 0.005, 0.005, 0.005, 0.001, 0.001, 0.001, 0.0005]
+INFO(131217620289344)2025-10-21 19:39:07,554:deblur worker thread started
+INFO(131217620289344)2025-10-21 19:39:07,554:processing per sample fasta files
+INFO(131217620289344)2025-10-21 19:39:07,554:--------------------------------------------------------
+INFO(131217620289344)2025-10-21 19:39:07,554:launch_workflow for file /tmp/qiime2/luis/data/f474195d-1967-4331-8070-43340ef28a8e/data/PUF-IPEX-3_5_L001_R1_001.fastq.gz
+INFO(140582178191168)2025-10-21 19:39:08,134:*************************
+INFO(140582178191168)2025-10-21 19:39:08,134:deblurring started
+WARNING(140582178191168)2025-10-21 19:39:08,134:deblur version 1.1.1 workflow started on /tmp/qiime2/luis/data/f474195d-1967-4331-8070-43340ef28a8e/data/PUF-BOT-3_2_L001_R1_001.fastq.gz
+WARNING(140582178191168)2025-10-21 19:39:08,134:parameters: {'seqs_fp': '/tmp/qiime2/luis/data/f474195d-1967-4331-8070-43340ef28a8e/data/PUF-BOT-3_2_L001_R1_001.fastq.gz', 'output_dir': '/tmp/tmp7v9wdw34', 'pos_ref_fp': ('/tmp/qiime2/luis/data/24c3fd7b-d797-45d8-8c62-edb383bdc88c/data/dna-sequences.fasta',), 'pos_ref_db_fp': ('/tmp/tmp7v9wdw34/deblur_working_dir/dna-sequences',), 'neg_ref_fp': (), 'neg_ref_db_fp': ('/tmp/tmp7v9wdw34/deblur_working_dir/artifacts',), 'overwrite': True, 'mean_error': 0.005, 'error_dist': [1.0, 0.06, 0.02, 0.02, 0.01, 0.005, 0.005, 0.005, 0.001, 0.001, 0.001, 0.0005], 'indel_prob': 0.01, 'indel_max': 3, 'trim_length': -1, 'left_trim_length': 0, 'min_reads': 1, 'min_size': 1, 'threads_per_sample': 1, 'keep_tmp_files': True, 'log_level': 2, 'log_file': '/home/luis/Documents/Projects/PUF_PAS_Metabarcoding/01_QIIME/01_Deblur/bin/deblur.log', 'jobs_to_start': 1, 'is_worker_thread': True, 'logger': <Logger __main__ (INFO)>}
+INFO(140582178191168)2025-10-21 19:39:08,134:error_dist is : [1.0, 0.06, 0.02, 0.02, 0.01, 0.005, 0.005, 0.005, 0.001, 0.001, 0.001, 0.0005]
+INFO(140582178191168)2025-10-21 19:39:08,134:deblur worker thread started
+INFO(140582178191168)2025-10-21 19:39:08,134:processing per sample fasta files
+INFO(140582178191168)2025-10-21 19:39:08,134:--------------------------------------------------------
+INFO(140582178191168)2025-10-21 19:39:08,134:launch_workflow for file /tmp/qiime2/luis/data/f474195d-1967-4331-8070-43340ef28a8e/data/PUF-BOT-3_2_L001_R1_001.fastq.gz
+INFO(140582178191168)2025-10-21 19:39:08,159:dereplicate seqs file /tmp/tmp7v9wdw34/deblur_working_dir/PUF-BOT-3_2_L001_R1_001.fastq.gz.trim
+INFO(140582178191168)2025-10-21 19:39:08,161:remove_artifacts_seqs file /tmp/tmp7v9wdw34/deblur_working_dir/PUF-BOT-3_2_L001_R1_001.fastq.gz.trim.derep
+INFO(140582178191168)2025-10-21 19:39:08,449:total sequences 31, passing sequences 31, failing sequences 0
+INFO(140582178191168)2025-10-21 19:39:08,449:multiple_sequence_alignment seqs file /tmp/tmp7v9wdw34/deblur_working_dir/PUF-BOT-3_2_L001_R1_001.fastq.gz.trim.derep.no_artifacts
+INFO(131217620289344)2025-10-21 19:39:08,905:dereplicate seqs file /tmp/tmp7v9wdw34/deblur_working_dir/PUF-IPEX-3_5_L001_R1_001.fastq.gz.trim
+INFO(131217620289344)2025-10-21 19:39:08,922:remove_artifacts_seqs file /tmp/tmp7v9wdw34/deblur_working_dir/PUF-IPEX-3_5_L001_R1_001.fastq.gz.trim.derep
+INFO(140582178191168)2025-10-21 19:39:09,056:deblurring 31 sequences
+INFO(140582178191168)2025-10-21 19:39:09,057:3 unique sequences left following deblurring
+INFO(140582178191168)2025-10-21 19:39:09,057:remove_chimeras_denovo_from_seqs seqs file /tmp/tmp7v9wdw34/deblur_working_dir/PUF-BOT-3_2_L001_R1_001.fastq.gz.trim.derep.no_artifacts.msa.deblurto working dir /tmp/tmp7v9wdw34/deblur_working_dir
+INFO(140582178191168)2025-10-21 19:39:09,065:finished processing file
+INFO(140582178191168)2025-10-21 19:39:09,066:finished processing per sample fasta files
+INFO(140582178191168)2025-10-21 19:39:09,066:worker thread for /tmp/qiime2/luis/data/f474195d-1967-4331-8070-43340ef28a8e/data/PUF-BOT-3_2_L001_R1_001.fastq.gz finished
+INFO(131217620289344)2025-10-21 19:39:09,310:total sequences 2134, passing sequences 2134, failing sequences 0
+INFO(131217620289344)2025-10-21 19:39:09,310:multiple_sequence_alignment seqs file /tmp/tmp7v9wdw34/deblur_working_dir/PUF-IPEX-3_5_L001_R1_001.fastq.gz.trim.derep.no_artifacts
+INFO(134843399137088)2025-10-21 19:39:09,841:*************************
+INFO(134843399137088)2025-10-21 19:39:09,841:deblurring started
+WARNING(134843399137088)2025-10-21 19:39:09,841:deblur version 1.1.1 workflow started on /tmp/qiime2/luis/data/f474195d-1967-4331-8070-43340ef28a8e/data/PUF-JD-10_7_L001_R1_001.fastq.gz
+WARNING(134843399137088)2025-10-21 19:39:09,841:parameters: {'seqs_fp': '/tmp/qiime2/luis/data/f474195d-1967-4331-8070-43340ef28a8e/data/PUF-JD-10_7_L001_R1_001.fastq.gz', 'output_dir': '/tmp/tmp7v9wdw34', 'pos_ref_fp': ('/tmp/qiime2/luis/data/24c3fd7b-d797-45d8-8c62-edb383bdc88c/data/dna-sequences.fasta',), 'pos_ref_db_fp': ('/tmp/tmp7v9wdw34/deblur_working_dir/dna-sequences',), 'neg_ref_fp': (), 'neg_ref_db_fp': ('/tmp/tmp7v9wdw34/deblur_working_dir/artifacts',), 'overwrite': True, 'mean_error': 0.005, 'error_dist': [1.0, 0.06, 0.02, 0.02, 0.01, 0.005, 0.005, 0.005, 0.001, 0.001, 0.001, 0.0005], 'indel_prob': 0.01, 'indel_max': 3, 'trim_length': -1, 'left_trim_length': 0, 'min_reads': 1, 'min_size': 1, 'threads_per_sample': 1, 'keep_tmp_files': True, 'log_level': 2, 'log_file': '/home/luis/Documents/Projects/PUF_PAS_Metabarcoding/01_QIIME/01_Deblur/bin/deblur.log', 'jobs_to_start': 1, 'is_worker_thread': True, 'logger': <Logger __main__ (INFO)>}
+INFO(134843399137088)2025-10-21 19:39:09,841:error_dist is : [1.0, 0.06, 0.02, 0.02, 0.01, 0.005, 0.005, 0.005, 0.001, 0.001, 0.001, 0.0005]
+INFO(134843399137088)2025-10-21 19:39:09,842:deblur worker thread started
+INFO(134843399137088)2025-10-21 19:39:09,842:processing per sample fasta files
+INFO(134843399137088)2025-10-21 19:39:09,842:--------------------------------------------------------
+INFO(134843399137088)2025-10-21 19:39:09,842:launch_workflow for file /tmp/qiime2/luis/data/f474195d-1967-4331-8070-43340ef28a8e/data/PUF-JD-10_7_L001_R1_001.fastq.gz
+INFO(139550643005248)2025-10-21 19:39:11,973:deblurring 2735 sequences
+INFO(139550643005248)2025-10-21 19:39:12,290:94 unique sequences left following deblurring
+INFO(139550643005248)2025-10-21 19:39:12,291:remove_chimeras_denovo_from_seqs seqs file /tmp/tmp7v9wdw34/deblur_working_dir/PUF-JD14_8_L001_R1_001.fastq.gz.trim.derep.no_artifacts.msa.deblurto working dir /tmp/tmp7v9wdw34/deblur_working_dir
+INFO(139550643005248)2025-10-21 19:39:12,347:finished processing file
+INFO(139550643005248)2025-10-21 19:39:12,348:finished processing per sample fasta files
+INFO(139550643005248)2025-10-21 19:39:12,348:worker thread for /tmp/qiime2/luis/data/f474195d-1967-4331-8070-43340ef28a8e/data/PUF-JD14_8_L001_R1_001.fastq.gz finished
+INFO(134843399137088)2025-10-21 19:39:13,560:dereplicate seqs file /tmp/tmp7v9wdw34/deblur_working_dir/PUF-JD-10_7_L001_R1_001.fastq.gz.trim
+INFO(134843399137088)2025-10-21 19:39:13,606:remove_artifacts_seqs file /tmp/tmp7v9wdw34/deblur_working_dir/PUF-JD-10_7_L001_R1_001.fastq.gz.trim.derep
+INFO(134843399137088)2025-10-21 19:39:14,130:total sequences 7468, passing sequences 7468, failing sequences 0
+INFO(134843399137088)2025-10-21 19:39:14,130:multiple_sequence_alignment seqs file /tmp/tmp7v9wdw34/deblur_working_dir/PUF-JD-10_7_L001_R1_001.fastq.gz.trim.derep.no_artifacts
+INFO(131217620289344)2025-10-21 19:39:15,810:deblurring 2134 sequences
+INFO(131217620289344)2025-10-21 19:39:16,190:163 unique sequences left following deblurring
+INFO(131217620289344)2025-10-21 19:39:16,191:remove_chimeras_denovo_from_seqs seqs file /tmp/tmp7v9wdw34/deblur_working_dir/PUF-IPEX-3_5_L001_R1_001.fastq.gz.trim.derep.no_artifacts.msa.deblurto working dir /tmp/tmp7v9wdw34/deblur_working_dir
+INFO(131217620289344)2025-10-21 19:39:16,290:finished processing file
+INFO(131217620289344)2025-10-21 19:39:16,290:finished processing per sample fasta files
+INFO(131217620289344)2025-10-21 19:39:16,290:worker thread for /tmp/qiime2/luis/data/f474195d-1967-4331-8070-43340ef28a8e/data/PUF-IPEX-3_5_L001_R1_001.fastq.gz finished
+INFO(128216418617152)2025-10-21 19:39:19,681:deblurring 3771 sequences
+INFO(128216418617152)2025-10-21 19:39:20,014:79 unique sequences left following deblurring
+INFO(128216418617152)2025-10-21 19:39:20,016:remove_chimeras_denovo_from_seqs seqs file /tmp/tmp7v9wdw34/deblur_working_dir/PUF-MBO-4_9_L001_R1_001.fastq.gz.trim.derep.no_artifacts.msa.deblurto working dir /tmp/tmp7v9wdw34/deblur_working_dir
+INFO(128216418617152)2025-10-21 19:39:20,064:finished processing file
+INFO(128216418617152)2025-10-21 19:39:20,065:finished processing per sample fasta files
+INFO(128216418617152)2025-10-21 19:39:20,065:worker thread for /tmp/qiime2/luis/data/f474195d-1967-4331-8070-43340ef28a8e/data/PUF-MBO-4_9_L001_R1_001.fastq.gz finished
+INFO(129405003036480)2025-10-21 19:39:20,523:deblurring 191 sequences
+INFO(129405003036480)2025-10-21 19:39:20,539:80 unique sequences left following deblurring
+INFO(129405003036480)2025-10-21 19:39:20,539:remove_chimeras_denovo_from_seqs seqs file /tmp/tmp7v9wdw34/deblur_working_dir/PUF-IPEX-1_4_L001_R1_001.fastq.gz.trim.derep.no_artifacts.msa.deblurto working dir /tmp/tmp7v9wdw34/deblur_working_dir
+INFO(129405003036480)2025-10-21 19:39:20,587:finished processing file
+INFO(129405003036480)2025-10-21 19:39:20,587:finished processing per sample fasta files
+INFO(129405003036480)2025-10-21 19:39:20,587:worker thread for /tmp/qiime2/luis/data/f474195d-1967-4331-8070-43340ef28a8e/data/PUF-IPEX-1_4_L001_R1_001.fastq.gz finished
+INFO(139596882728768)2025-10-21 19:39:41,491:deblurring 6238 sequences
+INFO(139596882728768)2025-10-21 19:39:43,127:271 unique sequences left following deblurring
+INFO(139596882728768)2025-10-21 19:39:43,130:remove_chimeras_denovo_from_seqs seqs file /tmp/tmp7v9wdw34/deblur_working_dir/PUF-IPEX-8_6_L001_R1_001.fastq.gz.trim.derep.no_artifacts.msa.deblurto working dir /tmp/tmp7v9wdw34/deblur_working_dir
+INFO(139596882728768)2025-10-21 19:39:43,292:finished processing file
+INFO(139596882728768)2025-10-21 19:39:43,292:finished processing per sample fasta files
+INFO(139596882728768)2025-10-21 19:39:43,292:worker thread for /tmp/qiime2/luis/data/f474195d-1967-4331-8070-43340ef28a8e/data/PUF-IPEX-8_6_L001_R1_001.fastq.gz finished
+INFO(134843399137088)2025-10-21 19:40:05,808:deblurring 7468 sequences
+INFO(134843399137088)2025-10-21 19:40:08,453:400 unique sequences left following deblurring
+INFO(134843399137088)2025-10-21 19:40:08,455:remove_chimeras_denovo_from_seqs seqs file /tmp/tmp7v9wdw34/deblur_working_dir/PUF-JD-10_7_L001_R1_001.fastq.gz.trim.derep.no_artifacts.msa.deblurto working dir /tmp/tmp7v9wdw34/deblur_working_dir
+INFO(134843399137088)2025-10-21 19:40:08,692:finished processing file
+INFO(134843399137088)2025-10-21 19:40:08,692:finished processing per sample fasta files
+INFO(134843399137088)2025-10-21 19:40:08,692:worker thread for /tmp/qiime2/luis/data/f474195d-1967-4331-8070-43340ef28a8e/data/PUF-JD-10_7_L001_R1_001.fastq.gz finished
+INFO(130129383929664)2025-10-21 19:40:08,817:create_otu_table for 10 samples, into output table /tmp/tmp7v9wdw34/all.biom
+INFO(130129383929664)2025-10-21 19:40:08,841:for output biom table loaded 10 samples, 883 unique sequences
+INFO(130129383929664)2025-10-21 19:40:08,842:keeping 883 (out of 883 sequences) with >=1 reads
+INFO(130129383929664)2025-10-21 19:40:08,852:saved to biom file /tmp/tmp7v9wdw34/all.biom
+INFO(130129383929664)2025-10-21 19:40:08,853:saved sequence fasta file to /tmp/tmp7v9wdw34/all.seqs.fa
+INFO(130129383929664)2025-10-21 19:40:08,853:getting 16s sequences from the biom table
+INFO(130129383929664)2025-10-21 19:40:08,853:remove_artifacts_seqs file /tmp/tmp7v9wdw34/all.seqs.fa
+INFO(130129383929664)2025-10-21 19:41:20,966:total sequences 883, passing sequences 823, failing sequences 60
+WARNING(130129383929664)2025-10-21 19:41:20,978:removed 3 samples with reads per sample<1
+INFO(130129383929664)2025-10-21 19:41:20,982:wrote artifact only filtered biom table to /tmp/tmp7v9wdw34/reference-non-hit.biom
+INFO(130129383929664)2025-10-21 19:41:20,982:saved biom table sequences to fasta file /tmp/tmp7v9wdw34/reference-non-hit.seqs.fa
+INFO(130129383929664)2025-10-21 19:41:20,990:wrote 16s filtered biom table to /tmp/tmp7v9wdw34/reference-hit.biom
+INFO(130129383929664)2025-10-21 19:41:20,991:saved biom table sequences to fasta file /tmp/tmp7v9wdw34/reference-hit.seqs.fa
+INFO(130129383929664)2025-10-21 19:41:20,991:Keeping temp files
+INFO(130129383929664)2025-10-21 19:41:20,991:deblur workflow finished
+INFO(130129383929664)2025-10-21 19:41:20,991:output saved to /tmp/tmp7v9wdw34/all.biom
+INFO(130129383929664)2025-10-21 19:41:20,991:------------------

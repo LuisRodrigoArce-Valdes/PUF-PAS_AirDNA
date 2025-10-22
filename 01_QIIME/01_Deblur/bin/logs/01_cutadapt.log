@@ -1,0 +1,598 @@
+This is cutadapt 5.0 with Python 3.10.14
+Command line parameters: -u 0 --error-rate 0.1 --times 1 --overlap 3 --minimum-length 1 -q 0,0 --quality-base 33 --cores 4 -o /tmp/qiime2/luis/processes/15142-1761064869.87@luis/tmp/q2-OutPath-ltzsnq8g/CTRL-neg-extraction-PUF_S361_L001_R1_001.fastq.gz -p /tmp/qiime2/luis/processes/15142-1761064869.87@luis/tmp/q2-OutPath-ltzsnq8g/CTRL-neg-extraction-PUF_S361_L001_R2_001.fastq.gz --front ^GGWACWGGWTGAACWGTWTAYCCYCC -G ^TAIACYTCIGGRTGICCRAARAAYCA -U 0 --discard-untrimmed /tmp/qiime2/luis/data/764e11b2-29da-4054-b7b8-57289067ecb7/data/CTRL-neg-extraction-PUF_S361_L001_R1_001.fastq.gz /tmp/qiime2/luis/data/764e11b2-29da-4054-b7b8-57289067ecb7/data/CTRL-neg-extraction-PUF_S361_L001_R2_001.fastq.gz
+Processing paired-end reads on 4 cores ...
+
+=== Summary ===
+
+Total read pairs processed:              3,360
+  Read 1 with adapter:                   3,269 (97.3%)
+  Read 2 with adapter:                   3,140 (93.5%)
+
+== Read fate breakdown ==
+Pairs that were too short:                   0 (0.0%)
+Pairs discarded as untrimmed:              224 (6.7%)
+Pairs written (passing filters):         3,136 (93.3%)
+
+Total basepairs processed:       745,198 bp
+  Read 1:       366,955 bp
+  Read 2:       378,243 bp
+Quality-trimmed:                       0 bp (0.0%)
+  Read 1:             0 bp
+  Read 2:             0 bp
+Total written (filtered):        478,283 bp (64.2%)
+  Read 1:       231,514 bp
+  Read 2:       246,769 bp
+
+=== First read: Adapter 1 ===
+
+Sequence: GGWACWGGWTGAACWGTWTAYCCYCC; Type: anchored 5'; Length: 26; Trimmed: 3269 times
+
+No. of allowed errors: 2
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+24	2	0.0	2	0 0 2
+25	83	0.0	2	0 79 4
+26	3180	0.0	2	2775 367 38
+27	4	0.0	2	0 4
+
+
+=== Second read: Adapter 2 ===
+
+Sequence: TANACYTCNGGRTGNCCRAARAAYCA; Type: anchored 5'; Length: 26; Trimmed: 3140 times
+
+No. of allowed errors: 2
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+24	15	0.0	2	0 0 15
+25	115	0.0	2	0 95 20
+26	3007	0.0	2	2345 516 146
+27	3	0.0	2	0 3
+This is cutadapt 5.0 with Python 3.10.14
+Command line parameters: -u 0 --error-rate 0.1 --times 1 --overlap 3 --minimum-length 1 -q 0,0 --quality-base 33 --cores 4 -o /tmp/qiime2/luis/processes/15142-1761064869.87@luis/tmp/q2-OutPath-ltzsnq8g/PUF-BOT-10_S365_L001_R1_001.fastq.gz -p /tmp/qiime2/luis/processes/15142-1761064869.87@luis/tmp/q2-OutPath-ltzsnq8g/PUF-BOT-10_S365_L001_R2_001.fastq.gz --front ^GGWACWGGWTGAACWGTWTAYCCYCC -G ^TAIACYTCIGGRTGICCRAARAAYCA -U 0 --discard-untrimmed /tmp/qiime2/luis/data/764e11b2-29da-4054-b7b8-57289067ecb7/data/PUF-BOT-10_S365_L001_R1_001.fastq.gz /tmp/qiime2/luis/data/764e11b2-29da-4054-b7b8-57289067ecb7/data/PUF-BOT-10_S365_L001_R2_001.fastq.gz
+Processing paired-end reads on 4 cores ...
+
+=== Summary ===
+
+Total read pairs processed:             37,186
+  Read 1 with adapter:                  36,989 (99.5%)
+  Read 2 with adapter:                  35,769 (96.2%)
+
+== Read fate breakdown ==
+Pairs that were too short:                   0 (0.0%)
+Pairs discarded as untrimmed:            1,543 (4.1%)
+Pairs written (passing filters):        35,643 (95.9%)
+
+Total basepairs processed:    21,797,087 bp
+  Read 1:    10,898,007 bp
+  Read 2:    10,899,080 bp
+Quality-trimmed:                       0 bp (0.0%)
+  Read 1:             0 bp
+  Read 2:             0 bp
+Total written (filtered):     19,034,356 bp (87.3%)
+  Read 1:     9,516,020 bp
+  Read 2:     9,518,336 bp
+
+=== First read: Adapter 1 ===
+
+Sequence: GGWACWGGWTGAACWGTWTAYCCYCC; Type: anchored 5'; Length: 26; Trimmed: 36989 times
+
+No. of allowed errors: 2
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+24	77	0.0	2	0 0 77
+25	1103	0.0	2	0 1001 102
+26	35770	0.0	2	30505 4804 461
+27	39	0.0	2	0 38 1
+
+
+=== Second read: Adapter 2 ===
+
+Sequence: TANACYTCNGGRTGNCCRAARAAYCA; Type: anchored 5'; Length: 26; Trimmed: 35769 times
+
+No. of allowed errors: 2
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+24	173	0.0	2	0 0 173
+25	1618	0.0	2	0 1308 310
+26	33939	0.0	2	24931 6729 2279
+27	39	0.0	2	0 37 2
+This is cutadapt 5.0 with Python 3.10.14
+Command line parameters: -u 0 --error-rate 0.1 --times 1 --overlap 3 --minimum-length 1 -q 0,0 --quality-base 33 --cores 4 -o /tmp/qiime2/luis/processes/15142-1761064869.87@luis/tmp/q2-OutPath-ltzsnq8g/PUF-BOT-3_S364_L001_R1_001.fastq.gz -p /tmp/qiime2/luis/processes/15142-1761064869.87@luis/tmp/q2-OutPath-ltzsnq8g/PUF-BOT-3_S364_L001_R2_001.fastq.gz --front ^GGWACWGGWTGAACWGTWTAYCCYCC -G ^TAIACYTCIGGRTGICCRAARAAYCA -U 0 --discard-untrimmed /tmp/qiime2/luis/data/764e11b2-29da-4054-b7b8-57289067ecb7/data/PUF-BOT-3_S364_L001_R1_001.fastq.gz /tmp/qiime2/luis/data/764e11b2-29da-4054-b7b8-57289067ecb7/data/PUF-BOT-3_S364_L001_R2_001.fastq.gz
+Processing paired-end reads on 4 cores ...
+
+=== Summary ===
+
+Total read pairs processed:              2,236
+  Read 1 with adapter:                   2,157 (96.5%)
+  Read 2 with adapter:                   2,082 (93.1%)
+
+== Read fate breakdown ==
+Pairs that were too short:                   0 (0.0%)
+Pairs discarded as untrimmed:              160 (7.2%)
+Pairs written (passing filters):         2,076 (92.8%)
+
+Total basepairs processed:     1,107,574 bp
+  Read 1:       550,907 bp
+  Read 2:       556,667 bp
+Quality-trimmed:                       0 bp (0.0%)
+  Read 1:             0 bp
+  Read 2:             0 bp
+Total written (filtered):        911,715 bp (82.3%)
+  Read 1:       453,234 bp
+  Read 2:       458,481 bp
+
+=== First read: Adapter 1 ===
+
+Sequence: GGWACWGGWTGAACWGTWTAYCCYCC; Type: anchored 5'; Length: 26; Trimmed: 2157 times
+
+No. of allowed errors: 2
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+24	3	0.0	2	0 0 3
+25	61	0.0	2	0 56 5
+26	2093	0.0	2	1779 294 20
+
+
+=== Second read: Adapter 2 ===
+
+Sequence: TANACYTCNGGRTGNCCRAARAAYCA; Type: anchored 5'; Length: 26; Trimmed: 2082 times
+
+No. of allowed errors: 2
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+24	10	0.0	2	0 0 10
+25	81	0.0	2	0 59 22
+26	1989	0.0	2	1467 383 139
+27	2	0.0	2	0 2
+This is cutadapt 5.0 with Python 3.10.14
+Command line parameters: -u 0 --error-rate 0.1 --times 1 --overlap 3 --minimum-length 1 -q 0,0 --quality-base 33 --cores 4 -o /tmp/qiime2/luis/processes/15142-1761064869.87@luis/tmp/q2-OutPath-ltzsnq8g/PUF-BOU-7_S359_L001_R1_001.fastq.gz -p /tmp/qiime2/luis/processes/15142-1761064869.87@luis/tmp/q2-OutPath-ltzsnq8g/PUF-BOU-7_S359_L001_R2_001.fastq.gz --front ^GGWACWGGWTGAACWGTWTAYCCYCC -G ^TAIACYTCIGGRTGICCRAARAAYCA -U 0 --discard-untrimmed /tmp/qiime2/luis/data/764e11b2-29da-4054-b7b8-57289067ecb7/data/PUF-BOU-7_S359_L001_R1_001.fastq.gz /tmp/qiime2/luis/data/764e11b2-29da-4054-b7b8-57289067ecb7/data/PUF-BOU-7_S359_L001_R2_001.fastq.gz
+Processing paired-end reads on 4 cores ...
+
+=== Summary ===
+
+Total read pairs processed:             15,144
+  Read 1 with adapter:                  15,084 (99.6%)
+  Read 2 with adapter:                  14,608 (96.5%)
+
+== Read fate breakdown ==
+Pairs that were too short:                   0 (0.0%)
+Pairs discarded as untrimmed:              572 (3.8%)
+Pairs written (passing filters):        14,572 (96.2%)
+
+Total basepairs processed:     5,040,276 bp
+  Read 1:     2,493,694 bp
+  Read 2:     2,546,582 bp
+Quality-trimmed:                       0 bp (0.0%)
+  Read 1:             0 bp
+  Read 2:             0 bp
+Total written (filtered):      4,009,875 bp (79.6%)
+  Read 1:     1,978,996 bp
+  Read 2:     2,030,879 bp
+
+=== First read: Adapter 1 ===
+
+Sequence: GGWACWGGWTGAACWGTWTAYCCYCC; Type: anchored 5'; Length: 26; Trimmed: 15084 times
+
+No. of allowed errors: 2
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+24	29	0.0	2	0 0 29
+25	406	0.0	2	0 368 38
+26	14638	0.0	2	12467 1998 173
+27	11	0.0	2	0 10 1
+
+
+=== Second read: Adapter 2 ===
+
+Sequence: TANACYTCNGGRTGNCCRAARAAYCA; Type: anchored 5'; Length: 26; Trimmed: 14608 times
+
+No. of allowed errors: 2
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+24	58	0.0	2	0 0 58
+25	606	0.0	2	0 488 118
+26	13928	0.0	2	10673 2478 777
+27	16	0.0	2	0 11 5
+This is cutadapt 5.0 with Python 3.10.14
+Command line parameters: -u 0 --error-rate 0.1 --times 1 --overlap 3 --minimum-length 1 -q 0,0 --quality-base 33 --cores 4 -o /tmp/qiime2/luis/processes/15142-1761064869.87@luis/tmp/q2-OutPath-ltzsnq8g/PUF-IPEX-1_S360_L001_R1_001.fastq.gz -p /tmp/qiime2/luis/processes/15142-1761064869.87@luis/tmp/q2-OutPath-ltzsnq8g/PUF-IPEX-1_S360_L001_R2_001.fastq.gz --front ^GGWACWGGWTGAACWGTWTAYCCYCC -G ^TAIACYTCIGGRTGICCRAARAAYCA -U 0 --discard-untrimmed /tmp/qiime2/luis/data/764e11b2-29da-4054-b7b8-57289067ecb7/data/PUF-IPEX-1_S360_L001_R1_001.fastq.gz /tmp/qiime2/luis/data/764e11b2-29da-4054-b7b8-57289067ecb7/data/PUF-IPEX-1_S360_L001_R2_001.fastq.gz
+Processing paired-end reads on 4 cores ...
+
+=== Summary ===
+
+Total read pairs processed:              9,651
+  Read 1 with adapter:                   9,587 (99.3%)
+  Read 2 with adapter:                   9,325 (96.6%)
+
+== Read fate breakdown ==
+Pairs that were too short:                   0 (0.0%)
+Pairs discarded as untrimmed:              350 (3.6%)
+Pairs written (passing filters):         9,301 (96.4%)
+
+Total basepairs processed:     2,545,296 bp
+  Read 1:     1,271,861 bp
+  Read 2:     1,273,435 bp
+Quality-trimmed:                       0 bp (0.0%)
+  Read 1:             0 bp
+  Read 2:             0 bp
+Total written (filtered):      1,911,519 bp (75.1%)
+  Read 1:       955,160 bp
+  Read 2:       956,359 bp
+
+=== First read: Adapter 1 ===
+
+Sequence: GGWACWGGWTGAACWGTWTAYCCYCC; Type: anchored 5'; Length: 26; Trimmed: 9587 times
+
+No. of allowed errors: 2
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+24	18	0.0	2	0 0 18
+25	312	0.0	2	0 294 18
+26	9247	0.0	2	7968 1162 117
+27	10	0.0	2	0 9 1
+
+
+=== Second read: Adapter 2 ===
+
+Sequence: TANACYTCNGGRTGNCCRAARAAYCA; Type: anchored 5'; Length: 26; Trimmed: 9325 times
+
+No. of allowed errors: 2
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+24	28	0.0	2	0 0 28
+25	380	0.0	2	0 313 67
+26	8907	0.0	2	6866 1619 422
+27	10	0.0	2	0 9 1
+This is cutadapt 5.0 with Python 3.10.14
+Command line parameters: -u 0 --error-rate 0.1 --times 1 --overlap 3 --minimum-length 1 -q 0,0 --quality-base 33 --cores 4 -o /tmp/qiime2/luis/processes/15142-1761064869.87@luis/tmp/q2-OutPath-ltzsnq8g/PUF-IPEX-3_S362_L001_R1_001.fastq.gz -p /tmp/qiime2/luis/processes/15142-1761064869.87@luis/tmp/q2-OutPath-ltzsnq8g/PUF-IPEX-3_S362_L001_R2_001.fastq.gz --front ^GGWACWGGWTGAACWGTWTAYCCYCC -G ^TAIACYTCIGGRTGICCRAARAAYCA -U 0 --discard-untrimmed /tmp/qiime2/luis/data/764e11b2-29da-4054-b7b8-57289067ecb7/data/PUF-IPEX-3_S362_L001_R1_001.fastq.gz /tmp/qiime2/luis/data/764e11b2-29da-4054-b7b8-57289067ecb7/data/PUF-IPEX-3_S362_L001_R2_001.fastq.gz
+Processing paired-end reads on 4 cores ...
+
+=== Summary ===
+
+Total read pairs processed:             69,311
+  Read 1 with adapter:                  69,031 (99.6%)
+  Read 2 with adapter:                  66,374 (95.8%)
+
+== Read fate breakdown ==
+Pairs that were too short:                   0 (0.0%)
+Pairs discarded as untrimmed:            3,148 (4.5%)
+Pairs written (passing filters):        66,163 (95.5%)
+
+Total basepairs processed:    39,754,193 bp
+  Read 1:    19,835,396 bp
+  Read 2:    19,918,797 bp
+Quality-trimmed:                       0 bp (0.0%)
+  Read 1:             0 bp
+  Read 2:             0 bp
+Total written (filtered):     34,465,259 bp (86.7%)
+  Read 1:    17,192,664 bp
+  Read 2:    17,272,595 bp
+
+=== First read: Adapter 1 ===
+
+Sequence: GGWACWGGWTGAACWGTWTAYCCYCC; Type: anchored 5'; Length: 26; Trimmed: 69031 times
+
+No. of allowed errors: 2
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+24	158	0.0	2	0 0 158
+25	2001	0.0	2	0 1843 158
+26	66822	0.0	2	57331 8734 757
+27	50	0.0	2	0 49 1
+
+
+=== Second read: Adapter 2 ===
+
+Sequence: TANACYTCNGGRTGNCCRAARAAYCA; Type: anchored 5'; Length: 26; Trimmed: 66374 times
+
+No. of allowed errors: 2
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+24	259	0.0	2	0 0 259
+25	2917	0.0	2	0 2380 537
+26	63138	0.0	2	46230 12753 4155
+27	60	0.0	2	0 50 10
+This is cutadapt 5.0 with Python 3.10.14
+Command line parameters: -u 0 --error-rate 0.1 --times 1 --overlap 3 --minimum-length 1 -q 0,0 --quality-base 33 --cores 4 -o /tmp/qiime2/luis/processes/15142-1761064869.87@luis/tmp/q2-OutPath-ltzsnq8g/PUF-IPEX-8_S363_L001_R1_001.fastq.gz -p /tmp/qiime2/luis/processes/15142-1761064869.87@luis/tmp/q2-OutPath-ltzsnq8g/PUF-IPEX-8_S363_L001_R2_001.fastq.gz --front ^GGWACWGGWTGAACWGTWTAYCCYCC -G ^TAIACYTCIGGRTGICCRAARAAYCA -U 0 --discard-untrimmed /tmp/qiime2/luis/data/764e11b2-29da-4054-b7b8-57289067ecb7/data/PUF-IPEX-8_S363_L001_R1_001.fastq.gz /tmp/qiime2/luis/data/764e11b2-29da-4054-b7b8-57289067ecb7/data/PUF-IPEX-8_S363_L001_R2_001.fastq.gz
+Processing paired-end reads on 4 cores ...
+
+=== Summary ===
+
+Total read pairs processed:            116,901
+  Read 1 with adapter:                 116,464 (99.6%)
+  Read 2 with adapter:                 112,530 (96.3%)
+
+== Read fate breakdown ==
+Pairs that were too short:                   0 (0.0%)
+Pairs discarded as untrimmed:            4,722 (4.0%)
+Pairs written (passing filters):       112,179 (96.0%)
+
+Total basepairs processed:    67,393,886 bp
+  Read 1:    33,626,393 bp
+  Read 2:    33,767,493 bp
+Quality-trimmed:                       0 bp (0.0%)
+  Read 1:             0 bp
+  Read 2:             0 bp
+Total written (filtered):     58,789,688 bp (87.2%)
+  Read 1:    29,326,830 bp
+  Read 2:    29,462,858 bp
+
+=== First read: Adapter 1 ===
+
+Sequence: GGWACWGGWTGAACWGTWTAYCCYCC; Type: anchored 5'; Length: 26; Trimmed: 116464 times
+
+No. of allowed errors: 2
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+24	223	0.0	2	0 0 223
+25	3475	0.0	2	0 3187 288
+26	112692	0.0	2	96440 14938 1314
+27	74	0.0	2	0 67 7
+
+
+=== Second read: Adapter 2 ===
+
+Sequence: TANACYTCNGGRTGNCCRAARAAYCA; Type: anchored 5'; Length: 26; Trimmed: 112530 times
+
+No. of allowed errors: 2
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+24	453	0.0	2	0 0 453
+25	5078	0.0	2	0 4180 898
+26	106891	0.0	2	78634 21230 7027
+27	107	0.0	2	0 90 17
+28	1	0.0	2	0 0 1
+This is cutadapt 5.0 with Python 3.10.14
+Command line parameters: -u 0 --error-rate 0.1 --times 1 --overlap 3 --minimum-length 1 -q 0,0 --quality-base 33 --cores 4 -o /tmp/qiime2/luis/processes/15142-1761064869.87@luis/tmp/q2-OutPath-ltzsnq8g/PUF-JD-10_S356_L001_R1_001.fastq.gz -p /tmp/qiime2/luis/processes/15142-1761064869.87@luis/tmp/q2-OutPath-ltzsnq8g/PUF-JD-10_S356_L001_R2_001.fastq.gz --front ^GGWACWGGWTGAACWGTWTAYCCYCC -G ^TAIACYTCIGGRTGICCRAARAAYCA -U 0 --discard-untrimmed /tmp/qiime2/luis/data/764e11b2-29da-4054-b7b8-57289067ecb7/data/PUF-JD-10_S356_L001_R1_001.fastq.gz /tmp/qiime2/luis/data/764e11b2-29da-4054-b7b8-57289067ecb7/data/PUF-JD-10_S356_L001_R2_001.fastq.gz
+Processing paired-end reads on 4 cores ...
+
+=== Summary ===
+
+Total read pairs processed:            142,939
+  Read 1 with adapter:                 142,320 (99.6%)
+  Read 2 with adapter:                 137,825 (96.4%)
+
+== Read fate breakdown ==
+Pairs that were too short:                   0 (0.0%)
+Pairs discarded as untrimmed:            5,525 (3.9%)
+Pairs written (passing filters):       137,414 (96.1%)
+
+Total basepairs processed:    84,009,407 bp
+  Read 1:    42,002,496 bp
+  Read 2:    42,006,911 bp
+Quality-trimmed:                       0 bp (0.0%)
+  Read 1:             0 bp
+  Read 2:             0 bp
+Total written (filtered):     73,599,851 bp (87.6%)
+  Read 1:    36,797,253 bp
+  Read 2:    36,802,598 bp
+
+=== First read: Adapter 1 ===
+
+Sequence: GGWACWGGWTGAACWGTWTAYCCYCC; Type: anchored 5'; Length: 26; Trimmed: 142320 times
+
+No. of allowed errors: 2
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+24	287	0.0	2	0 0 287
+25	4236	0.0	2	0 3900 336
+26	137687	0.0	2	117416 18472 1799
+27	110	0.0	2	0 104 6
+
+
+=== Second read: Adapter 2 ===
+
+Sequence: TANACYTCNGGRTGNCCRAARAAYCA; Type: anchored 5'; Length: 26; Trimmed: 137825 times
+
+No. of allowed errors: 2
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+24	570	0.0	2	0 0 570
+25	6278	0.0	2	0 5187 1091
+26	130835	0.0	2	98664 24264 7907
+27	142	0.0	2	0 118 24
+This is cutadapt 5.0 with Python 3.10.14
+Command line parameters: -u 0 --error-rate 0.1 --times 1 --overlap 3 --minimum-length 1 -q 0,0 --quality-base 33 --cores 4 -o /tmp/qiime2/luis/processes/15142-1761064869.87@luis/tmp/q2-OutPath-ltzsnq8g/PUF-JD14_S366_L001_R1_001.fastq.gz -p /tmp/qiime2/luis/processes/15142-1761064869.87@luis/tmp/q2-OutPath-ltzsnq8g/PUF-JD14_S366_L001_R2_001.fastq.gz --front ^GGWACWGGWTGAACWGTWTAYCCYCC -G ^TAIACYTCIGGRTGICCRAARAAYCA -U 0 --discard-untrimmed /tmp/qiime2/luis/data/764e11b2-29da-4054-b7b8-57289067ecb7/data/PUF-JD14_S366_L001_R1_001.fastq.gz /tmp/qiime2/luis/data/764e11b2-29da-4054-b7b8-57289067ecb7/data/PUF-JD14_S366_L001_R2_001.fastq.gz
+Processing paired-end reads on 4 cores ...
+
+=== Summary ===
+
+Total read pairs processed:             47,925
+  Read 1 with adapter:                  47,666 (99.5%)
+  Read 2 with adapter:                  46,037 (96.1%)
+
+== Read fate breakdown ==
+Pairs that were too short:                   0 (0.0%)
+Pairs discarded as untrimmed:            2,051 (4.3%)
+Pairs written (passing filters):        45,874 (95.7%)
+
+Total basepairs processed:    26,823,360 bp
+  Read 1:    13,405,024 bp
+  Read 2:    13,418,336 bp
+Quality-trimmed:                       0 bp (0.0%)
+  Read 1:             0 bp
+  Read 2:             0 bp
+Total written (filtered):     23,265,250 bp (86.7%)
+  Read 1:    11,626,867 bp
+  Read 2:    11,638,383 bp
+
+=== First read: Adapter 1 ===
+
+Sequence: GGWACWGGWTGAACWGTWTAYCCYCC; Type: anchored 5'; Length: 26; Trimmed: 47666 times
+
+No. of allowed errors: 2
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+24	87	0.0	2	0 0 87
+25	1405	0.0	2	0 1292 113
+26	46129	0.0	2	39489 6051 589
+27	45	0.0	2	0 38 7
+
+
+=== Second read: Adapter 2 ===
+
+Sequence: TANACYTCNGGRTGNCCRAARAAYCA; Type: anchored 5'; Length: 26; Trimmed: 46037 times
+
+No. of allowed errors: 2
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+24	218	0.0	2	0 0 218
+25	2102	0.0	2	0 1743 359
+26	43667	0.0	2	32296 8563 2808
+27	50	0.0	2	0 45 5
+This is cutadapt 5.0 with Python 3.10.14
+Command line parameters: -u 0 --error-rate 0.1 --times 1 --overlap 3 --minimum-length 1 -q 0,0 --quality-base 33 --cores 4 -o /tmp/qiime2/luis/processes/15142-1761064869.87@luis/tmp/q2-OutPath-ltzsnq8g/PUF-MBO-4_S357_L001_R1_001.fastq.gz -p /tmp/qiime2/luis/processes/15142-1761064869.87@luis/tmp/q2-OutPath-ltzsnq8g/PUF-MBO-4_S357_L001_R2_001.fastq.gz --front ^GGWACWGGWTGAACWGTWTAYCCYCC -G ^TAIACYTCIGGRTGICCRAARAAYCA -U 0 --discard-untrimmed /tmp/qiime2/luis/data/764e11b2-29da-4054-b7b8-57289067ecb7/data/PUF-MBO-4_S357_L001_R1_001.fastq.gz /tmp/qiime2/luis/data/764e11b2-29da-4054-b7b8-57289067ecb7/data/PUF-MBO-4_S357_L001_R2_001.fastq.gz
+Processing paired-end reads on 4 cores ...
+
+=== Summary ===
+
+Total read pairs processed:             75,775
+  Read 1 with adapter:                  75,481 (99.6%)
+  Read 2 with adapter:                  73,019 (96.4%)
+
+== Read fate breakdown ==
+Pairs that were too short:                   0 (0.0%)
+Pairs discarded as untrimmed:            2,969 (3.9%)
+Pairs written (passing filters):        72,806 (96.1%)
+
+Total basepairs processed:    43,981,993 bp
+  Read 1:    21,980,638 bp
+  Read 2:    22,001,355 bp
+Quality-trimmed:                       0 bp (0.0%)
+  Read 1:             0 bp
+  Read 2:             0 bp
+Total written (filtered):     38,448,766 bp (87.4%)
+  Read 1:    19,214,013 bp
+  Read 2:    19,234,753 bp
+
+=== First read: Adapter 1 ===
+
+Sequence: GGWACWGGWTGAACWGTWTAYCCYCC; Type: anchored 5'; Length: 26; Trimmed: 75481 times
+
+No. of allowed errors: 2
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+24	144	0.0	2	0 0 144
+25	2190	0.0	2	0 2034 156
+26	73092	0.0	2	62294 9886 912
+27	54	0.0	2	0 52 2
+28	1	0.0	2	0 0 1
+
+
+=== Second read: Adapter 2 ===
+
+Sequence: TANACYTCNGGRTGNCCRAARAAYCA; Type: anchored 5'; Length: 26; Trimmed: 73019 times
+
+No. of allowed errors: 2
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+24	304	0.0	2	0 0 304
+25	3330	0.0	2	0 2789 541
+26	69302	0.0	2	52240 12833 4229
+27	83	0.0	2	0 70 13
+This is cutadapt 5.0 with Python 3.10.14
+Command line parameters: -u 0 --error-rate 0.1 --times 1 --overlap 3 --minimum-length 1 -q 0,0 --quality-base 33 --cores 4 -o /tmp/qiime2/luis/processes/15142-1761064869.87@luis/tmp/q2-OutPath-ltzsnq8g/ctrl-PCR-neg-PUF_S358_L001_R1_001.fastq.gz -p /tmp/qiime2/luis/processes/15142-1761064869.87@luis/tmp/q2-OutPath-ltzsnq8g/ctrl-PCR-neg-PUF_S358_L001_R2_001.fastq.gz --front ^GGWACWGGWTGAACWGTWTAYCCYCC -G ^TAIACYTCIGGRTGICCRAARAAYCA -U 0 --discard-untrimmed /tmp/qiime2/luis/data/764e11b2-29da-4054-b7b8-57289067ecb7/data/ctrl-PCR-neg-PUF_S358_L001_R1_001.fastq.gz /tmp/qiime2/luis/data/764e11b2-29da-4054-b7b8-57289067ecb7/data/ctrl-PCR-neg-PUF_S358_L001_R2_001.fastq.gz
+Processing paired-end reads on 4 cores ...
+
+=== Summary ===
+
+Total read pairs processed:              4,366
+  Read 1 with adapter:                   4,259 (97.5%)
+  Read 2 with adapter:                   4,155 (95.2%)
+
+== Read fate breakdown ==
+Pairs that were too short:                   0 (0.0%)
+Pairs discarded as untrimmed:              224 (5.1%)
+Pairs written (passing filters):         4,142 (94.9%)
+
+Total basepairs processed:       665,916 bp
+  Read 1:       329,485 bp
+  Read 2:       336,431 bp
+Quality-trimmed:                       0 bp (0.0%)
+  Read 1:             0 bp
+  Read 2:             0 bp
+Total written (filtered):        360,806 bp (54.2%)
+  Read 1:       176,550 bp
+  Read 2:       184,256 bp
+
+=== First read: Adapter 1 ===
+
+Sequence: GGWACWGGWTGAACWGTWTAYCCYCC; Type: anchored 5'; Length: 26; Trimmed: 4259 times
+
+No. of allowed errors: 2
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+24	1	0.0	2	0 0 1
+25	131	0.0	2	0 122 9
+26	4123	0.0	2	3556 523 44
+27	4	0.0	2	0 3 1
+
+
+=== Second read: Adapter 2 ===
+
+Sequence: TANACYTCNGGRTGNCCRAARAAYCA; Type: anchored 5'; Length: 26; Trimmed: 4155 times
+
+No. of allowed errors: 2
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+24	17	0.0	2	0 0 17
+25	155	0.0	2	0 136 19
+26	3976	0.0	2	3186 635 155
+27	7	0.0	2	0 7
+Running external command line application(s). This may print messages to stdout and/or stderr.
+The command(s) being run are below. These commands cannot be manually re-run as they will depend on temporary files that no longer exist.
+
+Command: cutadapt -u 0 --error-rate 0.1 --times 1 --overlap 3 --minimum-length 1 -q 0,0 --quality-base 33 --cores 4 -o /tmp/qiime2/luis/processes/15142-1761064869.87@luis/tmp/q2-OutPath-ltzsnq8g/CTRL-neg-extraction-PUF_S361_L001_R1_001.fastq.gz -p /tmp/qiime2/luis/processes/15142-1761064869.87@luis/tmp/q2-OutPath-ltzsnq8g/CTRL-neg-extraction-PUF_S361_L001_R2_001.fastq.gz --front ^GGWACWGGWTGAACWGTWTAYCCYCC -G ^TAIACYTCIGGRTGICCRAARAAYCA -U 0 --discard-untrimmed /tmp/qiime2/luis/data/764e11b2-29da-4054-b7b8-57289067ecb7/data/CTRL-neg-extraction-PUF_S361_L001_R1_001.fastq.gz /tmp/qiime2/luis/data/764e11b2-29da-4054-b7b8-57289067ecb7/data/CTRL-neg-extraction-PUF_S361_L001_R2_001.fastq.gz
+
+
+Command: cutadapt -u 0 --error-rate 0.1 --times 1 --overlap 3 --minimum-length 1 -q 0,0 --quality-base 33 --cores 4 -o /tmp/qiime2/luis/processes/15142-1761064869.87@luis/tmp/q2-OutPath-ltzsnq8g/PUF-BOT-10_S365_L001_R1_001.fastq.gz -p /tmp/qiime2/luis/processes/15142-1761064869.87@luis/tmp/q2-OutPath-ltzsnq8g/PUF-BOT-10_S365_L001_R2_001.fastq.gz --front ^GGWACWGGWTGAACWGTWTAYCCYCC -G ^TAIACYTCIGGRTGICCRAARAAYCA -U 0 --discard-untrimmed /tmp/qiime2/luis/data/764e11b2-29da-4054-b7b8-57289067ecb7/data/PUF-BOT-10_S365_L001_R1_001.fastq.gz /tmp/qiime2/luis/data/764e11b2-29da-4054-b7b8-57289067ecb7/data/PUF-BOT-10_S365_L001_R2_001.fastq.gz
+
+
+Command: cutadapt -u 0 --error-rate 0.1 --times 1 --overlap 3 --minimum-length 1 -q 0,0 --quality-base 33 --cores 4 -o /tmp/qiime2/luis/processes/15142-1761064869.87@luis/tmp/q2-OutPath-ltzsnq8g/PUF-BOT-3_S364_L001_R1_001.fastq.gz -p /tmp/qiime2/luis/processes/15142-1761064869.87@luis/tmp/q2-OutPath-ltzsnq8g/PUF-BOT-3_S364_L001_R2_001.fastq.gz --front ^GGWACWGGWTGAACWGTWTAYCCYCC -G ^TAIACYTCIGGRTGICCRAARAAYCA -U 0 --discard-untrimmed /tmp/qiime2/luis/data/764e11b2-29da-4054-b7b8-57289067ecb7/data/PUF-BOT-3_S364_L001_R1_001.fastq.gz /tmp/qiime2/luis/data/764e11b2-29da-4054-b7b8-57289067ecb7/data/PUF-BOT-3_S364_L001_R2_001.fastq.gz
+
+
+Command: cutadapt -u 0 --error-rate 0.1 --times 1 --overlap 3 --minimum-length 1 -q 0,0 --quality-base 33 --cores 4 -o /tmp/qiime2/luis/processes/15142-1761064869.87@luis/tmp/q2-OutPath-ltzsnq8g/PUF-BOU-7_S359_L001_R1_001.fastq.gz -p /tmp/qiime2/luis/processes/15142-1761064869.87@luis/tmp/q2-OutPath-ltzsnq8g/PUF-BOU-7_S359_L001_R2_001.fastq.gz --front ^GGWACWGGWTGAACWGTWTAYCCYCC -G ^TAIACYTCIGGRTGICCRAARAAYCA -U 0 --discard-untrimmed /tmp/qiime2/luis/data/764e11b2-29da-4054-b7b8-57289067ecb7/data/PUF-BOU-7_S359_L001_R1_001.fastq.gz /tmp/qiime2/luis/data/764e11b2-29da-4054-b7b8-57289067ecb7/data/PUF-BOU-7_S359_L001_R2_001.fastq.gz
+
+
+Command: cutadapt -u 0 --error-rate 0.1 --times 1 --overlap 3 --minimum-length 1 -q 0,0 --quality-base 33 --cores 4 -o /tmp/qiime2/luis/processes/15142-1761064869.87@luis/tmp/q2-OutPath-ltzsnq8g/PUF-IPEX-1_S360_L001_R1_001.fastq.gz -p /tmp/qiime2/luis/processes/15142-1761064869.87@luis/tmp/q2-OutPath-ltzsnq8g/PUF-IPEX-1_S360_L001_R2_001.fastq.gz --front ^GGWACWGGWTGAACWGTWTAYCCYCC -G ^TAIACYTCIGGRTGICCRAARAAYCA -U 0 --discard-untrimmed /tmp/qiime2/luis/data/764e11b2-29da-4054-b7b8-57289067ecb7/data/PUF-IPEX-1_S360_L001_R1_001.fastq.gz /tmp/qiime2/luis/data/764e11b2-29da-4054-b7b8-57289067ecb7/data/PUF-IPEX-1_S360_L001_R2_001.fastq.gz
+
+
+Command: cutadapt -u 0 --error-rate 0.1 --times 1 --overlap 3 --minimum-length 1 -q 0,0 --quality-base 33 --cores 4 -o /tmp/qiime2/luis/processes/15142-1761064869.87@luis/tmp/q2-OutPath-ltzsnq8g/PUF-IPEX-3_S362_L001_R1_001.fastq.gz -p /tmp/qiime2/luis/processes/15142-1761064869.87@luis/tmp/q2-OutPath-ltzsnq8g/PUF-IPEX-3_S362_L001_R2_001.fastq.gz --front ^GGWACWGGWTGAACWGTWTAYCCYCC -G ^TAIACYTCIGGRTGICCRAARAAYCA -U 0 --discard-untrimmed /tmp/qiime2/luis/data/764e11b2-29da-4054-b7b8-57289067ecb7/data/PUF-IPEX-3_S362_L001_R1_001.fastq.gz /tmp/qiime2/luis/data/764e11b2-29da-4054-b7b8-57289067ecb7/data/PUF-IPEX-3_S362_L001_R2_001.fastq.gz
+
+
+Command: cutadapt -u 0 --error-rate 0.1 --times 1 --overlap 3 --minimum-length 1 -q 0,0 --quality-base 33 --cores 4 -o /tmp/qiime2/luis/processes/15142-1761064869.87@luis/tmp/q2-OutPath-ltzsnq8g/PUF-IPEX-8_S363_L001_R1_001.fastq.gz -p /tmp/qiime2/luis/processes/15142-1761064869.87@luis/tmp/q2-OutPath-ltzsnq8g/PUF-IPEX-8_S363_L001_R2_001.fastq.gz --front ^GGWACWGGWTGAACWGTWTAYCCYCC -G ^TAIACYTCIGGRTGICCRAARAAYCA -U 0 --discard-untrimmed /tmp/qiime2/luis/data/764e11b2-29da-4054-b7b8-57289067ecb7/data/PUF-IPEX-8_S363_L001_R1_001.fastq.gz /tmp/qiime2/luis/data/764e11b2-29da-4054-b7b8-57289067ecb7/data/PUF-IPEX-8_S363_L001_R2_001.fastq.gz
+
+
+Command: cutadapt -u 0 --error-rate 0.1 --times 1 --overlap 3 --minimum-length 1 -q 0,0 --quality-base 33 --cores 4 -o /tmp/qiime2/luis/processes/15142-1761064869.87@luis/tmp/q2-OutPath-ltzsnq8g/PUF-JD-10_S356_L001_R1_001.fastq.gz -p /tmp/qiime2/luis/processes/15142-1761064869.87@luis/tmp/q2-OutPath-ltzsnq8g/PUF-JD-10_S356_L001_R2_001.fastq.gz --front ^GGWACWGGWTGAACWGTWTAYCCYCC -G ^TAIACYTCIGGRTGICCRAARAAYCA -U 0 --discard-untrimmed /tmp/qiime2/luis/data/764e11b2-29da-4054-b7b8-57289067ecb7/data/PUF-JD-10_S356_L001_R1_001.fastq.gz /tmp/qiime2/luis/data/764e11b2-29da-4054-b7b8-57289067ecb7/data/PUF-JD-10_S356_L001_R2_001.fastq.gz
+
+
+Command: cutadapt -u 0 --error-rate 0.1 --times 1 --overlap 3 --minimum-length 1 -q 0,0 --quality-base 33 --cores 4 -o /tmp/qiime2/luis/processes/15142-1761064869.87@luis/tmp/q2-OutPath-ltzsnq8g/PUF-JD14_S366_L001_R1_001.fastq.gz -p /tmp/qiime2/luis/processes/15142-1761064869.87@luis/tmp/q2-OutPath-ltzsnq8g/PUF-JD14_S366_L001_R2_001.fastq.gz --front ^GGWACWGGWTGAACWGTWTAYCCYCC -G ^TAIACYTCIGGRTGICCRAARAAYCA -U 0 --discard-untrimmed /tmp/qiime2/luis/data/764e11b2-29da-4054-b7b8-57289067ecb7/data/PUF-JD14_S366_L001_R1_001.fastq.gz /tmp/qiime2/luis/data/764e11b2-29da-4054-b7b8-57289067ecb7/data/PUF-JD14_S366_L001_R2_001.fastq.gz
+
+
+Command: cutadapt -u 0 --error-rate 0.1 --times 1 --overlap 3 --minimum-length 1 -q 0,0 --quality-base 33 --cores 4 -o /tmp/qiime2/luis/processes/15142-1761064869.87@luis/tmp/q2-OutPath-ltzsnq8g/PUF-MBO-4_S357_L001_R1_001.fastq.gz -p /tmp/qiime2/luis/processes/15142-1761064869.87@luis/tmp/q2-OutPath-ltzsnq8g/PUF-MBO-4_S357_L001_R2_001.fastq.gz --front ^GGWACWGGWTGAACWGTWTAYCCYCC -G ^TAIACYTCIGGRTGICCRAARAAYCA -U 0 --discard-untrimmed /tmp/qiime2/luis/data/764e11b2-29da-4054-b7b8-57289067ecb7/data/PUF-MBO-4_S357_L001_R1_001.fastq.gz /tmp/qiime2/luis/data/764e11b2-29da-4054-b7b8-57289067ecb7/data/PUF-MBO-4_S357_L001_R2_001.fastq.gz
+
+
+Command: cutadapt -u 0 --error-rate 0.1 --times 1 --overlap 3 --minimum-length 1 -q 0,0 --quality-base 33 --cores 4 -o /tmp/qiime2/luis/processes/15142-1761064869.87@luis/tmp/q2-OutPath-ltzsnq8g/ctrl-PCR-neg-PUF_S358_L001_R1_001.fastq.gz -p /tmp/qiime2/luis/processes/15142-1761064869.87@luis/tmp/q2-OutPath-ltzsnq8g/ctrl-PCR-neg-PUF_S358_L001_R2_001.fastq.gz --front ^GGWACWGGWTGAACWGTWTAYCCYCC -G ^TAIACYTCIGGRTGICCRAARAAYCA -U 0 --discard-untrimmed /tmp/qiime2/luis/data/764e11b2-29da-4054-b7b8-57289067ecb7/data/ctrl-PCR-neg-PUF_S358_L001_R1_001.fastq.gz /tmp/qiime2/luis/data/764e11b2-29da-4054-b7b8-57289067ecb7/data/ctrl-PCR-neg-PUF_S358_L001_R2_001.fastq.gz
+
+Saved SampleData[PairedEndSequencesWithQuality] to: ../data/02_cutadapt.qza

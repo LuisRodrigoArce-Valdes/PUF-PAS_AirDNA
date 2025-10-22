@@ -1,0 +1,21 @@
+# Raw data
+00_RawData/
+00_Databases/
+
+# Additional files and papers
+Ignore/
+
+# Data directories
+*/data/
+*/*/data/
+
+# FastQC raw data html files
+*/*/results/00_FastQC/
+
+# Test scripts
+*/bin/test.sh
+*/*/bin/test.sh
+.Rproj.user
+
+# Exported visualizations files
+*/*/results/03_Matrices/

@@ -1,0 +1,20 @@
+R version 4.3.3 (2024-02-29) 
+Loading required package: Rcpp
+DADA2: 1.30.0 / Rcpp: 1.1.0 / RcppParallel: 5.1.9 
+2) Filtering ...........
+3) Learning Error Rates
+70752333 total bases in 329321 reads from 11 samples will be used for learning the error rates.
+43338773 total bases in 329321 reads from 11 samples will be used for learning the error rates.
+3) Denoise samples ...........
+...........
+5) Remove chimeras (method = consensus)
+6) Report read numbers through the pipeline
+7) Write output
+Running external command line application(s). This may print messages to stdout and/or stderr.
+The command(s) being run are below. These commands cannot be manually re-run as they will depend on temporary files that no longer exist.
+
+Command: run_dada.R --input_directory /tmp/tmpygmfmdxa/forward --input_directory_reverse /tmp/tmpygmfmdxa/reverse --output_path /tmp/tmpygmfmdxa/output.tsv.biom --output_track /tmp/tmpygmfmdxa/track.tsv --filtered_directory /tmp/tmpygmfmdxa/filt_f --filtered_directory_reverse /tmp/tmpygmfmdxa/filt_r --truncation_length 0 --truncation_length_reverse 0 --trim_left 0 --trim_left_reverse 0 --max_expected_errors 1 --max_expected_errors_reverse 1 --truncation_quality_score 20 --min_overlap 50 --pooling_method independent --chimera_method consensus --min_parental_fold 1.0 --allow_one_off False --num_threads 4 --learn_min_reads 1000000
+
+Saved FeatureTable[Frequency] to: ../data/02_denoised_table_t20_l50.qza
+Saved FeatureData[Sequence] to: ../data/02_denoised_seqs_t20_l50.qza
+Saved SampleData[DADA2Stats] to: ../data/02_denoised_stats_t20_l50.qza
