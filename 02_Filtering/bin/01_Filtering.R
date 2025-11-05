@@ -101,57 +101,41 @@ insects.f %>%
   select(Sample, Feature.ID, Confidence, Reads, k, p, c, o, f, g, s) -> insects.f
 
 # Plotting
+png("../results/00_k.png", width = 24, height = 12, units = "cm", res = 600)
 insects.f %>%
   pivot_longer(cols = c("k", "p", "c", "o", "f", "g", "s"), names_to = "Level", values_to = "Taxon") %>% 
   mutate(Level = factor(Level, levels = c("k", "p", "c", "o", "f", "g", "s"))) %>% 
   select(Sample, Level, Taxon) %>% 
-  unique() %>% 
   filter(Level == "k") %>%
   group_by(Sample, Taxon) %>% 
   summarise(count = n(), .groups = "drop_last") %>% # Count occurrences, then drop the last grouping level
   mutate(relative_frequency = count / sum(count)) %>% # Calculate relative frequency within each group_var
   ungroup() %>% 
-    ggplot() +
-    geom_col(aes(x=Sample, fill = Taxon, y=relative_frequency))
+  ggplot() +
+    geom_col(aes(x=Sample, fill = Taxon, y=relative_frequency)) +
+    theme_classic() +
+    theme(text = element_text(size = 8))
+dev.off()
 
+# Plotting the rest of the levels after filtering for animals
+tax <- c("p","c","o","f","g","s")
+for(i in tax){
+png(paste0("../results/0",as.character(which(tax == i)),"_",i,".png"), width = 24, height = 12, units = "cm", res = 600)
 insects.f %>%
   filter(k == "Metazoa_33208") %>% 
   pivot_longer(cols = c("k", "p", "c", "o", "f", "g", "s"), names_to = "Level", values_to = "Taxon") %>% 
   mutate(Level = factor(Level, levels = c("k", "p", "c", "o", "f", "g", "s"))) %>% 
   select(Sample, Level, Taxon) %>% 
-  unique() %>% 
-  filter(Level == "p") %>%
+  filter(Level == i) %>%
   group_by(Sample, Taxon) %>% 
   summarise(count = n(), .groups = "drop_last") %>% # Count occurrences, then drop the last grouping level
   mutate(relative_frequency = count / sum(count)) %>% # Calculate relative frequency within each group_var
   ungroup() %>% 
   ggplot() +
-  geom_col(aes(x=Sample, fill = Taxon, y=relative_frequency))
-
-insects.f %>%
-  filter(k == "Metazoa_33208") %>% 
-  pivot_longer(cols = c("k", "p", "c", "o", "f", "g", "s"), names_to = "Level", values_to = "Taxon") %>% 
-  mutate(Level = factor(Level, levels = c("k", "p", "c", "o", "f", "g", "s"))) %>% 
-  select(Sample, Level, Taxon) %>% 
-  unique() %>% 
-  filter(Level == "c") %>%
-  group_by(Sample, Taxon) %>% 
-  summarise(count = n(), .groups = "drop_last") %>% # Count occurrences, then drop the last grouping level
-  mutate(relative_frequency = count / sum(count)) %>% # Calculate relative frequency within each group_var
-  ungroup() %>% 
-  ggplot() +
-  geom_col(aes(x=Sample, fill = Taxon, y=relative_frequency))
-
-insects.f %>%
-  filter(k == "Metazoa_33208") %>% 
-  pivot_longer(cols = c("k", "p", "c", "o", "f", "g", "s"), names_to = "Level", values_to = "Taxon") %>% 
-  mutate(Level = factor(Level, levels = c("k", "p", "c", "o", "f", "g", "s"))) %>% 
-  select(Sample, Level, Taxon) %>% 
-  unique() %>% 
-  filter(Level == "o") %>%
-  group_by(Sample, Taxon) %>% 
-  summarise(count = n(), .groups = "drop_last") %>% # Count occurrences, then drop the last grouping level
-  mutate(relative_frequency = count / sum(count)) %>% # Calculate relative frequency within each group_var
-  ungroup() %>% 
-  ggplot() +
-  geom_col(aes(x=Sample, fill = Taxon, y=relative_frequency))
+    geom_col(aes(x=Sample, fill = Taxon, y=relative_frequency)) +
+    theme_classic() +
+    theme(text = element_text(size = 8)) -> p 
+  print(p)
+  rm(p)
+dev.off()
+}
