@@ -90,8 +90,8 @@ echo "qiime tools view ../results/02_cutadapt.qzv"
 # Sequencing structure stats:
 # + Expected fragment length: 313 pb
 # + Primer length: 26 pb (both forward and reverse)
-# + Total amplicon lenght: 315 + 26 + 26 = 365 pb
-# + Read on each direction after primer removal: 300 - 26 + 274 pb
+# + Total amplicon lenght: 313 + 26 + 26 = 365 pb
+# + Read on each direction after primer removal: 300 - 26 = 274 pb
 # + Lenght not overlaped that each sequencing direction doesn't reach: 313 - 274 = 39 pb
 # + Expected overlap lenght: 365 - 26 - 26 - 39 - 39 = 235 pb
 
