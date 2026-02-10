@@ -1,0 +1,1893 @@
+vsearch v2.22.1_linux_x86_64, 14.9GB RAM, 12 cores
+https://github.com/torognes/vsearch
+
+Merging reads 100%
+     43686  Pairs
+      7819  Merged (17.9%)
+     35867  Not merged (82.1%)
+
+Pairs that failed merging due to various reasons:
+      2402  reads too short (after truncation)
+     22973  too few kmers found on same diagonal
+         1  multiple potential alignments
+     10067  alignment score too low, or score drop too high
+        78  overlap too short
+       239  merged fragment too short
+       105  merged fragment too long
+         2  staggered read pairs
+
+Statistics of all reads:
+    274.04  Mean read length
+
+Statistics of merged reads:
+    313.00  Mean fragment length
+      0.00  Standard deviation of fragment length
+      0.04  Mean expected error in forward sequences
+      0.03  Mean expected error in reverse sequences
+      0.05  Mean expected error in merged sequences
+      0.00  Mean observed errors in merged region of forward sequences
+      0.00  Mean observed errors in merged region of reverse sequences
+      0.00  Mean observed errors in merged region
+vsearch v2.22.1_linux_x86_64, 14.9GB RAM, 12 cores
+https://github.com/torognes/vsearch
+
+Merging reads 100%
+     75179  Pairs
+     17048  Merged (22.7%)
+     58131  Not merged (77.3%)
+
+Pairs that failed merging due to various reasons:
+      4150  reads too short (after truncation)
+     35227  too few kmers found on same diagonal
+         3  multiple potential alignments
+     17850  alignment score too low, or score drop too high
+       131  overlap too short
+       492  merged fragment too short
+       264  merged fragment too long
+        14  staggered read pairs
+
+Statistics of all reads:
+    274.04  Mean read length
+
+Statistics of merged reads:
+    313.00  Mean fragment length
+      0.00  Standard deviation of fragment length
+      0.04  Mean expected error in forward sequences
+      0.03  Mean expected error in reverse sequences
+      0.05  Mean expected error in merged sequences
+      0.00  Mean observed errors in merged region of forward sequences
+      0.00  Mean observed errors in merged region of reverse sequences
+      0.00  Mean observed errors in merged region
+vsearch v2.22.1_linux_x86_64, 14.9GB RAM, 12 cores
+https://github.com/torognes/vsearch
+
+Merging reads 100%
+      5077  Pairs
+       207  Merged (4.1%)
+      4870  Not merged (95.9%)
+
+Pairs that failed merging due to various reasons:
+       306  reads too short (after truncation)
+      2681  too few kmers found on same diagonal
+      1121  alignment score too low, or score drop too high
+         6  overlap too short
+       753  merged fragment too short
+         1  merged fragment too long
+         2  staggered read pairs
+
+Statistics of all reads:
+    274.04  Mean read length
+
+Statistics of merged reads:
+    313.00  Mean fragment length
+      0.00  Standard deviation of fragment length
+      0.04  Mean expected error in forward sequences
+      0.02  Mean expected error in reverse sequences
+      0.05  Mean expected error in merged sequences
+      0.00  Mean observed errors in merged region of forward sequences
+      0.00  Mean observed errors in merged region of reverse sequences
+      0.00  Mean observed errors in merged region
+vsearch v2.22.1_linux_x86_64, 14.9GB RAM, 12 cores
+https://github.com/torognes/vsearch
+
+Merging reads 100%
+      1018  Pairs
+        37  Merged (3.6%)
+       981  Not merged (96.4%)
+
+Pairs that failed merging due to various reasons:
+        91  reads too short (after truncation)
+       633  too few kmers found on same diagonal
+         1  multiple potential alignments
+       221  alignment score too low, or score drop too high
+         1  overlap too short
+        34  merged fragment too short
+
+Statistics of all reads:
+    274.05  Mean read length
+
+Statistics of merged reads:
+    313.00  Mean fragment length
+      0.00  Standard deviation of fragment length
+      0.04  Mean expected error in forward sequences
+      0.02  Mean expected error in reverse sequences
+      0.05  Mean expected error in merged sequences
+      0.00  Mean observed errors in merged region of forward sequences
+      0.00  Mean observed errors in merged region of reverse sequences
+      0.00  Mean observed errors in merged region
+vsearch v2.22.1_linux_x86_64, 14.9GB RAM, 12 cores
+https://github.com/torognes/vsearch
+
+Merging reads 100%
+      8586  Pairs
+      1295  Merged (15.1%)
+      7291  Not merged (84.9%)
+
+Pairs that failed merging due to various reasons:
+       636  reads too short (after truncation)
+      5557  too few kmers found on same diagonal
+       955  alignment score too low, or score drop too high
+        11  overlap too short
+        92  merged fragment too short
+        35  merged fragment too long
+         5  staggered read pairs
+
+Statistics of all reads:
+    274.04  Mean read length
+
+Statistics of merged reads:
+    313.00  Mean fragment length
+      0.00  Standard deviation of fragment length
+      0.04  Mean expected error in forward sequences
+      0.03  Mean expected error in reverse sequences
+      0.05  Mean expected error in merged sequences
+      0.00  Mean observed errors in merged region of forward sequences
+      0.00  Mean observed errors in merged region of reverse sequences
+      0.00  Mean observed errors in merged region
+Running external command line application. This may print messages to stdout and/or stderr.
+The command being run is below. This command cannot be manually re-run as it will depend on temporary files that no longer exist.
+
+Command: vsearch --fastq_mergepairs /tmp/qiime2/luis/data/32fe6719-0b11-4869-9310-a0e726f6c060/data/C-pos-1_S515_L001_R1_001.fastq.gz --reverse /tmp/qiime2/luis/data/32fe6719-0b11-4869-9310-a0e726f6c060/data/C-pos-1_S515_L001_R2_001.fastq.gz --fastqout /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-hv0uuqd6/C-pos-1_0_L001_R1_001.fastq --fastqout_notmerged_fwd /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-jyypjj6l/C-pos-1_0_L001_R1_001.fastq --fastqout_notmerged_rev /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-jyypjj6l/C-pos-1_0_L001_R2_001.fastq --fastq_ascii 33 --fastq_minlen 1 --fastq_minovlen 10 --fastq_maxdiffs 10 --fastq_qmin 0 --fastq_qminout 0 --fastq_qmax 41 --fastq_qmaxout 41 --fasta_width 0 --fastq_truncqual 26 --fastq_minmergelen 313 --fastq_maxmergelen 313 --fastq_maxee 1 --threads 4
+
+Running external command line application. This may print messages to stdout and/or stderr.
+The command being run is below. This command cannot be manually re-run as it will depend on temporary files that no longer exist.
+
+Command: gzip /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-hv0uuqd6/C-pos-1_0_L001_R1_001.fastq /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-jyypjj6l/C-pos-1_0_L001_R1_001.fastq /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-jyypjj6l/C-pos-1_0_L001_R2_001.fastq
+
+Running external command line application. This may print messages to stdout and/or stderr.
+The command being run is below. This command cannot be manually re-run as it will depend on temporary files that no longer exist.
+
+Command: vsearch --fastq_mergepairs /tmp/qiime2/luis/data/32fe6719-0b11-4869-9310-a0e726f6c060/data/C-pos-2_S513_L001_R1_001.fastq.gz --reverse /tmp/qiime2/luis/data/32fe6719-0b11-4869-9310-a0e726f6c060/data/C-pos-2_S513_L001_R2_001.fastq.gz --fastqout /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-hv0uuqd6/C-pos-2_1_L001_R1_001.fastq --fastqout_notmerged_fwd /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-jyypjj6l/C-pos-2_1_L001_R1_001.fastq --fastqout_notmerged_rev /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-jyypjj6l/C-pos-2_1_L001_R2_001.fastq --fastq_ascii 33 --fastq_minlen 1 --fastq_minovlen 10 --fastq_maxdiffs 10 --fastq_qmin 0 --fastq_qminout 0 --fastq_qmax 41 --fastq_qmaxout 41 --fasta_width 0 --fastq_truncqual 26 --fastq_minmergelen 313 --fastq_maxmergelen 313 --fastq_maxee 1 --threads 4
+
+Running external command line application. This may print messages to stdout and/or stderr.
+The command being run is below. This command cannot be manually re-run as it will depend on temporary files that no longer exist.
+
+Command: gzip /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-hv0uuqd6/C-pos-2_1_L001_R1_001.fastq /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-jyypjj6l/C-pos-2_1_L001_R1_001.fastq /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-jyypjj6l/C-pos-2_1_L001_R2_001.fastq
+
+Running external command line application. This may print messages to stdout and/or stderr.
+The command being run is below. This command cannot be manually re-run as it will depend on temporary files that no longer exist.
+
+Command: vsearch --fastq_mergepairs /tmp/qiime2/luis/data/32fe6719-0b11-4869-9310-a0e726f6c060/data/Ins-Cocoon_S518_L001_R1_001.fastq.gz --reverse /tmp/qiime2/luis/data/32fe6719-0b11-4869-9310-a0e726f6c060/data/Ins-Cocoon_S518_L001_R2_001.fastq.gz --fastqout /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-hv0uuqd6/Ins-Cocoon_2_L001_R1_001.fastq --fastqout_notmerged_fwd /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-jyypjj6l/Ins-Cocoon_2_L001_R1_001.fastq --fastqout_notmerged_rev /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-jyypjj6l/Ins-Cocoon_2_L001_R2_001.fastq --fastq_ascii 33 --fastq_minlen 1 --fastq_minovlen 10 --fastq_maxdiffs 10 --fastq_qmin 0 --fastq_qminout 0 --fastq_qmax 41 --fastq_qmaxout 41 --fasta_width 0 --fastq_truncqual 26 --fastq_minmergelen 313 --fastq_maxmergelen 313 --fastq_maxee 1 --threads 4
+
+Running external command line application. This may print messages to stdout and/or stderr.
+The command being run is below. This command cannot be manually re-run as it will depend on temporary files that no longer exist.
+
+Command: gzip /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-hv0uuqd6/Ins-Cocoon_2_L001_R1_001.fastq /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-jyypjj6l/Ins-Cocoon_2_L001_R1_001.fastq /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-jyypjj6l/Ins-Cocoon_2_L001_R2_001.fastq
+
+Running external command line application. This may print messages to stdout and/or stderr.
+The command being run is below. This command cannot be manually re-run as it will depend on temporary files that no longer exist.
+
+Command: vsearch --fastq_mergepairs /tmp/qiime2/luis/data/32fe6719-0b11-4869-9310-a0e726f6c060/data/Ins-Door_S513_L001_R1_001.fastq.gz --reverse /tmp/qiime2/luis/data/32fe6719-0b11-4869-9310-a0e726f6c060/data/Ins-Door_S513_L001_R2_001.fastq.gz --fastqout /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-hv0uuqd6/Ins-Door_3_L001_R1_001.fastq --fastqout_notmerged_fwd /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-jyypjj6l/Ins-Door_3_L001_R1_001.fastq --fastqout_notmerged_rev /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-jyypjj6l/Ins-Door_3_L001_R2_001.fastq --fastq_ascii 33 --fastq_minlen 1 --fastq_minovlen 10 --fastq_maxdiffs 10 --fastq_qmin 0 --fastq_qminout 0 --fastq_qmax 41 --fastq_qmaxout 41 --fasta_width 0 --fastq_truncqual 26 --fastq_minmergelen 313 --fastq_maxmergelen 313 --fastq_maxee 1 --threads 4
+
+Running external command line application. This may print messages to stdout and/or stderr.
+The command being run is below. This command cannot be manually re-run as it will depend on temporary files that no longer exist.
+
+Command: gzip /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-hv0uuqd6/Ins-Door_3_L001_R1_001.fastq /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-jyypjj6l/Ins-Door_3_L001_R1_001.fastq /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-jyypjj6l/Ins-Door_3_L001_R2_001.fastq
+
+Running external command line application. This may print messages to stdout and/or stderr.
+The command being run is below. This command cannot be manually re-run as it will depend on temporary files that no longer exist.
+
+Command: vsearch --fastq_mergepairs /tmp/qiime2/luis/data/32fe6719-0b11-4869-9310-a0e726f6c060/data/Ins-Top_S520_L001_R1_001.fastq.gz --reverse /tmp/qiime2/luis/data/32fe6719-0b11-4869-9310-a0e726f6c060/data/Ins-Top_S520_L001_R2_001.fastq.gz --fastqout /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-hv0uuqd6/Ins-Top_4_L001_R1_001.fastq --fastqout_notmerged_fwd /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-jyypjj6l/Ins-Top_4_L001_R1_001.fastq --fastqout_notmerged_rev /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-jyypjj6l/Ins-Top_4_L001_R2_001.fastq --fastq_ascii 33 --fastq_minlen 1 --fastq_minovlen 10 --fastq_maxdiffs 10 --fastq_qmin 0 --fastq_qminout 0 --fastq_qmax 41 --fastq_qmaxout 41 --fasta_width 0 --fastq_truncqual 26 --fastq_minmergelen 313 --fastq_maxmergelen 313 --fastq_maxee 1 --threads 4
+
+Running external command line application. This may print messages to stdout and/or stderr.
+The command being run is below. This command cannot be manually re-run as it will depend on temporary files that no longer exist.
+
+Command: vsearch v2.22.1_linux_x86_64, 14.9GB RAM, 12 cores
+https://github.com/torognes/vsearch
+
+Merging reads 100%
+     13339  Pairs
+      2131  Merged (16.0%)
+     11208  Not merged (84.0%)
+
+Pairs that failed merging due to various reasons:
+       937  reads too short (after truncation)
+      8357  too few kmers found on same diagonal
+      1327  alignment score too low, or score drop too high
+        16  overlap too short
+       526  merged fragment too short
+        37  merged fragment too long
+         8  staggered read pairs
+
+Statistics of all reads:
+    274.04  Mean read length
+
+Statistics of merged reads:
+    313.00  Mean fragment length
+      0.00  Standard deviation of fragment length
+      0.04  Mean expected error in forward sequences
+      0.03  Mean expected error in reverse sequences
+      0.05  Mean expected error in merged sequences
+      0.00  Mean observed errors in merged region of forward sequences
+      0.00  Mean observed errors in merged region of reverse sequences
+      0.00  Mean observed errors in merged region
+vsearch v2.22.1_linux_x86_64, 14.9GB RAM, 12 cores
+https://github.com/torognes/vsearch
+
+Merging reads 100%
+       828  Pairs
+        35  Merged (4.2%)
+       793  Not merged (95.8%)
+
+Pairs that failed merging due to various reasons:
+        79  reads too short (after truncation)
+       608  too few kmers found on same diagonal
+         1  multiple potential alignments
+        59  alignment score too low, or score drop too high
+        14  merged fragment too short
+        32  staggered read pairs
+
+Statistics of all reads:
+    274.04  Mean read length
+
+Statistics of merged reads:
+    313.00  Mean fragment length
+      0.00  Standard deviation of fragment length
+      0.04  Mean expected error in forward sequences
+      0.03  Mean expected error in reverse sequences
+      0.05  Mean expected error in merged sequences
+      0.00  Mean observed errors in merged region of forward sequences
+      0.00  Mean observed errors in merged region of reverse sequences
+      0.00  Mean observed errors in merged region
+vsearch v2.22.1_linux_x86_64, 14.9GB RAM, 12 cores
+https://github.com/torognes/vsearch
+
+Merging reads 100%
+     22730  Pairs
+      5258  Merged (23.1%)
+     17472  Not merged (76.9%)
+
+Pairs that failed merging due to various reasons:
+      1593  reads too short (after truncation)
+     12901  too few kmers found on same diagonal
+      2364  alignment score too low, or score drop too high
+        39  overlap too short
+       429  merged fragment too short
+       136  merged fragment too long
+        10  staggered read pairs
+
+Statistics of all reads:
+    274.04  Mean read length
+
+Statistics of merged reads:
+    313.00  Mean fragment length
+      0.00  Standard deviation of fragment length
+      0.04  Mean expected error in forward sequences
+      0.03  Mean expected error in reverse sequences
+      0.05  Mean expected error in merged sequences
+      0.00  Mean observed errors in merged region of forward sequences
+      0.00  Mean observed errors in merged region of reverse sequences
+      0.00  Mean observed errors in merged region
+vsearch v2.22.1_linux_x86_64, 14.9GB RAM, 12 cores
+https://github.com/torognes/vsearch
+
+Merging reads 100%
+     21723  Pairs
+      4792  Merged (22.1%)
+     16931  Not merged (77.9%)
+
+Pairs that failed merging due to various reasons:
+      1448  reads too short (after truncation)
+     12714  too few kmers found on same diagonal
+      2334  alignment score too low, or score drop too high
+        33  overlap too short
+       330  merged fragment too short
+        68  merged fragment too long
+         4  staggered read pairs
+
+Statistics of all reads:
+    274.04  Mean read length
+
+Statistics of merged reads:
+    313.00  Mean fragment length
+      0.00  Standard deviation of fragment length
+      0.04  Mean expected error in forward sequences
+      0.03  Mean expected error in reverse sequences
+      0.05  Mean expected error in merged sequences
+      0.00  Mean observed errors in merged region of forward sequences
+      0.00  Mean observed errors in merged region of reverse sequences
+      0.00  Mean observed errors in merged region
+vsearch v2.22.1_linux_x86_64, 14.9GB RAM, 12 cores
+https://github.com/torognes/vsearch
+
+Merging reads 100%
+     18509  Pairs
+      3611  Merged (19.5%)
+     14898  Not merged (80.5%)
+
+Pairs that failed merging due to various reasons:
+      1569  reads too short (after truncation)
+     11470  too few kmers found on same diagonal
+      1507  alignment score too low, or score drop too high
+        23  overlap too short
+       283  merged fragment too short
+        42  merged fragment too long
+         4  staggered read pairs
+
+Statistics of all reads:
+    274.04  Mean read length
+
+Statistics of merged reads:
+    313.00  Mean fragment length
+      0.00  Standard deviation of fragment length
+      0.04  Mean expected error in forward sequences
+      0.03  Mean expected error in reverse sequences
+      0.05  Mean expected error in merged sequences
+      0.00  Mean observed errors in merged region of forward sequences
+      0.00  Mean observed errors in merged region of reverse sequences
+      0.00  Mean observed errors in merged region
+gzip /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-hv0uuqd6/Ins-Top_4_L001_R1_001.fastq /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-jyypjj6l/Ins-Top_4_L001_R1_001.fastq /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-jyypjj6l/Ins-Top_4_L001_R2_001.fastq
+
+Running external command line application. This may print messages to stdout and/or stderr.
+The command being run is below. This command cannot be manually re-run as it will depend on temporary files that no longer exist.
+
+Command: vsearch --fastq_mergepairs /tmp/qiime2/luis/data/32fe6719-0b11-4869-9310-a0e726f6c060/data/Mont-Tremblant_S521_L001_R1_001.fastq.gz --reverse /tmp/qiime2/luis/data/32fe6719-0b11-4869-9310-a0e726f6c060/data/Mont-Tremblant_S521_L001_R2_001.fastq.gz --fastqout /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-hv0uuqd6/Mont-Tremblant_5_L001_R1_001.fastq --fastqout_notmerged_fwd /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-jyypjj6l/Mont-Tremblant_5_L001_R1_001.fastq --fastqout_notmerged_rev /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-jyypjj6l/Mont-Tremblant_5_L001_R2_001.fastq --fastq_ascii 33 --fastq_minlen 1 --fastq_minovlen 10 --fastq_maxdiffs 10 --fastq_qmin 0 --fastq_qminout 0 --fastq_qmax 41 --fastq_qmaxout 41 --fasta_width 0 --fastq_truncqual 26 --fastq_minmergelen 313 --fastq_maxmergelen 313 --fastq_maxee 1 --threads 4
+
+Running external command line application. This may print messages to stdout and/or stderr.
+The command being run is below. This command cannot be manually re-run as it will depend on temporary files that no longer exist.
+
+Command: gzip /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-hv0uuqd6/Mont-Tremblant_5_L001_R1_001.fastq /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-jyypjj6l/Mont-Tremblant_5_L001_R1_001.fastq /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-jyypjj6l/Mont-Tremblant_5_L001_R2_001.fastq
+
+Running external command line application. This may print messages to stdout and/or stderr.
+The command being run is below. This command cannot be manually re-run as it will depend on temporary files that no longer exist.
+
+Command: vsearch --fastq_mergepairs /tmp/qiime2/luis/data/32fe6719-0b11-4869-9310-a0e726f6c060/data/Negative-PUF_S522_L001_R1_001.fastq.gz --reverse /tmp/qiime2/luis/data/32fe6719-0b11-4869-9310-a0e726f6c060/data/Negative-PUF_S522_L001_R2_001.fastq.gz --fastqout /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-hv0uuqd6/Negative-PUF_6_L001_R1_001.fastq --fastqout_notmerged_fwd /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-jyypjj6l/Negative-PUF_6_L001_R1_001.fastq --fastqout_notmerged_rev /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-jyypjj6l/Negative-PUF_6_L001_R2_001.fastq --fastq_ascii 33 --fastq_minlen 1 --fastq_minovlen 10 --fastq_maxdiffs 10 --fastq_qmin 0 --fastq_qminout 0 --fastq_qmax 41 --fastq_qmaxout 41 --fasta_width 0 --fastq_truncqual 26 --fastq_minmergelen 313 --fastq_maxmergelen 313 --fastq_maxee 1 --threads 4
+
+Running external command line application. This may print messages to stdout and/or stderr.
+The command being run is below. This command cannot be manually re-run as it will depend on temporary files that no longer exist.
+
+Command: gzip /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-hv0uuqd6/Negative-PUF_6_L001_R1_001.fastq /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-jyypjj6l/Negative-PUF_6_L001_R1_001.fastq /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-jyypjj6l/Negative-PUF_6_L001_R2_001.fastq
+
+Running external command line application. This may print messages to stdout and/or stderr.
+The command being run is below. This command cannot be manually re-run as it will depend on temporary files that no longer exist.
+
+Command: vsearch --fastq_mergepairs /tmp/qiime2/luis/data/32fe6719-0b11-4869-9310-a0e726f6c060/data/PUF-BOT-1_S518_L001_R1_001.fastq.gz --reverse /tmp/qiime2/luis/data/32fe6719-0b11-4869-9310-a0e726f6c060/data/PUF-BOT-1_S518_L001_R2_001.fastq.gz --fastqout /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-hv0uuqd6/PUF-BOT-1_7_L001_R1_001.fastq --fastqout_notmerged_fwd /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-jyypjj6l/PUF-BOT-1_7_L001_R1_001.fastq --fastqout_notmerged_rev /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-jyypjj6l/PUF-BOT-1_7_L001_R2_001.fastq --fastq_ascii 33 --fastq_minlen 1 --fastq_minovlen 10 --fastq_maxdiffs 10 --fastq_qmin 0 --fastq_qminout 0 --fastq_qmax 41 --fastq_qmaxout 41 --fasta_width 0 --fastq_truncqual 26 --fastq_minmergelen 313 --fastq_maxmergelen 313 --fastq_maxee 1 --threads 4
+
+Running external command line application. This may print messages to stdout and/or stderr.
+The command being run is below. This command cannot be manually re-run as it will depend on temporary files that no longer exist.
+
+Command: gzip /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-hv0uuqd6/PUF-BOT-1_7_L001_R1_001.fastq /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-jyypjj6l/PUF-BOT-1_7_L001_R1_001.fastq /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-jyypjj6l/PUF-BOT-1_7_L001_R2_001.fastq
+
+Running external command line application. This may print messages to stdout and/or stderr.
+The command being run is below. This command cannot be manually re-run as it will depend on temporary files that no longer exist.
+
+Command: vsearch --fastq_mergepairs /tmp/qiime2/luis/data/32fe6719-0b11-4869-9310-a0e726f6c060/data/PUF-BOT-2_S520_L001_R1_001.fastq.gz --reverse /tmp/qiime2/luis/data/32fe6719-0b11-4869-9310-a0e726f6c060/data/PUF-BOT-2_S520_L001_R2_001.fastq.gz --fastqout /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-hv0uuqd6/PUF-BOT-2_8_L001_R1_001.fastq --fastqout_notmerged_fwd /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-jyypjj6l/PUF-BOT-2_8_L001_R1_001.fastq --fastqout_notmerged_rev /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-jyypjj6l/PUF-BOT-2_8_L001_R2_001.fastq --fastq_ascii 33 --fastq_minlen 1 --fastq_minovlen 10 --fastq_maxdiffs 10 --fastq_qmin 0 --fastq_qminout 0 --fastq_qmax 41 --fastq_qmaxout 41 --fasta_width 0 --fastq_truncqual 26 --fastq_minmergelen 313 --fastq_maxmergelen 313 --fastq_maxee 1 --threads 4
+
+Running external command line application. This may print messages to stdout and/or stderr.
+The command being run is below. This command cannot be manually re-run as it will depend on temporary files that no longer exist.
+
+Command: gzip /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-hv0uuqd6/PUF-BOT-2_8_L001_R1_001.fastq /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-jyypjj6l/PUF-BOT-2_8_L001_R1_001.fastq /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-jyypjj6l/PUF-BOT-2_8_L001_R2_001.fastq
+
+Running external command line application. This may print messages to stdout and/or stderr.
+The command being run is below. This command cannot be manually re-run as it will depend on temporary files that no longer exist.
+
+Command: vsearch --fastq_mergepairs /tmp/qiime2/luis/data/32fe6719-0b11-4869-9310-a0e726f6c060/data/PUF-BOT-4_E517_L001_R1_001.fastq.gz --reverse /tmp/qiime2/luis/data/32fe6719-0b11-4869-9310-a0e726f6c060/data/PUF-BOT-4_E517_L001_R2_001.fastq.gz --fastqout /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-hv0uuqd6/PUF-BOT-4_9_L001_R1_001.fastq --fastqout_notmerged_fwd /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-jyypjj6l/PUF-BOT-4_9_L001_R1_001.fastq --fastqout_notmerged_rev /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-jyypjj6l/PUF-BOT-4_9_L001_R2_001.fastq --fastq_ascii 33 --fastq_minlen 1 --fastq_minovlen 10 --fastq_maxdiffs 10 --fastq_qmin 0 --fastq_qminout 0 --fastq_qmax 41 --fastq_qmaxout 41 --fasta_width 0 --fastq_truncqual 26 --fastq_minmergelen 313 --fastq_maxmergelen 313 --fastq_maxee 1 --threads 4
+
+vsearch v2.22.1_linux_x86_64, 14.9GB RAM, 12 cores
+https://github.com/torognes/vsearch
+
+Merging reads 100%
+     35376  Pairs
+      4557  Merged (12.9%)
+     30819  Not merged (87.1%)
+
+Pairs that failed merging due to various reasons:
+      2595  reads too short (after truncation)
+     23241  too few kmers found on same diagonal
+         2  multiple potential alignments
+      4102  alignment score too low, or score drop too high
+        50  overlap too short
+       768  merged fragment too short
+        58  merged fragment too long
+         3  staggered read pairs
+
+Statistics of all reads:
+    274.04  Mean read length
+
+Statistics of merged reads:
+    313.00  Mean fragment length
+      0.00  Standard deviation of fragment length
+      0.04  Mean expected error in forward sequences
+      0.03  Mean expected error in reverse sequences
+      0.05  Mean expected error in merged sequences
+      0.00  Mean observed errors in merged region of forward sequences
+      0.00  Mean observed errors in merged region of reverse sequences
+      0.00  Mean observed errors in merged region
+vsearch v2.22.1_linux_x86_64, 14.9GB RAM, 12 cores
+https://github.com/torognes/vsearch
+
+Merging reads 100%
+     81914  Pairs
+     18517  Merged (22.6%)
+     63397  Not merged (77.4%)
+
+Pairs that failed merging due to various reasons:
+      4836  reads too short (after truncation)
+     45858  too few kmers found on same diagonal
+        12  multiple potential alignments
+     11157  alignment score too low, or score drop too high
+       116  overlap too short
+      1129  merged fragment too short
+       282  merged fragment too long
+         7  staggered read pairs
+
+Statistics of all reads:
+    274.04  Mean read length
+
+Statistics of merged reads:
+    313.00  Mean fragment length
+      0.00  Standard deviation of fragment length
+      0.04  Mean expected error in forward sequences
+      0.03  Mean expected error in reverse sequences
+      0.04  Mean expected error in merged sequences
+      0.00  Mean observed errors in merged region of forward sequences
+      0.00  Mean observed errors in merged region of reverse sequences
+      0.00  Mean observed errors in merged region
+vsearch v2.22.1_linux_x86_64, 14.9GB RAM, 12 cores
+https://github.com/torognes/vsearch
+
+Merging reads 100%
+     45642  Pairs
+      9838  Merged (21.6%)
+     35804  Not merged (78.4%)
+
+Pairs that failed merging due to various reasons:
+      3147  reads too short (after truncation)
+     27791  too few kmers found on same diagonal
+      4286  alignment score too low, or score drop too high
+        62  overlap too short
+       371  merged fragment too short
+       140  merged fragment too long
+         7  staggered read pairs
+
+Statistics of all reads:
+    274.04  Mean read length
+
+Statistics of merged reads:
+    313.00  Mean fragment length
+      0.00  Standard deviation of fragment length
+      0.04  Mean expected error in forward sequences
+      0.03  Mean expected error in reverse sequences
+      0.05  Mean expected error in merged sequences
+      0.00  Mean observed errors in merged region of forward sequences
+      0.00  Mean observed errors in merged region of reverse sequences
+      0.00  Mean observed errors in merged region
+vsearch v2.22.1_linux_x86_64, 14.9GB RAM, 12 cores
+https://github.com/torognes/vsearch
+
+Merging reads 100%
+     26786  Pairs
+      5989  Merged (22.4%)
+     20797  Not merged (77.6%)
+
+Pairs that failed merging due to various reasons:
+      2002  reads too short (after truncation)
+     15583  too few kmers found on same diagonal
+         2  multiple potential alignments
+      2643  alignment score too low, or score drop too high
+        42  overlap too short
+       436  merged fragment too short
+        86  merged fragment too long
+         3  staggered read pairs
+
+Statistics of all reads:
+    274.04  Mean read length
+
+Statistics of merged reads:
+    313.00  Mean fragment length
+      0.00  Standard deviation of fragment length
+      0.04  Mean expected error in forward sequences
+      0.03  Mean expected error in reverse sequences
+      0.04  Mean expected error in merged sequences
+      0.00  Mean observed errors in merged region of forward sequences
+      0.00  Mean observed errors in merged region of reverse sequences
+      0.00  Mean observed errors in merged region
+Running external command line application. This may print messages to stdout and/or stderr.
+The command being run is below. This command cannot be manually re-run as it will depend on temporary files that no longer exist.
+
+Command: gzip /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-hv0uuqd6/PUF-BOT-4_9_L001_R1_001.fastq /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-jyypjj6l/PUF-BOT-4_9_L001_R1_001.fastq /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-jyypjj6l/PUF-BOT-4_9_L001_R2_001.fastq
+
+Running external command line application. This may print messages to stdout and/or stderr.
+The command being run is below. This command cannot be manually re-run as it will depend on temporary files that no longer exist.
+
+Command: vsearch --fastq_mergepairs /tmp/qiime2/luis/data/32fe6719-0b11-4869-9310-a0e726f6c060/data/PUF-BOT-5_S521_L001_R1_001.fastq.gz --reverse /tmp/qiime2/luis/data/32fe6719-0b11-4869-9310-a0e726f6c060/data/PUF-BOT-5_S521_L001_R2_001.fastq.gz --fastqout /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-hv0uuqd6/PUF-BOT-5_10_L001_R1_001.fastq --fastqout_notmerged_fwd /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-jyypjj6l/PUF-BOT-5_10_L001_R1_001.fastq --fastqout_notmerged_rev /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-jyypjj6l/PUF-BOT-5_10_L001_R2_001.fastq --fastq_ascii 33 --fastq_minlen 1 --fastq_minovlen 10 --fastq_maxdiffs 10 --fastq_qmin 0 --fastq_qminout 0 --fastq_qmax 41 --fastq_qmaxout 41 --fasta_width 0 --fastq_truncqual 26 --fastq_minmergelen 313 --fastq_maxmergelen 313 --fastq_maxee 1 --threads 4
+
+Running external command line application. This may print messages to stdout and/or stderr.
+The command being run is below. This command cannot be manually re-run as it will depend on temporary files that no longer exist.
+
+Command: gzip /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-hv0uuqd6/PUF-BOT-5_10_L001_R1_001.fastq /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-jyypjj6l/PUF-BOT-5_10_L001_R1_001.fastq /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-jyypjj6l/PUF-BOT-5_10_L001_R2_001.fastq
+
+Running external command line application. This may print messages to stdout and/or stderr.
+The command being run is below. This command cannot be manually re-run as it will depend on temporary files that no longer exist.
+
+Command: vsearch --fastq_mergepairs /tmp/qiime2/luis/data/32fe6719-0b11-4869-9310-a0e726f6c060/data/PUF-BOT-6_S516_L001_R1_001.fastq.gz --reverse /tmp/qiime2/luis/data/32fe6719-0b11-4869-9310-a0e726f6c060/data/PUF-BOT-6_S516_L001_R2_001.fastq.gz --fastqout /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-hv0uuqd6/PUF-BOT-6_11_L001_R1_001.fastq --fastqout_notmerged_fwd /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-jyypjj6l/PUF-BOT-6_11_L001_R1_001.fastq --fastqout_notmerged_rev /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-jyypjj6l/PUF-BOT-6_11_L001_R2_001.fastq --fastq_ascii 33 --fastq_minlen 1 --fastq_minovlen 10 --fastq_maxdiffs 10 --fastq_qmin 0 --fastq_qminout 0 --fastq_qmax 41 --fastq_qmaxout 41 --fasta_width 0 --fastq_truncqual 26 --fastq_minmergelen 313 --fastq_maxmergelen 313 --fastq_maxee 1 --threads 4
+
+Running external command line application. This may print messages to stdout and/or stderr.
+The command being run is below. This command cannot be manually re-run as it will depend on temporary files that no longer exist.
+
+Command: gzip /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-hv0uuqd6/PUF-BOT-6_11_L001_R1_001.fastq /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-jyypjj6l/PUF-BOT-6_11_L001_R1_001.fastq /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-jyypjj6l/PUF-BOT-6_11_L001_R2_001.fastq
+
+Running external command line application. This may print messages to stdout and/or stderr.
+The command being run is below. This command cannot be manually re-run as it will depend on temporary files that no longer exist.
+
+Command: vsearch --fastq_mergepairs /tmp/qiime2/luis/data/32fe6719-0b11-4869-9310-a0e726f6c060/data/PUF-BOT-7_S515_L001_R1_001.fastq.gz --reverse /tmp/qiime2/luis/data/32fe6719-0b11-4869-9310-a0e726f6c060/data/PUF-BOT-7_S515_L001_R2_001.fastq.gz --fastqout /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-hv0uuqd6/PUF-BOT-7_12_L001_R1_001.fastq --fastqout_notmerged_fwd /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-jyypjj6l/PUF-BOT-7_12_L001_R1_001.fastq --fastqout_notmerged_rev /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-jyypjj6l/PUF-BOT-7_12_L001_R2_001.fastq --fastq_ascii 33 --fastq_minlen 1 --fastq_minovlen 10 --fastq_maxdiffs 10 --fastq_qmin 0 --fastq_qminout 0 --fastq_qmax 41 --fastq_qmaxout 41 --fasta_width 0 --fastq_truncqual 26 --fastq_minmergelen 313 --fastq_maxmergelen 313 --fastq_maxee 1 --threads 4
+
+Running external command line application. This may print messages to stdout and/or stderr.
+The command being run is below. This command cannot be manually re-run as it will depend on temporary files that no longer exist.
+
+Command: gzip /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-hv0uuqd6/PUF-BOT-7_12_L001_R1_001.fastq /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-jyypjj6l/PUF-BOT-7_12_L001_R1_001.fastq /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-jyypjj6l/PUF-BOT-7_12_L001_R2_001.fastq
+
+Running external command line application. This may print messages to stdout and/or stderr.
+The command being run is below. This command cannot be manually re-run as it will depend on temporary files that no longer exist.
+
+Command: vsearch --fastq_mergepairs /tmp/qiime2/luis/data/32fe6719-0b11-4869-9310-a0e726f6c060/data/PUF-BOT-8_S516_L001_R1_001.fastq.gz --reverse /tmp/qiime2/luis/data/32fe6719-0b11-4869-9310-a0e726f6c060/data/PUF-BOT-8_S516_L001_R2_001.fastq.gz --fastqout /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-hv0uuqd6/PUF-BOT-8_13_L001_R1_001.fastq --fastqout_notmerged_fwd /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-jyypjj6l/PUF-BOT-8_13_L001_R1_001.fastq --fastqout_notmerged_rev /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-jyypjj6l/PUF-BOT-8_13_L001_R2_001.fastq --fastq_ascii 33 --fastq_minlen 1 --fastq_minovlen 10 --fastq_maxdiffs 10 --fastq_qmin 0 --fastq_qminout 0 --fastq_qmax 41 --fastq_qmaxout 41 --fasta_width 0 --fastq_truncqual 26 --fastq_minmergelen 313 --fastq_maxmergelen 313 --fastq_maxee 1 --threads 4
+
+Running external command line application. This may print messages to stdout and/or stderr.
+The command being run is below. This command cannot be manually re-run as it will depend on temporary files that no longer exist.
+
+Command: gzip /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-hv0uuqd6/PUF-BOT-8_13_L001_R1_001.fastq /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-jyypjj6l/PUF-BOT-8_13_L001_R1_001.fastq /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-jyypjj6l/PUF-BOT-8_13_L001_R2_001.fastq
+
+Running external command line application. This may print messages to stdout and/or stderr.
+The command being run is below. This command cannot be manually re-run as it will depend on temporary files that no longer exist.
+
+Command: vsearch v2.22.1_linux_x86_64, 14.9GB RAM, 12 cores
+https://github.com/torognes/vsearch
+
+Merging reads 100%
+     31267  Pairs
+      6171  Merged (19.7%)
+     25096  Not merged (80.3%)
+
+Pairs that failed merging due to various reasons:
+      2414  reads too short (after truncation)
+     18994  too few kmers found on same diagonal
+         1  multiple potential alignments
+      3404  alignment score too low, or score drop too high
+        45  overlap too short
+       148  merged fragment too short
+        88  merged fragment too long
+         2  staggered read pairs
+
+Statistics of all reads:
+    274.04  Mean read length
+
+Statistics of merged reads:
+    313.00  Mean fragment length
+      0.00  Standard deviation of fragment length
+      0.04  Mean expected error in forward sequences
+      0.03  Mean expected error in reverse sequences
+      0.05  Mean expected error in merged sequences
+      0.00  Mean observed errors in merged region of forward sequences
+      0.00  Mean observed errors in merged region of reverse sequences
+      0.00  Mean observed errors in merged region
+vsearch v2.22.1_linux_x86_64, 14.9GB RAM, 12 cores
+https://github.com/torognes/vsearch
+
+Merging reads 100%
+      3800  Pairs
+       668  Merged (17.6%)
+      3132  Not merged (82.4%)
+
+Pairs that failed merging due to various reasons:
+       342  reads too short (after truncation)
+      2263  too few kmers found on same diagonal
+       456  alignment score too low, or score drop too high
+         4  overlap too short
+        60  merged fragment too short
+         5  merged fragment too long
+         2  staggered read pairs
+
+Statistics of all reads:
+    274.04  Mean read length
+
+Statistics of merged reads:
+    313.00  Mean fragment length
+      0.00  Standard deviation of fragment length
+      0.04  Mean expected error in forward sequences
+      0.03  Mean expected error in reverse sequences
+      0.05  Mean expected error in merged sequences
+      0.00  Mean observed errors in merged region of forward sequences
+      0.00  Mean observed errors in merged region of reverse sequences
+      0.00  Mean observed errors in merged region
+vsearch v2.22.1_linux_x86_64, 14.9GB RAM, 12 cores
+https://github.com/torognes/vsearch
+
+Merging reads 100%
+     18586  Pairs
+      3656  Merged (19.7%)
+     14930  Not merged (80.3%)
+
+Pairs that failed merging due to various reasons:
+      1260  reads too short (after truncation)
+     11452  too few kmers found on same diagonal
+      1730  alignment score too low, or score drop too high
+        32  overlap too short
+       389  merged fragment too short
+        50  merged fragment too long
+        17  staggered read pairs
+
+Statistics of all reads:
+    274.04  Mean read length
+
+Statistics of merged reads:
+    313.00  Mean fragment length
+      0.00  Standard deviation of fragment length
+      0.04  Mean expected error in forward sequences
+      0.03  Mean expected error in reverse sequences
+      0.05  Mean expected error in merged sequences
+      0.00  Mean observed errors in merged region of forward sequences
+      0.00  Mean observed errors in merged region of reverse sequences
+      0.00  Mean observed errors in merged region
+vsearch v2.22.1_linux_x86_64, 14.9GB RAM, 12 cores
+https://github.com/torognes/vsearch
+
+Merging reads 100%
+     15708  Pairs
+      3426  Merged (21.8%)
+     12282  Not merged (78.2%)
+
+Pairs that failed merging due to various reasons:
+      1093  reads too short (after truncation)
+      9470  too few kmers found on same diagonal
+         1  multiple potential alignments
+      1451  alignment score too low, or score drop too high
+        30  overlap too short
+       192  merged fragment too short
+        41  merged fragment too long
+         4  staggered read pairs
+
+Statistics of all reads:
+    274.04  Mean read length
+
+Statistics of merged reads:
+    313.00  Mean fragment length
+      0.00  Standard deviation of fragment length
+      0.04  Mean expected error in forward sequences
+      0.03  Mean expected error in reverse sequences
+      0.05  Mean expected error in merged sequences
+      0.00  Mean observed errors in merged region of forward sequences
+      0.00  Mean observed errors in merged region of reverse sequences
+      0.00  Mean observed errors in merged region
+vsearch v2.22.1_linux_x86_64, 14.9GB RAM, 12 cores
+https://github.com/torognes/vsearch
+
+Merging reads 100%
+     17174  Pairs
+      4002  Merged (23.3%)
+     13172  Not merged (76.7%)
+
+Pairs that failed merging due to various reasons:
+      1220  reads too short (after truncation)
+     10280  too few kmers found on same diagonal
+         1  multiple potential alignments
+      1457  alignment score too low, or score drop too high
+        21  overlap too short
+       142  merged fragment too short
+        47  merged fragment too long
+         4  staggered read pairs
+
+Statistics of all reads:
+    274.04  Mean read length
+
+Statistics of merged reads:
+    313.00  Mean fragment length
+      0.00  Standard deviation of fragment length
+      0.04  Mean expected error in forward sequences
+      0.03  Mean expected error in reverse sequences
+      0.05  Mean expected error in merged sequences
+      0.00  Mean observed errors in merged region of forward sequences
+      0.00  Mean observed errors in merged region of reverse sequences
+      0.00  Mean observed errors in merged region
+vsearch --fastq_mergepairs /tmp/qiime2/luis/data/32fe6719-0b11-4869-9310-a0e726f6c060/data/PUF-BOT-9_E517_L001_R1_001.fastq.gz --reverse /tmp/qiime2/luis/data/32fe6719-0b11-4869-9310-a0e726f6c060/data/PUF-BOT-9_E517_L001_R2_001.fastq.gz --fastqout /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-hv0uuqd6/PUF-BOT-9_14_L001_R1_001.fastq --fastqout_notmerged_fwd /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-jyypjj6l/PUF-BOT-9_14_L001_R1_001.fastq --fastqout_notmerged_rev /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-jyypjj6l/PUF-BOT-9_14_L001_R2_001.fastq --fastq_ascii 33 --fastq_minlen 1 --fastq_minovlen 10 --fastq_maxdiffs 10 --fastq_qmin 0 --fastq_qminout 0 --fastq_qmax 41 --fastq_qmaxout 41 --fasta_width 0 --fastq_truncqual 26 --fastq_minmergelen 313 --fastq_maxmergelen 313 --fastq_maxee 1 --threads 4
+
+Running external command line application. This may print messages to stdout and/or stderr.
+The command being run is below. This command cannot be manually re-run as it will depend on temporary files that no longer exist.
+
+Command: gzip /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-hv0uuqd6/PUF-BOT-9_14_L001_R1_001.fastq /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-jyypjj6l/PUF-BOT-9_14_L001_R1_001.fastq /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-jyypjj6l/PUF-BOT-9_14_L001_R2_001.fastq
+
+Running external command line application. This may print messages to stdout and/or stderr.
+The command being run is below. This command cannot be manually re-run as it will depend on temporary files that no longer exist.
+
+Command: vsearch --fastq_mergepairs /tmp/qiime2/luis/data/32fe6719-0b11-4869-9310-a0e726f6c060/data/PUF-BOU-1_E517_L001_R1_001.fastq.gz --reverse /tmp/qiime2/luis/data/32fe6719-0b11-4869-9310-a0e726f6c060/data/PUF-BOU-1_E517_L001_R2_001.fastq.gz --fastqout /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-hv0uuqd6/PUF-BOU-1_15_L001_R1_001.fastq --fastqout_notmerged_fwd /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-jyypjj6l/PUF-BOU-1_15_L001_R1_001.fastq --fastqout_notmerged_rev /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-jyypjj6l/PUF-BOU-1_15_L001_R2_001.fastq --fastq_ascii 33 --fastq_minlen 1 --fastq_minovlen 10 --fastq_maxdiffs 10 --fastq_qmin 0 --fastq_qminout 0 --fastq_qmax 41 --fastq_qmaxout 41 --fasta_width 0 --fastq_truncqual 26 --fastq_minmergelen 313 --fastq_maxmergelen 313 --fastq_maxee 1 --threads 4
+
+Running external command line application. This may print messages to stdout and/or stderr.
+The command being run is below. This command cannot be manually re-run as it will depend on temporary files that no longer exist.
+
+Command: gzip /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-hv0uuqd6/PUF-BOU-1_15_L001_R1_001.fastq /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-jyypjj6l/PUF-BOU-1_15_L001_R1_001.fastq /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-jyypjj6l/PUF-BOU-1_15_L001_R2_001.fastq
+
+Running external command line application. This may print messages to stdout and/or stderr.
+The command being run is below. This command cannot be manually re-run as it will depend on temporary files that no longer exist.
+
+Command: vsearch --fastq_mergepairs /tmp/qiime2/luis/data/32fe6719-0b11-4869-9310-a0e726f6c060/data/PUF-BOU-2_S522_L001_R1_001.fastq.gz --reverse /tmp/qiime2/luis/data/32fe6719-0b11-4869-9310-a0e726f6c060/data/PUF-BOU-2_S522_L001_R2_001.fastq.gz --fastqout /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-hv0uuqd6/PUF-BOU-2_16_L001_R1_001.fastq --fastqout_notmerged_fwd /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-jyypjj6l/PUF-BOU-2_16_L001_R1_001.fastq --fastqout_notmerged_rev /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-jyypjj6l/PUF-BOU-2_16_L001_R2_001.fastq --fastq_ascii 33 --fastq_minlen 1 --fastq_minovlen 10 --fastq_maxdiffs 10 --fastq_qmin 0 --fastq_qminout 0 --fastq_qmax 41 --fastq_qmaxout 41 --fasta_width 0 --fastq_truncqual 26 --fastq_minmergelen 313 --fastq_maxmergelen 313 --fastq_maxee 1 --threads 4
+
+Running external command line application. This may print messages to stdout and/or stderr.
+The command being run is below. This command cannot be manually re-run as it will depend on temporary files that no longer exist.
+
+Command: gzip /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-hv0uuqd6/PUF-BOU-2_16_L001_R1_001.fastq /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-jyypjj6l/PUF-BOU-2_16_L001_R1_001.fastq /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-jyypjj6l/PUF-BOU-2_16_L001_R2_001.fastq
+
+Running external command line application. This may print messages to stdout and/or stderr.
+The command being run is below. This command cannot be manually re-run as it will depend on temporary files that no longer exist.
+
+Command: vsearch --fastq_mergepairs /tmp/qiime2/luis/data/32fe6719-0b11-4869-9310-a0e726f6c060/data/PUF-BOU-3_S516_L001_R1_001.fastq.gz --reverse /tmp/qiime2/luis/data/32fe6719-0b11-4869-9310-a0e726f6c060/data/PUF-BOU-3_S516_L001_R2_001.fastq.gz --fastqout /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-hv0uuqd6/PUF-BOU-3_17_L001_R1_001.fastq --fastqout_notmerged_fwd /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-jyypjj6l/PUF-BOU-3_17_L001_R1_001.fastq --fastqout_notmerged_rev /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-jyypjj6l/PUF-BOU-3_17_L001_R2_001.fastq --fastq_ascii 33 --fastq_minlen 1 --fastq_minovlen 10 --fastq_maxdiffs 10 --fastq_qmin 0 --fastq_qminout 0 --fastq_qmax 41 --fastq_qmaxout 41 --fasta_width 0 --fastq_truncqual 26 --fastq_minmergelen 313 --fastq_maxmergelen 313 --fastq_maxee 1 --threads 4
+
+Running external command line application. This may print messages to stdout and/or stderr.
+The command being run is below. This command cannot be manually re-run as it will depend on temporary files that no longer exist.
+
+Command: gzip /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-hv0uuqd6/PUF-BOU-3_17_L001_R1_001.fastq /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-jyypjj6l/PUF-BOU-3_17_L001_R1_001.fastq /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-jyypjj6l/PUF-BOU-3_17_L001_R2_001.fastq
+
+Running external command line application. This may print messages to stdout and/or stderr.
+The command being run is below. This command cannot be manually re-run as it will depend on temporary files that no longer exist.
+
+Command: vsearch --fastq_mergepairs /tmp/qiime2/luis/data/32fe6719-0b11-4869-9310-a0e726f6c060/data/PUF-BOU-4_S513_L001_R1_001.fastq.gz --reverse /tmp/qiime2/luis/data/32fe6719-0b11-4869-9310-a0e726f6c060/data/PUF-BOU-4_S513_L001_R2_001.fastq.gz --fastqout /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-hv0uuqd6/PUF-BOU-4_18_L001_R1_001.fastq --fastqout_notmerged_fwd /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-jyypjj6l/PUF-BOU-4_18_L001_R1_001.fastq --fastqout_notmerged_rev /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-jyypjj6l/PUF-BOU-4_18_L001_R2_001.fastq --fastq_ascii 33 --fastq_minlen 1 --fastq_minovlen 10 --fastq_maxdiffs 10 --fastq_qmin 0 --fastq_qminout 0 --fastq_qmax 41 --fastq_qmaxout 41 --fasta_width 0 --fastq_truncqual 26 --fastq_minmergelen 313 --fastq_maxmergelen 313 --fastq_maxee 1 --threads 4
+
+Running external command line application. This may print messages to stdout and/or stderr.
+The command being run is below. This command cannot be manually re-run as it will depend on temporary files that no longer exist.
+
+Command: gzip /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-hv0uuqd6/PUF-BOU-4_18_L001_R1_001.fastq /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-jyypjj6l/PUF-BOU-4_18_L001_R1_001.fastq /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-jyypjj6l/PUF-BOU-4_18_L001_R2_001.fastq
+
+Running external command line application. This may print messages to stdout and/or stderr.
+vsearch v2.22.1_linux_x86_64, 14.9GB RAM, 12 cores
+https://github.com/torognes/vsearch
+
+Merging reads 100%
+     51227  Pairs
+     11640  Merged (22.7%)
+     39587  Not merged (77.3%)
+
+Pairs that failed merging due to various reasons:
+      3790  reads too short (after truncation)
+     30682  too few kmers found on same diagonal
+      4073  alignment score too low, or score drop too high
+        84  overlap too short
+       784  merged fragment too short
+       158  merged fragment too long
+        16  staggered read pairs
+
+Statistics of all reads:
+    274.04  Mean read length
+
+Statistics of merged reads:
+    313.00  Mean fragment length
+      0.00  Standard deviation of fragment length
+      0.04  Mean expected error in forward sequences
+      0.03  Mean expected error in reverse sequences
+      0.04  Mean expected error in merged sequences
+      0.00  Mean observed errors in merged region of forward sequences
+      0.00  Mean observed errors in merged region of reverse sequences
+      0.00  Mean observed errors in merged region
+vsearch v2.22.1_linux_x86_64, 14.9GB RAM, 12 cores
+https://github.com/torognes/vsearch
+
+Merging reads 100%
+     18624  Pairs
+      4283  Merged (23.0%)
+     14341  Not merged (77.0%)
+
+Pairs that failed merging due to various reasons:
+      1304  reads too short (after truncation)
+     10981  too few kmers found on same diagonal
+      1717  alignment score too low, or score drop too high
+        28  overlap too short
+       256  merged fragment too short
+        54  merged fragment too long
+         1  staggered read pairs
+
+Statistics of all reads:
+    274.04  Mean read length
+
+Statistics of merged reads:
+    313.00  Mean fragment length
+      0.00  Standard deviation of fragment length
+      0.04  Mean expected error in forward sequences
+      0.03  Mean expected error in reverse sequences
+      0.04  Mean expected error in merged sequences
+      0.00  Mean observed errors in merged region of forward sequences
+      0.00  Mean observed errors in merged region of reverse sequences
+      0.00  Mean observed errors in merged region
+vsearch v2.22.1_linux_x86_64, 14.9GB RAM, 12 cores
+https://github.com/torognes/vsearch
+
+Merging reads 100%
+     55026  Pairs
+     12824  Merged (23.3%)
+     42202  Not merged (76.7%)
+
+Pairs that failed merging due to various reasons:
+      3623  reads too short (after truncation)
+     31524  too few kmers found on same diagonal
+      6043  alignment score too low, or score drop too high
+       113  overlap too short
+       726  merged fragment too short
+       168  merged fragment too long
+         5  staggered read pairs
+
+Statistics of all reads:
+    274.04  Mean read length
+
+Statistics of merged reads:
+    313.00  Mean fragment length
+      0.00  Standard deviation of fragment length
+      0.04  Mean expected error in forward sequences
+      0.03  Mean expected error in reverse sequences
+      0.04  Mean expected error in merged sequences
+      0.00  Mean observed errors in merged region of forward sequences
+      0.00  Mean observed errors in merged region of reverse sequences
+      0.00  Mean observed errors in merged region
+vsearch v2.22.1_linux_x86_64, 14.9GB RAM, 12 cores
+https://github.com/torognes/vsearch
+
+Merging reads 100%
+     50272  Pairs
+      9147  Merged (18.2%)
+     41125  Not merged (81.8%)
+
+Pairs that failed merging due to various reasons:
+      3588  reads too short (after truncation)
+     31028  too few kmers found on same diagonal
+      5951  alignment score too low, or score drop too high
+        75  overlap too short
+       369  merged fragment too short
+       111  merged fragment too long
+         3  staggered read pairs
+
+Statistics of all reads:
+    274.04  Mean read length
+
+Statistics of merged reads:
+    313.00  Mean fragment length
+      0.00  Standard deviation of fragment length
+      0.04  Mean expected error in forward sequences
+      0.03  Mean expected error in reverse sequences
+      0.05  Mean expected error in merged sequences
+      0.00  Mean observed errors in merged region of forward sequences
+      0.00  Mean observed errors in merged region of reverse sequences
+      0.00  Mean observed errors in merged region
+vsearch v2.22.1_linux_x86_64, 14.9GB RAM, 12 cores
+https://github.com/torognes/vsearch
+
+Merging reads 100%
+     74815  Pairs
+     17210  Merged (23.0%)
+     57605  Not merged (77.0%)
+
+Pairs that failed merging due to various reasons:
+      4985  reads too short (after truncation)
+     43073  too few kmers found on same diagonal
+         2  multiple potential alignments
+      7281  alignment score too low, or score drop too high
+        91  overlap too short
+      1962  merged fragment too short
+       203  merged fragment too long
+         8  staggered read pairs
+
+Statistics of all reads:
+    274.04  Mean read length
+
+Statistics of merged reads:
+    313.00  Mean fragment length
+      0.00  Standard deviation of fragment length
+      0.04  Mean expected error in forward sequences
+      0.03  Mean expected error in reverse sequences
+      0.04  Mean expected error in merged sequences
+      0.00  Mean observed errors in merged region of forward sequences
+      0.00  Mean observed errors in merged region of reverse sequences
+      0.00  Mean observed errors in merged region
+The command being run is below. This command cannot be manually re-run as it will depend on temporary files that no longer exist.
+
+Command: vsearch --fastq_mergepairs /tmp/qiime2/luis/data/32fe6719-0b11-4869-9310-a0e726f6c060/data/PUF-BOU-5_S513_L001_R1_001.fastq.gz --reverse /tmp/qiime2/luis/data/32fe6719-0b11-4869-9310-a0e726f6c060/data/PUF-BOU-5_S513_L001_R2_001.fastq.gz --fastqout /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-hv0uuqd6/PUF-BOU-5_19_L001_R1_001.fastq --fastqout_notmerged_fwd /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-jyypjj6l/PUF-BOU-5_19_L001_R1_001.fastq --fastqout_notmerged_rev /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-jyypjj6l/PUF-BOU-5_19_L001_R2_001.fastq --fastq_ascii 33 --fastq_minlen 1 --fastq_minovlen 10 --fastq_maxdiffs 10 --fastq_qmin 0 --fastq_qminout 0 --fastq_qmax 41 --fastq_qmaxout 41 --fasta_width 0 --fastq_truncqual 26 --fastq_minmergelen 313 --fastq_maxmergelen 313 --fastq_maxee 1 --threads 4
+
+Running external command line application. This may print messages to stdout and/or stderr.
+The command being run is below. This command cannot be manually re-run as it will depend on temporary files that no longer exist.
+
+Command: gzip /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-hv0uuqd6/PUF-BOU-5_19_L001_R1_001.fastq /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-jyypjj6l/PUF-BOU-5_19_L001_R1_001.fastq /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-jyypjj6l/PUF-BOU-5_19_L001_R2_001.fastq
+
+Running external command line application. This may print messages to stdout and/or stderr.
+The command being run is below. This command cannot be manually re-run as it will depend on temporary files that no longer exist.
+
+Command: vsearch --fastq_mergepairs /tmp/qiime2/luis/data/32fe6719-0b11-4869-9310-a0e726f6c060/data/PUF-BOU-6_S515_L001_R1_001.fastq.gz --reverse /tmp/qiime2/luis/data/32fe6719-0b11-4869-9310-a0e726f6c060/data/PUF-BOU-6_S515_L001_R2_001.fastq.gz --fastqout /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-hv0uuqd6/PUF-BOU-6_20_L001_R1_001.fastq --fastqout_notmerged_fwd /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-jyypjj6l/PUF-BOU-6_20_L001_R1_001.fastq --fastqout_notmerged_rev /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-jyypjj6l/PUF-BOU-6_20_L001_R2_001.fastq --fastq_ascii 33 --fastq_minlen 1 --fastq_minovlen 10 --fastq_maxdiffs 10 --fastq_qmin 0 --fastq_qminout 0 --fastq_qmax 41 --fastq_qmaxout 41 --fasta_width 0 --fastq_truncqual 26 --fastq_minmergelen 313 --fastq_maxmergelen 313 --fastq_maxee 1 --threads 4
+
+Running external command line application. This may print messages to stdout and/or stderr.
+The command being run is below. This command cannot be manually re-run as it will depend on temporary files that no longer exist.
+
+Command: gzip /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-hv0uuqd6/PUF-BOU-6_20_L001_R1_001.fastq /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-jyypjj6l/PUF-BOU-6_20_L001_R1_001.fastq /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-jyypjj6l/PUF-BOU-6_20_L001_R2_001.fastq
+
+Running external command line application. This may print messages to stdout and/or stderr.
+The command being run is below. This command cannot be manually re-run as it will depend on temporary files that no longer exist.
+
+Command: vsearch --fastq_mergepairs /tmp/qiime2/luis/data/32fe6719-0b11-4869-9310-a0e726f6c060/data/PUF-BOU-8_S521_L001_R1_001.fastq.gz --reverse /tmp/qiime2/luis/data/32fe6719-0b11-4869-9310-a0e726f6c060/data/PUF-BOU-8_S521_L001_R2_001.fastq.gz --fastqout /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-hv0uuqd6/PUF-BOU-8_21_L001_R1_001.fastq --fastqout_notmerged_fwd /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-jyypjj6l/PUF-BOU-8_21_L001_R1_001.fastq --fastqout_notmerged_rev /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-jyypjj6l/PUF-BOU-8_21_L001_R2_001.fastq --fastq_ascii 33 --fastq_minlen 1 --fastq_minovlen 10 --fastq_maxdiffs 10 --fastq_qmin 0 --fastq_qminout 0 --fastq_qmax 41 --fastq_qmaxout 41 --fasta_width 0 --fastq_truncqual 26 --fastq_minmergelen 313 --fastq_maxmergelen 313 --fastq_maxee 1 --threads 4
+
+Running external command line application. This may print messages to stdout and/or stderr.
+The command being run is below. This command cannot be manually re-run as it will depend on temporary files that no longer exist.
+
+Command: gzip /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-hv0uuqd6/PUF-BOU-8_21_L001_R1_001.fastq /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-jyypjj6l/PUF-BOU-8_21_L001_R1_001.fastq /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-jyypjj6l/PUF-BOU-8_21_L001_R2_001.fastq
+
+Running external command line application. This may print messages to stdout and/or stderr.
+The command being run is below. This command cannot be manually re-run as it will depend on temporary files that no longer exist.
+
+Command: vsearch --fastq_mergepairs /tmp/qiime2/luis/data/32fe6719-0b11-4869-9310-a0e726f6c060/data/PUF-BOU-9_E517_L001_R1_001.fastq.gz --reverse /tmp/qiime2/luis/data/32fe6719-0b11-4869-9310-a0e726f6c060/data/PUF-BOU-9_E517_L001_R2_001.fastq.gz --fastqout /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-hv0uuqd6/PUF-BOU-9_22_L001_R1_001.fastq --fastqout_notmerged_fwd /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-jyypjj6l/PUF-BOU-9_22_L001_R1_001.fastq --fastqout_notmerged_rev /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-jyypjj6l/PUF-BOU-9_22_L001_R2_001.fastq --fastq_ascii 33 --fastq_minlen 1 --fastq_minovlen 10 --fastq_maxdiffs 10 --fastq_qmin 0 --fastq_qminout 0 --fastq_qmax 41 --fastq_qmaxout 41 --fasta_width 0 --fastq_truncqual 26 --fastq_minmergelen 313 --fastq_maxmergelen 313 --fastq_maxee 1 --threads 4
+
+Running external command line application. This may print messages to stdout and/or stderr.
+The command being run is below. This command cannot be manually re-run as it will depend on temporary files that no longer exist.
+
+Command: gzip /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-hv0uuqd6/PUF-BOU-9_22_L001_R1_001.fastq /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-jyypjj6l/PUF-BOU-9_22_L001_R1_001.fastq /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-jyypjj6l/PUF-BOU-9_22_L001_R2_001.fastq
+
+Running external command line application. This may print messages to stdout and/or stderr.
+The command being run is below. This command cannot be manually re-run as it will depend on temporary files that no longer exist.
+
+Command: vsearch --fastq_mergepairs /tmp/qiime2/luis/data/32fe6719-0b11-4869-9310-a0e726f6c060/data/PUF-IPEX-10_S518_L001_R1_001.fastq.gz --reverse /tmp/qiime2/luis/data/32fe6719-0b11-4869-9310-a0e726f6c060/data/PUF-IPEX-10_S518_L001_R2_001.fastq.gz --fastqout /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-hv0uuqd6/PUF-IPEX-10_23_L001_R1_001.fastq --fastqout_notmerged_fwd /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-jyypjj6l/PUF-IPEX-10_23_L001_R1_001.fastq --fastqout_notmerged_rev /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-jyypjj6l/PUF-IPEX-10_23_L001_R2_001.fastq --fastq_ascii 33 --fastq_minlen 1 --fastq_minovlen 10 --fastq_maxdiffs 10 --fastq_qmin 0 --fastq_qminout 0 --fastq_qmax 41 --fastq_qmaxout 41 --fasta_width 0 --fastq_truncqual 26 --fastq_minmergelen 313 --fastq_maxmergelen 313 --fastq_maxee 1 --threads 4
+
+Running external command line application. This may print messages to stdout and/or stderr.
+The command being run is below. This command cannot be manually re-run as it will depend on temporary files that no longer exist.
+
+Command: vsearch v2.22.1_linux_x86_64, 14.9GB RAM, 12 cores
+https://github.com/torognes/vsearch
+
+Merging reads 100%
+     29314  Pairs
+      5396  Merged (18.4%)
+     23918  Not merged (81.6%)
+
+Pairs that failed merging due to various reasons:
+      2056  reads too short (after truncation)
+     18184  too few kmers found on same diagonal
+      3328  alignment score too low, or score drop too high
+        43  overlap too short
+       230  merged fragment too short
+        65  merged fragment too long
+        12  staggered read pairs
+
+Statistics of all reads:
+    274.04  Mean read length
+
+Statistics of merged reads:
+    313.00  Mean fragment length
+      0.00  Standard deviation of fragment length
+      0.04  Mean expected error in forward sequences
+      0.03  Mean expected error in reverse sequences
+      0.05  Mean expected error in merged sequences
+      0.00  Mean observed errors in merged region of forward sequences
+      0.00  Mean observed errors in merged region of reverse sequences
+      0.00  Mean observed errors in merged region
+vsearch v2.22.1_linux_x86_64, 14.9GB RAM, 12 cores
+https://github.com/torognes/vsearch
+
+Merging reads 100%
+     65366  Pairs
+     14229  Merged (21.8%)
+     51137  Not merged (78.2%)
+
+Pairs that failed merging due to various reasons:
+      4322  reads too short (after truncation)
+     37635  too few kmers found on same diagonal
+         3  multiple potential alignments
+      7144  alignment score too low, or score drop too high
+        78  overlap too short
+      1748  merged fragment too short
+       204  merged fragment too long
+         3  staggered read pairs
+
+Statistics of all reads:
+    274.04  Mean read length
+
+Statistics of merged reads:
+    313.00  Mean fragment length
+      0.00  Standard deviation of fragment length
+      0.04  Mean expected error in forward sequences
+      0.03  Mean expected error in reverse sequences
+      0.04  Mean expected error in merged sequences
+      0.00  Mean observed errors in merged region of forward sequences
+      0.00  Mean observed errors in merged region of reverse sequences
+      0.00  Mean observed errors in merged region
+vsearch v2.22.1_linux_x86_64, 14.9GB RAM, 12 cores
+https://github.com/torognes/vsearch
+
+Merging reads 100%
+     84810  Pairs
+     20241  Merged (23.9%)
+     64569  Not merged (76.1%)
+
+Pairs that failed merging due to various reasons:
+      5634  reads too short (after truncation)
+     49030  too few kmers found on same diagonal
+         3  multiple potential alignments
+      8556  alignment score too low, or score drop too high
+       118  overlap too short
+       975  merged fragment too short
+       240  merged fragment too long
+        13  staggered read pairs
+
+Statistics of all reads:
+    274.04  Mean read length
+
+Statistics of merged reads:
+    313.00  Mean fragment length
+      0.00  Standard deviation of fragment length
+      0.04  Mean expected error in forward sequences
+      0.03  Mean expected error in reverse sequences
+      0.04  Mean expected error in merged sequences
+      0.00  Mean observed errors in merged region of forward sequences
+      0.00  Mean observed errors in merged region of reverse sequences
+      0.00  Mean observed errors in merged region
+vsearch v2.22.1_linux_x86_64, 14.9GB RAM, 12 cores
+https://github.com/torognes/vsearch
+
+Merging reads 100%
+     43889  Pairs
+     11152  Merged (25.4%)
+     32737  Not merged (74.6%)
+
+Pairs that failed merging due to various reasons:
+      2863  reads too short (after truncation)
+     23475  too few kmers found on same diagonal
+         3  multiple potential alignments
+      5879  alignment score too low, or score drop too high
+        59  overlap too short
+       359  merged fragment too short
+        97  merged fragment too long
+         2  staggered read pairs
+
+Statistics of all reads:
+    274.04  Mean read length
+
+Statistics of merged reads:
+    313.00  Mean fragment length
+      0.00  Standard deviation of fragment length
+      0.04  Mean expected error in forward sequences
+      0.03  Mean expected error in reverse sequences
+      0.04  Mean expected error in merged sequences
+      0.00  Mean observed errors in merged region of forward sequences
+      0.00  Mean observed errors in merged region of reverse sequences
+      0.00  Mean observed errors in merged region
+vsearch v2.22.1_linux_x86_64, 14.9GB RAM, 12 cores
+https://github.com/torognes/vsearch
+
+Merging reads 100%
+     38520  Pairs
+      8312  Merged (21.6%)
+     30208  Not merged (78.4%)
+
+Pairs that failed merging due to various reasons:
+      2571  reads too short (after truncation)
+     22822  too few kmers found on same diagonal
+         1  multiple potential alignments
+      3966  alignment score too low, or score drop too high
+        62  overlap too short
+       698  merged fragment too short
+        84  merged fragment too long
+         4  staggered read pairs
+
+Statistics of all reads:
+    274.04  Mean read length
+
+Statistics of merged reads:
+    313.00  Mean fragment length
+      0.00  Standard deviation of fragment length
+      0.04  Mean expected error in forward sequences
+      0.03  Mean expected error in reverse sequences
+      0.04  Mean expected error in merged sequences
+      0.00  Mean observed errors in merged region of forward sequences
+      0.00  Mean observed errors in merged region of reverse sequences
+      0.00  Mean observed errors in merged region
+gzip /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-hv0uuqd6/PUF-IPEX-10_23_L001_R1_001.fastq /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-jyypjj6l/PUF-IPEX-10_23_L001_R1_001.fastq /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-jyypjj6l/PUF-IPEX-10_23_L001_R2_001.fastq
+
+Running external command line application. This may print messages to stdout and/or stderr.
+The command being run is below. This command cannot be manually re-run as it will depend on temporary files that no longer exist.
+
+Command: vsearch --fastq_mergepairs /tmp/qiime2/luis/data/32fe6719-0b11-4869-9310-a0e726f6c060/data/PUF-IPEX-2_S516_L001_R1_001.fastq.gz --reverse /tmp/qiime2/luis/data/32fe6719-0b11-4869-9310-a0e726f6c060/data/PUF-IPEX-2_S516_L001_R2_001.fastq.gz --fastqout /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-hv0uuqd6/PUF-IPEX-2_24_L001_R1_001.fastq --fastqout_notmerged_fwd /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-jyypjj6l/PUF-IPEX-2_24_L001_R1_001.fastq --fastqout_notmerged_rev /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-jyypjj6l/PUF-IPEX-2_24_L001_R2_001.fastq --fastq_ascii 33 --fastq_minlen 1 --fastq_minovlen 10 --fastq_maxdiffs 10 --fastq_qmin 0 --fastq_qminout 0 --fastq_qmax 41 --fastq_qmaxout 41 --fasta_width 0 --fastq_truncqual 26 --fastq_minmergelen 313 --fastq_maxmergelen 313 --fastq_maxee 1 --threads 4
+
+Running external command line application. This may print messages to stdout and/or stderr.
+The command being run is below. This command cannot be manually re-run as it will depend on temporary files that no longer exist.
+
+Command: gzip /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-hv0uuqd6/PUF-IPEX-2_24_L001_R1_001.fastq /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-jyypjj6l/PUF-IPEX-2_24_L001_R1_001.fastq /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-jyypjj6l/PUF-IPEX-2_24_L001_R2_001.fastq
+
+Running external command line application. This may print messages to stdout and/or stderr.
+The command being run is below. This command cannot be manually re-run as it will depend on temporary files that no longer exist.
+
+Command: vsearch --fastq_mergepairs /tmp/qiime2/luis/data/32fe6719-0b11-4869-9310-a0e726f6c060/data/PUF-IPEX-4_S520_L001_R1_001.fastq.gz --reverse /tmp/qiime2/luis/data/32fe6719-0b11-4869-9310-a0e726f6c060/data/PUF-IPEX-4_S520_L001_R2_001.fastq.gz --fastqout /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-hv0uuqd6/PUF-IPEX-4_25_L001_R1_001.fastq --fastqout_notmerged_fwd /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-jyypjj6l/PUF-IPEX-4_25_L001_R1_001.fastq --fastqout_notmerged_rev /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-jyypjj6l/PUF-IPEX-4_25_L001_R2_001.fastq --fastq_ascii 33 --fastq_minlen 1 --fastq_minovlen 10 --fastq_maxdiffs 10 --fastq_qmin 0 --fastq_qminout 0 --fastq_qmax 41 --fastq_qmaxout 41 --fasta_width 0 --fastq_truncqual 26 --fastq_minmergelen 313 --fastq_maxmergelen 313 --fastq_maxee 1 --threads 4
+
+Running external command line application. This may print messages to stdout and/or stderr.
+The command being run is below. This command cannot be manually re-run as it will depend on temporary files that no longer exist.
+
+Command: gzip /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-hv0uuqd6/PUF-IPEX-4_25_L001_R1_001.fastq /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-jyypjj6l/PUF-IPEX-4_25_L001_R1_001.fastq /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-jyypjj6l/PUF-IPEX-4_25_L001_R2_001.fastq
+
+Running external command line application. This may print messages to stdout and/or stderr.
+The command being run is below. This command cannot be manually re-run as it will depend on temporary files that no longer exist.
+
+Command: vsearch --fastq_mergepairs /tmp/qiime2/luis/data/32fe6719-0b11-4869-9310-a0e726f6c060/data/PUF-IPEX-5_S520_L001_R1_001.fastq.gz --reverse /tmp/qiime2/luis/data/32fe6719-0b11-4869-9310-a0e726f6c060/data/PUF-IPEX-5_S520_L001_R2_001.fastq.gz --fastqout /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-hv0uuqd6/PUF-IPEX-5_26_L001_R1_001.fastq --fastqout_notmerged_fwd /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-jyypjj6l/PUF-IPEX-5_26_L001_R1_001.fastq --fastqout_notmerged_rev /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-jyypjj6l/PUF-IPEX-5_26_L001_R2_001.fastq --fastq_ascii 33 --fastq_minlen 1 --fastq_minovlen 10 --fastq_maxdiffs 10 --fastq_qmin 0 --fastq_qminout 0 --fastq_qmax 41 --fastq_qmaxout 41 --fasta_width 0 --fastq_truncqual 26 --fastq_minmergelen 313 --fastq_maxmergelen 313 --fastq_maxee 1 --threads 4
+
+Running external command line application. This may print messages to stdout and/or stderr.
+The command being run is below. This command cannot be manually re-run as it will depend on temporary files that no longer exist.
+
+Command: gzip /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-hv0uuqd6/PUF-IPEX-5_26_L001_R1_001.fastq /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-jyypjj6l/PUF-IPEX-5_26_L001_R1_001.fastq /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-jyypjj6l/PUF-IPEX-5_26_L001_R2_001.fastq
+
+Running external command line application. This may print messages to stdout and/or stderr.
+The command being run is below. This command cannot be manually re-run as it will depend on temporary files that no longer exist.
+
+Command: vsearch --fastq_mergepairs /tmp/qiime2/luis/data/32fe6719-0b11-4869-9310-a0e726f6c060/data/PUF-IPEX-6_S516_L001_R1_001.fastq.gz --reverse /tmp/qiime2/luis/data/32fe6719-0b11-4869-9310-a0e726f6c060/data/PUF-IPEX-6_S516_L001_R2_001.fastq.gz --fastqout /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-hv0uuqd6/PUF-IPEX-6_27_L001_R1_001.fastq --fastqout_notmerged_fwd /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-jyypjj6l/PUF-IPEX-6_27_L001_R1_001.fastq --fastqout_notmerged_rev /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-jyypjj6l/PUF-IPEX-6_27_L001_R2_001.fastq --fastq_ascii 33 --fastq_minlen 1 --fastq_minovlen 10 --fastq_maxdiffs 10 --fastq_qmin 0 --fastq_qminout 0 --fastq_qmax 41 --fastq_qmaxout 41 --fasta_width 0 --fastq_truncqual 26 --fastq_minmergelen 313 --fastq_maxmergelen 313 --fastq_maxee 1 --threads 4
+
+Running external command line application. This may print messages to stdout and/or stderr.
+The command being run is below. This command cannot be manually re-run as it will depend on temporary files that no longer exist.
+
+Command: gzip /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-hv0uuqd6/PUF-IPEX-6_27_L001_R1_001.fastq /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-jyypjj6l/PUF-IPEX-6_27_L001_R1_001.fastq /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-jyypjj6l/PUF-IPEX-6_27_L001_R2_001.fastq
+
+Running external command line application. This may print messages to stdout and/or stderr.
+The command being run is below. This command cannot be manually re-run as it will depend on temporary files that no longer exist.
+
+Command: vsearch --fastq_mergepairs /tmp/qiime2/luis/data/32fe6719-0b11-4869-9310-a0e726f6c060/data/PUF-IPEX-7_S521_L001_R1_001.fastq.gz --reverse /tmp/qiime2/luis/data/32fe6719-0b11-4869-9310-a0e726f6c060/data/PUF-IPEX-7_S521_L001_R2_001.fastq.gz --fastqout /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-hv0uuqd6/PUF-IPEX-7_28_L001_R1_001.fastq --fastqout_notmerged_fwd /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-jyypjj6l/PUF-IPEX-7_28_L001_R1_001.fastq --fastqout_notmerged_rev /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-jyypjj6l/PUF-IPEX-7_28_L001_R2_001.fastq --fastq_ascii 33 --fastq_minlen 1 --fastq_minovlen 10 --fastq_maxdiffs 10 --fastq_qmin 0 --fastq_qminout 0 --fastq_qmax 41 --fastq_qmaxout 41 --fasta_width 0 --fastq_truncqual 26 --fastq_minmergelen 313 --fastq_maxmergelen 313 --fastq_maxee 1 --threads 4
+
+vsearch v2.22.1_linux_x86_64, 14.9GB RAM, 12 cores
+https://github.com/torognes/vsearch
+
+Merging reads 100%
+     53511  Pairs
+     13864  Merged (25.9%)
+     39647  Not merged (74.1%)
+
+Pairs that failed merging due to various reasons:
+      3232  reads too short (after truncation)
+     28846  too few kmers found on same diagonal
+         2  multiple potential alignments
+      6830  alignment score too low, or score drop too high
+        95  overlap too short
+       479  merged fragment too short
+       158  merged fragment too long
+         5  staggered read pairs
+
+Statistics of all reads:
+    274.04  Mean read length
+
+Statistics of merged reads:
+    313.00  Mean fragment length
+      0.00  Standard deviation of fragment length
+      0.04  Mean expected error in forward sequences
+      0.03  Mean expected error in reverse sequences
+      0.04  Mean expected error in merged sequences
+      0.00  Mean observed errors in merged region of forward sequences
+      0.00  Mean observed errors in merged region of reverse sequences
+      0.00  Mean observed errors in merged region
+vsearch v2.22.1_linux_x86_64, 14.9GB RAM, 12 cores
+https://github.com/torognes/vsearch
+
+Merging reads 100%
+     38289  Pairs
+      8968  Merged (23.4%)
+     29321  Not merged (76.6%)
+
+Pairs that failed merging due to various reasons:
+      2365  reads too short (after truncation)
+     19992  too few kmers found on same diagonal
+         2  multiple potential alignments
+      6342  alignment score too low, or score drop too high
+        55  overlap too short
+       437  merged fragment too short
+       128  merged fragment too long
+
+Statistics of all reads:
+    274.04  Mean read length
+
+Statistics of merged reads:
+    313.00  Mean fragment length
+      0.00  Standard deviation of fragment length
+      0.04  Mean expected error in forward sequences
+      0.03  Mean expected error in reverse sequences
+      0.04  Mean expected error in merged sequences
+      0.00  Mean observed errors in merged region of forward sequences
+      0.00  Mean observed errors in merged region of reverse sequences
+      0.00  Mean observed errors in merged region
+vsearch v2.22.1_linux_x86_64, 14.9GB RAM, 12 cores
+https://github.com/torognes/vsearch
+
+Merging reads 100%
+     63509  Pairs
+     13467  Merged (21.2%)
+     50042  Not merged (78.8%)
+
+Pairs that failed merging due to various reasons:
+      3263  reads too short (after truncation)
+     29725  too few kmers found on same diagonal
+         2  multiple potential alignments
+     14631  alignment score too low, or score drop too high
+        87  overlap too short
+      2098  merged fragment too short
+       234  merged fragment too long
+         2  staggered read pairs
+
+Statistics of all reads:
+    274.04  Mean read length
+
+Statistics of merged reads:
+    313.00  Mean fragment length
+      0.00  Standard deviation of fragment length
+      0.04  Mean expected error in forward sequences
+      0.03  Mean expected error in reverse sequences
+      0.05  Mean expected error in merged sequences
+      0.00  Mean observed errors in merged region of forward sequences
+      0.00  Mean observed errors in merged region of reverse sequences
+      0.00  Mean observed errors in merged region
+vsearch v2.22.1_linux_x86_64, 14.9GB RAM, 12 cores
+https://github.com/torognes/vsearch
+
+Merging reads 100%
+     26770  Pairs
+      5790  Merged (21.6%)
+     20980  Not merged (78.4%)
+
+Pairs that failed merging due to various reasons:
+      1766  reads too short (after truncation)
+     15767  too few kmers found on same diagonal
+         3  multiple potential alignments
+      2891  alignment score too low, or score drop too high
+        34  overlap too short
+       431  merged fragment too short
+        74  merged fragment too long
+        14  staggered read pairs
+
+Statistics of all reads:
+    274.04  Mean read length
+
+Statistics of merged reads:
+    313.00  Mean fragment length
+      0.00  Standard deviation of fragment length
+      0.04  Mean expected error in forward sequences
+      0.03  Mean expected error in reverse sequences
+      0.05  Mean expected error in merged sequences
+      0.00  Mean observed errors in merged region of forward sequences
+      0.00  Mean observed errors in merged region of reverse sequences
+      0.00  Mean observed errors in merged region
+Running external command line application. This may print messages to stdout and/or stderr.
+The command being run is below. This command cannot be manually re-run as it will depend on temporary files that no longer exist.
+
+Command: gzip /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-hv0uuqd6/PUF-IPEX-7_28_L001_R1_001.fastq /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-jyypjj6l/PUF-IPEX-7_28_L001_R1_001.fastq /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-jyypjj6l/PUF-IPEX-7_28_L001_R2_001.fastq
+
+Running external command line application. This may print messages to stdout and/or stderr.
+The command being run is below. This command cannot be manually re-run as it will depend on temporary files that no longer exist.
+
+Command: vsearch --fastq_mergepairs /tmp/qiime2/luis/data/32fe6719-0b11-4869-9310-a0e726f6c060/data/PUF-IPEX-9_S518_L001_R1_001.fastq.gz --reverse /tmp/qiime2/luis/data/32fe6719-0b11-4869-9310-a0e726f6c060/data/PUF-IPEX-9_S518_L001_R2_001.fastq.gz --fastqout /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-hv0uuqd6/PUF-IPEX-9_29_L001_R1_001.fastq --fastqout_notmerged_fwd /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-jyypjj6l/PUF-IPEX-9_29_L001_R1_001.fastq --fastqout_notmerged_rev /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-jyypjj6l/PUF-IPEX-9_29_L001_R2_001.fastq --fastq_ascii 33 --fastq_minlen 1 --fastq_minovlen 10 --fastq_maxdiffs 10 --fastq_qmin 0 --fastq_qminout 0 --fastq_qmax 41 --fastq_qmaxout 41 --fasta_width 0 --fastq_truncqual 26 --fastq_minmergelen 313 --fastq_maxmergelen 313 --fastq_maxee 1 --threads 4
+
+Running external command line application. This may print messages to stdout and/or stderr.
+The command being run is below. This command cannot be manually re-run as it will depend on temporary files that no longer exist.
+
+Command: gzip /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-hv0uuqd6/PUF-IPEX-9_29_L001_R1_001.fastq /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-jyypjj6l/PUF-IPEX-9_29_L001_R1_001.fastq /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-jyypjj6l/PUF-IPEX-9_29_L001_R2_001.fastq
+
+Running external command line application. This may print messages to stdout and/or stderr.
+The command being run is below. This command cannot be manually re-run as it will depend on temporary files that no longer exist.
+
+Command: vsearch --fastq_mergepairs /tmp/qiime2/luis/data/32fe6719-0b11-4869-9310-a0e726f6c060/data/PUF-JD-1_S520_L001_R1_001.fastq.gz --reverse /tmp/qiime2/luis/data/32fe6719-0b11-4869-9310-a0e726f6c060/data/PUF-JD-1_S520_L001_R2_001.fastq.gz --fastqout /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-hv0uuqd6/PUF-JD-1_30_L001_R1_001.fastq --fastqout_notmerged_fwd /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-jyypjj6l/PUF-JD-1_30_L001_R1_001.fastq --fastqout_notmerged_rev /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-jyypjj6l/PUF-JD-1_30_L001_R2_001.fastq --fastq_ascii 33 --fastq_minlen 1 --fastq_minovlen 10 --fastq_maxdiffs 10 --fastq_qmin 0 --fastq_qminout 0 --fastq_qmax 41 --fastq_qmaxout 41 --fasta_width 0 --fastq_truncqual 26 --fastq_minmergelen 313 --fastq_maxmergelen 313 --fastq_maxee 1 --threads 4
+
+Running external command line application. This may print messages to stdout and/or stderr.
+The command being run is below. This command cannot be manually re-run as it will depend on temporary files that no longer exist.
+
+Command: gzip /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-hv0uuqd6/PUF-JD-1_30_L001_R1_001.fastq /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-jyypjj6l/PUF-JD-1_30_L001_R1_001.fastq /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-jyypjj6l/PUF-JD-1_30_L001_R2_001.fastq
+
+Running external command line application. This may print messages to stdout and/or stderr.
+The command being run is below. This command cannot be manually re-run as it will depend on temporary files that no longer exist.
+
+Command: vsearch --fastq_mergepairs /tmp/qiime2/luis/data/32fe6719-0b11-4869-9310-a0e726f6c060/data/PUF-JD-2_S520_L001_R1_001.fastq.gz --reverse /tmp/qiime2/luis/data/32fe6719-0b11-4869-9310-a0e726f6c060/data/PUF-JD-2_S520_L001_R2_001.fastq.gz --fastqout /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-hv0uuqd6/PUF-JD-2_31_L001_R1_001.fastq --fastqout_notmerged_fwd /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-jyypjj6l/PUF-JD-2_31_L001_R1_001.fastq --fastqout_notmerged_rev /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-jyypjj6l/PUF-JD-2_31_L001_R2_001.fastq --fastq_ascii 33 --fastq_minlen 1 --fastq_minovlen 10 --fastq_maxdiffs 10 --fastq_qmin 0 --fastq_qminout 0 --fastq_qmax 41 --fastq_qmaxout 41 --fasta_width 0 --fastq_truncqual 26 --fastq_minmergelen 313 --fastq_maxmergelen 313 --fastq_maxee 1 --threads 4
+
+Running external command line application. This may print messages to stdout and/or stderr.
+The command being run is below. This command cannot be manually re-run as it will depend on temporary files that no longer exist.
+
+Command: gzip /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-hv0uuqd6/PUF-JD-2_31_L001_R1_001.fastq /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-jyypjj6l/PUF-JD-2_31_L001_R1_001.fastq /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-jyypjj6l/PUF-JD-2_31_L001_R2_001.fastq
+
+Running external command line application. This may print messages to stdout and/or stderr.
+The command being run is below. This command cannot be manually re-run as it will depend on temporary files that no longer exist.
+
+Command: vsearch --fastq_mergepairs /tmp/qiime2/luis/data/32fe6719-0b11-4869-9310-a0e726f6c060/data/PUF-JD-3_S521_L001_R1_001.fastq.gz --reverse /tmp/qiime2/luis/data/32fe6719-0b11-4869-9310-a0e726f6c060/data/PUF-JD-3_S521_L001_R2_001.fastq.gz --fastqout /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-hv0uuqd6/PUF-JD-3_32_L001_R1_001.fastq --fastqout_notmerged_fwd /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-jyypjj6l/PUF-JD-3_32_L001_R1_001.fastq --fastqout_notmerged_rev /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-jyypjj6l/PUF-JD-3_32_L001_R2_001.fastq --fastq_ascii 33 --fastq_minlen 1 --fastq_minovlen 10 --fastq_maxdiffs 10 --fastq_qmin 0 --fastq_qminout 0 --fastq_qmax 41 --fastq_qmaxout 41 --fasta_width 0 --fastq_truncqual 26 --fastq_minmergelen 313 --fastq_maxmergelen 313 --fastq_maxee 1 --threads 4
+
+Running external command line application. This may print messages to stdout and/or stderr.
+The command being run is below. This command cannot be manually re-run as it will depend on temporary files that no longer exist.
+
+Command: gzip /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-hv0uuqd6/PUF-JD-3_32_L001_R1_001.fastq /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-jyypjj6l/PUF-JD-3_32_L001_R1_001.fastq /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-jyypjj6l/PUF-JD-3_32_L001_R2_001.fastq
+
+Running external command line application. This may print messages to stdout and/or stderr.
+The command being run is below. This command cannot be manually re-run as it will depend on temporary files that no longer exist.
+
+Command: vsearch v2.22.1_linux_x86_64, 14.9GB RAM, 12 cores
+https://github.com/torognes/vsearch
+
+Merging reads 100%
+     43595  Pairs
+      6855  Merged (15.7%)
+     36740  Not merged (84.3%)
+
+Pairs that failed merging due to various reasons:
+      3057  reads too short (after truncation)
+     28739  too few kmers found on same diagonal
+         5  multiple potential alignments
+      3779  alignment score too low, or score drop too high
+        52  overlap too short
+       919  merged fragment too short
+       160  merged fragment too long
+        29  staggered read pairs
+
+Statistics of all reads:
+    274.04  Mean read length
+
+Statistics of merged reads:
+    313.00  Mean fragment length
+      0.00  Standard deviation of fragment length
+      0.04  Mean expected error in forward sequences
+      0.03  Mean expected error in reverse sequences
+      0.05  Mean expected error in merged sequences
+      0.00  Mean observed errors in merged region of forward sequences
+      0.00  Mean observed errors in merged region of reverse sequences
+      0.00  Mean observed errors in merged region
+vsearch v2.22.1_linux_x86_64, 14.9GB RAM, 12 cores
+https://github.com/torognes/vsearch
+
+Merging reads 100%
+     47757  Pairs
+     10342  Merged (21.7%)
+     37415  Not merged (78.3%)
+
+Pairs that failed merging due to various reasons:
+      3705  reads too short (after truncation)
+     29996  too few kmers found on same diagonal
+         1  multiple potential alignments
+      3076  alignment score too low, or score drop too high
+        78  overlap too short
+       409  merged fragment too short
+       135  merged fragment too long
+        15  staggered read pairs
+
+Statistics of all reads:
+    274.04  Mean read length
+
+Statistics of merged reads:
+    313.00  Mean fragment length
+      0.00  Standard deviation of fragment length
+      0.04  Mean expected error in forward sequences
+      0.03  Mean expected error in reverse sequences
+      0.05  Mean expected error in merged sequences
+      0.00  Mean observed errors in merged region of forward sequences
+      0.00  Mean observed errors in merged region of reverse sequences
+      0.00  Mean observed errors in merged region
+vsearch v2.22.1_linux_x86_64, 14.9GB RAM, 12 cores
+https://github.com/torognes/vsearch
+
+Merging reads 100%
+     72899  Pairs
+     17365  Merged (23.8%)
+     55534  Not merged (76.2%)
+
+Pairs that failed merging due to various reasons:
+      4952  reads too short (after truncation)
+     42895  too few kmers found on same diagonal
+         1  multiple potential alignments
+      6787  alignment score too low, or score drop too high
+        90  overlap too short
+       549  merged fragment too short
+       253  merged fragment too long
+         7  staggered read pairs
+
+Statistics of all reads:
+    274.04  Mean read length
+
+Statistics of merged reads:
+    313.00  Mean fragment length
+      0.00  Standard deviation of fragment length
+      0.04  Mean expected error in forward sequences
+      0.03  Mean expected error in reverse sequences
+      0.04  Mean expected error in merged sequences
+      0.00  Mean observed errors in merged region of forward sequences
+      0.00  Mean observed errors in merged region of reverse sequences
+      0.00  Mean observed errors in merged region
+vsearch v2.22.1_linux_x86_64, 14.9GB RAM, 12 cores
+https://github.com/torognes/vsearch
+
+Merging reads 100%
+     40755  Pairs
+      6368  Merged (15.6%)
+     34387  Not merged (84.4%)
+
+Pairs that failed merging due to various reasons:
+      2820  reads too short (after truncation)
+     27506  too few kmers found on same diagonal
+         1  multiple potential alignments
+      3623  alignment score too low, or score drop too high
+        51  overlap too short
+       305  merged fragment too short
+        71  merged fragment too long
+        10  staggered read pairs
+
+Statistics of all reads:
+    274.04  Mean read length
+
+Statistics of merged reads:
+    313.00  Mean fragment length
+      0.00  Standard deviation of fragment length
+      0.04  Mean expected error in forward sequences
+      0.03  Mean expected error in reverse sequences
+      0.05  Mean expected error in merged sequences
+      0.00  Mean observed errors in merged region of forward sequences
+      0.00  Mean observed errors in merged region of reverse sequences
+      0.00  Mean observed errors in merged region
+vsearch v2.22.1_linux_x86_64, 14.9GB RAM, 12 cores
+https://github.com/torognes/vsearch
+
+Merging reads 100%
+     18456  Pairs
+      4636  Merged (25.1%)
+     13820  Not merged (74.9%)
+
+Pairs that failed merging due to various reasons:
+      1294  reads too short (after truncation)
+     10788  too few kmers found on same diagonal
+      1513  alignment score too low, or score drop too high
+        34  overlap too short
+       121  merged fragment too short
+        60  merged fragment too long
+        10  staggered read pairs
+
+Statistics of all reads:
+    274.04  Mean read length
+
+Statistics of merged reads:
+    313.00  Mean fragment length
+      0.00  Standard deviation of fragment length
+      0.04  Mean expected error in forward sequences
+      0.03  Mean expected error in reverse sequences
+      0.04  Mean expected error in merged sequences
+      0.00  Mean observed errors in merged region of forward sequences
+      0.00  Mean observed errors in merged region of reverse sequences
+      0.00  Mean observed errors in merged region
+vsearch --fastq_mergepairs /tmp/qiime2/luis/data/32fe6719-0b11-4869-9310-a0e726f6c060/data/PUF-JD-5_S513_L001_R1_001.fastq.gz --reverse /tmp/qiime2/luis/data/32fe6719-0b11-4869-9310-a0e726f6c060/data/PUF-JD-5_S513_L001_R2_001.fastq.gz --fastqout /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-hv0uuqd6/PUF-JD-5_33_L001_R1_001.fastq --fastqout_notmerged_fwd /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-jyypjj6l/PUF-JD-5_33_L001_R1_001.fastq --fastqout_notmerged_rev /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-jyypjj6l/PUF-JD-5_33_L001_R2_001.fastq --fastq_ascii 33 --fastq_minlen 1 --fastq_minovlen 10 --fastq_maxdiffs 10 --fastq_qmin 0 --fastq_qminout 0 --fastq_qmax 41 --fastq_qmaxout 41 --fasta_width 0 --fastq_truncqual 26 --fastq_minmergelen 313 --fastq_maxmergelen 313 --fastq_maxee 1 --threads 4
+
+Running external command line application. This may print messages to stdout and/or stderr.
+The command being run is below. This command cannot be manually re-run as it will depend on temporary files that no longer exist.
+
+Command: gzip /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-hv0uuqd6/PUF-JD-5_33_L001_R1_001.fastq /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-jyypjj6l/PUF-JD-5_33_L001_R1_001.fastq /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-jyypjj6l/PUF-JD-5_33_L001_R2_001.fastq
+
+Running external command line application. This may print messages to stdout and/or stderr.
+The command being run is below. This command cannot be manually re-run as it will depend on temporary files that no longer exist.
+
+Command: vsearch --fastq_mergepairs /tmp/qiime2/luis/data/32fe6719-0b11-4869-9310-a0e726f6c060/data/PUF-JD-6_E517_L001_R1_001.fastq.gz --reverse /tmp/qiime2/luis/data/32fe6719-0b11-4869-9310-a0e726f6c060/data/PUF-JD-6_E517_L001_R2_001.fastq.gz --fastqout /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-hv0uuqd6/PUF-JD-6_34_L001_R1_001.fastq --fastqout_notmerged_fwd /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-jyypjj6l/PUF-JD-6_34_L001_R1_001.fastq --fastqout_notmerged_rev /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-jyypjj6l/PUF-JD-6_34_L001_R2_001.fastq --fastq_ascii 33 --fastq_minlen 1 --fastq_minovlen 10 --fastq_maxdiffs 10 --fastq_qmin 0 --fastq_qminout 0 --fastq_qmax 41 --fastq_qmaxout 41 --fasta_width 0 --fastq_truncqual 26 --fastq_minmergelen 313 --fastq_maxmergelen 313 --fastq_maxee 1 --threads 4
+
+Running external command line application. This may print messages to stdout and/or stderr.
+The command being run is below. This command cannot be manually re-run as it will depend on temporary files that no longer exist.
+
+Command: gzip /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-hv0uuqd6/PUF-JD-6_34_L001_R1_001.fastq /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-jyypjj6l/PUF-JD-6_34_L001_R1_001.fastq /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-jyypjj6l/PUF-JD-6_34_L001_R2_001.fastq
+
+Running external command line application. This may print messages to stdout and/or stderr.
+The command being run is below. This command cannot be manually re-run as it will depend on temporary files that no longer exist.
+
+Command: vsearch --fastq_mergepairs /tmp/qiime2/luis/data/32fe6719-0b11-4869-9310-a0e726f6c060/data/PUF-JD-7_S515_L001_R1_001.fastq.gz --reverse /tmp/qiime2/luis/data/32fe6719-0b11-4869-9310-a0e726f6c060/data/PUF-JD-7_S515_L001_R2_001.fastq.gz --fastqout /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-hv0uuqd6/PUF-JD-7_35_L001_R1_001.fastq --fastqout_notmerged_fwd /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-jyypjj6l/PUF-JD-7_35_L001_R1_001.fastq --fastqout_notmerged_rev /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-jyypjj6l/PUF-JD-7_35_L001_R2_001.fastq --fastq_ascii 33 --fastq_minlen 1 --fastq_minovlen 10 --fastq_maxdiffs 10 --fastq_qmin 0 --fastq_qminout 0 --fastq_qmax 41 --fastq_qmaxout 41 --fasta_width 0 --fastq_truncqual 26 --fastq_minmergelen 313 --fastq_maxmergelen 313 --fastq_maxee 1 --threads 4
+
+Running external command line application. This may print messages to stdout and/or stderr.
+The command being run is below. This command cannot be manually re-run as it will depend on temporary files that no longer exist.
+
+Command: gzip /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-hv0uuqd6/PUF-JD-7_35_L001_R1_001.fastq /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-jyypjj6l/PUF-JD-7_35_L001_R1_001.fastq /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-jyypjj6l/PUF-JD-7_35_L001_R2_001.fastq
+
+Running external command line application. This may print messages to stdout and/or stderr.
+The command being run is below. This command cannot be manually re-run as it will depend on temporary files that no longer exist.
+
+Command: vsearch --fastq_mergepairs /tmp/qiime2/luis/data/32fe6719-0b11-4869-9310-a0e726f6c060/data/PUF-JD-8_S522_L001_R1_001.fastq.gz --reverse /tmp/qiime2/luis/data/32fe6719-0b11-4869-9310-a0e726f6c060/data/PUF-JD-8_S522_L001_R2_001.fastq.gz --fastqout /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-hv0uuqd6/PUF-JD-8_36_L001_R1_001.fastq --fastqout_notmerged_fwd /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-jyypjj6l/PUF-JD-8_36_L001_R1_001.fastq --fastqout_notmerged_rev /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-jyypjj6l/PUF-JD-8_36_L001_R2_001.fastq --fastq_ascii 33 --fastq_minlen 1 --fastq_minovlen 10 --fastq_maxdiffs 10 --fastq_qmin 0 --fastq_qminout 0 --fastq_qmax 41 --fastq_qmaxout 41 --fasta_width 0 --fastq_truncqual 26 --fastq_minmergelen 313 --fastq_maxmergelen 313 --fastq_maxee 1 --threads 4
+
+Running external command line application. This may print messages to stdout and/or stderr.
+The command being run is below. This command cannot be manually re-run as it will depend on temporary files that no longer exist.
+
+Command: gzip /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-hv0uuqd6/PUF-JD-8_36_L001_R1_001.fastq /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-jyypjj6l/PUF-JD-8_36_L001_R1_001.fastq /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-jyypjj6l/PUF-JD-8_36_L001_R2_001.fastq
+
+Running external command line application. This may print messages to stdout and/or stderr.
+The command being run is below. This command cannot be manually re-run as it will depend on temporary files that no longer exist.
+
+Command: vsearch --fastq_mergepairs /tmp/qiime2/luis/data/32fe6719-0b11-4869-9310-a0e726f6c060/data/PUF-JD-9_S513_L001_R1_001.fastq.gz --reverse /tmp/qiime2/luis/data/32fe6719-0b11-4869-9310-a0e726f6c060/data/PUF-JD-9_S513_L001_R2_001.fastq.gz --fastqout /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-hv0uuqd6/PUF-JD-9_37_L001_R1_001.fastq --fastqout_notmerged_fwd /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-jyypjj6l/PUF-JD-9_37_L001_R1_001.fastq --fastqout_notmerged_rev /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-jyypjj6l/PUF-JD-9_37_L001_R2_001.fastq --fastq_ascii 33 --fastq_minlen 1 --fastq_minovlen 10 --fastq_maxdiffs 10 --fastq_qmin 0 --fastq_qminout 0 --fastq_qmax 41 --fastq_qmaxout 41 --fasta_width 0 --fastq_truncqual 26 --fastq_minmergelen 313 --fastq_maxmergelen 313 --fastq_maxee 1 --threads 4
+
+Running external command line application. This may print messages to stdout and/or stderr.
+The command being run is below. This command cannot be manually re-run as it will depend on temporary files that no longer exist.
+
+Command: gzip /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-hv0uuqd6/PUF-JD-9_37_L001_R1_001.fastq /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-jyypjj6l/PUF-JD-9_37_L001_R1_001.fastq /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-jyypjj6l/PUF-JD-9_37_L001_R2_001.fastq
+
+Running external command line application. This may print messages to stdout and/or stderr.
+vsearch v2.22.1_linux_x86_64, 14.9GB RAM, 12 cores
+https://github.com/torognes/vsearch
+
+Merging reads 100%
+     38857  Pairs
+      8064  Merged (20.8%)
+     30793  Not merged (79.2%)
+
+Pairs that failed merging due to various reasons:
+      2853  reads too short (after truncation)
+     22800  too few kmers found on same diagonal
+      4181  alignment score too low, or score drop too high
+        42  overlap too short
+       801  merged fragment too short
+       109  merged fragment too long
+         7  staggered read pairs
+
+Statistics of all reads:
+    274.04  Mean read length
+
+Statistics of merged reads:
+    313.00  Mean fragment length
+      0.00  Standard deviation of fragment length
+      0.04  Mean expected error in forward sequences
+      0.03  Mean expected error in reverse sequences
+      0.05  Mean expected error in merged sequences
+      0.00  Mean observed errors in merged region of forward sequences
+      0.00  Mean observed errors in merged region of reverse sequences
+      0.00  Mean observed errors in merged region
+vsearch v2.22.1_linux_x86_64, 14.9GB RAM, 12 cores
+https://github.com/torognes/vsearch
+
+Merging reads 100%
+     47056  Pairs
+     10716  Merged (22.8%)
+     36340  Not merged (77.2%)
+
+Pairs that failed merging due to various reasons:
+      3181  reads too short (after truncation)
+     27055  too few kmers found on same diagonal
+      5351  alignment score too low, or score drop too high
+        70  overlap too short
+       565  merged fragment too short
+       118  merged fragment too long
+
+Statistics of all reads:
+    274.04  Mean read length
+
+Statistics of merged reads:
+    313.00  Mean fragment length
+      0.00  Standard deviation of fragment length
+      0.04  Mean expected error in forward sequences
+      0.03  Mean expected error in reverse sequences
+      0.04  Mean expected error in merged sequences
+      0.00  Mean observed errors in merged region of forward sequences
+      0.00  Mean observed errors in merged region of reverse sequences
+      0.00  Mean observed errors in merged region
+vsearch v2.22.1_linux_x86_64, 14.9GB RAM, 12 cores
+https://github.com/torognes/vsearch
+
+Merging reads 100%
+     66790  Pairs
+     12309  Merged (18.4%)
+     54481  Not merged (81.6%)
+
+Pairs that failed merging due to various reasons:
+      4183  reads too short (after truncation)
+     40559  too few kmers found on same diagonal
+      9081  alignment score too low, or score drop too high
+       120  overlap too short
+       322  merged fragment too short
+       212  merged fragment too long
+         4  staggered read pairs
+
+Statistics of all reads:
+    274.04  Mean read length
+
+Statistics of merged reads:
+    313.00  Mean fragment length
+      0.00  Standard deviation of fragment length
+      0.04  Mean expected error in forward sequences
+      0.03  Mean expected error in reverse sequences
+      0.05  Mean expected error in merged sequences
+      0.00  Mean observed errors in merged region of forward sequences
+      0.00  Mean observed errors in merged region of reverse sequences
+      0.00  Mean observed errors in merged region
+vsearch v2.22.1_linux_x86_64, 14.9GB RAM, 12 cores
+https://github.com/torognes/vsearch
+
+Merging reads 100%
+     53916  Pairs
+     14241  Merged (26.4%)
+     39675  Not merged (73.6%)
+
+Pairs that failed merging due to various reasons:
+      3665  reads too short (after truncation)
+     29938  too few kmers found on same diagonal
+      5532  alignment score too low, or score drop too high
+        85  overlap too short
+       279  merged fragment too short
+       172  merged fragment too long
+         4  staggered read pairs
+
+Statistics of all reads:
+    274.04  Mean read length
+
+Statistics of merged reads:
+    313.00  Mean fragment length
+      0.00  Standard deviation of fragment length
+      0.04  Mean expected error in forward sequences
+      0.03  Mean expected error in reverse sequences
+      0.04  Mean expected error in merged sequences
+      0.00  Mean observed errors in merged region of forward sequences
+      0.00  Mean observed errors in merged region of reverse sequences
+      0.00  Mean observed errors in merged region
+vsearch v2.22.1_linux_x86_64, 14.9GB RAM, 12 cores
+https://github.com/torognes/vsearch
+
+Merging reads 100%
+     67891  Pairs
+     15034  Merged (22.1%)
+     52857  Not merged (77.9%)
+
+Pairs that failed merging due to various reasons:
+      4308  reads too short (after truncation)
+     36603  too few kmers found on same diagonal
+     11283  alignment score too low, or score drop too high
+       115  overlap too short
+       377  merged fragment too short
+       171  merged fragment too long
+
+Statistics of all reads:
+    274.04  Mean read length
+
+Statistics of merged reads:
+    313.00  Mean fragment length
+      0.00  Standard deviation of fragment length
+      0.04  Mean expected error in forward sequences
+      0.03  Mean expected error in reverse sequences
+      0.05  Mean expected error in merged sequences
+      0.00  Mean observed errors in merged region of forward sequences
+      0.00  Mean observed errors in merged region of reverse sequences
+      0.00  Mean observed errors in merged region
+The command being run is below. This command cannot be manually re-run as it will depend on temporary files that no longer exist.
+
+Command: vsearch --fastq_mergepairs /tmp/qiime2/luis/data/32fe6719-0b11-4869-9310-a0e726f6c060/data/PUF-MBO-1_S522_L001_R1_001.fastq.gz --reverse /tmp/qiime2/luis/data/32fe6719-0b11-4869-9310-a0e726f6c060/data/PUF-MBO-1_S522_L001_R2_001.fastq.gz --fastqout /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-hv0uuqd6/PUF-MBO-1_38_L001_R1_001.fastq --fastqout_notmerged_fwd /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-jyypjj6l/PUF-MBO-1_38_L001_R1_001.fastq --fastqout_notmerged_rev /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-jyypjj6l/PUF-MBO-1_38_L001_R2_001.fastq --fastq_ascii 33 --fastq_minlen 1 --fastq_minovlen 10 --fastq_maxdiffs 10 --fastq_qmin 0 --fastq_qminout 0 --fastq_qmax 41 --fastq_qmaxout 41 --fasta_width 0 --fastq_truncqual 26 --fastq_minmergelen 313 --fastq_maxmergelen 313 --fastq_maxee 1 --threads 4
+
+Running external command line application. This may print messages to stdout and/or stderr.
+The command being run is below. This command cannot be manually re-run as it will depend on temporary files that no longer exist.
+
+Command: gzip /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-hv0uuqd6/PUF-MBO-1_38_L001_R1_001.fastq /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-jyypjj6l/PUF-MBO-1_38_L001_R1_001.fastq /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-jyypjj6l/PUF-MBO-1_38_L001_R2_001.fastq
+
+Running external command line application. This may print messages to stdout and/or stderr.
+The command being run is below. This command cannot be manually re-run as it will depend on temporary files that no longer exist.
+
+Command: vsearch --fastq_mergepairs /tmp/qiime2/luis/data/32fe6719-0b11-4869-9310-a0e726f6c060/data/PUF-MBO-10_S515_L001_R1_001.fastq.gz --reverse /tmp/qiime2/luis/data/32fe6719-0b11-4869-9310-a0e726f6c060/data/PUF-MBO-10_S515_L001_R2_001.fastq.gz --fastqout /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-hv0uuqd6/PUF-MBO-10_39_L001_R1_001.fastq --fastqout_notmerged_fwd /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-jyypjj6l/PUF-MBO-10_39_L001_R1_001.fastq --fastqout_notmerged_rev /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-jyypjj6l/PUF-MBO-10_39_L001_R2_001.fastq --fastq_ascii 33 --fastq_minlen 1 --fastq_minovlen 10 --fastq_maxdiffs 10 --fastq_qmin 0 --fastq_qminout 0 --fastq_qmax 41 --fastq_qmaxout 41 --fasta_width 0 --fastq_truncqual 26 --fastq_minmergelen 313 --fastq_maxmergelen 313 --fastq_maxee 1 --threads 4
+
+Running external command line application. This may print messages to stdout and/or stderr.
+The command being run is below. This command cannot be manually re-run as it will depend on temporary files that no longer exist.
+
+Command: gzip /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-hv0uuqd6/PUF-MBO-10_39_L001_R1_001.fastq /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-jyypjj6l/PUF-MBO-10_39_L001_R1_001.fastq /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-jyypjj6l/PUF-MBO-10_39_L001_R2_001.fastq
+
+Running external command line application. This may print messages to stdout and/or stderr.
+The command being run is below. This command cannot be manually re-run as it will depend on temporary files that no longer exist.
+
+Command: vsearch --fastq_mergepairs /tmp/qiime2/luis/data/32fe6719-0b11-4869-9310-a0e726f6c060/data/PUF-MBO-2_E517_L001_R1_001.fastq.gz --reverse /tmp/qiime2/luis/data/32fe6719-0b11-4869-9310-a0e726f6c060/data/PUF-MBO-2_E517_L001_R2_001.fastq.gz --fastqout /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-hv0uuqd6/PUF-MBO-2_40_L001_R1_001.fastq --fastqout_notmerged_fwd /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-jyypjj6l/PUF-MBO-2_40_L001_R1_001.fastq --fastqout_notmerged_rev /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-jyypjj6l/PUF-MBO-2_40_L001_R2_001.fastq --fastq_ascii 33 --fastq_minlen 1 --fastq_minovlen 10 --fastq_maxdiffs 10 --fastq_qmin 0 --fastq_qminout 0 --fastq_qmax 41 --fastq_qmaxout 41 --fasta_width 0 --fastq_truncqual 26 --fastq_minmergelen 313 --fastq_maxmergelen 313 --fastq_maxee 1 --threads 4
+
+Running external command line application. This may print messages to stdout and/or stderr.
+The command being run is below. This command cannot be manually re-run as it will depend on temporary files that no longer exist.
+
+Command: gzip /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-hv0uuqd6/PUF-MBO-2_40_L001_R1_001.fastq /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-jyypjj6l/PUF-MBO-2_40_L001_R1_001.fastq /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-jyypjj6l/PUF-MBO-2_40_L001_R2_001.fastq
+
+Running external command line application. This may print messages to stdout and/or stderr.
+The command being run is below. This command cannot be manually re-run as it will depend on temporary files that no longer exist.
+
+Command: vsearch --fastq_mergepairs /tmp/qiime2/luis/data/32fe6719-0b11-4869-9310-a0e726f6c060/data/PUF-MBO-3_S518_L001_R1_001.fastq.gz --reverse /tmp/qiime2/luis/data/32fe6719-0b11-4869-9310-a0e726f6c060/data/PUF-MBO-3_S518_L001_R2_001.fastq.gz --fastqout /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-hv0uuqd6/PUF-MBO-3_41_L001_R1_001.fastq --fastqout_notmerged_fwd /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-jyypjj6l/PUF-MBO-3_41_L001_R1_001.fastq --fastqout_notmerged_rev /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-jyypjj6l/PUF-MBO-3_41_L001_R2_001.fastq --fastq_ascii 33 --fastq_minlen 1 --fastq_minovlen 10 --fastq_maxdiffs 10 --fastq_qmin 0 --fastq_qminout 0 --fastq_qmax 41 --fastq_qmaxout 41 --fasta_width 0 --fastq_truncqual 26 --fastq_minmergelen 313 --fastq_maxmergelen 313 --fastq_maxee 1 --threads 4
+
+Running external command line application. This may print messages to stdout and/or stderr.
+The command being run is below. This command cannot be manually re-run as it will depend on temporary files that no longer exist.
+
+Command: gzip /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-hv0uuqd6/PUF-MBO-3_41_L001_R1_001.fastq /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-jyypjj6l/PUF-MBO-3_41_L001_R1_001.fastq /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-jyypjj6l/PUF-MBO-3_41_L001_R2_001.fastq
+
+Running external command line application. This may print messages to stdout and/or stderr.
+The command being run is below. This command cannot be manually re-run as it will depend on temporary files that no longer exist.
+
+Command: vsearch --fastq_mergepairs /tmp/qiime2/luis/data/32fe6719-0b11-4869-9310-a0e726f6c060/data/PUF-MBO-5_S516_L001_R1_001.fastq.gz --reverse /tmp/qiime2/luis/data/32fe6719-0b11-4869-9310-a0e726f6c060/data/PUF-MBO-5_S516_L001_R2_001.fastq.gz --fastqout /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-hv0uuqd6/PUF-MBO-5_42_L001_R1_001.fastq --fastqout_notmerged_fwd /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-jyypjj6l/PUF-MBO-5_42_L001_R1_001.fastq --fastqout_notmerged_rev /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-jyypjj6l/PUF-MBO-5_42_L001_R2_001.fastq --fastq_ascii 33 --fastq_minlen 1 --fastq_minovlen 10 --fastq_maxdiffs 10 --fastq_qmin 0 --fastq_qminout 0 --fastq_qmax 41 --fastq_qmaxout 41 --fasta_width 0 --fastq_truncqual 26 --fastq_minmergelen 313 --fastq_maxmergelen 313 --fastq_maxee 1 --threads 4
+
+Running external command line application. This may print messages to stdout and/or stderr.
+The command being run is below. This command cannot be manually re-run as it will depend on temporary files that no longer exist.
+
+Command: vsearch v2.22.1_linux_x86_64, 14.9GB RAM, 12 cores
+https://github.com/torognes/vsearch
+
+Merging reads 100%
+     45628  Pairs
+     10626  Merged (23.3%)
+     35002  Not merged (76.7%)
+
+Pairs that failed merging due to various reasons:
+      2850  reads too short (after truncation)
+     25107  too few kmers found on same diagonal
+         1  multiple potential alignments
+      6436  alignment score too low, or score drop too high
+        67  overlap too short
+       432  merged fragment too short
+       107  merged fragment too long
+         2  staggered read pairs
+
+Statistics of all reads:
+    274.04  Mean read length
+
+Statistics of merged reads:
+    313.00  Mean fragment length
+      0.00  Standard deviation of fragment length
+      0.04  Mean expected error in forward sequences
+      0.03  Mean expected error in reverse sequences
+      0.04  Mean expected error in merged sequences
+      0.00  Mean observed errors in merged region of forward sequences
+      0.00  Mean observed errors in merged region of reverse sequences
+      0.00  Mean observed errors in merged region
+vsearch v2.22.1_linux_x86_64, 14.9GB RAM, 12 cores
+https://github.com/torognes/vsearch
+
+Merging reads 100%
+     60609  Pairs
+     13617  Merged (22.5%)
+     46992  Not merged (77.5%)
+
+Pairs that failed merging due to various reasons:
+      4071  reads too short (after truncation)
+     34950  too few kmers found on same diagonal
+         2  multiple potential alignments
+      7045  alignment score too low, or score drop too high
+       101  overlap too short
+       667  merged fragment too short
+       147  merged fragment too long
+         9  staggered read pairs
+
+Statistics of all reads:
+    274.04  Mean read length
+
+Statistics of merged reads:
+    313.00  Mean fragment length
+      0.00  Standard deviation of fragment length
+      0.04  Mean expected error in forward sequences
+      0.03  Mean expected error in reverse sequences
+      0.05  Mean expected error in merged sequences
+      0.00  Mean observed errors in merged region of forward sequences
+      0.00  Mean observed errors in merged region of reverse sequences
+      0.00  Mean observed errors in merged region
+vsearch v2.22.1_linux_x86_64, 14.9GB RAM, 12 cores
+https://github.com/torognes/vsearch
+
+Merging reads 100%
+     68363  Pairs
+     15466  Merged (22.6%)
+     52897  Not merged (77.4%)
+
+Pairs that failed merging due to various reasons:
+      4679  reads too short (after truncation)
+     38687  too few kmers found on same diagonal
+      8513  alignment score too low, or score drop too high
+        97  overlap too short
+       746  merged fragment too short
+       170  merged fragment too long
+         5  staggered read pairs
+
+Statistics of all reads:
+    274.04  Mean read length
+
+Statistics of merged reads:
+    313.00  Mean fragment length
+      0.00  Standard deviation of fragment length
+      0.04  Mean expected error in forward sequences
+      0.03  Mean expected error in reverse sequences
+      0.05  Mean expected error in merged sequences
+      0.00  Mean observed errors in merged region of forward sequences
+      0.00  Mean observed errors in merged region of reverse sequences
+      0.00  Mean observed errors in merged region
+vsearch v2.22.1_linux_x86_64, 14.9GB RAM, 12 cores
+https://github.com/torognes/vsearch
+
+Merging reads 100%
+     77162  Pairs
+     18969  Merged (24.6%)
+     58193  Not merged (75.4%)
+
+Pairs that failed merging due to various reasons:
+      4964  reads too short (after truncation)
+     43140  too few kmers found on same diagonal
+         2  multiple potential alignments
+      8924  alignment score too low, or score drop too high
+       117  overlap too short
+       797  merged fragment too short
+       243  merged fragment too long
+         6  staggered read pairs
+
+Statistics of all reads:
+    274.04  Mean read length
+
+Statistics of merged reads:
+    313.00  Mean fragment length
+      0.00  Standard deviation of fragment length
+      0.04  Mean expected error in forward sequences
+      0.03  Mean expected error in reverse sequences
+      0.04  Mean expected error in merged sequences
+      0.00  Mean observed errors in merged region of forward sequences
+      0.00  Mean observed errors in merged region of reverse sequences
+      0.00  Mean observed errors in merged region
+vsearch v2.22.1_linux_x86_64, 14.9GB RAM, 12 cores
+https://github.com/torognes/vsearch
+
+Merging reads 100%
+       233  Pairs
+         9  Merged (3.9%)
+       224  Not merged (96.1%)
+
+Pairs that failed merging due to various reasons:
+        26  reads too short (after truncation)
+       136  too few kmers found on same diagonal
+        37  alignment score too low, or score drop too high
+         1  overlap too short
+        21  merged fragment too short
+         1  merged fragment too long
+         2  staggered read pairs
+
+Statistics of all reads:
+    274.06  Mean read length
+
+Statistics of merged reads:
+    313.00  Mean fragment length
+      0.00  Standard deviation of fragment length
+      0.04  Mean expected error in forward sequences
+      0.02  Mean expected error in reverse sequences
+      0.05  Mean expected error in merged sequences
+      0.00  Mean observed errors in merged region of forward sequences
+      0.00  Mean observed errors in merged region of reverse sequences
+      0.00  Mean observed errors in merged region
+gzip /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-hv0uuqd6/PUF-MBO-5_42_L001_R1_001.fastq /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-jyypjj6l/PUF-MBO-5_42_L001_R1_001.fastq /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-jyypjj6l/PUF-MBO-5_42_L001_R2_001.fastq
+
+Running external command line application. This may print messages to stdout and/or stderr.
+The command being run is below. This command cannot be manually re-run as it will depend on temporary files that no longer exist.
+
+Command: vsearch --fastq_mergepairs /tmp/qiime2/luis/data/32fe6719-0b11-4869-9310-a0e726f6c060/data/PUF-MBO-6_S515_L001_R1_001.fastq.gz --reverse /tmp/qiime2/luis/data/32fe6719-0b11-4869-9310-a0e726f6c060/data/PUF-MBO-6_S515_L001_R2_001.fastq.gz --fastqout /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-hv0uuqd6/PUF-MBO-6_43_L001_R1_001.fastq --fastqout_notmerged_fwd /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-jyypjj6l/PUF-MBO-6_43_L001_R1_001.fastq --fastqout_notmerged_rev /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-jyypjj6l/PUF-MBO-6_43_L001_R2_001.fastq --fastq_ascii 33 --fastq_minlen 1 --fastq_minovlen 10 --fastq_maxdiffs 10 --fastq_qmin 0 --fastq_qminout 0 --fastq_qmax 41 --fastq_qmaxout 41 --fasta_width 0 --fastq_truncqual 26 --fastq_minmergelen 313 --fastq_maxmergelen 313 --fastq_maxee 1 --threads 4
+
+Running external command line application. This may print messages to stdout and/or stderr.
+The command being run is below. This command cannot be manually re-run as it will depend on temporary files that no longer exist.
+
+Command: gzip /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-hv0uuqd6/PUF-MBO-6_43_L001_R1_001.fastq /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-jyypjj6l/PUF-MBO-6_43_L001_R1_001.fastq /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-jyypjj6l/PUF-MBO-6_43_L001_R2_001.fastq
+
+Running external command line application. This may print messages to stdout and/or stderr.
+The command being run is below. This command cannot be manually re-run as it will depend on temporary files that no longer exist.
+
+Command: vsearch --fastq_mergepairs /tmp/qiime2/luis/data/32fe6719-0b11-4869-9310-a0e726f6c060/data/PUF-MBO-7_S521_L001_R1_001.fastq.gz --reverse /tmp/qiime2/luis/data/32fe6719-0b11-4869-9310-a0e726f6c060/data/PUF-MBO-7_S521_L001_R2_001.fastq.gz --fastqout /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-hv0uuqd6/PUF-MBO-7_44_L001_R1_001.fastq --fastqout_notmerged_fwd /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-jyypjj6l/PUF-MBO-7_44_L001_R1_001.fastq --fastqout_notmerged_rev /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-jyypjj6l/PUF-MBO-7_44_L001_R2_001.fastq --fastq_ascii 33 --fastq_minlen 1 --fastq_minovlen 10 --fastq_maxdiffs 10 --fastq_qmin 0 --fastq_qminout 0 --fastq_qmax 41 --fastq_qmaxout 41 --fasta_width 0 --fastq_truncqual 26 --fastq_minmergelen 313 --fastq_maxmergelen 313 --fastq_maxee 1 --threads 4
+
+Running external command line application. This may print messages to stdout and/or stderr.
+The command being run is below. This command cannot be manually re-run as it will depend on temporary files that no longer exist.
+
+Command: gzip /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-hv0uuqd6/PUF-MBO-7_44_L001_R1_001.fastq /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-jyypjj6l/PUF-MBO-7_44_L001_R1_001.fastq /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-jyypjj6l/PUF-MBO-7_44_L001_R2_001.fastq
+
+Running external command line application. This may print messages to stdout and/or stderr.
+The command being run is below. This command cannot be manually re-run as it will depend on temporary files that no longer exist.
+
+Command: vsearch --fastq_mergepairs /tmp/qiime2/luis/data/32fe6719-0b11-4869-9310-a0e726f6c060/data/PUF-MBO-8_S522_L001_R1_001.fastq.gz --reverse /tmp/qiime2/luis/data/32fe6719-0b11-4869-9310-a0e726f6c060/data/PUF-MBO-8_S522_L001_R2_001.fastq.gz --fastqout /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-hv0uuqd6/PUF-MBO-8_45_L001_R1_001.fastq --fastqout_notmerged_fwd /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-jyypjj6l/PUF-MBO-8_45_L001_R1_001.fastq --fastqout_notmerged_rev /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-jyypjj6l/PUF-MBO-8_45_L001_R2_001.fastq --fastq_ascii 33 --fastq_minlen 1 --fastq_minovlen 10 --fastq_maxdiffs 10 --fastq_qmin 0 --fastq_qminout 0 --fastq_qmax 41 --fastq_qmaxout 41 --fasta_width 0 --fastq_truncqual 26 --fastq_minmergelen 313 --fastq_maxmergelen 313 --fastq_maxee 1 --threads 4
+
+Running external command line application. This may print messages to stdout and/or stderr.
+The command being run is below. This command cannot be manually re-run as it will depend on temporary files that no longer exist.
+
+Command: gzip /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-hv0uuqd6/PUF-MBO-8_45_L001_R1_001.fastq /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-jyypjj6l/PUF-MBO-8_45_L001_R1_001.fastq /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-jyypjj6l/PUF-MBO-8_45_L001_R2_001.fastq
+
+Running external command line application. This may print messages to stdout and/or stderr.
+The command being run is below. This command cannot be manually re-run as it will depend on temporary files that no longer exist.
+
+Command: vsearch --fastq_mergepairs /tmp/qiime2/luis/data/32fe6719-0b11-4869-9310-a0e726f6c060/data/PUF-MBO-9_S518_L001_R1_001.fastq.gz --reverse /tmp/qiime2/luis/data/32fe6719-0b11-4869-9310-a0e726f6c060/data/PUF-MBO-9_S518_L001_R2_001.fastq.gz --fastqout /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-hv0uuqd6/PUF-MBO-9_46_L001_R1_001.fastq --fastqout_notmerged_fwd /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-jyypjj6l/PUF-MBO-9_46_L001_R1_001.fastq --fastqout_notmerged_rev /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-jyypjj6l/PUF-MBO-9_46_L001_R2_001.fastq --fastq_ascii 33 --fastq_minlen 1 --fastq_minovlen 10 --fastq_maxdiffs 10 --fastq_qmin 0 --fastq_qminout 0 --fastq_qmax 41 --fastq_qmaxout 41 --fasta_width 0 --fastq_truncqual 26 --fastq_minmergelen 313 --fastq_maxmergelen 313 --fastq_maxee 1 --threads 4
+
+Running external command line application. This may print messages to stdout and/or stderr.
+The command being run is below. This command cannot be manually re-run as it will depend on temporary files that no longer exist.
+
+Command: gzip /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-hv0uuqd6/PUF-MBO-9_46_L001_R1_001.fastq /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-jyypjj6l/PUF-MBO-9_46_L001_R1_001.fastq /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-jyypjj6l/PUF-MBO-9_46_L001_R2_001.fastq
+
+Running external command line application. This may print messages to stdout and/or stderr.
+The command being run is below. This command cannot be manually re-run as it will depend on temporary files that no longer exist.
+
+Command: vsearch --fastq_mergepairs /tmp/qiime2/luis/data/32fe6719-0b11-4869-9310-a0e726f6c060/data/ctrl-PCR-neg-PUF_S522_L001_R1_001.fastq.gz --reverse /tmp/qiime2/luis/data/32fe6719-0b11-4869-9310-a0e726f6c060/data/ctrl-PCR-neg-PUF_S522_L001_R2_001.fastq.gz --fastqout /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-hv0uuqd6/ctrl-PCR-neg-PUF_47_L001_R1_001.fastq --fastqout_notmerged_fwd /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-jyypjj6l/ctrl-PCR-neg-PUF_47_L001_R1_001.fastq --fastqout_notmerged_rev /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-jyypjj6l/ctrl-PCR-neg-PUF_47_L001_R2_001.fastq --fastq_ascii 33 --fastq_minlen 1 --fastq_minovlen 10 --fastq_maxdiffs 10 --fastq_qmin 0 --fastq_qminout 0 --fastq_qmax 41 --fastq_qmaxout 41 --fasta_width 0 --fastq_truncqual 26 --fastq_minmergelen 313 --fastq_maxmergelen 313 --fastq_maxee 1 --threads 4
+
+Running external command line application. This may print messages to stdout and/or stderr.
+The command being run is below. This command cannot be manually re-run as it will depend on temporary files that no longer exist.
+
+Command: gzip /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-hv0uuqd6/ctrl-PCR-neg-PUF_47_L001_R1_001.fastq /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-jyypjj6l/ctrl-PCR-neg-PUF_47_L001_R1_001.fastq /tmp/qiime2/luis/processes/45076-1770668398.86@luis/tmp/q2-OutPath-jyypjj6l/ctrl-PCR-neg-PUF_47_L001_R2_001.fastq
+
+Saved SampleData[JoinedSequencesWithQuality] to: ../data/03_merged_t26_l10.qza
+Saved SampleData[PairedEndSequencesWithQuality] to: ../data/03_unmerged_t26_l10.qza

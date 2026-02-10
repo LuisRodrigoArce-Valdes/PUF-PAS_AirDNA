@@ -10,7 +10,7 @@
 # Our first quality control analysis will be done using FastQC. Be sure to also install it!
 # conda install bioconda::fastqc
 
-# Raw data files are placed in the 'Dragonflies_Metabarcoding/00_RawData' directory. However this files are not going to be tracked in GitHub. We will upload these directory somewhere else soon.
+# Raw data files are placed in the 'PUF-PAS_AirDNA/00_RawData' directory.
 
 # We downloaded the raw files from this library directly from the Illumina server, thus, they don't need any editions in their names.
 
@@ -21,7 +21,7 @@ mkdir -p ./logs
 echo "Copying files"
 mkdir -p ../data/tmp
 mkdir -p ../results/00_FastQC
-cp ../../../00_RawData/*/*/*/*.gz ../data/tmp
+cp ../../../00_RawData/PUFs_Pt1/*.gz ../data/tmp
 
 for i in $(ls ../data/tmp)
 	do

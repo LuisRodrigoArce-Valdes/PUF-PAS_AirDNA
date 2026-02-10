@@ -1,0 +1,7 @@
+/home/luis/miniconda3/envs/qiime2/bin/deblur:534: DeprecationWarning: The 'warn' method is deprecated, use 'warning' instead
+  logger.warn('deblur version %s workflow started on %s' %
+/home/luis/miniconda3/envs/qiime2/bin/deblur:536: DeprecationWarning: The 'warn' method is deprecated, use 'warning' instead
+  logger.warn('parameters: %s' % locals())
+Saved FeatureTable[Frequency] to: ../data/04_denoised_table_t20_l50.qza
+Saved FeatureData[Sequence] to: ../data/04_denoised_seqs_t20_l50.qza
+Saved DeblurStats to: ../data/04_denoised_stats_t20_l50.qza
