@@ -9,18 +9,38 @@ library(dplyr)
 library(stringr)
 library(ggplot2)
 
-
 # 00. Reading inputs ####
-# Original sample size (without controls)
-Os <- 9
+# Reading metabarcoding data
+meta <- list()
+for(i in c("pt1","pt2")){
+  load(paste0("../data/01_PUF_PAS_",i,".Rdata"))
+  bind_rows(insects, .id = "Filter") -> meta[[i]]
+}
+bind_rows(meta, .id = "Library") -> insects
+rm(meta)
 
-load("../data/01_PUF_PAS.Rdata")
+# Reading metadata
+meta <- read.csv("../data/metadata.csv")
+read.csv("../data/mock_PUFs.csv") %>% 
+  select(Species) %>% 
+  mutate(Species = gsub(" ","_",Species)) -> positive.species
+
+positive.species$Species -> positive.species
+
+# Estimating sample size (without controls)
+meta %>% 
+  filter(Type == "Sample") %>%
+  select(ID_R) %>% 
+  reframe(samples = unique(ID_R)) %>% 
+  nrow() -> Os
+
+# Checking string compatibility between the metadata and the metabarcoding data
+identical(sort(unique(meta$ID_R)), sort(unique(insects$Sample)))
 
 # Tidying and exploring
-insects %>% 
-  bind_rows(.id = "Filter") %>% 
-  mutate(Type = ifelse(Sample=="CTRL.neg.extraction.PUF" | Sample=="ctrl.PCR.neg.PUF","Control-","Sample")) %>% 
-  select(Filter, Sample, Type, Feature.ID, Confidence, Reads, Taxon) -> insects
+insects %>%
+  left_join(unique(meta[,c("ID_R","Type")]), by = join_by(Sample == ID_R)) %>% 
+  select(Library, Filter, Sample, Type, Feature.ID, Confidence, Reads, Taxon) -> insects
 
 # 01. Raw data stats ####
 # Estimating reads per denoising algorithm
@@ -32,9 +52,10 @@ insects %>%
   mutate(PostFilter = "0.Raw") %>% 
   select(Filter, PostFilter, n) -> counts
 
+# Estimating number of samples per denoising algorithm
 insects %>% 
   select(Filter, Sample, Type) %>%
-  filter(Type != "Control-") %>% 
+  filter(Type == "Sample") %>%
   unique() %>%
   group_by(Filter) %>% 
   summarise(inds = n()) %>%
@@ -42,9 +63,29 @@ insects %>%
   right_join(counts, by = join_by(Filter)) %>% 
   select(PostFilter, Filter, n, inds) -> counts
 
+# Viewing positive controls
+insects %>% 
+  filter(Type == "C+") %>% 
+  select(Library, Filter, Sample, Taxon) %>% 
+  unique() %>% 
+  mutate(PS=str_detect(Taxon, paste(positive.species, collapse = "|"))) %>% 
+  group_by(Filter, Library, Sample, PS) %>% 
+  summarise(n = n()) %>% 
+  mutate(PostFilter = "0.Raw") %>% 
+  select(Filter, PostFilter, Library, Sample, PS, n) -> pc
+
+# Checking presence of positive species in other samples
+insects %>% 
+  filter(Type != "C+") %>%
+  filter(!str_detect(Sample,"Ins")) %>% 
+  mutate(PS=str_detect(Taxon, paste(positive.species, collapse = "|"))) %>%
+  filter(PS == T) %>% 
+  mutate(PostFilter = "0.Raw") %>% 
+  select(Filter, PostFilter, Sample, Feature.ID, Confidence, Reads, Taxon, PS) -> pc.cont
+
 # 02. Negative controls filtering ####
 insects %>% 
-  filter(Type == "Control-") -> nc
+  filter(Type == "C-") -> nc
 
 for(i in unique(nc$Filter)) {
   tmp <- nc[nc$Filter == i,]
@@ -56,11 +97,12 @@ for(i in unique(nc$Filter)) {
       filter(!(Filter==i & Taxon == Tax & Reads <= reads)) -> insects
   }
 }
+
 rm(tmp, i, r, reads, Tax)
 
 # Negative controls shoould be clean
 insects %>% 
-  filter(Type == "Control-")
+  filter(Type == "C-")
 
 # Summarising negative controls filtering
 insects %>%
@@ -74,7 +116,7 @@ insects %>%
 
 insects %>% 
   select(Filter, Sample, Type) %>%
-  filter(Type != "Control-") %>% 
+  filter(Type == "Sample") %>%
   unique() %>%
   group_by(Filter) %>% 
   summarise(inds = n()) %>%
@@ -86,56 +128,184 @@ insects %>%
 
 rm(counts.f, nc)
 
-# 03. Exploring and plotting ####
-filt <- "Deblur_t26_l10"
+# Viewing positive controls
 insects %>% 
-  filter(Filter == filt) %>% 
-  separate(Taxon, into = c("k","p","c","o","f","g","s"), sep = "; ", extra = "merge") -> insects.f
+  filter(Type == "C+") %>%
+  select(Library, Filter, Sample, Taxon) %>% 
+  unique() %>% 
+  mutate(PS=str_detect(Taxon, paste(positive.species, collapse = "|"))) %>% 
+  group_by(Filter, Library, Sample, PS) %>% 
+  summarise(n = n()) %>% 
+  mutate(PostFilter = "1.NC") %>% 
+  select(Filter, PostFilter, Library, Sample, PS, n) %>% 
+  rbind(pc) %>% 
+  arrange(Filter, Library, Sample, PostFilter, desc(PS)) -> pc
 
-# Replacing empty filds by NA
-as.data.frame(lapply(insects.f, function(x) gsub(".?__","", x))) -> insects.f
-insects.f[insects.f == ""] <- NA
+# Checking presence of positive species in other samples
+insects %>% 
+  filter(Type != "C+") %>%
+  filter(!str_detect(Sample,"Ins")) %>% 
+  mutate(PS=str_detect(Taxon, paste(positive.species, collapse = "|"))) %>%
+  filter(PS == T) %>% 
+  mutate(PostFilter = "1.NC") %>% 
+  select(Filter, PostFilter, Sample, Feature.ID, Confidence, Reads, Taxon, PS) %>% 
+  rbind(pc.cont) %>% 
+  arrange(Filter, Sample, PostFilter) -> pc.cont
 
-# Exploring
-insects.f %>% 
-  select(Sample, Feature.ID, Confidence, Reads, k, p, c, o, f, g, s) -> insects.f
+# 03. Sample % filtering ####
+insects %>%
+  group_by(Library, Filter, Sample) %>% 
+  mutate(sample.per=Reads/sum(Reads)*100) -> insects
 
-# Plotting
-png("../results/00_k.png", width = 24, height = 12, units = "cm", res = 600)
-insects.f %>%
-  pivot_longer(cols = c("k", "p", "c", "o", "f", "g", "s"), names_to = "Level", values_to = "Taxon") %>% 
-  mutate(Level = factor(Level, levels = c("k", "p", "c", "o", "f", "g", "s"))) %>% 
-  select(Sample, Level, Taxon) %>% 
-  filter(Level == "k") %>%
-  group_by(Sample, Taxon) %>% 
-  summarise(count = n(), .groups = "drop_last") %>% # Count occurrences, then drop the last grouping level
-  mutate(relative_frequency = count / sum(count)) %>% # Calculate relative frequency within each group_var
-  ungroup() %>% 
-  ggplot() +
-    geom_col(aes(x=Sample, fill = Taxon, y=relative_frequency)) +
-    theme_classic() +
-    theme(text = element_text(size = 8))
-dev.off()
+thresholds <- c("0.000","0.025","0.050", "0.075", "0.100", "0.250","0.500","0.750","1.000")
 
-# Plotting the rest of the levels after filtering for animals
-tax <- c("p","c","o","f","g","s")
-for(i in tax){
-png(paste0("../results/0",as.character(which(tax == i)),"_",i,".png"), width = 24, height = 12, units = "cm", res = 600)
-insects.f %>%
-  filter(k == "Metazoa_33208") %>% 
-  pivot_longer(cols = c("k", "p", "c", "o", "f", "g", "s"), names_to = "Level", values_to = "Taxon") %>% 
-  mutate(Level = factor(Level, levels = c("k", "p", "c", "o", "f", "g", "s"))) %>% 
-  select(Sample, Level, Taxon) %>% 
-  filter(Level == i) %>%
-  group_by(Sample, Taxon) %>% 
-  summarise(count = n(), .groups = "drop_last") %>% # Count occurrences, then drop the last grouping level
-  mutate(relative_frequency = count / sum(count)) %>% # Calculate relative frequency within each group_var
-  ungroup() %>% 
-  ggplot() +
-    geom_col(aes(x=Sample, fill = Taxon, y=relative_frequency)) +
-    theme_classic() +
-    theme(text = element_text(size = 8)) -> p 
-  print(p)
-  rm(p)
-dev.off()
+for(i in thresholds) { # Sample percent filtering
+  name <- paste0("2.sample.per.",i)
+  
+  i <- as.numeric(i)
+  
+  # Summarising filtering
+  insects %>%
+    filter(sample.per > i) %>%
+    ungroup() %>% 
+    select(Filter, Feature.ID) %>% 
+    unique() %>%
+    group_by(Filter) %>%
+    summarise(n = n()) %>% 
+    mutate(PostFilter = name) %>% 
+    select(Filter, PostFilter, n) %>% 
+    arrange(Filter, PostFilter) -> counts.f
+  
+  insects %>%
+    filter(sample.per > i) %>%
+    filter(Type == "Sample") %>%
+    select(Library, Filter, Sample) %>%
+    unique() %>%
+    group_by(Filter) %>% 
+    summarise(inds = n()) %>% 
+    mutate(inds = round(inds/Os*100,1)) %>% 
+    right_join(counts.f, by = join_by(Filter)) %>% 
+    select(PostFilter, Filter, n, inds) %>%
+    rbind(counts) %>% 
+    arrange(PostFilter, Filter) -> counts
+  
+  rm(counts.f)
+  
+  # Viewing positive controls
+  insects %>%
+    filter(sample.per > i) %>%  
+    filter(Type == "C+") %>% 
+    select(Library, Filter, Sample, Taxon) %>% 
+    unique() %>% 
+    mutate(PS=str_detect(Taxon, paste(positive.species, collapse = "|"))) %>% 
+    group_by(Filter, Library, Sample, PS) %>% 
+    summarise(n = n()) %>% 
+    mutate(PostFilter = name) %>% 
+    select(Filter, PostFilter, Library, Sample, PS, n) %>% 
+    rbind(pc) %>% 
+    arrange(Filter, Library, Sample, PostFilter, desc(PS)) -> pc
+  
+  # Checking presence of positive species in other samples
+  insects %>%
+    ungroup() %>% 
+    filter(sample.per > i) %>%  
+    filter(Type != "C+") %>%
+    filter(!str_detect(Sample,"Ins")) %>% 
+    mutate(PS=str_detect(Taxon, paste(positive.species, collapse = "|"))) %>%
+    filter(PS == T) %>% 
+    mutate(PostFilter = name) %>% 
+    select(Filter, PostFilter, Sample, Feature.ID, Confidence, Reads, Taxon, PS) %>% 
+    rbind(pc.cont) %>% 
+    arrange(Filter, Sample, PostFilter) -> pc.cont
 }
+
+# Plotting filtering schemes
+for(i in thresholds) {
+  name <- paste0("Deblur_t20_l10_sample.per.",i)
+  
+  i <- as.numeric(i)
+  
+  insects %>%
+    filter(Filter == "Deblur_t20_l10") %>%
+    filter(sample.per > i) %>%
+    select(Library, Filter, Sample, Feature.ID, Confidence, Reads, Taxon, sample.per) -> insects.f
+  
+  # Finally, we will merge both dataets to explore the database in detail
+  insects.f %>%
+    separate(Taxon, into = c("k","p","c","o","f","g","s"), sep = "; ", extra = "merge") %>% 
+    left_join(na.omit(meta[,c("ID_R","ID_order","site","from","to")]), by = join_by(Sample == ID_R)) -> insects.f # Joining with the fild database
+  
+  # Replacing empty filds by NA
+  as.data.frame(lapply(insects.f, function(x) gsub(".?__","", x))) -> insects.f
+  insects.f[insects.f == ""] <- NA
+  
+  # Tidying
+  insects.f %>% 
+    select(Library, Sample, ID_order, site, from, to, Feature.ID, Confidence, Reads, k, p, c, o, f, g, s) %>% 
+    mutate(Reads = as.numeric(Reads))-> insects.f
+  
+  
+  write.csv(insects.f, paste0("../results/A_Database_",name,".csv"), row.names = F)
+  
+  # Summary tables of fraction of reads per taxonomic level
+  insects.f %>%
+    filter(k == "Metazoa_33208") %>% 
+    pivot_longer(cols = c("k", "p", "c", "o", "f", "g", "s"), names_to = "Level", values_to = "Taxon") %>% 
+    mutate(Level = factor(Level, levels = c("k", "p", "c", "o", "f", "g", "s"))) %>% 
+    select(Level, site, ID_order, from, to, Taxon, Reads) %>% 
+    group_by(Level, site, ID_order, from, to, Taxon) %>% 
+    summarise(Reads = sum(Reads)) %>% 
+    mutate(Fx = Reads / sum(Reads)) %>%
+    arrange(Level, site, ID_order, desc(Fx)) %>% 
+    write.csv(paste0("../results/B_Summary_",name,".csv"), row.names = F)
+}
+
+# 04. Summarising filtering schemes ####
+# Merging dataframes into a final summary one that can be added to the manuscript
+counts %>% 
+  mutate(FilFil = paste(PostFilter, Filter, sep = "-")) %>% 
+  select(FilFil, PostFilter, Filter, n, inds) %>% 
+  rename(ASVs = n) -> counts
+
+pc %>%
+  ungroup() %>% 
+  mutate(Sample = paste(Sample,PS,sep = "_")) %>% 
+  select(PostFilter, Filter, Sample, n) %>% 
+  pivot_wider(names_from = Sample, values_from = n, values_fill = 0) %>% 
+  mutate(FilFil = paste(PostFilter, Filter, sep = "-")) %>% 
+  select(!c(PostFilter, Filter)) -> pc
+
+# Merging
+counts %>% 
+  left_join(pc, by = join_by(FilFil)) -> counts
+rm(pc)
+
+# Now the number of positive control seqs in the samples
+pc.cont %>% 
+  select(PostFilter, Filter, Sample, Feature.ID) %>%
+  group_by(PostFilter, Filter) %>% 
+  summarise(n = n()) %>% 
+  mutate(FilFil = paste(PostFilter, Filter, sep = "-")) %>%
+  ungroup() %>% 
+  select(FilFil, n) %>% 
+  rename(MockASVs = n) -> pc.cont
+
+#  Merging
+counts %>% 
+  left_join(pc.cont, by = join_by(FilFil)) %>% 
+  mutate(MockASVs = replace_na(MockASVs, 0)) %>% 
+  select(!FilFil) %>% 
+  filter(!str_detect(PostFilter,"3.")) %>% 
+  mutate(PostFilter = gsub("2\\.","",PostFilter)) %>% 
+  mutate(PostFilter = gsub("4\\.","",PostFilter)) %>%
+  relocate(Filter, PostFilter) %>% 
+  arrange(Filter, PostFilter) -> counts
+
+# Write csv
+write.csv(counts, "../results/00_Filtering_summaries.csv", row.names = F)
+
+# Creating a README
+sink("../results/README.txt")
+print("I suggest to use Deblur_t20_l10 after cleaning with negative controls (sample filtering 0.000), to recover the maximum number of taxa.")
+print("And, 0.100 to clean the positive controls as much as possible without removing their known taxa")
+sink()

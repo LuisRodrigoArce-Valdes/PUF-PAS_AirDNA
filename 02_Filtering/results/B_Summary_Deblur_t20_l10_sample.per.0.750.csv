@@ -1,0 +1,841 @@
+"Level","site","ID_order","from","to","Taxon","Reads","Fx"
+"k","Bird Observatory","PUF_MBO_01","20/05/2024","03/06/2024","Metazoa_33208",1422,1
+"k","Bird Observatory","PUF_MBO_02","03/06/2024","17/06/2024","Metazoa_33208",15222,1
+"k","Bird Observatory","PUF_MBO_03","17/06/2024","01/07/2024","Metazoa_33208",444,1
+"k","Bird Observatory","PUF_MBO_04","01/07/2024","15/07/2024","Metazoa_33208",1066,1
+"k","Bird Observatory","PUF_MBO_05","15/07/2024","29/07/2024","Metazoa_33208",8924,1
+"k","Bird Observatory","PUF_MBO_06","29/07/2024","12/08/2024","Metazoa_33208",588,1
+"k","Bird Observatory","PUF_MBO_07","12/08/2024","26/08/2024","Metazoa_33208",1123,1
+"k","Bird Observatory","PUF_MBO_08","26/08/2024","09/09/2024","Metazoa_33208",1252,1
+"k","Bird Observatory","PUF_MBO_09","09/09/2024","23/09/2024","Metazoa_33208",2220,1
+"k","Bird Observatory","PUF_MBO_10","23/09/2024","07/10/2024","Metazoa_33208",800,1
+"k","Botanical Garden","PUF_BOT_01","17/05/2024","31/05/2024","Metazoa_33208",437,1
+"k","Botanical Garden","PUF_BOT_02","31/05/2024","14/06/2024","Metazoa_33208",2094,1
+"k","Botanical Garden","PUF_BOT_03","24/06/2024","28/06/2024","Metazoa_33208",88,1
+"k","Botanical Garden","PUF_BOT_04","28/06/2024","12/07/2024","Metazoa_33208",695,1
+"k","Botanical Garden","PUF_BOT_05","12/07/2024","26/07/2024","Metazoa_33208",1132,1
+"k","Botanical Garden","PUF_BOT_06","26/07/2024","09/08/2024","Metazoa_33208",19288,1
+"k","Botanical Garden","PUF_BOT_07","09/08/2024","23/08/2024","Metazoa_33208",1959,1
+"k","Botanical Garden","PUF_BOT_08","23/08/2024","06/09/2024","Metazoa_33208",629,1
+"k","Botanical Garden","PUF_BOT_09","06/09/2024","20/09/2024","Metazoa_33208",1241,1
+"k","Botanical Garden","PUF_BOT_10","20/09/2024","04/10/2024","Metazoa_33208",3781,1
+"k","Boucherville","PUF_BOU_01","27/05/2024","10/06/2024","Metazoa_33208",234,1
+"k","Boucherville","PUF_BOU_02","10/06/2024","24/06/2024","Metazoa_33208",784,1
+"k","Boucherville","PUF_BOU_03","24/06/2024","08/07/2024","Metazoa_33208",488,1
+"k","Boucherville","PUF_BOU_04","08/07/2024","22/07/2024","Metazoa_33208",349,1
+"k","Boucherville","PUF_BOU_05","22/07/2024","05/08/2024","Metazoa_33208",1965,1
+"k","Boucherville","PUF_BOU_06","05/08/2024","19/08/2024","Metazoa_33208",631,1
+"k","Boucherville","PUF_BOU_07","19/08/2024","02/09/2024","Metazoa_33208",307,1
+"k","Boucherville","PUF_BOU_08","02/09/2024","16/09/2024","Metazoa_33208",1836,1
+"k","Boucherville","PUF_BOU_09","16/09/2024","30/09/2024","Metazoa_33208",1618,1
+"k","IPEX","PUF_IPEX_01","15/05/2024","29/05/2024","Metazoa_33208",108,1
+"k","IPEX","PUF_IPEX_02","29/05/2024","12/06/2024","Metazoa_33208",1073,1
+"k","IPEX","PUF_IPEX_03","12/06/2024","26/06/2024","Metazoa_33208",10150,1
+"k","IPEX","PUF_IPEX_04","26/06/2024","10/07/2024","Metazoa_33208",1118,1
+"k","IPEX","PUF_IPEX_05","10/07/2024","24/07/2024","Metazoa_33208",4990,1
+"k","IPEX","PUF_IPEX_06","24/07/2024","07/08/2024","Metazoa_33208",812,1
+"k","IPEX","PUF_IPEX_07","07/08/2024","21/08/2024","Metazoa_33208",1184,1
+"k","IPEX","PUF_IPEX_08","21/08/2024","04/09/2024","Metazoa_33208",1466,1
+"k","IPEX","PUF_IPEX_09","04/09/2024","18/09/2024","Metazoa_33208",962,1
+"k","IPEX","PUF_IPEX_10","18/09/2024","02/10/2024","Metazoa_33208",3225,1
+"k","Insectarium","Insectarium_Cocoon","10/11/2025","24/11/2025","Metazoa_33208",268,1
+"k","Insectarium","Insectarium_Door","10/11/2025","24/11/2025","Metazoa_33208",49,1
+"k","Insectarium","Insectarium_Up","10/11/2025","24/11/2025","Metazoa_33208",1884,1
+"k","Jean-Drapeau","PUF_JD_01","22/05/2024","05/06/2024","Metazoa_33208",8402,1
+"k","Jean-Drapeau","PUF_JD_02","05/06/2024","19/06/2024","Metazoa_33208",13820,1
+"k","Jean-Drapeau","PUF_JD_03","19/06/2024","03/07/2024","Metazoa_33208",623,1
+"k","Jean-Drapeau","PUF_JD_04","03/07/2024","17/07/2024","Metazoa_33208",1515,1
+"k","Jean-Drapeau","PUF_JD_05","17/07/2024","31/07/2024","Metazoa_33208",3587,1
+"k","Jean-Drapeau","PUF_JD_06","31/07/2024","14/08/2024","Metazoa_33208",3613,1
+"k","Jean-Drapeau","PUF_JD_07","14/08/2024","28/08/2024","Metazoa_33208",3912,1
+"k","Jean-Drapeau","PUF_JD_08","28/08/2024","11/09/2024","Metazoa_33208",8676,1
+"k","Jean-Drapeau","PUF_JD_09","11/09/2024","25/09/2024","Metazoa_33208",1069,1
+"k","Jean-Drapeau","PUF_JD_10","25/09/2024","09/10/2024","Metazoa_33208",7699,1
+"k","Mont_Tremblant","Mont_Tremblant","30/08/2025","31/08/2025","Metazoa_33208",887,1
+"k",NA,NA,NA,NA,"Metazoa_33208",29584,1
+"p","Bird Observatory","PUF_MBO_01","20/05/2024","03/06/2024","Arthropoda_6656",1422,1
+"p","Bird Observatory","PUF_MBO_02","03/06/2024","17/06/2024","Arthropoda_6656",15222,1
+"p","Bird Observatory","PUF_MBO_03","17/06/2024","01/07/2024","Arthropoda_6656",444,1
+"p","Bird Observatory","PUF_MBO_04","01/07/2024","15/07/2024","Arthropoda_6656",758,0.711069418386492
+"p","Bird Observatory","PUF_MBO_04","01/07/2024","15/07/2024","Chordata_7711",308,0.288930581613508
+"p","Bird Observatory","PUF_MBO_05","15/07/2024","29/07/2024","Arthropoda_6656",8924,1
+"p","Bird Observatory","PUF_MBO_06","29/07/2024","12/08/2024","Arthropoda_6656",588,1
+"p","Bird Observatory","PUF_MBO_07","12/08/2024","26/08/2024","Arthropoda_6656",1123,1
+"p","Bird Observatory","PUF_MBO_08","26/08/2024","09/09/2024","Arthropoda_6656",1252,1
+"p","Bird Observatory","PUF_MBO_09","09/09/2024","23/09/2024","Arthropoda_6656",2220,1
+"p","Bird Observatory","PUF_MBO_10","23/09/2024","07/10/2024","Arthropoda_6656",800,1
+"p","Botanical Garden","PUF_BOT_01","17/05/2024","31/05/2024","Arthropoda_6656",437,1
+"p","Botanical Garden","PUF_BOT_02","31/05/2024","14/06/2024","Arthropoda_6656",2094,1
+"p","Botanical Garden","PUF_BOT_03","24/06/2024","28/06/2024","Chordata_7711",88,1
+"p","Botanical Garden","PUF_BOT_04","28/06/2024","12/07/2024","Arthropoda_6656",695,1
+"p","Botanical Garden","PUF_BOT_05","12/07/2024","26/07/2024","Arthropoda_6656",1071,0.946113074204947
+"p","Botanical Garden","PUF_BOT_05","12/07/2024","26/07/2024","Chordata_7711",61,0.053886925795053
+"p","Botanical Garden","PUF_BOT_06","26/07/2024","09/08/2024","Arthropoda_6656",18583,0.963448776441311
+"p","Botanical Garden","PUF_BOT_06","26/07/2024","09/08/2024","Chordata_7711",705,0.0365512235586893
+"p","Botanical Garden","PUF_BOT_07","09/08/2024","23/08/2024","Arthropoda_6656",1959,1
+"p","Botanical Garden","PUF_BOT_08","23/08/2024","06/09/2024","Arthropoda_6656",629,1
+"p","Botanical Garden","PUF_BOT_09","06/09/2024","20/09/2024","Arthropoda_6656",1241,1
+"p","Botanical Garden","PUF_BOT_10","20/09/2024","04/10/2024","Arthropoda_6656",3454,0.913514943136736
+"p","Botanical Garden","PUF_BOT_10","20/09/2024","04/10/2024","Chordata_7711",327,0.0864850568632637
+"p","Boucherville","PUF_BOU_01","27/05/2024","10/06/2024","Arthropoda_6656",234,1
+"p","Boucherville","PUF_BOU_02","10/06/2024","24/06/2024","Arthropoda_6656",750,0.956632653061224
+"p","Boucherville","PUF_BOU_02","10/06/2024","24/06/2024","Chordata_7711",34,0.0433673469387755
+"p","Boucherville","PUF_BOU_03","24/06/2024","08/07/2024","Arthropoda_6656",390,0.799180327868853
+"p","Boucherville","PUF_BOU_03","24/06/2024","08/07/2024","Chordata_7711",57,0.116803278688525
+"p","Boucherville","PUF_BOU_03","24/06/2024","08/07/2024","Cnidaria_6073",41,0.0840163934426229
+"p","Boucherville","PUF_BOU_04","08/07/2024","22/07/2024","Arthropoda_6656",349,1
+"p","Boucherville","PUF_BOU_05","22/07/2024","05/08/2024","Arthropoda_6656",1965,1
+"p","Boucherville","PUF_BOU_06","05/08/2024","19/08/2024","Arthropoda_6656",631,1
+"p","Boucherville","PUF_BOU_07","19/08/2024","02/09/2024","Arthropoda_6656",210,0.684039087947883
+"p","Boucherville","PUF_BOU_07","19/08/2024","02/09/2024","Chordata_7711",60,0.195439739413681
+"p","Boucherville","PUF_BOU_07","19/08/2024","02/09/2024","Mollusca_6447",24,0.0781758957654723
+"p","Boucherville","PUF_BOU_07","19/08/2024","02/09/2024","Cnidaria_6073",13,0.0423452768729642
+"p","Boucherville","PUF_BOU_08","02/09/2024","16/09/2024","Arthropoda_6656",1836,1
+"p","Boucherville","PUF_BOU_09","16/09/2024","30/09/2024","Arthropoda_6656",1618,1
+"p","IPEX","PUF_IPEX_01","15/05/2024","29/05/2024","Arthropoda_6656",80,0.740740740740741
+"p","IPEX","PUF_IPEX_01","15/05/2024","29/05/2024","Chordata_7711",28,0.259259259259259
+"p","IPEX","PUF_IPEX_02","29/05/2024","12/06/2024","Arthropoda_6656",1073,1
+"p","IPEX","PUF_IPEX_03","12/06/2024","26/06/2024","Arthropoda_6656",10150,1
+"p","IPEX","PUF_IPEX_04","26/06/2024","10/07/2024","Arthropoda_6656",1118,1
+"p","IPEX","PUF_IPEX_05","10/07/2024","24/07/2024","Arthropoda_6656",4769,0.955711422845691
+"p","IPEX","PUF_IPEX_05","10/07/2024","24/07/2024","Cnidaria_6073",221,0.0442885771543086
+"p","IPEX","PUF_IPEX_06","24/07/2024","07/08/2024","Arthropoda_6656",812,1
+"p","IPEX","PUF_IPEX_07","07/08/2024","21/08/2024","Arthropoda_6656",1045,0.882601351351351
+"p","IPEX","PUF_IPEX_07","07/08/2024","21/08/2024","Cnidaria_6073",139,0.117398648648649
+"p","IPEX","PUF_IPEX_08","21/08/2024","04/09/2024","Arthropoda_6656",1466,1
+"p","IPEX","PUF_IPEX_09","04/09/2024","18/09/2024","Arthropoda_6656",962,1
+"p","IPEX","PUF_IPEX_10","18/09/2024","02/10/2024","Arthropoda_6656",3225,1
+"p","Insectarium","Insectarium_Cocoon","10/11/2025","24/11/2025","Arthropoda_6656",159,0.593283582089552
+"p","Insectarium","Insectarium_Cocoon","10/11/2025","24/11/2025","Chordata_7711",109,0.406716417910448
+"p","Insectarium","Insectarium_Door","10/11/2025","24/11/2025","Chordata_7711",48,0.979591836734694
+"p","Insectarium","Insectarium_Door","10/11/2025","24/11/2025","Arthropoda_6656",1,0.0204081632653061
+"p","Insectarium","Insectarium_Up","10/11/2025","24/11/2025","Arthropoda_6656",1884,1
+"p","Jean-Drapeau","PUF_JD_01","22/05/2024","05/06/2024","Arthropoda_6656",8402,1
+"p","Jean-Drapeau","PUF_JD_02","05/06/2024","19/06/2024","Arthropoda_6656",13820,1
+"p","Jean-Drapeau","PUF_JD_03","19/06/2024","03/07/2024","Arthropoda_6656",529,0.849117174959872
+"p","Jean-Drapeau","PUF_JD_03","19/06/2024","03/07/2024","Chordata_7711",94,0.150882825040128
+"p","Jean-Drapeau","PUF_JD_04","03/07/2024","17/07/2024","Arthropoda_6656",1298,0.856765676567657
+"p","Jean-Drapeau","PUF_JD_04","03/07/2024","17/07/2024","Chordata_7711",217,0.143234323432343
+"p","Jean-Drapeau","PUF_JD_05","17/07/2024","31/07/2024","Arthropoda_6656",3587,1
+"p","Jean-Drapeau","PUF_JD_06","31/07/2024","14/08/2024","Arthropoda_6656",3613,1
+"p","Jean-Drapeau","PUF_JD_07","14/08/2024","28/08/2024","Arthropoda_6656",3730,0.953476482617587
+"p","Jean-Drapeau","PUF_JD_07","14/08/2024","28/08/2024","Cnidaria_6073",182,0.0465235173824131
+"p","Jean-Drapeau","PUF_JD_08","28/08/2024","11/09/2024","Arthropoda_6656",8676,1
+"p","Jean-Drapeau","PUF_JD_09","11/09/2024","25/09/2024","Arthropoda_6656",1006,0.941066417212348
+"p","Jean-Drapeau","PUF_JD_09","11/09/2024","25/09/2024","Cnidaria_6073",63,0.058933582787652
+"p","Jean-Drapeau","PUF_JD_10","25/09/2024","09/10/2024","Arthropoda_6656",7699,1
+"p","Mont_Tremblant","Mont_Tremblant","30/08/2025","31/08/2025","Cnidaria_6073",435,0.490417136414882
+"p","Mont_Tremblant","Mont_Tremblant","30/08/2025","31/08/2025","Arthropoda_6656",337,0.379932356257046
+"p","Mont_Tremblant","Mont_Tremblant","30/08/2025","31/08/2025","Chordata_7711",115,0.129650507328072
+"p",NA,NA,NA,NA,"Arthropoda_6656",29584,1
+"c","Bird Observatory","PUF_MBO_01","20/05/2024","03/06/2024","Arachnida_6854",912,0.641350210970464
+"c","Bird Observatory","PUF_MBO_01","20/05/2024","03/06/2024","Insecta_50557",423,0.29746835443038
+"c","Bird Observatory","PUF_MBO_01","20/05/2024","03/06/2024",NA,87,0.0611814345991561
+"c","Bird Observatory","PUF_MBO_02","03/06/2024","17/06/2024","Insecta_50557",8006,0.525949283931152
+"c","Bird Observatory","PUF_MBO_02","03/06/2024","17/06/2024","Arachnida_6854",7216,0.474050716068848
+"c","Bird Observatory","PUF_MBO_03","17/06/2024","01/07/2024","Insecta_50557",305,0.686936936936937
+"c","Bird Observatory","PUF_MBO_03","17/06/2024","01/07/2024","Arachnida_6854",139,0.313063063063063
+"c","Bird Observatory","PUF_MBO_04","01/07/2024","15/07/2024","Insecta_50557",514,0.482176360225141
+"c","Bird Observatory","PUF_MBO_04","01/07/2024","15/07/2024","Mammalia_40674",308,0.288930581613508
+"c","Bird Observatory","PUF_MBO_04","01/07/2024","15/07/2024","Arachnida_6854",244,0.228893058161351
+"c","Bird Observatory","PUF_MBO_05","15/07/2024","29/07/2024","Insecta_50557",8924,1
+"c","Bird Observatory","PUF_MBO_06","29/07/2024","12/08/2024","Insecta_50557",588,1
+"c","Bird Observatory","PUF_MBO_07","12/08/2024","26/08/2024","Insecta_50557",1123,1
+"c","Bird Observatory","PUF_MBO_08","26/08/2024","09/09/2024","Insecta_50557",1252,1
+"c","Bird Observatory","PUF_MBO_09","09/09/2024","23/09/2024","Insecta_50557",1901,0.856306306306306
+"c","Bird Observatory","PUF_MBO_09","09/09/2024","23/09/2024","Arachnida_6854",319,0.143693693693694
+"c","Bird Observatory","PUF_MBO_10","23/09/2024","07/10/2024","Insecta_50557",800,1
+"c","Botanical Garden","PUF_BOT_01","17/05/2024","31/05/2024","Arachnida_6854",300,0.68649885583524
+"c","Botanical Garden","PUF_BOT_01","17/05/2024","31/05/2024","Insecta_50557",137,0.31350114416476
+"c","Botanical Garden","PUF_BOT_02","31/05/2024","14/06/2024","Arachnida_6854",1864,0.890162368672397
+"c","Botanical Garden","PUF_BOT_02","31/05/2024","14/06/2024","Insecta_50557",230,0.109837631327603
+"c","Botanical Garden","PUF_BOT_03","24/06/2024","28/06/2024","Mammalia_40674",88,1
+"c","Botanical Garden","PUF_BOT_04","28/06/2024","12/07/2024","Insecta_50557",695,1
+"c","Botanical Garden","PUF_BOT_05","12/07/2024","26/07/2024","Insecta_50557",1002,0.885159010600707
+"c","Botanical Garden","PUF_BOT_05","12/07/2024","26/07/2024","Arachnida_6854",69,0.0609540636042403
+"c","Botanical Garden","PUF_BOT_05","12/07/2024","26/07/2024","Mammalia_40674",61,0.053886925795053
+"c","Botanical Garden","PUF_BOT_06","26/07/2024","09/08/2024","Insecta_50557",18583,0.963448776441311
+"c","Botanical Garden","PUF_BOT_06","26/07/2024","09/08/2024","Mammalia_40674",705,0.0365512235586893
+"c","Botanical Garden","PUF_BOT_07","09/08/2024","23/08/2024","Insecta_50557",1959,1
+"c","Botanical Garden","PUF_BOT_08","23/08/2024","06/09/2024","Insecta_50557",571,0.907790143084261
+"c","Botanical Garden","PUF_BOT_08","23/08/2024","06/09/2024","Arachnida_6854",58,0.0922098569157393
+"c","Botanical Garden","PUF_BOT_09","06/09/2024","20/09/2024","Insecta_50557",1241,1
+"c","Botanical Garden","PUF_BOT_10","20/09/2024","04/10/2024","Insecta_50557",2834,0.749537159481619
+"c","Botanical Garden","PUF_BOT_10","20/09/2024","04/10/2024","Arachnida_6854",620,0.163977783655118
+"c","Botanical Garden","PUF_BOT_10","20/09/2024","04/10/2024","Mammalia_40674",327,0.0864850568632637
+"c","Boucherville","PUF_BOU_01","27/05/2024","10/06/2024","Arachnida_6854",209,0.893162393162393
+"c","Boucherville","PUF_BOU_01","27/05/2024","10/06/2024","Insecta_50557",25,0.106837606837607
+"c","Boucherville","PUF_BOU_02","10/06/2024","24/06/2024","Collembola_30001",401,0.511479591836735
+"c","Boucherville","PUF_BOU_02","10/06/2024","24/06/2024","Insecta_50557",238,0.303571428571429
+"c","Boucherville","PUF_BOU_02","10/06/2024","24/06/2024","Arachnida_6854",111,0.141581632653061
+"c","Boucherville","PUF_BOU_02","10/06/2024","24/06/2024","Mammalia_40674",34,0.0433673469387755
+"c","Boucherville","PUF_BOU_03","24/06/2024","08/07/2024","Collembola_30001",275,0.563524590163934
+"c","Boucherville","PUF_BOU_03","24/06/2024","08/07/2024","Insecta_50557",115,0.235655737704918
+"c","Boucherville","PUF_BOU_03","24/06/2024","08/07/2024","Mammalia_40674",57,0.116803278688525
+"c","Boucherville","PUF_BOU_03","24/06/2024","08/07/2024",NA,41,0.0840163934426229
+"c","Boucherville","PUF_BOU_04","08/07/2024","22/07/2024","Insecta_50557",349,1
+"c","Boucherville","PUF_BOU_05","22/07/2024","05/08/2024","Insecta_50557",1965,1
+"c","Boucherville","PUF_BOU_06","05/08/2024","19/08/2024","Insecta_50557",598,0.94770206022187
+"c","Boucherville","PUF_BOU_06","05/08/2024","19/08/2024","Arachnida_6854",33,0.05229793977813
+"c","Boucherville","PUF_BOU_07","19/08/2024","02/09/2024","Insecta_50557",92,0.299674267100977
+"c","Boucherville","PUF_BOU_07","19/08/2024","02/09/2024","Arachnida_6854",65,0.211726384364821
+"c","Boucherville","PUF_BOU_07","19/08/2024","02/09/2024","Mammalia_40674",60,0.195439739413681
+"c","Boucherville","PUF_BOU_07","19/08/2024","02/09/2024","Collembola_30001",53,0.172638436482085
+"c","Boucherville","PUF_BOU_07","19/08/2024","02/09/2024","Gastropoda_6448",24,0.0781758957654723
+"c","Boucherville","PUF_BOU_07","19/08/2024","02/09/2024",NA,13,0.0423452768729642
+"c","Boucherville","PUF_BOU_08","02/09/2024","16/09/2024","Insecta_50557",1701,0.926470588235294
+"c","Boucherville","PUF_BOU_08","02/09/2024","16/09/2024","Arachnida_6854",135,0.0735294117647059
+"c","Boucherville","PUF_BOU_09","16/09/2024","30/09/2024","Insecta_50557",1259,0.778121137206428
+"c","Boucherville","PUF_BOU_09","16/09/2024","30/09/2024","Arachnida_6854",359,0.221878862793572
+"c","IPEX","PUF_IPEX_01","15/05/2024","29/05/2024","Insecta_50557",48,0.444444444444444
+"c","IPEX","PUF_IPEX_01","15/05/2024","29/05/2024","Arachnida_6854",32,0.296296296296296
+"c","IPEX","PUF_IPEX_01","15/05/2024","29/05/2024","Mammalia_40674",28,0.259259259259259
+"c","IPEX","PUF_IPEX_02","29/05/2024","12/06/2024","Arachnida_6854",865,0.806150978564772
+"c","IPEX","PUF_IPEX_02","29/05/2024","12/06/2024","Insecta_50557",208,0.193849021435228
+"c","IPEX","PUF_IPEX_03","12/06/2024","26/06/2024","Arachnida_6854",9846,0.970049261083744
+"c","IPEX","PUF_IPEX_03","12/06/2024","26/06/2024","Insecta_50557",174,0.0171428571428571
+"c","IPEX","PUF_IPEX_03","12/06/2024","26/06/2024",NA,130,0.012807881773399
+"c","IPEX","PUF_IPEX_04","26/06/2024","10/07/2024","Insecta_50557",888,0.794275491949911
+"c","IPEX","PUF_IPEX_04","26/06/2024","10/07/2024","Arachnida_6854",230,0.205724508050089
+"c","IPEX","PUF_IPEX_05","10/07/2024","24/07/2024","Insecta_50557",3773,0.756112224448898
+"c","IPEX","PUF_IPEX_05","10/07/2024","24/07/2024","Arachnida_6854",996,0.199599198396794
+"c","IPEX","PUF_IPEX_05","10/07/2024","24/07/2024",NA,221,0.0442885771543086
+"c","IPEX","PUF_IPEX_06","24/07/2024","07/08/2024","Insecta_50557",812,1
+"c","IPEX","PUF_IPEX_07","07/08/2024","21/08/2024","Insecta_50557",1045,0.882601351351351
+"c","IPEX","PUF_IPEX_07","07/08/2024","21/08/2024",NA,139,0.117398648648649
+"c","IPEX","PUF_IPEX_08","21/08/2024","04/09/2024","Insecta_50557",1466,1
+"c","IPEX","PUF_IPEX_09","04/09/2024","18/09/2024","Insecta_50557",962,1
+"c","IPEX","PUF_IPEX_10","18/09/2024","02/10/2024","Insecta_50557",3225,1
+"c","Insectarium","Insectarium_Cocoon","10/11/2025","24/11/2025","Arachnida_6854",123,0.458955223880597
+"c","Insectarium","Insectarium_Cocoon","10/11/2025","24/11/2025","Mammalia_40674",109,0.406716417910448
+"c","Insectarium","Insectarium_Cocoon","10/11/2025","24/11/2025","Branchiopoda_6658",36,0.134328358208955
+"c","Insectarium","Insectarium_Door","10/11/2025","24/11/2025","Mammalia_40674",48,0.979591836734694
+"c","Insectarium","Insectarium_Door","10/11/2025","24/11/2025","Insecta_50557",1,0.0204081632653061
+"c","Insectarium","Insectarium_Up","10/11/2025","24/11/2025","Arachnida_6854",1884,1
+"c","Jean-Drapeau","PUF_JD_01","22/05/2024","05/06/2024","Insecta_50557",6071,0.722566055701024
+"c","Jean-Drapeau","PUF_JD_01","22/05/2024","05/06/2024","Arachnida_6854",2331,0.277433944298976
+"c","Jean-Drapeau","PUF_JD_02","05/06/2024","19/06/2024","Insecta_50557",13589,0.98328509406657
+"c","Jean-Drapeau","PUF_JD_02","05/06/2024","19/06/2024","Arachnida_6854",231,0.0167149059334298
+"c","Jean-Drapeau","PUF_JD_03","19/06/2024","03/07/2024","Insecta_50557",529,0.849117174959872
+"c","Jean-Drapeau","PUF_JD_03","19/06/2024","03/07/2024","Mammalia_40674",94,0.150882825040128
+"c","Jean-Drapeau","PUF_JD_04","03/07/2024","17/07/2024","Insecta_50557",1145,0.755775577557756
+"c","Jean-Drapeau","PUF_JD_04","03/07/2024","17/07/2024","Mammalia_40674",217,0.143234323432343
+"c","Jean-Drapeau","PUF_JD_04","03/07/2024","17/07/2024","Arachnida_6854",153,0.100990099009901
+"c","Jean-Drapeau","PUF_JD_05","17/07/2024","31/07/2024","Insecta_50557",1808,0.504042375243936
+"c","Jean-Drapeau","PUF_JD_05","17/07/2024","31/07/2024","Arachnida_6854",1779,0.495957624756064
+"c","Jean-Drapeau","PUF_JD_06","31/07/2024","14/08/2024","Insecta_50557",3494,0.967063382230833
+"c","Jean-Drapeau","PUF_JD_06","31/07/2024","14/08/2024","Arachnida_6854",119,0.0329366177691669
+"c","Jean-Drapeau","PUF_JD_07","14/08/2024","28/08/2024","Insecta_50557",3730,0.953476482617587
+"c","Jean-Drapeau","PUF_JD_07","14/08/2024","28/08/2024",NA,182,0.0465235173824131
+"c","Jean-Drapeau","PUF_JD_08","28/08/2024","11/09/2024","Arachnida_6854",8581,0.989050253573075
+"c","Jean-Drapeau","PUF_JD_08","28/08/2024","11/09/2024","Insecta_50557",95,0.0109497464269248
+"c","Jean-Drapeau","PUF_JD_09","11/09/2024","25/09/2024","Insecta_50557",1006,0.941066417212348
+"c","Jean-Drapeau","PUF_JD_09","11/09/2024","25/09/2024",NA,63,0.058933582787652
+"c","Jean-Drapeau","PUF_JD_10","25/09/2024","09/10/2024","Insecta_50557",7699,1
+"c","Mont_Tremblant","Mont_Tremblant","30/08/2025","31/08/2025",NA,537,0.605411499436302
+"c","Mont_Tremblant","Mont_Tremblant","30/08/2025","31/08/2025","Arachnida_6854",153,0.172491544532131
+"c","Mont_Tremblant","Mont_Tremblant","30/08/2025","31/08/2025","Mammalia_40674",115,0.129650507328072
+"c","Mont_Tremblant","Mont_Tremblant","30/08/2025","31/08/2025","Insecta_50557",82,0.0924464487034949
+"c",NA,NA,NA,NA,"Insecta_50557",29244,0.988507301243916
+"c",NA,NA,NA,NA,"Collembola_30001",340,0.0114926987560844
+"o","Bird Observatory","PUF_MBO_01","20/05/2024","03/06/2024","Trombidiformes_83136",825,0.580168776371308
+"o","Bird Observatory","PUF_MBO_01","20/05/2024","03/06/2024","Diptera_7147",295,0.207454289732771
+"o","Bird Observatory","PUF_MBO_01","20/05/2024","03/06/2024",NA,174,0.122362869198312
+"o","Bird Observatory","PUF_MBO_01","20/05/2024","03/06/2024","Hemiptera_7524",128,0.090014064697609
+"o","Bird Observatory","PUF_MBO_02","03/06/2024","17/06/2024","Lepidoptera_7088",8006,0.525949283931152
+"o","Bird Observatory","PUF_MBO_02","03/06/2024","17/06/2024","Trombidiformes_83136",7029,0.461765865195112
+"o","Bird Observatory","PUF_MBO_02","03/06/2024","17/06/2024",NA,187,0.0122848508737354
+"o","Bird Observatory","PUF_MBO_03","17/06/2024","01/07/2024","Hemiptera_7524",305,0.686936936936937
+"o","Bird Observatory","PUF_MBO_03","17/06/2024","01/07/2024","Araneae_6893",139,0.313063063063063
+"o","Bird Observatory","PUF_MBO_04","01/07/2024","15/07/2024","Hemiptera_7524",514,0.482176360225141
+"o","Bird Observatory","PUF_MBO_04","01/07/2024","15/07/2024","Artiodactyla_91561",308,0.288930581613508
+"o","Bird Observatory","PUF_MBO_04","01/07/2024","15/07/2024",NA,244,0.228893058161351
+"o","Bird Observatory","PUF_MBO_05","15/07/2024","29/07/2024","Lepidoptera_7088",8556,0.958762886597938
+"o","Bird Observatory","PUF_MBO_05","15/07/2024","29/07/2024","Hemiptera_7524",368,0.0412371134020619
+"o","Bird Observatory","PUF_MBO_06","29/07/2024","12/08/2024","Hemiptera_7524",588,1
+"o","Bird Observatory","PUF_MBO_07","12/08/2024","26/08/2024","Hemiptera_7524",1123,1
+"o","Bird Observatory","PUF_MBO_08","26/08/2024","09/09/2024","Hemiptera_7524",1252,1
+"o","Bird Observatory","PUF_MBO_09","09/09/2024","23/09/2024","Hemiptera_7524",1901,0.856306306306306
+"o","Bird Observatory","PUF_MBO_09","09/09/2024","23/09/2024",NA,319,0.143693693693694
+"o","Bird Observatory","PUF_MBO_10","23/09/2024","07/10/2024","Hemiptera_7524",800,1
+"o","Botanical Garden","PUF_BOT_01","17/05/2024","31/05/2024",NA,225,0.51487414187643
+"o","Botanical Garden","PUF_BOT_01","17/05/2024","31/05/2024","Lepidoptera_7088",92,0.210526315789474
+"o","Botanical Garden","PUF_BOT_01","17/05/2024","31/05/2024","Trombidiformes_83136",75,0.17162471395881
+"o","Botanical Garden","PUF_BOT_01","17/05/2024","31/05/2024","Hymenoptera_7399",45,0.102974828375286
+"o","Botanical Garden","PUF_BOT_02","31/05/2024","14/06/2024",NA,1774,0.847182425978988
+"o","Botanical Garden","PUF_BOT_02","31/05/2024","14/06/2024","Hemiptera_7524",121,0.0577841451766953
+"o","Botanical Garden","PUF_BOT_02","31/05/2024","14/06/2024","Lepidoptera_7088",109,0.0520534861509074
+"o","Botanical Garden","PUF_BOT_02","31/05/2024","14/06/2024","Trombidiformes_83136",90,0.0429799426934097
+"o","Botanical Garden","PUF_BOT_03","24/06/2024","28/06/2024","Artiodactyla_91561",88,1
+"o","Botanical Garden","PUF_BOT_04","28/06/2024","12/07/2024","Hemiptera_7524",524,0.753956834532374
+"o","Botanical Garden","PUF_BOT_04","28/06/2024","12/07/2024","Diptera_7147",138,0.198561151079137
+"o","Botanical Garden","PUF_BOT_04","28/06/2024","12/07/2024","Lepidoptera_7088",33,0.0474820143884892
+"o","Botanical Garden","PUF_BOT_05","12/07/2024","26/07/2024","Hemiptera_7524",569,0.502650176678445
+"o","Botanical Garden","PUF_BOT_05","12/07/2024","26/07/2024","Diptera_7147",381,0.336572438162544
+"o","Botanical Garden","PUF_BOT_05","12/07/2024","26/07/2024",NA,69,0.0609540636042403
+"o","Botanical Garden","PUF_BOT_05","12/07/2024","26/07/2024","Artiodactyla_91561",61,0.053886925795053
+"o","Botanical Garden","PUF_BOT_05","12/07/2024","26/07/2024","Lepidoptera_7088",52,0.0459363957597173
+"o","Botanical Garden","PUF_BOT_06","26/07/2024","09/08/2024","Lepidoptera_7088",17783,0.921972210700954
+"o","Botanical Garden","PUF_BOT_06","26/07/2024","09/08/2024","Hemiptera_7524",800,0.0414765657403567
+"o","Botanical Garden","PUF_BOT_06","26/07/2024","09/08/2024","Primates_9443",705,0.0365512235586893
+"o","Botanical Garden","PUF_BOT_07","09/08/2024","23/08/2024","Hemiptera_7524",1959,1
+"o","Botanical Garden","PUF_BOT_08","23/08/2024","06/09/2024","Hemiptera_7524",571,0.907790143084261
+"o","Botanical Garden","PUF_BOT_08","23/08/2024","06/09/2024",NA,58,0.0922098569157393
+"o","Botanical Garden","PUF_BOT_09","06/09/2024","20/09/2024","Hemiptera_7524",1107,0.892022562449637
+"o","Botanical Garden","PUF_BOT_09","06/09/2024","20/09/2024","Lepidoptera_7088",134,0.107977437550363
+"o","Botanical Garden","PUF_BOT_10","20/09/2024","04/10/2024","Hemiptera_7524",2761,0.73023009785771
+"o","Botanical Garden","PUF_BOT_10","20/09/2024","04/10/2024",NA,620,0.163977783655118
+"o","Botanical Garden","PUF_BOT_10","20/09/2024","04/10/2024","Artiodactyla_91561",327,0.0864850568632637
+"o","Botanical Garden","PUF_BOT_10","20/09/2024","04/10/2024","Lepidoptera_7088",73,0.019307061623909
+"o","Boucherville","PUF_BOU_01","27/05/2024","10/06/2024",NA,209,0.893162393162393
+"o","Boucherville","PUF_BOU_01","27/05/2024","10/06/2024","Hemiptera_7524",19,0.0811965811965812
+"o","Boucherville","PUF_BOU_01","27/05/2024","10/06/2024","Diptera_7147",6,0.0256410256410256
+"o","Boucherville","PUF_BOU_02","10/06/2024","24/06/2024","Symphypleona_79705",401,0.511479591836735
+"o","Boucherville","PUF_BOU_02","10/06/2024","24/06/2024","Diptera_7147",238,0.303571428571429
+"o","Boucherville","PUF_BOU_02","10/06/2024","24/06/2024","Sarcoptiformes_83137",76,0.0969387755102041
+"o","Boucherville","PUF_BOU_02","10/06/2024","24/06/2024",NA,35,0.0446428571428571
+"o","Boucherville","PUF_BOU_02","10/06/2024","24/06/2024","Primates_9443",34,0.0433673469387755
+"o","Boucherville","PUF_BOU_03","24/06/2024","08/07/2024","Symphypleona_79705",275,0.563524590163934
+"o","Boucherville","PUF_BOU_03","24/06/2024","08/07/2024","Hemiptera_7524",115,0.235655737704918
+"o","Boucherville","PUF_BOU_03","24/06/2024","08/07/2024","Artiodactyla_91561",57,0.116803278688525
+"o","Boucherville","PUF_BOU_03","24/06/2024","08/07/2024",NA,41,0.0840163934426229
+"o","Boucherville","PUF_BOU_04","08/07/2024","22/07/2024","Hemiptera_7524",317,0.908309455587393
+"o","Boucherville","PUF_BOU_04","08/07/2024","22/07/2024","Orthoptera_6993",32,0.0916905444126074
+"o","Boucherville","PUF_BOU_05","22/07/2024","05/08/2024","Hemiptera_7524",1965,1
+"o","Boucherville","PUF_BOU_06","05/08/2024","19/08/2024","Hemiptera_7524",563,0.892234548335975
+"o","Boucherville","PUF_BOU_06","05/08/2024","19/08/2024","Lepidoptera_7088",35,0.0554675118858954
+"o","Boucherville","PUF_BOU_06","05/08/2024","19/08/2024",NA,33,0.05229793977813
+"o","Boucherville","PUF_BOU_07","19/08/2024","02/09/2024",NA,102,0.332247557003257
+"o","Boucherville","PUF_BOU_07","19/08/2024","02/09/2024","Hemiptera_7524",92,0.299674267100977
+"o","Boucherville","PUF_BOU_07","19/08/2024","02/09/2024","Artiodactyla_91561",60,0.195439739413681
+"o","Boucherville","PUF_BOU_07","19/08/2024","02/09/2024","Symphypleona_79705",53,0.172638436482085
+"o","Boucherville","PUF_BOU_08","02/09/2024","16/09/2024","Hemiptera_7524",1701,0.926470588235294
+"o","Boucherville","PUF_BOU_08","02/09/2024","16/09/2024",NA,135,0.0735294117647059
+"o","Boucherville","PUF_BOU_09","16/09/2024","30/09/2024","Hemiptera_7524",1259,0.778121137206428
+"o","Boucherville","PUF_BOU_09","16/09/2024","30/09/2024",NA,260,0.160692212608158
+"o","Boucherville","PUF_BOU_09","16/09/2024","30/09/2024","Trombidiformes_83136",99,0.0611866501854141
+"o","IPEX","PUF_IPEX_01","15/05/2024","29/05/2024","Hemiptera_7524",48,0.444444444444444
+"o","IPEX","PUF_IPEX_01","15/05/2024","29/05/2024",NA,29,0.268518518518519
+"o","IPEX","PUF_IPEX_01","15/05/2024","29/05/2024","Artiodactyla_91561",21,0.194444444444444
+"o","IPEX","PUF_IPEX_01","15/05/2024","29/05/2024","Primates_9443",7,0.0648148148148148
+"o","IPEX","PUF_IPEX_01","15/05/2024","29/05/2024","Trombidiformes_83136",3,0.0277777777777778
+"o","IPEX","PUF_IPEX_02","29/05/2024","12/06/2024",NA,740,0.689655172413793
+"o","IPEX","PUF_IPEX_02","29/05/2024","12/06/2024","Hemiptera_7524",142,0.132339235787512
+"o","IPEX","PUF_IPEX_02","29/05/2024","12/06/2024","Trombidiformes_83136",125,0.116495806150979
+"o","IPEX","PUF_IPEX_02","29/05/2024","12/06/2024","Diptera_7147",66,0.0615097856477167
+"o","IPEX","PUF_IPEX_03","12/06/2024","26/06/2024","Araneae_6893",9846,0.970049261083744
+"o","IPEX","PUF_IPEX_03","12/06/2024","26/06/2024","Hemiptera_7524",174,0.0171428571428571
+"o","IPEX","PUF_IPEX_03","12/06/2024","26/06/2024",NA,130,0.012807881773399
+"o","IPEX","PUF_IPEX_04","26/06/2024","10/07/2024","Hemiptera_7524",888,0.794275491949911
+"o","IPEX","PUF_IPEX_04","26/06/2024","10/07/2024","Trombidiformes_83136",230,0.205724508050089
+"o","IPEX","PUF_IPEX_05","10/07/2024","24/07/2024","Hemiptera_7524",3773,0.756112224448898
+"o","IPEX","PUF_IPEX_05","10/07/2024","24/07/2024","Trombidiformes_83136",996,0.199599198396794
+"o","IPEX","PUF_IPEX_05","10/07/2024","24/07/2024",NA,221,0.0442885771543086
+"o","IPEX","PUF_IPEX_06","24/07/2024","07/08/2024","Hemiptera_7524",812,1
+"o","IPEX","PUF_IPEX_07","07/08/2024","21/08/2024","Hemiptera_7524",1045,0.882601351351351
+"o","IPEX","PUF_IPEX_07","07/08/2024","21/08/2024",NA,139,0.117398648648649
+"o","IPEX","PUF_IPEX_08","21/08/2024","04/09/2024","Hemiptera_7524",1466,1
+"o","IPEX","PUF_IPEX_09","04/09/2024","18/09/2024","Hemiptera_7524",962,1
+"o","IPEX","PUF_IPEX_10","18/09/2024","02/10/2024","Hemiptera_7524",2651,0.822015503875969
+"o","IPEX","PUF_IPEX_10","18/09/2024","02/10/2024","Psocoptera_30259",574,0.177984496124031
+"o","Insectarium","Insectarium_Cocoon","10/11/2025","24/11/2025","Sarcoptiformes_83137",123,0.458955223880597
+"o","Insectarium","Insectarium_Cocoon","10/11/2025","24/11/2025","Artiodactyla_91561",73,0.272388059701493
+"o","Insectarium","Insectarium_Cocoon","10/11/2025","24/11/2025","Anostraca_6659",36,0.134328358208955
+"o","Insectarium","Insectarium_Cocoon","10/11/2025","24/11/2025","Primates_9443",36,0.134328358208955
+"o","Insectarium","Insectarium_Door","10/11/2025","24/11/2025","Artiodactyla_91561",48,0.979591836734694
+"o","Insectarium","Insectarium_Door","10/11/2025","24/11/2025","Lepidoptera_7088",1,0.0204081632653061
+"o","Insectarium","Insectarium_Up","10/11/2025","24/11/2025","Sarcoptiformes_83137",1884,1
+"o","Jean-Drapeau","PUF_JD_01","22/05/2024","05/06/2024","Lepidoptera_7088",6071,0.722566055701024
+"o","Jean-Drapeau","PUF_JD_01","22/05/2024","05/06/2024","Trombidiformes_83136",1435,0.170792668412283
+"o","Jean-Drapeau","PUF_JD_01","22/05/2024","05/06/2024",NA,782,0.0930730778386099
+"o","Jean-Drapeau","PUF_JD_01","22/05/2024","05/06/2024","Mesostigmata_34634",114,0.0135681980480838
+"o","Jean-Drapeau","PUF_JD_02","05/06/2024","19/06/2024","Lepidoptera_7088",13589,0.98328509406657
+"o","Jean-Drapeau","PUF_JD_02","05/06/2024","19/06/2024",NA,231,0.0167149059334298
+"o","Jean-Drapeau","PUF_JD_03","19/06/2024","03/07/2024","Hemiptera_7524",381,0.611556982343499
+"o","Jean-Drapeau","PUF_JD_03","19/06/2024","03/07/2024","Primates_9443",94,0.150882825040128
+"o","Jean-Drapeau","PUF_JD_03","19/06/2024","03/07/2024","Diptera_7147",93,0.149277688603531
+"o","Jean-Drapeau","PUF_JD_03","19/06/2024","03/07/2024","Lepidoptera_7088",55,0.0882825040128411
+"o","Jean-Drapeau","PUF_JD_04","03/07/2024","17/07/2024","Hemiptera_7524",996,0.657425742574257
+"o","Jean-Drapeau","PUF_JD_04","03/07/2024","17/07/2024","Artiodactyla_91561",217,0.143234323432343
+"o","Jean-Drapeau","PUF_JD_04","03/07/2024","17/07/2024","Araneae_6893",153,0.100990099009901
+"o","Jean-Drapeau","PUF_JD_04","03/07/2024","17/07/2024","Lepidoptera_7088",149,0.0983498349834983
+"o","Jean-Drapeau","PUF_JD_05","17/07/2024","31/07/2024","Araneae_6893",1700,0.4739336492891
+"o","Jean-Drapeau","PUF_JD_05","17/07/2024","31/07/2024","Hemiptera_7524",1268,0.353498745469752
+"o","Jean-Drapeau","PUF_JD_05","17/07/2024","31/07/2024","Lepidoptera_7088",297,0.0827989963758015
+"o","Jean-Drapeau","PUF_JD_05","17/07/2024","31/07/2024","Diptera_7147",243,0.067744633398383
+"o","Jean-Drapeau","PUF_JD_05","17/07/2024","31/07/2024","Trombidiformes_83136",79,0.022023975466964
+"o","Jean-Drapeau","PUF_JD_06","31/07/2024","14/08/2024","Hemiptera_7524",3494,0.967063382230833
+"o","Jean-Drapeau","PUF_JD_06","31/07/2024","14/08/2024","Araneae_6893",119,0.0329366177691669
+"o","Jean-Drapeau","PUF_JD_07","14/08/2024","28/08/2024","Hemiptera_7524",2271,0.580521472392638
+"o","Jean-Drapeau","PUF_JD_07","14/08/2024","28/08/2024","Coleoptera_7041",867,0.221625766871166
+"o","Jean-Drapeau","PUF_JD_07","14/08/2024","28/08/2024","Trichoptera_30263",592,0.151329243353783
+"o","Jean-Drapeau","PUF_JD_07","14/08/2024","28/08/2024",NA,182,0.0465235173824131
+"o","Jean-Drapeau","PUF_JD_08","28/08/2024","11/09/2024","Araneae_6893",8581,0.989050253573075
+"o","Jean-Drapeau","PUF_JD_08","28/08/2024","11/09/2024","Hemiptera_7524",95,0.0109497464269248
+"o","Jean-Drapeau","PUF_JD_09","11/09/2024","25/09/2024","Hemiptera_7524",710,0.664172123479888
+"o","Jean-Drapeau","PUF_JD_09","11/09/2024","25/09/2024","Lepidoptera_7088",227,0.212347988774556
+"o","Jean-Drapeau","PUF_JD_09","11/09/2024","25/09/2024","Neuroptera_7516",69,0.0645463049579046
+"o","Jean-Drapeau","PUF_JD_09","11/09/2024","25/09/2024",NA,63,0.058933582787652
+"o","Jean-Drapeau","PUF_JD_10","25/09/2024","09/10/2024","Hemiptera_7524",7699,1
+"o","Mont_Tremblant","Mont_Tremblant","30/08/2025","31/08/2025",NA,635,0.715896279594138
+"o","Mont_Tremblant","Mont_Tremblant","30/08/2025","31/08/2025","Artiodactyla_91561",82,0.0924464487034949
+"o","Mont_Tremblant","Mont_Tremblant","30/08/2025","31/08/2025","Hemiptera_7524",64,0.0721533258173619
+"o","Mont_Tremblant","Mont_Tremblant","30/08/2025","31/08/2025","Trombidiformes_83136",55,0.0620067643742954
+"o","Mont_Tremblant","Mont_Tremblant","30/08/2025","31/08/2025","Primates_9443",33,0.0372040586245772
+"o","Mont_Tremblant","Mont_Tremblant","30/08/2025","31/08/2025","Coleoptera_7041",18,0.020293122886133
+"o",NA,NA,NA,NA,"Lepidoptera_7088",29244,0.988507301243916
+"o",NA,NA,NA,NA,"Entomobryomorpha_730330",340,0.0114926987560844
+"f","Bird Observatory","PUF_MBO_01","20/05/2024","03/06/2024","Tydeidae_708320",621,0.436708860759494
+"f","Bird Observatory","PUF_MBO_01","20/05/2024","03/06/2024","Chironomidae_7149",223,0.156821378340366
+"f","Bird Observatory","PUF_MBO_01","20/05/2024","03/06/2024","Eriophyidae_70320",204,0.143459915611814
+"f","Bird Observatory","PUF_MBO_01","20/05/2024","03/06/2024",NA,174,0.122362869198312
+"f","Bird Observatory","PUF_MBO_01","20/05/2024","03/06/2024","Pentatomidae_160513",128,0.090014064697609
+"f","Bird Observatory","PUF_MBO_01","20/05/2024","03/06/2024","Phoridae_36164",72,0.0506329113924051
+"f","Bird Observatory","PUF_MBO_02","03/06/2024","17/06/2024","Noctuidae_7100",8006,0.525949283931152
+"f","Bird Observatory","PUF_MBO_02","03/06/2024","17/06/2024","Trombidiidae_83144",7029,0.461765865195112
+"f","Bird Observatory","PUF_MBO_02","03/06/2024","17/06/2024",NA,187,0.0122848508737354
+"f","Bird Observatory","PUF_MBO_03","17/06/2024","01/07/2024","Pentatomidae_160513",305,0.686936936936937
+"f","Bird Observatory","PUF_MBO_03","17/06/2024","01/07/2024","Philodromidae_243501",139,0.313063063063063
+"f","Bird Observatory","PUF_MBO_04","01/07/2024","15/07/2024","Pentatomidae_160513",514,0.482176360225141
+"f","Bird Observatory","PUF_MBO_04","01/07/2024","15/07/2024","Bovidae_9895",308,0.288930581613508
+"f","Bird Observatory","PUF_MBO_04","01/07/2024","15/07/2024",NA,244,0.228893058161351
+"f","Bird Observatory","PUF_MBO_05","15/07/2024","29/07/2024","Tortricidae_7139",8556,0.958762886597938
+"f","Bird Observatory","PUF_MBO_05","15/07/2024","29/07/2024","Pentatomidae_160513",368,0.0412371134020619
+"f","Bird Observatory","PUF_MBO_06","29/07/2024","12/08/2024","Pentatomidae_160513",588,1
+"f","Bird Observatory","PUF_MBO_07","12/08/2024","26/08/2024","Pentatomidae_160513",1123,1
+"f","Bird Observatory","PUF_MBO_08","26/08/2024","09/09/2024","Pentatomidae_160513",1252,1
+"f","Bird Observatory","PUF_MBO_09","09/09/2024","23/09/2024","Pentatomidae_160513",1901,0.856306306306306
+"f","Bird Observatory","PUF_MBO_09","09/09/2024","23/09/2024",NA,319,0.143693693693694
+"f","Bird Observatory","PUF_MBO_10","23/09/2024","07/10/2024","Pentatomidae_160513",800,1
+"f","Botanical Garden","PUF_BOT_01","17/05/2024","31/05/2024",NA,270,0.617848970251716
+"f","Botanical Garden","PUF_BOT_01","17/05/2024","31/05/2024","Pyralidae_7135",92,0.210526315789474
+"f","Botanical Garden","PUF_BOT_01","17/05/2024","31/05/2024","Phytoptidae_1221082",75,0.17162471395881
+"f","Botanical Garden","PUF_BOT_02","31/05/2024","14/06/2024",NA,1774,0.847182425978988
+"f","Botanical Garden","PUF_BOT_02","31/05/2024","14/06/2024","Pentatomidae_160513",121,0.0577841451766953
+"f","Botanical Garden","PUF_BOT_02","31/05/2024","14/06/2024","Noctuidae_7100",109,0.0520534861509074
+"f","Botanical Garden","PUF_BOT_02","31/05/2024","14/06/2024","Tydeidae_708320",53,0.0253104106972302
+"f","Botanical Garden","PUF_BOT_02","31/05/2024","14/06/2024","Eriophyidae_70320",37,0.0176695319961796
+"f","Botanical Garden","PUF_BOT_03","24/06/2024","28/06/2024","Bovidae_9895",88,1
+"f","Botanical Garden","PUF_BOT_04","28/06/2024","12/07/2024","Pentatomidae_160513",524,0.753956834532374
+"f","Botanical Garden","PUF_BOT_04","28/06/2024","12/07/2024","Asteiidae_286485",138,0.198561151079137
+"f","Botanical Garden","PUF_BOT_04","28/06/2024","12/07/2024","Pyralidae_7135",33,0.0474820143884892
+"f","Botanical Garden","PUF_BOT_05","12/07/2024","26/07/2024","Pentatomidae_160513",569,0.502650176678445
+"f","Botanical Garden","PUF_BOT_05","12/07/2024","26/07/2024","Cecidomyiidae_33406",381,0.336572438162544
+"f","Botanical Garden","PUF_BOT_05","12/07/2024","26/07/2024",NA,69,0.0609540636042403
+"f","Botanical Garden","PUF_BOT_05","12/07/2024","26/07/2024","Bovidae_9895",61,0.053886925795053
+"f","Botanical Garden","PUF_BOT_05","12/07/2024","26/07/2024","Pyralidae_7135",52,0.0459363957597173
+"f","Botanical Garden","PUF_BOT_06","26/07/2024","09/08/2024","Pyralidae_7135",17783,0.921972210700954
+"f","Botanical Garden","PUF_BOT_06","26/07/2024","09/08/2024","Pentatomidae_160513",800,0.0414765657403567
+"f","Botanical Garden","PUF_BOT_06","26/07/2024","09/08/2024","Hominidae_9604",705,0.0365512235586893
+"f","Botanical Garden","PUF_BOT_07","09/08/2024","23/08/2024","Pentatomidae_160513",1959,1
+"f","Botanical Garden","PUF_BOT_08","23/08/2024","06/09/2024","Pentatomidae_160513",571,0.907790143084261
+"f","Botanical Garden","PUF_BOT_08","23/08/2024","06/09/2024",NA,58,0.0922098569157393
+"f","Botanical Garden","PUF_BOT_09","06/09/2024","20/09/2024","Pentatomidae_160513",1107,0.892022562449637
+"f","Botanical Garden","PUF_BOT_09","06/09/2024","20/09/2024","Pyralidae_7135",134,0.107977437550363
+"f","Botanical Garden","PUF_BOT_10","20/09/2024","04/10/2024","Pentatomidae_160513",2761,0.73023009785771
+"f","Botanical Garden","PUF_BOT_10","20/09/2024","04/10/2024",NA,620,0.163977783655118
+"f","Botanical Garden","PUF_BOT_10","20/09/2024","04/10/2024","Bovidae_9895",327,0.0864850568632637
+"f","Botanical Garden","PUF_BOT_10","20/09/2024","04/10/2024","Pyralidae_7135",73,0.019307061623909
+"f","Boucherville","PUF_BOU_01","27/05/2024","10/06/2024",NA,228,0.974358974358974
+"f","Boucherville","PUF_BOU_01","27/05/2024","10/06/2024","Chironomidae_7149",6,0.0256410256410256
+"f","Boucherville","PUF_BOU_02","10/06/2024","24/06/2024","Bourletiellidae_187607",344,0.438775510204082
+"f","Boucherville","PUF_BOU_02","10/06/2024","24/06/2024","Tipulidae_41042",238,0.303571428571429
+"f","Boucherville","PUF_BOU_02","10/06/2024","24/06/2024",NA,92,0.11734693877551
+"f","Boucherville","PUF_BOU_02","10/06/2024","24/06/2024","Acaridae_41442",76,0.0969387755102041
+"f","Boucherville","PUF_BOU_02","10/06/2024","24/06/2024","Hominidae_9604",34,0.0433673469387755
+"f","Boucherville","PUF_BOU_03","24/06/2024","08/07/2024",NA,234,0.479508196721311
+"f","Boucherville","PUF_BOU_03","24/06/2024","08/07/2024","Pentatomidae_160513",115,0.235655737704918
+"f","Boucherville","PUF_BOU_03","24/06/2024","08/07/2024","Bourletiellidae_187607",82,0.168032786885246
+"f","Boucherville","PUF_BOU_03","24/06/2024","08/07/2024","Bovidae_9895",57,0.116803278688525
+"f","Boucherville","PUF_BOU_04","08/07/2024","22/07/2024","Pentatomidae_160513",276,0.790830945558739
+"f","Boucherville","PUF_BOU_04","08/07/2024","22/07/2024",NA,41,0.117478510028653
+"f","Boucherville","PUF_BOU_04","08/07/2024","22/07/2024","Acrididae_7002",32,0.0916905444126074
+"f","Boucherville","PUF_BOU_05","22/07/2024","05/08/2024","Pentatomidae_160513",1825,0.928753180661578
+"f","Boucherville","PUF_BOU_05","22/07/2024","05/08/2024","Aphididae_27482",140,0.0712468193384224
+"f","Boucherville","PUF_BOU_06","05/08/2024","19/08/2024","Pentatomidae_160513",563,0.892234548335975
+"f","Boucherville","PUF_BOU_06","05/08/2024","19/08/2024","Pyralidae_7135",35,0.0554675118858954
+"f","Boucherville","PUF_BOU_06","05/08/2024","19/08/2024",NA,33,0.05229793977813
+"f","Boucherville","PUF_BOU_07","19/08/2024","02/09/2024",NA,102,0.332247557003257
+"f","Boucherville","PUF_BOU_07","19/08/2024","02/09/2024","Pentatomidae_160513",92,0.299674267100977
+"f","Boucherville","PUF_BOU_07","19/08/2024","02/09/2024","Bovidae_9895",60,0.195439739413681
+"f","Boucherville","PUF_BOU_07","19/08/2024","02/09/2024","Bourletiellidae_187607",53,0.172638436482085
+"f","Boucherville","PUF_BOU_08","02/09/2024","16/09/2024","Pentatomidae_160513",1701,0.926470588235294
+"f","Boucherville","PUF_BOU_08","02/09/2024","16/09/2024",NA,135,0.0735294117647059
+"f","Boucherville","PUF_BOU_09","16/09/2024","30/09/2024","Pentatomidae_160513",1259,0.778121137206428
+"f","Boucherville","PUF_BOU_09","16/09/2024","30/09/2024",NA,260,0.160692212608158
+"f","Boucherville","PUF_BOU_09","16/09/2024","30/09/2024","Eriophyidae_70320",99,0.0611866501854141
+"f","IPEX","PUF_IPEX_01","15/05/2024","29/05/2024","Pentatomidae_160513",48,0.444444444444444
+"f","IPEX","PUF_IPEX_01","15/05/2024","29/05/2024",NA,29,0.268518518518519
+"f","IPEX","PUF_IPEX_01","15/05/2024","29/05/2024","Bovidae_9895",21,0.194444444444444
+"f","IPEX","PUF_IPEX_01","15/05/2024","29/05/2024","Hominidae_9604",7,0.0648148148148148
+"f","IPEX","PUF_IPEX_01","15/05/2024","29/05/2024","Diptilomiopidae_1336387",3,0.0277777777777778
+"f","IPEX","PUF_IPEX_02","29/05/2024","12/06/2024",NA,740,0.689655172413793
+"f","IPEX","PUF_IPEX_02","29/05/2024","12/06/2024","Pentatomidae_160513",142,0.132339235787512
+"f","IPEX","PUF_IPEX_02","29/05/2024","12/06/2024","Eriophyidae_70320",125,0.116495806150979
+"f","IPEX","PUF_IPEX_02","29/05/2024","12/06/2024","Cecidomyiidae_33406",66,0.0615097856477167
+"f","IPEX","PUF_IPEX_03","12/06/2024","26/06/2024","Araneidae_6913",9846,0.970049261083744
+"f","IPEX","PUF_IPEX_03","12/06/2024","26/06/2024","Pentatomidae_160513",174,0.0171428571428571
+"f","IPEX","PUF_IPEX_03","12/06/2024","26/06/2024",NA,130,0.012807881773399
+"f","IPEX","PUF_IPEX_04","26/06/2024","10/07/2024","Pentatomidae_160513",888,0.794275491949911
+"f","IPEX","PUF_IPEX_04","26/06/2024","10/07/2024","Tydeidae_708320",116,0.103756708407871
+"f","IPEX","PUF_IPEX_04","26/06/2024","10/07/2024","Eriophyidae_70320",114,0.101967799642218
+"f","IPEX","PUF_IPEX_05","10/07/2024","24/07/2024","Pentatomidae_160513",3773,0.756112224448898
+"f","IPEX","PUF_IPEX_05","10/07/2024","24/07/2024","Pygmephoridae_1253854",996,0.199599198396794
+"f","IPEX","PUF_IPEX_05","10/07/2024","24/07/2024",NA,221,0.0442885771543086
+"f","IPEX","PUF_IPEX_06","24/07/2024","07/08/2024","Pentatomidae_160513",812,1
+"f","IPEX","PUF_IPEX_07","07/08/2024","21/08/2024","Pentatomidae_160513",1045,0.882601351351351
+"f","IPEX","PUF_IPEX_07","07/08/2024","21/08/2024",NA,139,0.117398648648649
+"f","IPEX","PUF_IPEX_08","21/08/2024","04/09/2024","Pentatomidae_160513",1466,1
+"f","IPEX","PUF_IPEX_09","04/09/2024","18/09/2024","Pentatomidae_160513",962,1
+"f","IPEX","PUF_IPEX_10","18/09/2024","02/10/2024","Pentatomidae_160513",2651,0.822015503875969
+"f","IPEX","PUF_IPEX_10","18/09/2024","02/10/2024","Liposcelididae_2545764",574,0.177984496124031
+"f","Insectarium","Insectarium_Cocoon","10/11/2025","24/11/2025","Acaridae_41442",123,0.458955223880597
+"f","Insectarium","Insectarium_Cocoon","10/11/2025","24/11/2025","Bovidae_9895",73,0.272388059701493
+"f","Insectarium","Insectarium_Cocoon","10/11/2025","24/11/2025","Artemiidae_38009",36,0.134328358208955
+"f","Insectarium","Insectarium_Cocoon","10/11/2025","24/11/2025","Hominidae_9604",36,0.134328358208955
+"f","Insectarium","Insectarium_Door","10/11/2025","24/11/2025","Bovidae_9895",48,0.979591836734694
+"f","Insectarium","Insectarium_Door","10/11/2025","24/11/2025","Nymphalidae_33415",1,0.0204081632653061
+"f","Insectarium","Insectarium_Up","10/11/2025","24/11/2025","Acaridae_41442",1884,1
+"f","Jean-Drapeau","PUF_JD_01","22/05/2024","05/06/2024","Erebidae_695564",6071,0.722566055701024
+"f","Jean-Drapeau","PUF_JD_01","22/05/2024","05/06/2024","Anystidae_92248",1435,0.170792668412283
+"f","Jean-Drapeau","PUF_JD_01","22/05/2024","05/06/2024",NA,782,0.0930730778386099
+"f","Jean-Drapeau","PUF_JD_01","22/05/2024","05/06/2024","Blattisociidae_1251892",114,0.0135681980480838
+"f","Jean-Drapeau","PUF_JD_02","05/06/2024","19/06/2024","Blastobasidae_173649",13406,0.970043415340087
+"f","Jean-Drapeau","PUF_JD_02","05/06/2024","19/06/2024",NA,231,0.0167149059334298
+"f","Jean-Drapeau","PUF_JD_02","05/06/2024","19/06/2024","Noctuidae_7100",183,0.0132416787264834
+"f","Jean-Drapeau","PUF_JD_03","19/06/2024","03/07/2024","Miridae_30083",163,0.261637239165329
+"f","Jean-Drapeau","PUF_JD_03","19/06/2024","03/07/2024","Pentatomidae_160513",160,0.256821829855538
+"f","Jean-Drapeau","PUF_JD_03","19/06/2024","03/07/2024","Hominidae_9604",94,0.150882825040128
+"f","Jean-Drapeau","PUF_JD_03","19/06/2024","03/07/2024","Chloropidae_29032",93,0.149277688603531
+"f","Jean-Drapeau","PUF_JD_03","19/06/2024","03/07/2024",NA,58,0.0930979133226324
+"f","Jean-Drapeau","PUF_JD_03","19/06/2024","03/07/2024","Pyralidae_7135",55,0.0882825040128411
+"f","Jean-Drapeau","PUF_JD_04","03/07/2024","17/07/2024","Pentatomidae_160513",996,0.657425742574257
+"f","Jean-Drapeau","PUF_JD_04","03/07/2024","17/07/2024","Bovidae_9895",217,0.143234323432343
+"f","Jean-Drapeau","PUF_JD_04","03/07/2024","17/07/2024","Tetragnathidae_27394",153,0.100990099009901
+"f","Jean-Drapeau","PUF_JD_04","03/07/2024","17/07/2024","Pyralidae_7135",149,0.0983498349834983
+"f","Jean-Drapeau","PUF_JD_05","17/07/2024","31/07/2024","Tetragnathidae_27394",1700,0.4739336492891
+"f","Jean-Drapeau","PUF_JD_05","17/07/2024","31/07/2024","Pentatomidae_160513",609,0.16977976024533
+"f","Jean-Drapeau","PUF_JD_05","17/07/2024","31/07/2024","Aphididae_27482",429,0.119598550320602
+"f","Jean-Drapeau","PUF_JD_05","17/07/2024","31/07/2024","Pyralidae_7135",297,0.0827989963758015
+"f","Jean-Drapeau","PUF_JD_05","17/07/2024","31/07/2024","Chironomidae_7149",243,0.067744633398383
+"f","Jean-Drapeau","PUF_JD_05","17/07/2024","31/07/2024",NA,230,0.0641204349038193
+"f","Jean-Drapeau","PUF_JD_05","17/07/2024","31/07/2024","Eriophyidae_70320",79,0.022023975466964
+"f","Jean-Drapeau","PUF_JD_06","31/07/2024","14/08/2024","Pentatomidae_160513",3494,0.967063382230833
+"f","Jean-Drapeau","PUF_JD_06","31/07/2024","14/08/2024","Tetragnathidae_27394",119,0.0329366177691669
+"f","Jean-Drapeau","PUF_JD_07","14/08/2024","28/08/2024","Pentatomidae_160513",2271,0.580521472392638
+"f","Jean-Drapeau","PUF_JD_07","14/08/2024","28/08/2024","Coccinellidae_7080",867,0.221625766871166
+"f","Jean-Drapeau","PUF_JD_07","14/08/2024","28/08/2024","Hydropsychidae_41030",592,0.151329243353783
+"f","Jean-Drapeau","PUF_JD_07","14/08/2024","28/08/2024",NA,182,0.0465235173824131
+"f","Jean-Drapeau","PUF_JD_08","28/08/2024","11/09/2024","Tetragnathidae_27394",8581,0.989050253573075
+"f","Jean-Drapeau","PUF_JD_08","28/08/2024","11/09/2024","Pentatomidae_160513",95,0.0109497464269248
+"f","Jean-Drapeau","PUF_JD_09","11/09/2024","25/09/2024","Pentatomidae_160513",670,0.626753975678204
+"f","Jean-Drapeau","PUF_JD_09","11/09/2024","25/09/2024","Pyralidae_7135",227,0.212347988774556
+"f","Jean-Drapeau","PUF_JD_09","11/09/2024","25/09/2024",NA,103,0.0963517305893358
+"f","Jean-Drapeau","PUF_JD_09","11/09/2024","25/09/2024","Myrmeleontidae_27427",69,0.0645463049579046
+"f","Jean-Drapeau","PUF_JD_10","25/09/2024","09/10/2024","Aphididae_27482",6147,0.7984153786206
+"f","Jean-Drapeau","PUF_JD_10","25/09/2024","09/10/2024","Pentatomidae_160513",1552,0.2015846213794
+"f","Mont_Tremblant","Mont_Tremblant","30/08/2025","31/08/2025",NA,710,0.800450958286358
+"f","Mont_Tremblant","Mont_Tremblant","30/08/2025","31/08/2025","Bovidae_9895",82,0.0924464487034949
+"f","Mont_Tremblant","Mont_Tremblant","30/08/2025","31/08/2025","Pentatomidae_160513",44,0.0496054114994363
+"f","Mont_Tremblant","Mont_Tremblant","30/08/2025","31/08/2025","Hominidae_9604",33,0.0372040586245772
+"f","Mont_Tremblant","Mont_Tremblant","30/08/2025","31/08/2025","Carabidae_41073",18,0.020293122886133
+"f",NA,NA,NA,NA,"Nymphalidae_33415",29075,0.982794753921038
+"f",NA,NA,NA,NA,"Entomobryidae_48704",340,0.0114926987560844
+"f",NA,NA,NA,NA,"Papilionidae_7143",169,0.00571254732287723
+"g","Bird Observatory","PUF_MBO_01","20/05/2024","03/06/2024",NA,661,0.464838255977497
+"g","Bird Observatory","PUF_MBO_01","20/05/2024","03/06/2024","Tydeus_1670773",216,0.151898734177215
+"g","Bird Observatory","PUF_MBO_01","20/05/2024","03/06/2024","Limnophyes_190098",141,0.0991561181434599
+"g","Bird Observatory","PUF_MBO_01","20/05/2024","03/06/2024","Glypsus_-21471",128,0.090014064697609
+"g","Bird Observatory","PUF_MBO_01","20/05/2024","03/06/2024","Aculodes_644138",120,0.0843881856540084
+"g","Bird Observatory","PUF_MBO_01","20/05/2024","03/06/2024","Abacarus_644136",84,0.0590717299578059
+"g","Bird Observatory","PUF_MBO_01","20/05/2024","03/06/2024","Megaselia_36165",72,0.0506329113924051
+"g","Bird Observatory","PUF_MBO_02","03/06/2024","17/06/2024","Xestia_320016",8006,0.525949283931152
+"g","Bird Observatory","PUF_MBO_02","03/06/2024","17/06/2024","Allothrombium_92077",7029,0.461765865195112
+"g","Bird Observatory","PUF_MBO_02","03/06/2024","17/06/2024",NA,187,0.0122848508737354
+"g","Bird Observatory","PUF_MBO_03","17/06/2024","01/07/2024","Glypsus_-21471",305,0.686936936936937
+"g","Bird Observatory","PUF_MBO_03","17/06/2024","01/07/2024","Philodromus_336567",139,0.313063063063063
+"g","Bird Observatory","PUF_MBO_04","01/07/2024","15/07/2024","Glypsus_-21471",398,0.373358348968105
+"g","Bird Observatory","PUF_MBO_04","01/07/2024","15/07/2024","Bos_9903",308,0.288930581613508
+"g","Bird Observatory","PUF_MBO_04","01/07/2024","15/07/2024",NA,244,0.228893058161351
+"g","Bird Observatory","PUF_MBO_04","01/07/2024","15/07/2024","Rhacognathus_1545358",116,0.108818011257036
+"g","Bird Observatory","PUF_MBO_05","15/07/2024","29/07/2024","Choristoneura_7140",8556,0.958762886597938
+"g","Bird Observatory","PUF_MBO_05","15/07/2024","29/07/2024","Glypsus_-21471",368,0.0412371134020619
+"g","Bird Observatory","PUF_MBO_06","29/07/2024","12/08/2024","Glypsus_-21471",588,1
+"g","Bird Observatory","PUF_MBO_07","12/08/2024","26/08/2024","Glypsus_-21471",1123,1
+"g","Bird Observatory","PUF_MBO_08","26/08/2024","09/09/2024","Glypsus_-21471",1252,1
+"g","Bird Observatory","PUF_MBO_09","09/09/2024","23/09/2024","Glypsus_-21471",1901,0.856306306306306
+"g","Bird Observatory","PUF_MBO_09","09/09/2024","23/09/2024",NA,319,0.143693693693694
+"g","Bird Observatory","PUF_MBO_10","23/09/2024","07/10/2024","Glypsus_-21471",800,1
+"g","Botanical Garden","PUF_BOT_01","17/05/2024","31/05/2024",NA,270,0.617848970251716
+"g","Botanical Garden","PUF_BOT_01","17/05/2024","31/05/2024","Pionidia_2613197",92,0.210526315789474
+"g","Botanical Garden","PUF_BOT_01","17/05/2024","31/05/2024","Trisetacus_1227674",75,0.17162471395881
+"g","Botanical Garden","PUF_BOT_02","31/05/2024","14/06/2024",NA,1774,0.847182425978988
+"g","Botanical Garden","PUF_BOT_02","31/05/2024","14/06/2024","Glypsus_-21471",121,0.0577841451766953
+"g","Botanical Garden","PUF_BOT_02","31/05/2024","14/06/2024","Xestia_320016",109,0.0520534861509074
+"g","Botanical Garden","PUF_BOT_02","31/05/2024","14/06/2024","Tydeus_1670773",53,0.0253104106972302
+"g","Botanical Garden","PUF_BOT_02","31/05/2024","14/06/2024","Aculus_644140",37,0.0176695319961796
+"g","Botanical Garden","PUF_BOT_03","24/06/2024","28/06/2024","Bos_9903",88,1
+"g","Botanical Garden","PUF_BOT_04","28/06/2024","12/07/2024","Glypsus_-21471",524,0.753956834532374
+"g","Botanical Garden","PUF_BOT_04","28/06/2024","12/07/2024","Asteia_305551",138,0.198561151079137
+"g","Botanical Garden","PUF_BOT_04","28/06/2024","12/07/2024","Pionidia_2613197",33,0.0474820143884892
+"g","Botanical Garden","PUF_BOT_05","12/07/2024","26/07/2024","Glypsus_-21471",569,0.502650176678445
+"g","Botanical Garden","PUF_BOT_05","12/07/2024","26/07/2024","Dasineura_240745",381,0.336572438162544
+"g","Botanical Garden","PUF_BOT_05","12/07/2024","26/07/2024",NA,69,0.0609540636042403
+"g","Botanical Garden","PUF_BOT_05","12/07/2024","26/07/2024","Bos_9903",61,0.053886925795053
+"g","Botanical Garden","PUF_BOT_05","12/07/2024","26/07/2024","Pionidia_2613197",52,0.0459363957597173
+"g","Botanical Garden","PUF_BOT_06","26/07/2024","09/08/2024","Pyla_683885",17783,0.921972210700954
+"g","Botanical Garden","PUF_BOT_06","26/07/2024","09/08/2024","Glypsus_-21471",800,0.0414765657403567
+"g","Botanical Garden","PUF_BOT_06","26/07/2024","09/08/2024","Homo_9605",705,0.0365512235586893
+"g","Botanical Garden","PUF_BOT_07","09/08/2024","23/08/2024","Glypsus_-21471",1959,1
+"g","Botanical Garden","PUF_BOT_08","23/08/2024","06/09/2024","Glypsus_-21471",571,0.907790143084261
+"g","Botanical Garden","PUF_BOT_08","23/08/2024","06/09/2024",NA,58,0.0922098569157393
+"g","Botanical Garden","PUF_BOT_09","06/09/2024","20/09/2024","Glypsus_-21471",1107,0.892022562449637
+"g","Botanical Garden","PUF_BOT_09","06/09/2024","20/09/2024","Pionidia_2613197",134,0.107977437550363
+"g","Botanical Garden","PUF_BOT_10","20/09/2024","04/10/2024","Glypsus_-21471",2761,0.73023009785771
+"g","Botanical Garden","PUF_BOT_10","20/09/2024","04/10/2024",NA,620,0.163977783655118
+"g","Botanical Garden","PUF_BOT_10","20/09/2024","04/10/2024","Bos_9903",327,0.0864850568632637
+"g","Botanical Garden","PUF_BOT_10","20/09/2024","04/10/2024","Pionidia_2613197",73,0.019307061623909
+"g","Boucherville","PUF_BOU_01","27/05/2024","10/06/2024",NA,234,1
+"g","Boucherville","PUF_BOU_02","10/06/2024","24/06/2024","Deuterosminthurus_1304590",344,0.438775510204082
+"g","Boucherville","PUF_BOU_02","10/06/2024","24/06/2024",NA,330,0.420918367346939
+"g","Boucherville","PUF_BOU_02","10/06/2024","24/06/2024","Tyrophagus_41443",76,0.0969387755102041
+"g","Boucherville","PUF_BOU_02","10/06/2024","24/06/2024","Homo_9605",34,0.0433673469387755
+"g","Boucherville","PUF_BOU_03","24/06/2024","08/07/2024",NA,234,0.479508196721311
+"g","Boucherville","PUF_BOU_03","24/06/2024","08/07/2024","Glypsus_-21471",115,0.235655737704918
+"g","Boucherville","PUF_BOU_03","24/06/2024","08/07/2024","Deuterosminthurus_1304590",82,0.168032786885246
+"g","Boucherville","PUF_BOU_03","24/06/2024","08/07/2024","Bos_9903",57,0.116803278688525
+"g","Boucherville","PUF_BOU_04","08/07/2024","22/07/2024","Glypsus_-21471",276,0.790830945558739
+"g","Boucherville","PUF_BOU_04","08/07/2024","22/07/2024",NA,41,0.117478510028653
+"g","Boucherville","PUF_BOU_04","08/07/2024","22/07/2024","Melanoplus_30252",32,0.0916905444126074
+"g","Boucherville","PUF_BOU_05","22/07/2024","05/08/2024","Glypsus_-21471",1825,0.928753180661578
+"g","Boucherville","PUF_BOU_05","22/07/2024","05/08/2024","Aphis_80764",140,0.0712468193384224
+"g","Boucherville","PUF_BOU_06","05/08/2024","19/08/2024","Glypsus_-21471",563,0.892234548335975
+"g","Boucherville","PUF_BOU_06","05/08/2024","19/08/2024","Pionidia_2613197",35,0.0554675118858954
+"g","Boucherville","PUF_BOU_06","05/08/2024","19/08/2024",NA,33,0.05229793977813
+"g","Boucherville","PUF_BOU_07","19/08/2024","02/09/2024",NA,102,0.332247557003257
+"g","Boucherville","PUF_BOU_07","19/08/2024","02/09/2024","Glypsus_-21471",92,0.299674267100977
+"g","Boucherville","PUF_BOU_07","19/08/2024","02/09/2024","Bos_9903",60,0.195439739413681
+"g","Boucherville","PUF_BOU_07","19/08/2024","02/09/2024","Deuterosminthurus_1304590",53,0.172638436482085
+"g","Boucherville","PUF_BOU_08","02/09/2024","16/09/2024","Glypsus_-21471",1701,0.926470588235294
+"g","Boucherville","PUF_BOU_08","02/09/2024","16/09/2024",NA,135,0.0735294117647059
+"g","Boucherville","PUF_BOU_09","16/09/2024","30/09/2024","Glypsus_-21471",1259,0.778121137206428
+"g","Boucherville","PUF_BOU_09","16/09/2024","30/09/2024",NA,359,0.221878862793572
+"g","IPEX","PUF_IPEX_01","15/05/2024","29/05/2024","Glypsus_-21471",48,0.444444444444444
+"g","IPEX","PUF_IPEX_01","15/05/2024","29/05/2024",NA,29,0.268518518518519
+"g","IPEX","PUF_IPEX_01","15/05/2024","29/05/2024","Bos_9903",21,0.194444444444444
+"g","IPEX","PUF_IPEX_01","15/05/2024","29/05/2024","Homo_9605",7,0.0648148148148148
+"g","IPEX","PUF_IPEX_01","15/05/2024","29/05/2024","Rhyncaphytoptus_1452700",3,0.0277777777777778
+"g","IPEX","PUF_IPEX_02","29/05/2024","12/06/2024",NA,806,0.75116495806151
+"g","IPEX","PUF_IPEX_02","29/05/2024","12/06/2024","Abacarus_644136",125,0.116495806150979
+"g","IPEX","PUF_IPEX_02","29/05/2024","12/06/2024","Glypsus_-21471",90,0.0838769804287046
+"g","IPEX","PUF_IPEX_02","29/05/2024","12/06/2024","Rhacognathus_1545358",52,0.0484622553588071
+"g","IPEX","PUF_IPEX_03","12/06/2024","26/06/2024","Larinioides_280405",9846,0.970049261083744
+"g","IPEX","PUF_IPEX_03","12/06/2024","26/06/2024","Glypsus_-21471",174,0.0171428571428571
+"g","IPEX","PUF_IPEX_03","12/06/2024","26/06/2024",NA,130,0.012807881773399
+"g","IPEX","PUF_IPEX_04","26/06/2024","10/07/2024","Glypsus_-21471",888,0.794275491949911
+"g","IPEX","PUF_IPEX_04","26/06/2024","10/07/2024","Tydeus_1670773",116,0.103756708407871
+"g","IPEX","PUF_IPEX_04","26/06/2024","10/07/2024",NA,114,0.101967799642218
+"g","IPEX","PUF_IPEX_05","10/07/2024","24/07/2024","Glypsus_-21471",3773,0.756112224448898
+"g","IPEX","PUF_IPEX_05","10/07/2024","24/07/2024",NA,1217,0.243887775551102
+"g","IPEX","PUF_IPEX_06","24/07/2024","07/08/2024","Glypsus_-21471",812,1
+"g","IPEX","PUF_IPEX_07","07/08/2024","21/08/2024","Glypsus_-21471",1045,0.882601351351351
+"g","IPEX","PUF_IPEX_07","07/08/2024","21/08/2024",NA,139,0.117398648648649
+"g","IPEX","PUF_IPEX_08","21/08/2024","04/09/2024","Glypsus_-21471",1466,1
+"g","IPEX","PUF_IPEX_09","04/09/2024","18/09/2024","Glypsus_-21471",962,1
+"g","IPEX","PUF_IPEX_10","18/09/2024","02/10/2024","Glypsus_-21471",2651,0.822015503875969
+"g","IPEX","PUF_IPEX_10","18/09/2024","02/10/2024","Liposcelis_160150",574,0.177984496124031
+"g","Insectarium","Insectarium_Cocoon","10/11/2025","24/11/2025","Tyrophagus_41443",123,0.458955223880597
+"g","Insectarium","Insectarium_Cocoon","10/11/2025","24/11/2025","Bos_9903",73,0.272388059701493
+"g","Insectarium","Insectarium_Cocoon","10/11/2025","24/11/2025","Artemia_6660",36,0.134328358208955
+"g","Insectarium","Insectarium_Cocoon","10/11/2025","24/11/2025","Homo_9605",36,0.134328358208955
+"g","Insectarium","Insectarium_Door","10/11/2025","24/11/2025","Bos_9903",48,0.979591836734694
+"g","Insectarium","Insectarium_Door","10/11/2025","24/11/2025","Heliconius_33416",1,0.0204081632653061
+"g","Insectarium","Insectarium_Up","10/11/2025","24/11/2025","Tyrophagus_41443",1884,1
+"g","Jean-Drapeau","PUF_JD_01","22/05/2024","05/06/2024","Hypena_95218",6071,0.722566055701024
+"g","Jean-Drapeau","PUF_JD_01","22/05/2024","05/06/2024","Anystis_66557",1435,0.170792668412283
+"g","Jean-Drapeau","PUF_JD_01","22/05/2024","05/06/2024",NA,782,0.0930730778386099
+"g","Jean-Drapeau","PUF_JD_01","22/05/2024","05/06/2024","Lasioseius_296243",114,0.0135681980480838
+"g","Jean-Drapeau","PUF_JD_02","05/06/2024","19/06/2024","Pigritia_347817",13406,0.970043415340087
+"g","Jean-Drapeau","PUF_JD_02","05/06/2024","19/06/2024",NA,231,0.0167149059334298
+"g","Jean-Drapeau","PUF_JD_02","05/06/2024","19/06/2024","Xestia_320016",183,0.0132416787264834
+"g","Jean-Drapeau","PUF_JD_03","19/06/2024","03/07/2024","Plagiognathus_236934",163,0.261637239165329
+"g","Jean-Drapeau","PUF_JD_03","19/06/2024","03/07/2024","Glypsus_-21471",160,0.256821829855538
+"g","Jean-Drapeau","PUF_JD_03","19/06/2024","03/07/2024","Homo_9605",94,0.150882825040128
+"g","Jean-Drapeau","PUF_JD_03","19/06/2024","03/07/2024","Thaumatomyia_333800",93,0.149277688603531
+"g","Jean-Drapeau","PUF_JD_03","19/06/2024","03/07/2024",NA,58,0.0930979133226324
+"g","Jean-Drapeau","PUF_JD_03","19/06/2024","03/07/2024","Pionidia_2613197",55,0.0882825040128411
+"g","Jean-Drapeau","PUF_JD_04","03/07/2024","17/07/2024","Glypsus_-21471",996,0.657425742574257
+"g","Jean-Drapeau","PUF_JD_04","03/07/2024","17/07/2024","Bos_9903",217,0.143234323432343
+"g","Jean-Drapeau","PUF_JD_04","03/07/2024","17/07/2024","Tetragnatha_27395",153,0.100990099009901
+"g","Jean-Drapeau","PUF_JD_04","03/07/2024","17/07/2024","Pionidia_2613197",149,0.0983498349834983
+"g","Jean-Drapeau","PUF_JD_05","17/07/2024","31/07/2024","Tetragnatha_27395",1700,0.4739336492891
+"g","Jean-Drapeau","PUF_JD_05","17/07/2024","31/07/2024","Glypsus_-21471",609,0.16977976024533
+"g","Jean-Drapeau","PUF_JD_05","17/07/2024","31/07/2024","Pemphigus_13192",429,0.119598550320602
+"g","Jean-Drapeau","PUF_JD_05","17/07/2024","31/07/2024",NA,309,0.0861444103707834
+"g","Jean-Drapeau","PUF_JD_05","17/07/2024","31/07/2024","Pionidia_2613197",297,0.0827989963758015
+"g","Jean-Drapeau","PUF_JD_05","17/07/2024","31/07/2024","Cricotopus_153373",243,0.067744633398383
+"g","Jean-Drapeau","PUF_JD_06","31/07/2024","14/08/2024","Glypsus_-21471",3494,0.967063382230833
+"g","Jean-Drapeau","PUF_JD_06","31/07/2024","14/08/2024","Tetragnatha_27395",119,0.0329366177691669
+"g","Jean-Drapeau","PUF_JD_07","14/08/2024","28/08/2024","Glypsus_-21471",2271,0.580521472392638
+"g","Jean-Drapeau","PUF_JD_07","14/08/2024","28/08/2024","Harmonia_115356",867,0.221625766871166
+"g","Jean-Drapeau","PUF_JD_07","14/08/2024","28/08/2024","Hydropsyche_50443",592,0.151329243353783
+"g","Jean-Drapeau","PUF_JD_07","14/08/2024","28/08/2024",NA,182,0.0465235173824131
+"g","Jean-Drapeau","PUF_JD_08","28/08/2024","11/09/2024","Tetragnatha_27395",8581,0.989050253573075
+"g","Jean-Drapeau","PUF_JD_08","28/08/2024","11/09/2024","Glypsus_-21471",95,0.0109497464269248
+"g","Jean-Drapeau","PUF_JD_09","11/09/2024","25/09/2024","Glypsus_-21471",670,0.626753975678204
+"g","Jean-Drapeau","PUF_JD_09","11/09/2024","25/09/2024","Pionidia_2613197",227,0.212347988774556
+"g","Jean-Drapeau","PUF_JD_09","11/09/2024","25/09/2024",NA,103,0.0963517305893358
+"g","Jean-Drapeau","PUF_JD_09","11/09/2024","25/09/2024","Obus_279488",69,0.0645463049579046
+"g","Jean-Drapeau","PUF_JD_10","25/09/2024","09/10/2024","Capitophorus_527611",6147,0.7984153786206
+"g","Jean-Drapeau","PUF_JD_10","25/09/2024","09/10/2024","Glypsus_-21471",1552,0.2015846213794
+"g","Mont_Tremblant","Mont_Tremblant","30/08/2025","31/08/2025",NA,710,0.800450958286358
+"g","Mont_Tremblant","Mont_Tremblant","30/08/2025","31/08/2025","Bos_9903",82,0.0924464487034949
+"g","Mont_Tremblant","Mont_Tremblant","30/08/2025","31/08/2025","Glypsus_-21471",44,0.0496054114994363
+"g","Mont_Tremblant","Mont_Tremblant","30/08/2025","31/08/2025","Homo_9605",33,0.0372040586245772
+"g","Mont_Tremblant","Mont_Tremblant","30/08/2025","31/08/2025","Bembidion_60800",18,0.020293122886133
+"g",NA,NA,NA,NA,"Cethosia_127316",15388,0.520146024878313
+"g",NA,NA,NA,NA,"Heliconius_33416",10768,0.363980530016225
+"g",NA,NA,NA,NA,"Caligo_127325",2710,0.0916035694970254
+"g",NA,NA,NA,NA,"Willowsia_181624",340,0.0114926987560844
+"g",NA,NA,NA,NA,"Parthenos_191422",209,0.00706462952947539
+"g",NA,NA,NA,NA,"Papilio_7145",169,0.00571254732287723
+"s","Bird Observatory","PUF_MBO_01","20/05/2024","03/06/2024",NA,1018,0.715893108298172
+"s","Bird Observatory","PUF_MBO_01","20/05/2024","03/06/2024","Glypsus_conspicuus_-21472",128,0.090014064697609
+"s","Bird Observatory","PUF_MBO_01","20/05/2024","03/06/2024","Aculodes_mckenziei_644532",120,0.0843881856540084
+"s","Bird Observatory","PUF_MBO_01","20/05/2024","03/06/2024","Abacarus_plumiger_2316514",84,0.0590717299578059
+"s","Bird Observatory","PUF_MBO_01","20/05/2024","03/06/2024","Megaselia_hirticrus_1987627",72,0.0506329113924051
+"s","Bird Observatory","PUF_MBO_02","03/06/2024","17/06/2024","Xestia_c-nigrum_987431",8006,0.525949283931152
+"s","Bird Observatory","PUF_MBO_02","03/06/2024","17/06/2024",NA,7216,0.474050716068848
+"s","Bird Observatory","PUF_MBO_03","17/06/2024","01/07/2024","Glypsus_conspicuus_-21472",305,0.686936936936937
+"s","Bird Observatory","PUF_MBO_03","17/06/2024","01/07/2024","Philodromus_rufus_336570",139,0.313063063063063
+"s","Bird Observatory","PUF_MBO_04","01/07/2024","15/07/2024","Glypsus_conspicuus_-21472",398,0.373358348968105
+"s","Bird Observatory","PUF_MBO_04","01/07/2024","15/07/2024","Bos_taurus_9913",308,0.288930581613508
+"s","Bird Observatory","PUF_MBO_04","01/07/2024","15/07/2024",NA,244,0.228893058161351
+"s","Bird Observatory","PUF_MBO_04","01/07/2024","15/07/2024","Rhacognathus_americanus_-21479",116,0.108818011257036
+"s","Bird Observatory","PUF_MBO_05","15/07/2024","29/07/2024","Choristoneura_rosaceana_27543",8556,0.958762886597938
+"s","Bird Observatory","PUF_MBO_05","15/07/2024","29/07/2024","Glypsus_conspicuus_-21472",368,0.0412371134020619
+"s","Bird Observatory","PUF_MBO_06","29/07/2024","12/08/2024","Glypsus_conspicuus_-21472",588,1
+"s","Bird Observatory","PUF_MBO_07","12/08/2024","26/08/2024","Glypsus_conspicuus_-21472",1123,1
+"s","Bird Observatory","PUF_MBO_08","26/08/2024","09/09/2024","Glypsus_conspicuus_-21472",1252,1
+"s","Bird Observatory","PUF_MBO_09","09/09/2024","23/09/2024","Glypsus_conspicuus_-21472",1901,0.856306306306306
+"s","Bird Observatory","PUF_MBO_09","09/09/2024","23/09/2024",NA,319,0.143693693693694
+"s","Bird Observatory","PUF_MBO_10","23/09/2024","07/10/2024","Glypsus_conspicuus_-21472",800,1
+"s","Botanical Garden","PUF_BOT_01","17/05/2024","31/05/2024",NA,362,0.82837528604119
+"s","Botanical Garden","PUF_BOT_01","17/05/2024","31/05/2024","Trisetacus_thujae_2695370",75,0.17162471395881
+"s","Botanical Garden","PUF_BOT_02","31/05/2024","14/06/2024",NA,1827,0.872492836676218
+"s","Botanical Garden","PUF_BOT_02","31/05/2024","14/06/2024","Glypsus_conspicuus_-21472",121,0.0577841451766953
+"s","Botanical Garden","PUF_BOT_02","31/05/2024","14/06/2024","Xestia_c-nigrum_987431",109,0.0520534861509074
+"s","Botanical Garden","PUF_BOT_02","31/05/2024","14/06/2024","Aculus_populi_2920999",37,0.0176695319961796
+"s","Botanical Garden","PUF_BOT_03","24/06/2024","28/06/2024","Bos_taurus_9913",88,1
+"s","Botanical Garden","PUF_BOT_04","28/06/2024","12/07/2024","Glypsus_conspicuus_-21472",524,0.753956834532374
+"s","Botanical Garden","PUF_BOT_04","28/06/2024","12/07/2024","Asteia_amoena_716597",138,0.198561151079137
+"s","Botanical Garden","PUF_BOT_04","28/06/2024","12/07/2024",NA,33,0.0474820143884892
+"s","Botanical Garden","PUF_BOT_05","12/07/2024","26/07/2024","Glypsus_conspicuus_-21472",569,0.502650176678445
+"s","Botanical Garden","PUF_BOT_05","12/07/2024","26/07/2024",NA,502,0.443462897526502
+"s","Botanical Garden","PUF_BOT_05","12/07/2024","26/07/2024","Bos_taurus_9913",61,0.053886925795053
+"s","Botanical Garden","PUF_BOT_06","26/07/2024","09/08/2024","Pyla_fusca_683886",17783,0.921972210700954
+"s","Botanical Garden","PUF_BOT_06","26/07/2024","09/08/2024","Glypsus_conspicuus_-21472",800,0.0414765657403567
+"s","Botanical Garden","PUF_BOT_06","26/07/2024","09/08/2024","Homo_sapiens_9606",705,0.0365512235586893
+"s","Botanical Garden","PUF_BOT_07","09/08/2024","23/08/2024","Glypsus_conspicuus_-21472",1959,1
+"s","Botanical Garden","PUF_BOT_08","23/08/2024","06/09/2024","Glypsus_conspicuus_-21472",571,0.907790143084261
+"s","Botanical Garden","PUF_BOT_08","23/08/2024","06/09/2024",NA,58,0.0922098569157393
+"s","Botanical Garden","PUF_BOT_09","06/09/2024","20/09/2024","Glypsus_conspicuus_-21472",1107,0.892022562449637
+"s","Botanical Garden","PUF_BOT_09","06/09/2024","20/09/2024",NA,134,0.107977437550363
+"s","Botanical Garden","PUF_BOT_10","20/09/2024","04/10/2024","Glypsus_conspicuus_-21472",2761,0.73023009785771
+"s","Botanical Garden","PUF_BOT_10","20/09/2024","04/10/2024",NA,693,0.183284845279027
+"s","Botanical Garden","PUF_BOT_10","20/09/2024","04/10/2024","Bos_taurus_9913",327,0.0864850568632637
+"s","Boucherville","PUF_BOU_01","27/05/2024","10/06/2024",NA,234,1
+"s","Boucherville","PUF_BOU_02","10/06/2024","24/06/2024","Deuterosminthurus_bicinctus_2041938",344,0.438775510204082
+"s","Boucherville","PUF_BOU_02","10/06/2024","24/06/2024",NA,330,0.420918367346939
+"s","Boucherville","PUF_BOU_02","10/06/2024","24/06/2024","Tyrophagus_putrescentiae_59818",76,0.0969387755102041
+"s","Boucherville","PUF_BOU_02","10/06/2024","24/06/2024","Homo_sapiens_9606",34,0.0433673469387755
+"s","Boucherville","PUF_BOU_03","24/06/2024","08/07/2024",NA,234,0.479508196721311
+"s","Boucherville","PUF_BOU_03","24/06/2024","08/07/2024","Glypsus_conspicuus_-21472",115,0.235655737704918
+"s","Boucherville","PUF_BOU_03","24/06/2024","08/07/2024","Deuterosminthurus_bicinctus_2041938",82,0.168032786885246
+"s","Boucherville","PUF_BOU_03","24/06/2024","08/07/2024","Bos_taurus_9913",57,0.116803278688525
+"s","Boucherville","PUF_BOU_04","08/07/2024","22/07/2024","Glypsus_conspicuus_-21472",276,0.790830945558739
+"s","Boucherville","PUF_BOU_04","08/07/2024","22/07/2024",NA,41,0.117478510028653
+"s","Boucherville","PUF_BOU_04","08/07/2024","22/07/2024","Melanoplus_femurrubrum_103640",32,0.0916905444126074
+"s","Boucherville","PUF_BOU_05","22/07/2024","05/08/2024","Glypsus_conspicuus_-21472",1825,0.928753180661578
+"s","Boucherville","PUF_BOU_05","22/07/2024","05/08/2024","Aphis_glycines_307491",140,0.0712468193384224
+"s","Boucherville","PUF_BOU_06","05/08/2024","19/08/2024","Glypsus_conspicuus_-21472",563,0.892234548335975
+"s","Boucherville","PUF_BOU_06","05/08/2024","19/08/2024",NA,68,0.107765451664025
+"s","Boucherville","PUF_BOU_07","19/08/2024","02/09/2024",NA,102,0.332247557003257
+"s","Boucherville","PUF_BOU_07","19/08/2024","02/09/2024","Glypsus_conspicuus_-21472",92,0.299674267100977
+"s","Boucherville","PUF_BOU_07","19/08/2024","02/09/2024","Bos_taurus_9913",60,0.195439739413681
+"s","Boucherville","PUF_BOU_07","19/08/2024","02/09/2024","Deuterosminthurus_bicinctus_2041938",53,0.172638436482085
+"s","Boucherville","PUF_BOU_08","02/09/2024","16/09/2024","Glypsus_conspicuus_-21472",1701,0.926470588235294
+"s","Boucherville","PUF_BOU_08","02/09/2024","16/09/2024",NA,135,0.0735294117647059
+"s","Boucherville","PUF_BOU_09","16/09/2024","30/09/2024","Glypsus_conspicuus_-21472",1259,0.778121137206428
+"s","Boucherville","PUF_BOU_09","16/09/2024","30/09/2024",NA,359,0.221878862793572
+"s","IPEX","PUF_IPEX_01","15/05/2024","29/05/2024","Glypsus_conspicuus_-21472",48,0.444444444444444
+"s","IPEX","PUF_IPEX_01","15/05/2024","29/05/2024",NA,29,0.268518518518519
+"s","IPEX","PUF_IPEX_01","15/05/2024","29/05/2024","Bos_grunniens_30521",21,0.194444444444444
+"s","IPEX","PUF_IPEX_01","15/05/2024","29/05/2024","Homo_sapiens_9606",7,0.0648148148148148
+"s","IPEX","PUF_IPEX_01","15/05/2024","29/05/2024","Rhyncaphytoptus_amplus_2837673",3,0.0277777777777778
+"s","IPEX","PUF_IPEX_02","29/05/2024","12/06/2024",NA,806,0.75116495806151
+"s","IPEX","PUF_IPEX_02","29/05/2024","12/06/2024","Abacarus_hystrix_644148",125,0.116495806150979
+"s","IPEX","PUF_IPEX_02","29/05/2024","12/06/2024","Glypsus_conspicuus_-21472",90,0.0838769804287046
+"s","IPEX","PUF_IPEX_02","29/05/2024","12/06/2024","Rhacognathus_americanus_-21479",52,0.0484622553588071
+"s","IPEX","PUF_IPEX_03","12/06/2024","26/06/2024","Larinioides_sclopetarius_280406",9576,0.943448275862069
+"s","IPEX","PUF_IPEX_03","12/06/2024","26/06/2024",NA,400,0.0394088669950739
+"s","IPEX","PUF_IPEX_03","12/06/2024","26/06/2024","Glypsus_conspicuus_-21472",174,0.0171428571428571
+"s","IPEX","PUF_IPEX_04","26/06/2024","10/07/2024","Glypsus_conspicuus_-21472",888,0.794275491949911
+"s","IPEX","PUF_IPEX_04","26/06/2024","10/07/2024",NA,230,0.205724508050089
+"s","IPEX","PUF_IPEX_05","10/07/2024","24/07/2024","Glypsus_conspicuus_-21472",3773,0.756112224448898
+"s","IPEX","PUF_IPEX_05","10/07/2024","24/07/2024",NA,1217,0.243887775551102
+"s","IPEX","PUF_IPEX_06","24/07/2024","07/08/2024","Glypsus_conspicuus_-21472",812,1
+"s","IPEX","PUF_IPEX_07","07/08/2024","21/08/2024","Glypsus_conspicuus_-21472",1045,0.882601351351351
+"s","IPEX","PUF_IPEX_07","07/08/2024","21/08/2024",NA,139,0.117398648648649
+"s","IPEX","PUF_IPEX_08","21/08/2024","04/09/2024","Glypsus_conspicuus_-21472",1466,1
+"s","IPEX","PUF_IPEX_09","04/09/2024","18/09/2024","Glypsus_conspicuus_-21472",962,1
+"s","IPEX","PUF_IPEX_10","18/09/2024","02/10/2024","Glypsus_conspicuus_-21472",2651,0.822015503875969
+"s","IPEX","PUF_IPEX_10","18/09/2024","02/10/2024","Liposcelis_paeta_209927",574,0.177984496124031
+"s","Insectarium","Insectarium_Cocoon","10/11/2025","24/11/2025","Tyrophagus_putrescentiae_59818",123,0.458955223880597
+"s","Insectarium","Insectarium_Cocoon","10/11/2025","24/11/2025","Bos_taurus_9913",73,0.272388059701493
+"s","Insectarium","Insectarium_Cocoon","10/11/2025","24/11/2025","Artemia_sorgeloosi_3034414",36,0.134328358208955
+"s","Insectarium","Insectarium_Cocoon","10/11/2025","24/11/2025","Homo_sapiens_9606",36,0.134328358208955
+"s","Insectarium","Insectarium_Door","10/11/2025","24/11/2025","Bos_taurus_9913",48,0.979591836734694
+"s","Insectarium","Insectarium_Door","10/11/2025","24/11/2025","Heliconius_doris_33455",1,0.0204081632653061
+"s","Insectarium","Insectarium_Up","10/11/2025","24/11/2025","Tyrophagus_putrescentiae_59818",1884,1
+"s","Jean-Drapeau","PUF_JD_01","22/05/2024","05/06/2024","Hypena_scabra_95219",6071,0.722566055701024
+"s","Jean-Drapeau","PUF_JD_01","22/05/2024","05/06/2024","Anystis_baccarum_2250316",1435,0.170792668412283
+"s","Jean-Drapeau","PUF_JD_01","22/05/2024","05/06/2024",NA,896,0.106641275886694
+"s","Jean-Drapeau","PUF_JD_02","05/06/2024","19/06/2024","Pigritia_fidella_1473675",13406,0.970043415340087
+"s","Jean-Drapeau","PUF_JD_02","05/06/2024","19/06/2024",NA,231,0.0167149059334298
+"s","Jean-Drapeau","PUF_JD_02","05/06/2024","19/06/2024","Xestia_c-nigrum_987431",183,0.0132416787264834
+"s","Jean-Drapeau","PUF_JD_03","19/06/2024","03/07/2024",NA,206,0.330658105939005
+"s","Jean-Drapeau","PUF_JD_03","19/06/2024","03/07/2024","Plagiognathus_obscurus_881741",163,0.261637239165329
+"s","Jean-Drapeau","PUF_JD_03","19/06/2024","03/07/2024","Glypsus_conspicuus_-21472",160,0.256821829855538
+"s","Jean-Drapeau","PUF_JD_03","19/06/2024","03/07/2024","Homo_sapiens_9606",94,0.150882825040128
+"s","Jean-Drapeau","PUF_JD_04","03/07/2024","17/07/2024","Glypsus_conspicuus_-21472",996,0.657425742574257
+"s","Jean-Drapeau","PUF_JD_04","03/07/2024","17/07/2024","Bos_taurus_9913",217,0.143234323432343
+"s","Jean-Drapeau","PUF_JD_04","03/07/2024","17/07/2024","Tetragnatha_guatemalensis_336607",153,0.100990099009901
+"s","Jean-Drapeau","PUF_JD_04","03/07/2024","17/07/2024",NA,149,0.0983498349834983
+"s","Jean-Drapeau","PUF_JD_05","17/07/2024","31/07/2024","Tetragnatha_guatemalensis_336607",1700,0.4739336492891
+"s","Jean-Drapeau","PUF_JD_05","17/07/2024","31/07/2024",NA,849,0.236688040144968
+"s","Jean-Drapeau","PUF_JD_05","17/07/2024","31/07/2024","Glypsus_conspicuus_-21472",609,0.16977976024533
+"s","Jean-Drapeau","PUF_JD_05","17/07/2024","31/07/2024","Pemphigus_populitransversus_220090",429,0.119598550320602
+"s","Jean-Drapeau","PUF_JD_06","31/07/2024","14/08/2024","Glypsus_conspicuus_-21472",3494,0.967063382230833
+"s","Jean-Drapeau","PUF_JD_06","31/07/2024","14/08/2024","Tetragnatha_guatemalensis_336607",119,0.0329366177691669
+"s","Jean-Drapeau","PUF_JD_07","14/08/2024","28/08/2024","Glypsus_conspicuus_-21472",2271,0.580521472392638
+"s","Jean-Drapeau","PUF_JD_07","14/08/2024","28/08/2024","Harmonia_axyridis_115357",867,0.221625766871166
+"s","Jean-Drapeau","PUF_JD_07","14/08/2024","28/08/2024","Hydropsyche_alternans_3381222",592,0.151329243353783
+"s","Jean-Drapeau","PUF_JD_07","14/08/2024","28/08/2024",NA,182,0.0465235173824131
+"s","Jean-Drapeau","PUF_JD_08","28/08/2024","11/09/2024","Tetragnatha_guatemalensis_336607",8581,0.989050253573075
+"s","Jean-Drapeau","PUF_JD_08","28/08/2024","11/09/2024","Glypsus_conspicuus_-21472",95,0.0109497464269248
+"s","Jean-Drapeau","PUF_JD_09","11/09/2024","25/09/2024","Glypsus_conspicuus_-21472",670,0.626753975678204
+"s","Jean-Drapeau","PUF_JD_09","11/09/2024","25/09/2024",NA,399,0.373246024321796
+"s","Jean-Drapeau","PUF_JD_10","25/09/2024","09/10/2024","Capitophorus_elaeagni_527612",6147,0.7984153786206
+"s","Jean-Drapeau","PUF_JD_10","25/09/2024","09/10/2024","Glypsus_conspicuus_-21472",1552,0.2015846213794
+"s","Mont_Tremblant","Mont_Tremblant","30/08/2025","31/08/2025",NA,710,0.800450958286358
+"s","Mont_Tremblant","Mont_Tremblant","30/08/2025","31/08/2025","Bos_taurus_9913",82,0.0924464487034949
+"s","Mont_Tremblant","Mont_Tremblant","30/08/2025","31/08/2025","Glypsus_conspicuus_-21472",44,0.0496054114994363
+"s","Mont_Tremblant","Mont_Tremblant","30/08/2025","31/08/2025","Homo_sapiens_9606",33,0.0372040586245772
+"s","Mont_Tremblant","Mont_Tremblant","30/08/2025","31/08/2025","Bembidion_flebile_-5823",18,0.020293122886133
+"s",NA,NA,NA,NA,"Cethosia_biblis_876379",15388,0.520146024878313
+"s",NA,NA,NA,NA,"Heliconius_doris_33455",10768,0.363980530016225
+"s",NA,NA,NA,NA,"Caligo_brasiliensis_1005066",2710,0.0916035694970254
+"s",NA,NA,NA,NA,"Willowsia_buskii_1458441",340,0.0114926987560844
+"s",NA,NA,NA,NA,"Parthenos_sylvia_3150745",209,0.00706462952947539
+"s",NA,NA,NA,NA,"Papilio_rumanzovia_262663",169,0.00571254732287723

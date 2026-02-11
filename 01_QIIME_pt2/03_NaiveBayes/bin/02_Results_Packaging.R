@@ -25,4 +25,4 @@ for(i in c("Deblur", "DADA2")){
 rm(meta, matrix)
 
 # Saving list
-save(insects, file = "../../../02_Filtering/data/01_PUF_PAS.Rdata")
+save(insects, file = "../../../02_Filtering/data/01_PUF_PAS_pt2.Rdata")

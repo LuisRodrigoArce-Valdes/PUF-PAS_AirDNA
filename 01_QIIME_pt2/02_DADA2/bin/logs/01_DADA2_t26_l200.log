@@ -1,0 +1,52 @@
+R version 4.3.3 (2024-02-29) 
+Loading required package: Rcpp
+DADA2: 1.30.0 / Rcpp: 1.1.0 / RcppParallel: 5.1.9 
+2) Filtering ................................................
+3) Learning Error Rates
+181550135 total bases in 1025027 reads from 47 samples will be used for learning the error rates.
+111020635 total bases in 1025027 reads from 47 samples will be used for learning the error rates.
+3) Denoise samples ................................................
+................................................
+5) Remove chimeras (method = consensus)
+Error in isBimeraDenovoTable(unqs[[i]], ..., verbose = verbose) : 
+  Input must be a valid sequence table.
+Calls: removeBimeraDenovo -> isBimeraDenovoTable
+3: stop("Input must be a valid sequence table.")
+2: isBimeraDenovoTable(unqs[[i]], ..., verbose = verbose)
+1: removeBimeraDenovo(seqtab, method = chimeraMethod, minFoldParentOverAbundance = minParentFold, 
+       allowOneOff = allowOneOff, multithread = multithread)
+Traceback (most recent call last):
+  File "/home/luis/miniconda3/envs/qiime2/lib/python3.10/site-packages/q2_dada2/_denoise.py", line 341, in denoise_paired
+    run_commands([cmd])
+  File "/home/luis/miniconda3/envs/qiime2/lib/python3.10/site-packages/qiime2/plugin/util.py", line 65, in run_commands
+    subprocess.run(cmd, check=True)
+  File "/home/luis/miniconda3/envs/qiime2/lib/python3.10/subprocess.py", line 526, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['run_dada.R', '--input_directory', '/tmp/tmpzpjuenn3/forward', '--input_directory_reverse', '/tmp/tmpzpjuenn3/reverse', '--output_path', '/tmp/tmpzpjuenn3/output.tsv.biom', '--output_track', '/tmp/tmpzpjuenn3/track.tsv', '--filtered_directory', '/tmp/tmpzpjuenn3/filt_f', '--filtered_directory_reverse', '/tmp/tmpzpjuenn3/filt_r', '--truncation_length', '0', '--truncation_length_reverse', '0', '--trim_left', '0', '--trim_left_reverse', '0', '--max_expected_errors', '1', '--max_expected_errors_reverse', '1', '--truncation_quality_score', '26', '--min_overlap', '200', '--pooling_method', 'independent', '--chimera_method', 'consensus', '--min_parental_fold', '1.0', '--allow_one_off', 'False', '--num_threads', '4', '--learn_min_reads', '1000000']' returned non-zero exit status 1.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/luis/miniconda3/envs/qiime2/lib/python3.10/site-packages/q2cli/commands.py", line 529, in __call__
+    results = self._execute_action(
+  File "/home/luis/miniconda3/envs/qiime2/lib/python3.10/site-packages/q2cli/commands.py", line 601, in _execute_action
+    results = action(**arguments)
+  File "<decorator-gen-608>", line 2, in denoise_paired
+  File "/home/luis/miniconda3/envs/qiime2/lib/python3.10/site-packages/qiime2/sdk/action.py", line 221, in bound_callable
+    outputs = self._callable_executor_(
+  File "/home/luis/miniconda3/envs/qiime2/lib/python3.10/site-packages/qiime2/sdk/action.py", line 359, in _callable_executor_
+    output_views = self._callable(**view_args)
+  File "/home/luis/miniconda3/envs/qiime2/lib/python3.10/site-packages/q2_dada2/_denoise.py", line 354, in denoise_paired
+    raise Exception("An error was encountered while running DADA2"
+Exception: An error was encountered while running DADA2 in R (return code 1), please inspect stdout and stderr to learn more.
+
+Plugin error from dada2:
+
+  An error was encountered while running DADA2 in R (return code 1), please inspect stdout and stderr to learn more.
+
+See above for debug info.
+Running external command line application(s). This may print messages to stdout and/or stderr.
+The command(s) being run are below. These commands cannot be manually re-run as they will depend on temporary files that no longer exist.
+
+Command: run_dada.R --input_directory /tmp/tmpzpjuenn3/forward --input_directory_reverse /tmp/tmpzpjuenn3/reverse --output_path /tmp/tmpzpjuenn3/output.tsv.biom --output_track /tmp/tmpzpjuenn3/track.tsv --filtered_directory /tmp/tmpzpjuenn3/filt_f --filtered_directory_reverse /tmp/tmpzpjuenn3/filt_r --truncation_length 0 --truncation_length_reverse 0 --trim_left 0 --trim_left_reverse 0 --max_expected_errors 1 --max_expected_errors_reverse 1 --truncation_quality_score 26 --min_overlap 200 --pooling_method independent --chimera_method consensus --min_parental_fold 1.0 --allow_one_off False --num_threads 4 --learn_min_reads 1000000
+
