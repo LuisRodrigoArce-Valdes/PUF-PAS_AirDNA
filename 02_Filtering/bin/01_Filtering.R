@@ -19,8 +19,17 @@ for(i in c("pt1","pt2")){
 bind_rows(meta, .id = "Library") -> insects
 rm(meta)
 
-# Reading metadata
+# Removing mont.tremblant and insectarium
+insects %>% 
+  filter(!grepl("Ins", Sample)) %>% 
+  filter(Sample!="Mont.Tremblant") -> insects
+
+# Reading metadata and removing extra samples
 meta <- read.csv("../data/metadata.csv")
+meta %>% 
+  filter(!grepl("Ins", ID_R)) %>% 
+  filter(ID_R!="Mont.Tremblant") -> meta
+
 read.csv("../data/mock_PUFs.csv") %>% 
   select(Species) %>% 
   mutate(Species = gsub(" ","_",Species)) -> positive.species
