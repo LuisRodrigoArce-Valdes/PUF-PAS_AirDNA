@@ -1,4 +1,4 @@
-## Welcome to the repository for the bioinformatic analyses of the *Toward Repurposing Global Passive Air SamplingNetworks for Insect Monitoring: Promises and Pitfalls ofAirborne eDNA* manuscript by Vilanova et al. 2026.
+## Welcome to the repository for the bioinformatic analyses of the *Toward Repurposing Global Passive Air SamplingNetworks for Insect Monitoring: Promises and Pitfalls of Airborne eDNA* manuscript by Vilanova et al. 2026.
 
 ### Repository contents
 This project analysed 2 libraries totaling 59 samples of airborne eDNA sampled with polyurethane foam passive air samplers. A COI fragment was amplified using the Leray set of primers (Morrill et al. 2021) and sequenced on a Miseq using a MiSeq reagent kit v3 (600-cycles; Illumina). This repository includes the scripts to perform all the bioinformatic processing of these samples.
